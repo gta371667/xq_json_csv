@@ -1,0 +1,19 @@
+{
+  "signUp": {
+    "welcomeTitle": "歡迎",
+    "futuresChartFullScreen": {
+      "highPrice": "最高",
+      "openPrice": "開盤",
+      "bottomSheet": {
+        "header": "我的委託",
+        "positionEmptyTip": "尚無持倉",
+        "orderEmptyTip": "尚無持倉",
+        "accountPosition": "持倉",
+        "accountOrder": "掛單aaa"
+      },
+      "a": {
+        "header": "掛單aaa"
+      }
+    }
+  }
+}

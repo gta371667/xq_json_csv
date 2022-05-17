@@ -1,0 +1,18 @@
+name: xq_json_csv
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
+  csv: ^5.0.1
+  quiver: ^3.1.0
+  rxdart: ^0.27.3
