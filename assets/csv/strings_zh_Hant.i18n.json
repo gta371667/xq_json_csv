@@ -1,0 +1,13 @@
+{
+    "jsonKey": "zh_TW",
+    "signUp": {
+        "futuresChartFullScreen": {
+            "bottomSheet": {
+                "header": "特色",
+                "aaa": "特色"
+            }
+        },
+        "welcomeTitle": "重複會顯示紅色,aabb,ccc",
+        "highPrice": "如果key有空格會提示黃色"
+    }
+}

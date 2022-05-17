@@ -1,0 +1,13 @@
+{
+    "jsonKey": "en-EN",
+    "signUp": {
+        "futuresChartFullScreen": {
+            "bottomSheet": {
+                "header": "Features",
+                "aaa": "Features"
+            }
+        },
+        "welcomeTitle": "Repeated values will be red",
+        "highPrice": "If there is a space, it will be yellow"
+    }
+}

@@ -13,8 +13,8 @@ class JsonValueParser {
     _parseData = TranslateMap(_parseMap(jsonObject, ''), '');
   }
 
-  void parse() {
-    _parseData.allValue();
+  void parseToCSV() {
+    _parseData.allValue().map((e) => MapEntry(e, []));
   }
 
   /// json轉換為TranslateType map

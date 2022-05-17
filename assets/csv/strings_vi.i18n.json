@@ -1,0 +1,13 @@
+{
+    "jsonKey": "vn-VN",
+    "signUp": {
+        "futuresChartFullScreen": {
+            "bottomSheet": {
+                "header": "Đặc trưng",
+                "aaa": "Đặc trưng"
+            }
+        },
+        "welcomeTitle": "Các giá trị lặp đi lặp lại sẽ có màu đỏ",
+        "highPrice": "Nếu có một không gian, nó sẽ có màu vàng"
+    }
+}

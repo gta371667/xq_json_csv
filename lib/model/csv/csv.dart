@@ -1,4 +1,18 @@
+/// 語系區分
+enum LangEnum {
+  en,
+  tw,
+  cn,
+  jp,
+  kr,
+  th,
+  vi,
+}
+
 class CsvData {
+  /// csv標準格式，逗號分隔值
+  static const String csvStandard = ',';
+
   /// 繁中
   final String zhTW;
 
@@ -83,15 +97,58 @@ class CsvData {
       vnVN: row[12],
       vnVNCount: row[13],
       vnVNSugCount: row[14],
-      jsonKey: row[15].split(","),
+      jsonKey: row[15].split(csvStandard),
     );
   }
 
-  List<Map<String, dynamic>> toJson() {
+  /// 轉換為csv保存格式
+  List<String> toCsvString() {
+    return [
+      zhTW,
+      zhCN,
+      enEN,
+      thTH,
+      thThCount,
+      thThSugCount,
+      jpJP,
+      jpJPCount,
+      jpJPSubCount,
+      krKR,
+      krKRCount,
+      krKRSugCount,
+      vnVN,
+      vnVNCount,
+      vnVNSugCount,
+      jsonKey.join(csvStandard),
+    ];
+  }
+
+  /// 轉換為json文字
+  List<Map<String, dynamic>> toJson(LangEnum langEnum) {
     return jsonKey.map((e) {
       var sp = e.split(".");
-      return _parentList(sp, zhTW);
+      return _parentList(sp, _getValue(langEnum));
     }).toList();
+  }
+
+  /// 取得翻譯文字
+  String _getValue(LangEnum langEnum) {
+    switch (langEnum) {
+      case LangEnum.en:
+        return enEN;
+      case LangEnum.tw:
+        return zhTW;
+      case LangEnum.cn:
+        return enEN;
+      case LangEnum.jp:
+        return jpJP;
+      case LangEnum.kr:
+        return krKR;
+      case LangEnum.th:
+        return thTH;
+      case LangEnum.vi:
+        return vnVN;
+    }
   }
 
   Map<String, dynamic> _parentList(List<String> spKeys, String value) {
@@ -109,7 +166,6 @@ class CsvData {
 
   dynamic _childList(Map<String, dynamic> map, String key, value, String parentKey) {
     if (key.isEmpty) return value;
-
     var sp = key.split(".");
 
     for (var i = 0; i < sp.length; i++) {

@@ -54,22 +54,6 @@ class TranslateMap extends TranslateType<Map<String, dynamic>> {
         list.add(value.toTranslateSource());
       }
     });
-
     return list.toSet().toList();
-
-    return source.entries.map((e) {
-      if (e is TranslateMap) {
-        List<String> sss = [];
-        var g = e as TranslateMap;
-
-        return 'e.value.toTranslateSource().split(splitPattern)';
-
-        source.entries.map((e) => e.value.toString()).join(splitPattern);
-
-        // return g.allValue();
-      }
-
-      return e.value.toTranslateSource().toString();
-    }).toList();
   }
 }

@@ -22,6 +22,7 @@ class CommandAction {
   static List<ArgGroup> values = [
     helpArg,
     translateArg,
+    csvArg,
   ];
 
   static const helpArg = ArgGroup(
@@ -42,6 +43,19 @@ class CommandAction {
     translate -i {inFile} -o {outFile} -f en -t zh 
     ''',
   );
+
+  static const csvArg = ArgGroup(
+    title: 'csv轉換多國',
+    name: 'csv',
+    args: [
+      ActionArg.option(name: 'in', abbr: 'i', help: '輸入導案'),
+      ActionArg.option(name: 'out', abbr: 'o', help: '輸出路徑'),
+    ],
+    example: '''
+    translate -i {inFile} -o {outFile} -f en -t zh 
+    ''',
+  );
+
 
   ArgResults parseArg(List<String> args) {
     return action.toParser().parse(args);

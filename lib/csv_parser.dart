@@ -20,8 +20,8 @@ class CsvValueParser {
   }
 
   /// TranslateType map轉換為json
-  String toJsonString() {
-    var list = csvRow.map((e) => e.toJson()).toList();
+  String toJsonString(LangEnum langEnum) {
+    var list = csvRow.map((e) => e.toJson(langEnum)).toList();
     Map<String, dynamic> jsonMap = {};
 
     for (List<Map<String, dynamic>> a in list) {
