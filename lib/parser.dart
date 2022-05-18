@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:xq_json_csv/model/csv/csv.dart';
+
 import 'model/translator_type/translate_type.dart';
 
 class JsonValueParser {
@@ -8,13 +10,56 @@ class JsonValueParser {
 
   late TranslateMap _parseData;
 
-  JsonValueParser.fromFile(File jsonFile) : _jsonString = jsonFile.readAsStringSync() {
+  /// 語系
+  final LangEnum langEnum;
+
+  JsonValueParser.fromFile(File jsonFile, this.langEnum) : _jsonString = jsonFile.readAsStringSync() {
     final jsonObject = json.decode(_jsonString) as Map<String, dynamic>;
     _parseData = TranslateMap(_parseMap(jsonObject, ''), '');
   }
 
-  void parseToCSV() {
-    _parseData.allValue().map((e) => MapEntry(e, []));
+  /// 翻譯文字當key,value為json路經
+  /// ex: {"Features":["signUp.futuresChartFullScreen.bottomSheet.header","signUp.header"]}
+  Map<String, List<String>> parseToKeyMap() {
+    // 所有翻譯文字
+    var allValues = _parseData.allValue();
+    Map<String, List<String>> valueMap = {};
+    for (var element in allValues) {
+      valueMap[element] = [];
+    }
+
+    valueMap.forEach((key, value) {
+      var list = <String>[];
+      _parseData.source.forEach((translateKey, translateMapValue) {
+        if (translateMapValue is TranslateString) {
+          if (translateMapValue.source == key) {
+            list.add(translateMapValue.localKey);
+          }
+        } else if (translateMapValue is TranslateMap) {
+          list.addAll(findValueInTranslateMap(key, translateMapValue));
+        }
+      });
+      value.addAll(list);
+    });
+
+    return valueMap;
+  }
+
+  /// 尋找translateMap內符合翻譯文字的localKey
+  List<String> findValueInTranslateMap(String valueKey, TranslateMap translateMap) {
+    List<String> list = [];
+
+    translateMap.source.forEach((key, value) {
+      if (value is TranslateString) {
+        if (value.source == valueKey) {
+          list.add(value.localKey);
+        }
+      } else if (value is TranslateMap) {
+        list.addAll(findValueInTranslateMap(valueKey, value));
+      }
+    });
+
+    return list;
   }
 
   /// json轉換為TranslateType map
@@ -29,10 +74,5 @@ class JsonValueParser {
         return MapEntry(key, TranslateString(valueString, ky));
       }
     });
-  }
-
-  /// TranslateType map轉換為json
-  String toJsonString() {
-    return json.encode(_parseData);
   }
 }

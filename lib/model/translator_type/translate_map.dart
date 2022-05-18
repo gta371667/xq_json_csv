@@ -15,7 +15,7 @@ class TranslateMap extends TranslateType<Map<String, dynamic>> {
   @override
   void bindTranslateValue(String locale, String value) {
     final valueList = value.split(splitPattern);
-    // print('切割: ${valueList.length}, $valueList');
+
     for (var i = 0; i < source.entries.length; i++) {
       final entry = source.entries.toList()[i];
       if (entry.value is TranslateMap) {

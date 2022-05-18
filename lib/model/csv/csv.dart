@@ -61,7 +61,7 @@ class CsvData {
   /// 對應Key
   final List<String> jsonKey;
 
-  CsvData._({
+  const CsvData({
     required this.zhTW,
     required this.zhCN,
     required this.enEN,
@@ -81,7 +81,7 @@ class CsvData {
   });
 
   factory CsvData.fromRow(List<String> row) {
-    return CsvData._(
+    return CsvData(
       zhTW: row[0],
       zhCN: row[1],
       enEN: row[2],
