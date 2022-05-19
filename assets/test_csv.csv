@@ -1,4 +1,0 @@
-zh_TW,zh-CN,en-EN,th-TH,泰文字數,建議字數,jp-JP,日文字數,建議字數,kr-KR,韓文字數,建議字數,vn-VN,越文字數,建議字數,jsonKey
-特色,特色,Features,คุณสมบัติ,9,8,特徴,2,2,특징,2,2,Đặc trưng,9,8,"signUp.futuresChartFullScreen.bottomSheet.header,signUp.futuresChartFullScreen.bottomSheet.aaa"
-"重複會顯示紅色,aabb,ccc",重复会显示红色,Repeated values will be red,ค่าซ้ำ ๆ จะเป็นสีแดง,20,29,赤を繰り返します,8,7,빨간색을 반복하십시오,11,7,Các giá trị lặp đi lặp lại sẽ có màu đỏ,39,29,signUp.welcomeTitle
-如果key有空格會提示黃色,如果有空格会提示黄色,"If there is a space, it will be yellow",หากมีพื้นที่ว่างจะเป็นสีเหลือง,30,38,キーにスペースがある場合、黄色を促します,20,13,키에 공간이 있으면 노란색으로 표시됩니다.,23,13,"Nếu có một không gian, nó sẽ có màu vàng",40,38,signUp.highPrice

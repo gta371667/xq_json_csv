@@ -18,9 +18,20 @@ class JsonValueParser {
     _parseData = TranslateMap(_parseMap(jsonObject, ''), '');
   }
 
+  List<CsvData> parseToCsvData() {
+    var map = _parseToKeyMap();
+    List<CsvData> list = [];
+
+    map.forEach((key, value) {
+      list.add(CsvData.fromKeyMap(langEnum, key, value));
+    });
+
+    return list;
+  }
+
   /// 翻譯文字當key,value為json路經
   /// ex: {"Features":["signUp.futuresChartFullScreen.bottomSheet.header","signUp.header"]}
-  Map<String, List<String>> parseToKeyMap() {
+  Map<String, List<String>> _parseToKeyMap() {
     // 所有翻譯文字
     var allValues = _parseData.allValue();
     Map<String, List<String>> valueMap = {};

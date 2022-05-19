@@ -30,7 +30,7 @@ class CsvValueParser {
       }
     }
 
-    return jsonEncode(jsonMap);
+    return JsonEncoder.withIndent('  ').convert(jsonMap);
   }
 
   /// 合併jsonMap

@@ -101,6 +101,88 @@ class CsvData {
     );
   }
 
+  factory CsvData.fromKeyMap(LangEnum langEnum, String value, List<String> key) {
+    String zhTW = '';
+    String zhCN = '';
+    String enEN = '';
+    String thTH = '';
+    String jpJP = '';
+    String krKR = '';
+    String vnVN = '';
+
+    switch (langEnum) {
+      case LangEnum.en:
+        enEN = value;
+        break;
+      case LangEnum.tw:
+        zhTW = value;
+        break;
+      case LangEnum.cn:
+        zhCN = value;
+        break;
+      case LangEnum.jp:
+        jpJP = value;
+        break;
+      case LangEnum.kr:
+        krKR = value;
+        break;
+      case LangEnum.th:
+        thTH = value;
+        break;
+      case LangEnum.vi:
+        vnVN = value;
+        break;
+    }
+
+    return CsvData(
+      zhTW: zhTW,
+      zhCN: zhCN,
+      enEN: enEN,
+      thTH: thTH,
+      thThCount: '',
+      thThSugCount: '',
+      jpJP: jpJP,
+      jpJPCount: '',
+      jpJPSubCount: '',
+      krKR: krKR,
+      krKRCount: '',
+      krKRSugCount: '',
+      vnVN: vnVN,
+      vnVNCount: '',
+      vnVNSugCount: '',
+      jsonKey: key,
+    );
+  }
+
+  factory CsvData.fromCsvList(
+    CsvData en,
+    CsvData tw,
+    CsvData cn,
+    CsvData jp,
+    CsvData kr,
+    CsvData th,
+    CsvData vi,
+  ) {
+    return CsvData(
+      zhTW: tw.zhTW,
+      zhCN: cn.zhCN,
+      enEN: en.enEN,
+      thTH: th.thTH,
+      thThCount: '',
+      thThSugCount: '',
+      jpJP: jp.jpJP,
+      jpJPCount: '',
+      jpJPSubCount: '',
+      krKR: kr.krKR,
+      krKRCount: '',
+      krKRSugCount: '',
+      vnVN: vi.vnVN,
+      vnVNCount: '',
+      vnVNSugCount: '',
+      jsonKey: en.jsonKey,
+    );
+  }
+
   /// 轉換為csv保存格式
   List<String> toCsvString() {
     return [
@@ -139,7 +221,7 @@ class CsvData {
       case LangEnum.tw:
         return zhTW;
       case LangEnum.cn:
-        return enEN;
+        return zhCN;
       case LangEnum.jp:
         return jpJP;
       case LangEnum.kr:
@@ -153,14 +235,17 @@ class CsvData {
 
   Map<String, dynamic> _parentList(List<String> spKeys, String value) {
     Map<String, dynamic> map = {};
+
+    if (spKeys.length == 1 && spKeys.first.isEmpty) {
+      return {};
+    }
+
     if (spKeys.length == 1) {
       return {spKeys.first: value};
     }
 
-    // for (var i = 0; i < spKeys.length; i++) {
     String parentKey = spKeys.first;
     map[spKeys.first] = _childList({}, spKeys.sublist(1).join("."), value, parentKey);
-    // }
     return map;
   }
 
@@ -175,7 +260,6 @@ class CsvData {
         });
       }
     }
-
     return map;
   }
 }
