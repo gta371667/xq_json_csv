@@ -9,6 +9,25 @@ enum LangEnum {
   vi,
 }
 
+const List<dynamic> titleRow = [
+  'zh_TW',
+  'zh-CN',
+  'en-EN',
+  'th-TH',
+  '泰文字數',
+  '建議字數',
+  'jp-JP',
+  '日文字數',
+  '建議字數',
+  'kr-KR',
+  '韓文字數',
+  '建議字數',
+  'vn-VN',
+  '越文字數',
+  '建議字數',
+  'jsonKey'
+];
+
 class CsvData {
   /// csv標準格式，逗號分隔值
   static const String csvStandard = ',';

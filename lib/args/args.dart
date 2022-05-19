@@ -1,7 +1,7 @@
 import 'package:args/args.dart';
+import 'package:collection/collection.dart';
 
 import 'group.dart';
-import 'package:collection/collection.dart';
 
 export 'group.dart';
 export 'help_print.dart';
@@ -34,13 +34,13 @@ class CommandAction {
     title: '翻譯',
     name: 'translate',
     args: [
-      ActionArg.option(name: 'in', abbr: 'i', help: '輸入導案'),
+      ActionArg.option(name: 'in', abbr: 'i', help: '輸入檔案or路徑'),
       ActionArg.option(name: 'out', abbr: 'o', help: '輸出檔案'),
-      ActionArg.option(name: 'from', abbr: 'f', help: '輸出語系'),
-      ActionArg.option(name: 'to', abbr: 't', help: '輸出語系'),
+      ActionArg.option(name: 'lang', abbr: 'f', help: '指定語系'),
     ],
     example: '''
-    translate -i {inFile} -o {outFile} -f en -t zh 
+    使用檔案路徑：translate -i ./assets/i18n/ -o ./assets/out.csv
+    指定翻譯檔案：translate -i ./assets/i18n/test.json -o ./assets/out.csv -f cn
     ''',
   );
 
@@ -48,14 +48,13 @@ class CommandAction {
     title: 'csv轉換多國',
     name: 'csv',
     args: [
-      ActionArg.option(name: 'in', abbr: 'i', help: '輸入導案'),
+      ActionArg.option(name: 'in', abbr: 'i', help: '輸入檔案'),
       ActionArg.option(name: 'out', abbr: 'o', help: '輸出路徑'),
     ],
     example: '''
-    translate -i {inFile} -o {outFile} -f en -t zh 
+    csv -i ./assets/out.csv -o ./assets/i18n/
     ''',
   );
-
 
   ArgResults parseArg(List<String> args) {
     return action.toParser().parse(args);
