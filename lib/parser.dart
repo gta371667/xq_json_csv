@@ -23,7 +23,9 @@ class JsonValueParser {
     List<CsvData> list = [];
 
     map.forEach((key, value) {
-      list.add(CsvData.fromKeyMap(langEnum, key, value));
+      if (key.isNotEmpty) {
+        list.add(CsvData.fromKeyMap(langEnum, key, value));
+      }
     });
 
     return list;

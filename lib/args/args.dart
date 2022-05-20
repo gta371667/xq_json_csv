@@ -23,6 +23,7 @@ class CommandAction {
     helpArg,
     translateArg,
     csvArg,
+    merge,
   ];
 
   static const helpArg = ArgGroup(
@@ -39,8 +40,8 @@ class CommandAction {
       ActionArg.option(name: 'lang', abbr: 'f', help: '指定語系'),
     ],
     example: '''
-    使用檔案路徑：translate -i ./assets/i18n/ -o ./assets/out.csv
-    指定翻譯檔案：translate -i ./assets/i18n/test.json -o ./assets/out.csv -f cn
+    使用檔案路徑：translate -i ./assets/i18n/ -o ./assets/to.csv
+    指定翻譯檔案：translate -i ./assets/i18n/test.json -o ./assets/to.csv -f cn
     ''',
   );
 
@@ -52,7 +53,20 @@ class CommandAction {
       ActionArg.option(name: 'out', abbr: 'o', help: '輸出路徑'),
     ],
     example: '''
-    csv -i ./assets/out.csv -o ./assets/i18n/
+    csv -i ./assets/to.csv -o ./assets/i18n/
+    ''',
+  );
+
+  static const merge = ArgGroup(
+    title: '合併csv檔案',
+    name: 'merge',
+    args: [
+      ActionArg.option(name: 'base', abbr: 'b', help: '原始文件'),
+      ActionArg.option(name: 'from', abbr: 'f', help: '合併文件'),
+      ActionArg.option(name: 'out', abbr: 'o', help: '輸出路徑'),
+    ],
+    example: '''
+    merge -b ./assets/test/base.csv -f ./assets/test/to.csv -o ./assets/merge.csv
     ''',
   );
 

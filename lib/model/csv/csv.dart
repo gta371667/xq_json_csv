@@ -281,4 +281,25 @@ class CsvData {
     }
     return map;
   }
+
+  factory CsvData.mergeCsv(CsvData base, CsvData from) {
+    return CsvData(
+      zhTW: base.zhTW,
+      zhCN: base.zhCN,
+      enEN: base.enEN,
+      thTH: base.thTH,
+      thThCount: base.thThCount,
+      thThSugCount: base.thThSugCount,
+      jpJP: base.jpJP,
+      jpJPCount: base.jpJPCount,
+      jpJPSubCount: base.jpJPSubCount,
+      krKR: base.krKR,
+      krKRCount: base.krKRCount,
+      krKRSugCount: base.krKRSugCount,
+      vnVN: base.vnVN,
+      vnVNCount: base.vnVNCount,
+      vnVNSugCount: base.vnVNSugCount,
+      jsonKey: from.jsonKey,
+    );
+  }
 }
