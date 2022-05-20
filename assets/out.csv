@@ -174,7 +174,6 @@ Line ID,,,,,,,,,,,,,,,applyAgent.lineIdTitle
 進行審核。",,,,,,,,,,,,,,,bankAccountManager.emptyTip
 新增出金帳戶,,,,,,,,,,,,,,,bankAccountManager.addBankAccount
 審核中,,,,,,,,,,,,,,,"bankAccountManager.bankStatusAudit,paymentHistory.statusAudit,agentUserPaymentHistoryList.underAudit"
-,,,,,,,,,,,,,,,bankAccountManager.bankStatusSuccess
 未過審,,,,,,,,,,,,,,,bankAccountManager.bankStatusFail
 確認變更,,,,,,,,,,,,,,,changePassword.modifyButton
 BOLL,,,,,,,,,,,,,,,"chartBollSetting.appBarTitle,chartSetting.indicatorBoll,futuresChart.indicatorBoll"
