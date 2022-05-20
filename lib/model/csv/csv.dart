@@ -173,32 +173,32 @@ class CsvData {
     );
   }
 
-  factory CsvData.fromCsvList(
-    CsvData en,
-    CsvData tw,
-    CsvData cn,
-    CsvData jp,
-    CsvData kr,
-    CsvData th,
-    CsvData vi,
-  ) {
+  factory CsvData.fromCsvList({
+    CsvData? en,
+    required CsvData tw,
+    CsvData? cn,
+    CsvData? jp,
+    CsvData? kr,
+    CsvData? th,
+    CsvData? vi,
+  }) {
     return CsvData(
       zhTW: tw.zhTW,
-      zhCN: cn.zhCN,
-      enEN: en.enEN,
-      thTH: th.thTH,
+      zhCN: cn?.zhCN ?? '',
+      enEN: en?.enEN ?? '',
+      thTH: th?.thTH ?? '',
       thThCount: '',
       thThSugCount: '',
-      jpJP: jp.jpJP,
+      jpJP: jp?.jpJP ?? '',
       jpJPCount: '',
       jpJPSubCount: '',
-      krKR: kr.krKR,
+      krKR: kr?.krKR ?? '',
       krKRCount: '',
       krKRSugCount: '',
-      vnVN: vi.vnVN,
+      vnVN: vi?.vnVN ?? '',
       vnVNCount: '',
       vnVNSugCount: '',
-      jsonKey: en.jsonKey,
+      jsonKey: tw.jsonKey,
     );
   }
 

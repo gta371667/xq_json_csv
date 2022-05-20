@@ -1,0 +1,1090 @@
+zh_TW,zh-CN,en-EN,th-TH,泰文字數,建議字數,jp-JP,日文字數,建議字數,kr-KR,韓文字數,建議字數,vn-VN,越文字數,建議字數,jsonKey
+zh_TW,zh-CN,en-EN,th-TH,,,jp-JP,,,kr-KR,,,vn-VN,,,jsonKey
+已切換為{state},,,,,,,,,,,,,,,app.changeAccountType
+模擬,模拟,simulation,การจำลอง,,,シミュレーション,,,시뮬레이션,,,mô phỏng,,,"app.accountSimulation,assets.accountSimulation,memberCenter.accountSimulation,futuresMarketContent.accountSimulation"
+真實,,,,,,,,,,,,,,,"app.accountReal,assets.accountReal,memberCenter.accountReal,futuresMarketContent.accountReal"
+儲值,储值,Deposit,เงินฝาก,,,ストレージ値,,,저장 가치,,,Gửi tiền,,,"assets.depositButton,home.depositButton"
+倉位,仓位,Positions,ตำแหน่ง,,,ポジション,,,위치,,,Vị trí,,,"assets.positions,menu.positions"
+訪客,,,,,,,,,,,,,,,"assets.guestName,memberCenter.guestName"
+盈虧,盈亏,Profit and loss,,,,利益と損失,,,이익과 손실,,,Lợi nhuận và thua lỗ,,,"assets.profitLoss,agentFundingPositionsList.profitLossTitle,agentFundingPositionsDetail.profitLossTitle,positionDetail.profitLoss,positions.profitLoss,transactionHistory.profitLoss"
+出入金紀錄,,,,,,,,,,,,,,,"assets.paymentHistory,agentUsersDetail.historyButton,agentUserPaymentHistory.appBarTitle,paymentHistory.appBarTitle"
+查看詳細的出入金交易活動,,,,,,,,,,,,,,,assets.paymentHistorySubtitle
+查看特定階段的交易活動,,,,,,,,,,,,,,,assets.positionsSubtitle
+前往驗證真實賬戶,,,,,,,,,,,,,,,assets.toVerificationAccount
+存入資金,,,,,,,,,,,,,,,assets.depositButtonTip
+出金,退出,Withdrawal,การถอนตัว,,,出金,,,철수,,,Rút tiền,,,"assets.withdrawButton,paymentHistory.typeWithdraw,withdraw.appBarTitle,agentUserPaymentHistoryList.withdraw"
+提取資金,,,,,,,,,,,,,,,assets.withdrawButtonTip
+自由資金,自由资金,Free funds,เงินทุนฟรี,,,無料の資金,,,무료 자금,,,Tiền miễn phí,,,"assets.availableFunds,accountTransaction.availableFunds"
+淨值,净值,net worth,รายได้สุทธิ,,,純資産,,,순자산,,,giá trị ròng,,,"assets.netAssetValue,accountTransaction.netAssetValue,walletAssetsPopup.netAssetValue"
+初始保證金,,,,,,,,,,,,,,,assets.occupyMargin
+維持保證金總額,,,,,,,,,,,,,,,assets.maintenanceMarginTotal
+浮動盈虧,浮动盈亏,Floating profit and loss,,,,浮かぶ利益と損失,,,떠 다니는 이익과 손실,,,Lãi và lỗ,,,"assets.dynamicProfitLoss,positionDetail.dynamicProfitLoss,accountTransaction.dynamicProfitLoss,walletAssetsPopup.dynamicProfitLoss,futuresContract.dynamicProfitLoss,transactionHistoryDetail.dynamicProfitLoss"
+平倉盈虧,,,,,,,,,,,,,,,assets.closePositionProfitLoss
+凍結保證金,,,,,,,,,,,,,,,assets.freezeMargin
+帳號資訊,帐号资讯,Account information,ข้อมูลเกี่ยวกับบัญชี,,,口座情報,,,계정 정보,,,Thông tin tài khoản,,,"memberCenter.accountInfo,accountData.appBarTitle"
+成為代理,成为代理,Become an agent,เป็นตัวแทน,,,エージェントになります,,,에이전트가 되십시오,,,Trở thành một đại lý,,,"memberCenter.applyAgent,applyAgent.appBarTitle,applyAgent.applyAgentButton"
+會員中心,,,,,,,,,,,,,,,memberCenter.appBarTitle
+通知,通知,Notification,การแจ้ง,,,知らせ,,,알아채다,,,Thông báo,,,memberCenter.messageNotify
+成就 & 階級,,,,,,,,,,,,,,,"memberCenter.achievement,achievementsLevel.appBarTitle"
+獎勵,,,,,,,,,,,,,,,"memberCenter.award,award.appBarTitle,awardList.bonus"
+分享推薦碼,分享推荐码,Share recommendation code,แบ่งปันรหัสคำแนะนำ,,,推奨コードを共有します,,,공유 추천 코드,,,Chia sẻ mã khuyến nghị,,,"memberCenter.shareReferralCode,referralCodeShare.appBarTitle"
+身份認證,身份认证,Identity Verifiction,การตรวจสอบตัวตน,,,認証,,,입증,,,Nhận dạng xác minh,,,memberCenter.identifyVerification
+設定,,,,,,,,,,,,,,,"memberCenter.setting,setting.appBarTitle"
+合約屬性,,,,,,,,,,,,,,,memberCenter.contractProperties
+聲明和協議,,,,,,,,,,,,,,,memberCenter.statementAndAgreement
+帳戶設定,,,,,,,,,,,,,,,memberCenter.accountSetting
+已複製推薦碼,已复制推荐码,Recommended code for copying,รหัสที่แนะนำสำหรับการคัดลอก,,,コピーするための推奨コード,,,복사를위한 권장 코드,,,Mã được đề xuất để sao chép,,,memberCenter.copyReferralCodeToast
+我的推薦碼,我的推荐码,My recommendation code,รหัสคำแนะนำของฉัน,,,私の推奨コード,,,내 추천 코드,,,Mã khuyến nghị của tôi,,,"memberCenter.myReferralCode,referralCodeShare.myReferralCode"
+用戶服務,用户服务,User service,บริการผู้ใช้,,,ユーザーサービス,,,사용자 서비스,,,Dịch vụ người dùng,,,memberCenter.userService
+代理服務,代理服务,Proxy service,บริการพร็อกซี,,,プロキシサービス,,,프록시 서비스,,,Dịch vụ proxy,,,memberCenter.agentService
+切換回用戶模式,切换回用户模式,Switch back to the user mode,สลับกลับไปที่โหมดผู้ใช้,,,ユーザーモードに戻ります,,,사용자 모드로 다시 전환하십시오,,,Chuyển trở lại chế độ người dùng,,,memberCenter.backToUserService
+切換至代理模式,,,,,,,,,,,,,,,memberCenter.toAgentService
+代理審核中,,,,,,,,,,,,,,,memberCenter.agentStatusAudit
+請先驗證真實帳戶,,,,,,,,,,,,,,,memberCenter.verificationRealAccountFirst
+等待真實帳戶審核中,,,,,,,,,,,,,,,memberCenter.waitVerificationRealAccount
+鑽石階級,,,,,,,,,,,,,,,memberCenter.levelDiamond
+暫無行情,,,,,,,,,,,,,,,"futuresMarketContent.listEmptyTip,home.quotaEmptyTip"
+添加自選,,,,,,,,,,,,,,,"futuresMarketContent.addCustomQuotaTip,home.addCustomQuotaTip,futuresCustomEdit.emptyTip"
+交易品種,交易品种,Trading variety,ความหลากหลายของการซื้อขาย,,,トランザクションの種類,,,거래 품종,,,Giao dịch đa dạng,,,"futuresMarketContent.futuresName,home.tradingVarietyTitle,futuresCustomEdit.futuresName"
+賣出價,卖出价,Selling price,ราคาขาย,,,販売価格,,,판매 가격,,,Gia ban,,,"futuresMarketContent.sellPrice,home.sellingPriceTitle,futuresAlert.sellOutPrice,futuresDetail.sellOutPrice"
+買入價,买入价,Buying price,ราคาซื้อ,,,購入価格,,,구매 가격,,,Giá mua,,,"futuresMarketContent.buyPrice,home.buyingPriceTitle,futuresAlert.buyInPrice,futuresDetail.buyInPrice"
+自選,,,,,,,,,,,,,,,"futuresMarketContent.customTab,home.futuresTabFavorite"
+輸入交易品種 / 英文名稱,输入交易品种 / 英文名称,Enter a trading variety / name,ป้อนความหลากหลาย / ชื่อการซื้อขาย,,,トランザクションの品種 /英語名を入力します,,,트랜잭션 품종 / 영어 이름을 입력하십시오,,,Nhập một loại giao dịch / tên,,,"futuresMarketContent.searchHint,futuresSearch.searchInputHint"
+可用餘額,可用余额,Available Balance,ยอดเงินคงเหลือ,,,利用可能残高,,,사용 가능한 잔액,,,Số dư có sẵn,,,"futuresMarketContent.availableBalance,agentUsersDetail.availableBalance,walletAssetsPopup.availableBalance"
+請先登入,,,,,,,,,,,,,,,"common.loginFirst,requestError.noAuth"
+聯匯,,,,,,,,,,,,,,,common.appName
+模擬交易下無法使用此功能,,,,,,,,,,,,,,,common.notInSimulated
+取消,取消,Cancel,ยกเลิก,,,キャンセル,,,,,,Hủy bỏ,,,"common.cancel,agentProfitSharing.filterPopup.cancelButton,agentProfitSharingSearch.cancel,agentUser.filterPopup.cancelButton,agentUserSearch.cancel,agentReferralCodeSearch.cancel,agentReferralCodeList.descriptionPopup.cancelButton,agentReferralCodeFunctionPopup.cancelButton,editAgentReferralCode.descriptionPopup.cancelButton,addAgentReferralCodePopup.cancelButton,agentTransactionSettingList.descriptionPopup.cancelButton,agentUsersDetail.descriptionPopup.cancelButton,agentUserPaymentHistory.filterPopup.cancelButton,agentFundingDetails.filterPopup.cancelButton,agentTransactionSettingSearch.cancel,agentUserProfitSharingForm.filterPopup.cancelButton,agentFundingDetailsSearch.cancel"
+確認,确认,Confirm,ยืนยัน,,,確認,,,확인,,,Xác nhận,,,"common.confirm,receiveAwardPopup.confirmButton,listScrollSheet.confirmButton"
+功能關閉中,,,,,,,,,,,,,,,common.futureClosed
+買入,买入,Buy,ซื้อ,,,買う,,,구입하다,,,Mua,,,"common.buyIn,agentFundingPositionsList.buyingTitle,agentFundingPositionsDetail.buyingTitle"
+賣出,卖出,Sell,ขาย,,,売る,,,팔다,,,Bán,,,"common.sellOut,agentFundingPositionsList.sellTitle,agentFundingPositionsDetail.sellTitle"
+USD,,,,,,,,,,,,,,,common.priceUnit
+手,,,,,,,,,,,,,,,common.lotsUnit
+X,,,,,,,,,,,,,,,common.leverUnit
+登出,,,,,,,,,,,,,,,common.logout
+登入,登入,Sign in,เข้าสู่ระบบ,,,ログインする,,,로그인,,,Đăng nhập,,,common.login
+止損,止损,Stop loss,หยุดการสูญเสีย,,,停止損失,,,손실을 중지하십시오,,,Chặn đứng tổn thất,,,common.stopLoss
+止盈,止盈,Make a profit,ทำกำไร,,,利益を上げます,,,이윤을 내다,,,Tạo ra lợi nhuận,,,common.stopProfit
+追蹤止損,追踪止损,Tracked stop loss,ติดตามการสูญเสียหยุด,,,追跡された停止損失,,,추적 스톱 손실,,,Theo dõi dừng mất,,,"common.trailingStop,positionModify.trailingStopTitle"
+當前非交易時段,,,,,,,,,,,,,,,"requestError.notTradingTime,positionModify.errorNotTradingTime"
+該品項暫時無法交易,,,,,,,,,,,,,,,"requestError.quotaUpdateOutTime,positionModify.errorFuturesNotTradingTime"
+資料為空,,,,,,,,,,,,,,,"requestError.dataEmpty,emptyPlace.tip"
+連線逾時,,,,,,,,,,,,,,,requestError.connectTimeOut
+糟糕 出現了一個錯誤🥺 ,,,,,,,,,,,,,,,requestError.system
+賬號密碼錯誤,,,,,,,,,,,,,,,requestError.accPwdError
+賬戶已停權,,,,,,,,,,,,,,,requestError.blackAccount
+交易資金不足,,,,,,,,,,,,,,,requestError.capitalScarcity
+交易只可開倉,,,,,,,,,,,,,,,requestError.openPositionOnly
+交易只可平倉,,,,,,,,,,,,,,,requestError.closePositionOnly
+更新資料失敗,,,,,,,,,,,,,,,requestError.updateDataFail
+此品項當前不可交易,,,,,,,,,,,,,,,requestError.contractDisabled
+手機號格式錯誤,,,,,,,,,,,,,,,requestError.phoneFormat
+手機驗證碼錯誤,,,,,,,,,,,,,,,requestError.phoneCode
+請先清空持倉,,,,,,,,,,,,,,,requestError.positionNotEmpty
+資金不足,,,,,,,,,,,,,,,requestError.withdrawUnderFunding
+請先綁定銀行卡,,,,,,,,,,,,,,,requestError.noBankBind
+戶名需與賬號名稱相同,,,,,,,,,,,,,,,requestError.bankCardAccNoSame
+發生未預期錯誤,,,,,,,,,,,,,,,requestError.unexpected
+請先切換狀態為實盤交易,,,,,,,,,,,,,,,requestError.simulateAccountNoFeature
+前筆訂單尚未完成,,,,,,,,,,,,,,,requestError.preFundingOrderNoComplete
+金額超出範圍,,,,,,,,,,,,,,,requestError.fundingOutPriceOutRange
+入金通道維護中,,,,,,,,,,,,,,,requestError.fundingInClose
+漲停跌停時停止交易,,,,,,,,,,,,,,,"requestError.limitUpCanNotBuyIn,requestError.limitDownCanNotSellOut"
+商品,商品,Commodity,สินค้า,,,商品,,,상품,,,Hàng hóa,,,"agentProfitSharing.filterPopup.itemsTitle,futuresTransaction.limitOrderPopup.futuresNameTitle,futuresTransaction.marketOrderPopup.futuresNameTitle"
+agentProfitSharingFilter,,,,,,,,,,,,,,,agentProfitSharing.filterPopup.name
+代理-分潤細節-搜尋條件,,,,,,,,,,,,,,,agentProfitSharing.filterPopup.nameDescription
+分潤細節篩選器,分润细节筛选器,Divide the details of the filter,หารรายละเอียดของตัวกรอง,,,フィルターの詳細を分割します,,,필터의 세부 사항을 나눕니다,,,Chia các chi tiết của bộ lọc,,,agentProfitSharing.filterPopup.title
+清除,清除,Remove,,,,削除する,,,제거하다,,,Tẩy,,,"agentProfitSharing.filterPopup.cleanButton,agentUser.filterPopup.cleanButton,agentUserPaymentHistory.filterPopup.cleanButton,agentFundingDetails.filterPopup.cleanButton,agentUserProfitSharingForm.filterPopup.cleanButton"
+篩選,筛选,filter,กรอง,,,フィルター,,,필터,,,lọc,,,"agentProfitSharing.filterPopup.filterButton,agentUser.filterPopup.filterButton,agentUserPaymentHistory.filterPopup.filterButton,agentFundingDetails.filterPopup.filterButton,agentUserProfitSharingForm.filterPopup.filterButton,agentTransactionSetting.filterTitle"
+分潤,分润,Divide,หาร,,,分ける,,,나누다,,,Chia,,,agentProfitSharing.filterPopup.profitTitle
+用戶,用户,user,ผู้ใช้,,,ユーザー,,,사용자,,,người dùng,,,"agentProfitSharing.filterPopup.userTitle,agentUserProfitSharingFormList.headerUser"
+請選擇用戶,请选择用户,Please choose a user,โปรดเลือกผู้ใช้,,,ユーザーを選択してください,,,사용자를 선택하십시오,,,Vui lòng chọn người dùng,,,agentProfitSharing.filterPopup.selectUserButtonHint
+請選擇商品,请选择商品,Please select the product,โปรดเลือกผลิตภัณฑ์,,,製品を選択してください,,,제품을 선택하십시오,,,Vui lòng chọn sản phẩm,,,"agentProfitSharing.filterPopup.selectItemsButtonHint,agentTransactionSetting.filterItemsButtonHint"
+類型,类型,type,พิมพ์,,,タイプ,,,유형,,,gõ phím,,,"agentProfitSharing.typesTitle,paymentHistory.type,agentUserPaymentHistoryList.typesTitle,futuresTransaction.limitOrderPopup.type,futuresTransaction.marketOrderPopup.type"
+日期,日期,date,วันที่,,,日にち,,,데이트,,,ngày tháng,,,"agentProfitSharing.dateTitle,agentUserProfitSharingForm.dateTitle,paymentHistory.dateTitle,agentUserPaymentHistoryList.dateTitle,withdrawBank.datePrefix,agentOverview.dateTitle"
+暫無資料,,,,,,,,,,,,,,,"agentProfitSharing.emptyTip,agentProfitSharingSearch.emptyTip,agentReferralCodeSearch.emptyTip,agentReferralCodeList.emptyTip,editAgentReferralCode.emptyTip,agentTransactionSettingList.emptyTip,qa.emptyTip,agentReferralCode.emptyTip,agentProfitList.emptyTip,agentUserProfitSharingFormList.emptyTip"
+規費,规费,Fees,ค่าธรรมเนียม,,,料金,,,,,,Lệ phí,,,"agentProfitSharing.feesTitle,agentUsersDetail.feesTitle,agentUserProfitSharingForm.filterPopup.feesTitle,agentOverview.feesTitle,agentProfitList.typesFees,agentUserProfitSharingFormList.headerFees,agentCondition.FeesTitle"
+優惠,优惠,discount,การลดราคา,,,割引,,,,,,chiết khấu,,,"agentProfitSharing.discountTitle,agentUserProfitSharingForm.filterPopup.discountTitle,agentOverview.discountTitle,agentProfitList.typesDiscount,agentUserProfitSharingFormList.headerDiscount,agentCondition.discountTitle"
+請選擇日期,请选择日期,Please select the date,กรุณาเลือกวันที่,,,日付を選択してください,,,날짜를 선택하십시오,,,Vui lòng chọn ngày,,,"agentProfitSharing.dateButtonHint,agentUser.filterPopup.selectDateButton,agentUserPaymentHistory.filterPopup.dateButtonHint,agentFundingDetails.filterPopup.dateButtonHint,agentUserProfitSharingForm.dateHint,agentOverview.dateHint"
+交易利潤,交易利润,Transaction profit,กำไรธุรกรรม,,,取引利益,,,거래 이익,,,Lợi nhuận giao dịch,,,"agentProfitSharing.transactionProfitTitle,agentUsersDetail.transactionProfitTitle,agentUserProfitSharingForm.filterPopup.transactionProfitTitle,agentOverview.transactionProfitTitle,agentProfitList.typesTransactionProfit,agentUserProfitSharingFormList.headerTransactionProfit"
+工資,工资,salary,เงินเดือน,,,,,,,,,lương,,,"agentProfitSharing.salaryTitle,agentOverview.salaryTitle,agentProfitList.typesSalary"
+其他利潤,其他利润,Other profits,ผลกำไรอื่น ๆ,,,その他の利益,,,다른 이익,,,Lợi nhuận khác,,,"agentProfitSharing.otherProfitsTitle,agentUsersDetail.otherProfitsTitle,agentOverview.otherProfitsTitle,agentProfitList.typesOtherProfits"
+分潤細節,分润细节,Duty details,รายละเอียดหน้าที่,,,義務の詳細,,,의무 세부 사항,,,Chi tiết nhiệm vụ,,,"agentProfitSharing.appBarTitle,agentOverview.agentProfitTitle"
+agentProfitSharing,,,,,,,,,,,,,,,agentProfitSharing.name
+代理-分潤細節頁,,,,,,,,,,,,,,,agentProfitSharing.nameDescription
+註冊時間,注册时间,Registration time,เวลาลงทะเบียน,,,登録時間,,,등록 시간,,,Thời gian đăng ký,,,"agentProfitSharing.registrationTimeButton,agentUser.filterPopup.registrationTime,agentUser.registrationTimeButton"
+總利潤,总利润,Total profit,กำไรรวม,,,利益総額,,,총 이윤,,,Tổng lợi nhuận,,,"agentProfitSharing.totalProfitTitle,agentUsersDetail.totalProfitTitle"
+請選擇類型,,,,,,,,,,,,,,,"agentProfitSharing.typesButtonHint,agentUserPaymentHistory.filterPopup.typesButtonHint,agentReferralCodeUsers.typesButtonHint"
+agentUserSearch,,,,,,,,,,,,,,,"agentProfitSharingSearch.name,agentUserSearch.name"
+代理-分潤細節搜尋頁,,,,,,,,,,,,,,,agentProfitSharingSearch.nameDescription
+輸入分潤細節搜尋條件,输入分润细节搜寻条件,Input division of moisturizing details search conditions,การแบ่งอินพุตของเงื่อนไขการค้นหารายละเอียดความชุ่มชื้น,,,保湿の詳細の検索条件の入力部門,,,보습 세부 사항 검색 조건의 입력 부서,,,Phân chia đầu vào của các chi tiết dưỡng ẩm điều kiện tìm kiếm,,,agentProfitSharingSearch.enterDetailSearchHint
+請輸入搜尋條件,请输入搜寻条件,Please enter the search condition,กรุณากรอกเงื่อนไขการค้นหา,,,検索条件を入力してください,,,검색 조건을 입력하십시오,,,Vui lòng nhập điều kiện tìm kiếm,,,"agentProfitSharingSearch.pleaseEnterSearchHint,agentUserSearch.pleaseEnterSearchHint,agentReferralCodeSearch.pleaseEnterSearchHint,agentTransactionSettingSearch.pleaseEnterSearchHint,agentFundingDetailsSearch.pleaseEnterSearchHint"
+推薦碼,推荐码,Recommendation code,รหัสคำแนะนำ,,,推奨コード,,,추천 코드,,,Mã giới thiệu,,,"agentUser.filterPopup.recommendedCode,accountData.referralCodeTitle,referralCodeBind.inputTitle,agentReferralUserList.recommendedCode,agentReferralCode.appBarTitle"
+agentUserFilterPopup,,,,,,,,,,,,,,,agentUser.filterPopup.name
+代理-下級用戶清單頁-搜尋條件,,,,,,,,,,,,,,,agentUser.filterPopup.nameDescription
+下級用戶清單篩選,下级用户清单筛选,#REF!,#REF!,,,サブユーザーリストスクリーニング,,,#REF!,,,#REF!,,,agentUser.filterPopup.title
+請選擇推薦碼,请选择推荐码,Please select the recommended code,โปรดเลือกรหัสที่แนะนำ,,,推奨コードを選択してください,,,권장 코드를 선택하십시오,,,Vui lòng chọn mã được đề xuất,,,agentUser.filterPopup.selectRecommendedCode
+agentUser,,,,,,,,,,,,,,,agentUser.name
+代理-下級用戶清單頁,,,,,,,,,,,,,,,agentUser.nameDescription
+下級用戶清單,下级用户清单,List of subordinates,รายชื่อผู้ใต้บังคับบัญชา,,,部下のリスト,,,부하 직원 목록,,,Danh sách cấp dưới,,,agentUser.appBarTitle
+暫無用戶資料,暂无用户资料,No user information,ไม่มีข้อมูลผู้ใช้,,,ユーザー情報はありません,,,사용자 정보가 없습니다,,,Không có thông tin người dùng,,,"agentUser.emptyTip,agentUserSearch.emptyTip,agentUserProfitSharingForm.emptyTip"
+代理-下級用戶清單搜尋頁,,,,,,,,,,,,,,,agentUserSearch.nameDescription
+輸入下級用戶清單搜尋條件,,,,,,,,,,,,,,,agentUserSearch.enterDetailSearchHint
+搜尋結果,搜寻结果,Search results,ผลการค้นหา,,,の検索結果,,,검색 결과,,,Kết quả tìm kiếm,,,agentUserSearch.searchResultsTitle
+刪除成功,,,,,,,,,,,,,,,"agentReferralCodeSearch.deleteSuccess,editAgentReferralCode.deleteSuccess,agentUsersDetail.deleteSuccess,agentTransactionSettingSearch.deleteSuccess,agentReferralCode.deleteSuccess,agentTransactionSetting.deleteSuccess"
+刪除失敗,,,,,,,,,,,,,,,"agentReferralCodeSearch.deleteFailed,agentUsersDetail.deleteFailed,agentTransactionSettingSearch.deleteFailed,agentReferralCode.deleteFailed,agentTransactionSetting.deleteFailed"
+agentReferralCodeSearch,,,,,,,,,,,,,,,agentReferralCodeSearch.name
+代理-推薦碼搜尋頁,,,,,,,,,,,,,,,agentReferralCodeSearch.nameDescription
+輸入推薦碼搜尋條件,,,,,,,,,,,,,,,agentReferralCodeSearch.enterDetailSearchHint
+刪除,删除,delete,,,,消去,,,삭제,,,xóa bỏ,,,"agentReferralCodeList.descriptionPopup.deleteButton,agentReferralCodeFunctionPopup.deleteButton,futuresCustomEdit.delete"
+DescriptionPopup,,,,,,,,,,,,,,,"agentReferralCodeList.descriptionPopup.name,editAgentReferralCode.descriptionPopup.name,agentTransactionSettingList.descriptionPopup.name,agentUsersDetail.descriptionPopup.name"
+代理-推薦碼列表-刪除提示彈窗,,,,,,,,,,,,,,,agentReferralCodeList.descriptionPopup.nameDescription
+刪除推薦碼,删除推荐码,Delete recommendation code,ลบรหัสคำแนะนำ,,,推奨コードを削除します,,,권장 코드를 삭제합니다,,,Xóa mã khuyến nghị,,,agentReferralCodeList.descriptionPopup.deleteTitle
+"刪除該推薦碼，將會導致已經發出去的連結可能會失效。
+已使用該推薦碼註冊的用戶則不會受到影響。
+
+確定要刪除推薦碼嗎？",,,,,,,,,,,,,,,agentReferralCodeList.descriptionPopup.contentText
+註冊,注册,Register,ลงทะเบียน,,,登録,,,등록하다,,,Đăng ký,,,"agentReferralCodeList.registerTitle,signUp.registerButton,signUpNavigation.registerButton"
+複製,复制,copy,สำเนา,,,コピー,,,복사,,,sao chép,,,"agentReferralCodeList.copyButton,agentFundingPositionsDetail.copyButton,copyButton.title"
+agentReferralCodeList,,,,,,,,,,,,,,,agentReferralCodeList.name
+代理-推薦碼列表,,,,,,,,,,,,,,,agentReferralCodeList.nameDescription
+開戶,开户,Open an account,เปิดบัญชี,,,アカウントを開きます,,,계정을 엽니 다,,,Mở một tài khoản,,,agentReferralCodeList.openAccountTitle
+點差及手續費,点差及手续费,Points and handling fees,คะแนนและค่าธรรมเนียมการจัดการ,,,ポイントと取り扱い料金,,,포인트 및 취급 수수료,,,Điểm và phí xử lý,,,"agentReferralCodeList.distributionHandlingFeeTitle,editAgentReferralCode.distributionHandlingFeeTitle,agentUsersDetail.distributionHandlingFeeTitle"
+已複製推薦碼連結,已复制推荐码连结,Recommended code connection for copying,การเชื่อมต่อรหัสที่แนะนำสำหรับการคัดลอก,,,コピーするための推奨コード接続,,,복사를위한 권장 코드 연결,,,Kết nối mã được đề xuất để sao chép,,,agentReferralCodeList.recommendedCodeLinkToast
+agentReferralCodeFunctionPopup,,,,,,,,,,,,,,,agentReferralCodeFunctionPopup.name
+代理-推薦碼列表-功能彈窗,,,,,,,,,,,,,,,agentReferralCodeFunctionPopup.nameDescription
+請選擇動作,请选择动作,Please select action,โปรดเลือกการดำเนินการ,,,アクションを選択してください,,,조치를 선택하십시오,,,Vui lòng chọn hành động,,,agentReferralCodeFunctionPopup.actionsTitle
+查看清單,查看清单,Check the list,ตรวจสอบรายการ,,,リストを確認してください,,,목록을 확인하십시오,,,Kiểm tra danh sách,,,agentReferralCodeFunctionPopup.actionsViewListButton
+編輯,编辑,edit,แก้ไข,,,編集,,,편집하다,,,biên tập,,,agentReferralCodeFunctionPopup.editButton
+代理-推薦碼編輯(新增)頁-刪除提示彈窗,,,,,,,,,,,,,,,editAgentReferralCode.descriptionPopup.nameDescription
+刪除點差,删除点差,Delete point difference,ลบความแตกต่างของจุด,,,ポイントの違いを削除します,,,포인트 차이를 삭제합니다,,,Xóa khác biệt điểm,,,"editAgentReferralCode.descriptionPopup.deleteTitle,editAgentReferralCode.descriptionPopup.deleteButton,agentTransactionSettingList.descriptionPopup.deleteTitle,agentTransactionSettingList.descriptionPopup.deleteButton,agentUsersDetail.descriptionPopup.deleteTitle,agentUsersDetail.descriptionPopup.deleteButton"
+刪除該品項點差，將會導致用戶交易的點差回到預設點差，可能會影響您的利潤。\n\n確定要刪除點差嗎？,,,,,,,,,,,,,,,"editAgentReferralCode.descriptionPopup.contentText,agentTransactionSettingList.descriptionPopup.contentText,agentUsersDetail.descriptionPopup.contentText"
+新增推薦碼,新增推荐码,Added recommendation code,เพิ่มรหัสคำแนะนำ,,,推奨コードを追加しました,,,추천 코드가 추가되었습니다,,,Đã thêm mã khuyến nghị,,,"editAgentReferralCode.addReferralCodeTitle,accountData.referralAddButton,referralCodeBind.addButton"
+請輸入戶名,请输入户名,Please enter the household name,โปรดป้อนชื่อครัวเรือน,,,世帯名を入力してください,,,가구 이름을 입력하십시오,,,Vui lòng nhập tên hộ gia đình,,,"editAgentReferralCode.enterNameHint,bankAccountBind.accountNameHint"
+修改成功,,,,,,,,,,,,,,,"editAgentReferralCode.editSuccess,agentUsersDetail.editSuccess,agentTransactionSettingSearch.editSuccess,positionModify.modifySuccess,chartBollSetting.modifySuccess,chartKdjSetting.modifySuccess,chartMacdSetting.modifySuccess,chartMaSetting.modifySuccess,chartRsiSetting.modifySuccess,chartWrSetting.modifySuccess,chartTypeSetting.modifySuccess,orderModify.modifySuccess,agentTransactionSetting.editSuccess"
+editAgentReferralCode,,,,,,,,,,,,,,,editAgentReferralCode.name
+代理-推薦碼編輯(新增)頁,,,,,,,,,,,,,,,editAgentReferralCode.nameDescription
+編輯推薦碼,编辑推荐码,Edit recommendation code,แก้ไขรหัสคำแนะนำ,,,推奨コードを編集します,,,권장 코드 편집,,,Chỉnh sửa mã khuyến nghị,,,editAgentReferralCode.editReferralCodeTitle
+新增成功,,,,,,,,,,,,,,,editAgentReferralCode.addSuccess
+名稱,名称,name,ชื่อ,,,名前,,,이름,,,Tên,,,editAgentReferralCode.nameTitle
+備註,备注,Remark,สังเกต,,,述べる,,,주목,,,Nhận xét,,,editAgentReferralCode.remarkTitle
+請輸入備註,请输入备注,Please enter the remarks,กรุณากรอกข้อสังเกต,,,発言を入力してください,,,발언을 입력하십시오,,,Vui lòng nhập nhận xét,,,editAgentReferralCode.enterNoteHint
+新增,新增,Newly increase,เพิ่มขึ้นใหม่,,,新しく増加します,,,새로 증가합니다,,,Mới tăng,,,"editAgentReferralCode.addButton,agentUsersDetail.addButton"
+儲存,储存,store,เก็บ,,,お店,,,가게,,,cửa hàng,,,"addAgentReferralCodePopup.confirmButton,chartBollSetting.modifyButton,chartKdjSetting.modifyButton,chartMacdSetting.modifyButton,chartMaSetting.modifyButton,chartRsiSetting.modifyButton,chartWrSetting.modifyButton"
+品項,品项,Items,รายการ,,,食品,,,식품,,,vật phẩm,,,"addAgentReferralCodePopup.itemsTitle,agentConditionFuturesList.ItemsTitle"
+addAgentReferralCodePopup,,,,,,,,,,,,,,,addAgentReferralCodePopup.name
+代理-推薦碼編輯(新增)頁-編輯(新增)點差及手續費彈窗,,,,,,,,,,,,,,,addAgentReferralCodePopup.nameDescription
+尚有資料未填寫,,,,,,,,,,,,,,,addAgentReferralCodePopup.emptyTip
+編輯點差及手續費,编辑点差及手续费,Edit points and handling fees,แก้ไขคะแนนและค่าธรรมเนียมการจัดการ,,,ポイントを編集し、手数料を処理します,,,포인트 및 처리 비용을 편집합니다,,,Chỉnh sửa điểm và phí xử lý,,,addAgentReferralCodePopup.editReferralCodeTitle
+新增點差及手續費,新增点差及手续费,New point difference and handling fee,ความแตกต่างของจุดใหม่และค่าธรรมเนียมการจัดการ,,,新しいポイントの違いと取り扱い料金,,,새로운 포인트 차이 및 취급 수수료,,,Chênh lệch điểm mới và phí xử lý,,,addAgentReferralCodePopup.addReferralCodeTitle
+類別,类别,category,หมวดหมู่,,,カテゴリー,,,범주,,,thể loại,,,addAgentReferralCodePopup.categoryTitle
+請選擇類別,,,,,,,,,,,,,,,addAgentReferralCodePopup.categoryButtonHint
+請選擇品項,,,,,,,,,,,,,,,addAgentReferralCodePopup.itemsButtonHint
+代號,代号,Code,รหัส,,,コード,,,암호,,,Mã số,,,addAgentReferralCodePopup.codeNumberTitle
+請輸入代號,请输入代号,Please enter the code,กรุณากรอกรหัส,,,コードを入力してください,,,코드를 입력하십시오,,,Vui lòng nhập mã,,,addAgentReferralCodePopup.codeButtonHint
+調整點差,调整点差,Adjust point,ปรับจุด,,,ポイントを調整します,,,포인트를 조정하십시오,,,Điều chỉnh điểm,,,addAgentReferralCodePopup.adjustmentSpreadTitle
+調整手續費,调整手续费,Adjust the handling fee,ปรับค่าธรรมเนียมการจัดการ,,,処理料を調整します,,,취급 수수료를 조정하십시오,,,Điều chỉnh phí xử lý,,,addAgentReferralCodePopup.adjustmentFeeTitle
+超出手續費範圍,超出手续费范围,Beyond the range of fees,เกินช่วงของค่าธรรมเนียม,,,料金の範囲を超えて,,,수수료 범위를 넘어서,,,Ngoài phạm vi phí,,,addAgentReferralCodePopup.beyondFeeRangeTip
+超出點差範圍,超出点差范围,Beyond the point difference,เกินความแตกต่างของจุด,,,ポイントの違いを超えて,,,포인트 차이를 넘어서,,,Ngoài sự khác biệt điểm,,,addAgentReferralCodePopup.overnightRangeTip
+代理-交易設定-刪除提示彈窗,,,,,,,,,,,,,,,agentTransactionSettingList.descriptionPopup.nameDescription
+點差,点差,Point difference,ความแตกต่างของจุด,,,ポイントの違い,,,포인트 차이,,,Điểm khác biệt,,,"agentTransactionSettingList.spreadTitle,agentConditionFuturesList.spreadTitle"
+手續費,手续费,Handling fee,ค่าธรรมเนียมการจัดการ,,,手数料,,,,,,Phí xử lý,,,"agentTransactionSettingList.handlingFeeTitle,agentUsersDetail.handlingFeeTitle,agentFundingPositionsList.handlingFeeTitle,agentFundingPositionsDetail.handlingFeeTitle,agentConditionFuturesList.handlingFeeTitle"
+agentTransactionSettingList,,,,,,,,,,,,,,,agentTransactionSettingList.name
+代理-交易設定列表,,,,,,,,,,,,,,,agentTransactionSettingList.nameDescription
+代理-下級用戶清單-詳細頁-刪除提示彈窗,,,,,,,,,,,,,,,agentUsersDetail.descriptionPopup.nameDescription
+修改失敗,,,,,,,,,,,,,,,"agentUsersDetail.editFailed,agentTransactionSettingSearch.editFailed,chartBollSetting.modifyFail,chartKdjSetting.modifyFail,chartMacdSetting.modifyFail,chartMaSetting.modifyFail,chartRsiSetting.modifyFail,chartWrSetting.modifyFail,chartTypeSetting.modifyFail,agentTransactionSetting.editFailed"
+查無資料,,,,,,,,,,,,,,,"agentUsersDetail.emptyTip,agentUserPaymentHistory.emptyTip,agentTransactionSettingSearch.emptyTip,agentFundingDetailsSearch.emptyTip,agentTransactionSetting.emptyTip,agentPaymentDetail.emptyTip,agentCondition.emptyTip,agentConditionFuturesList.emptyTip,agentReferralCodeUsers.emptyTip"
+AgentUsersDetail,,,,,,,,,,,,,,,agentUsersDetail.name
+代理-下級用戶清單-詳細頁,,,,,,,,,,,,,,,agentUsersDetail.nameDescription
+利潤,利润,profit,,,,,,,,,,lợi nhuận,,,agentUsersDetail.profitTitle
+交易概況,交易概况,Transaction overview,ภาพรวมการทำธุรกรรม,,,トランザクションの概要,,,거래 개요,,,Tổng quan về giao dịch,,,agentUsersDetail.tradingOverviewTitle
+利潤損失,利润损失,Profit,,,,,,,,,,Lợi nhuận,,,agentUsersDetail.profitLossTitle
+總保證金,,,,,,,,,,,,,,,agentUsersDetail.totalMargin
+股權,,,,,,,,,,,,,,,agentUsersDetail.equity
+總維持保證金,,,,,,,,,,,,,,,agentUsersDetail.totalMaintenanceMargin
+交易明細,交易明细,Transaction details,รายละเอียดการทำธุรกรรม,,,トランザクションの詳細,,,상세 거래 내역,,,Chi tiết giao dịch,,,agentUsersDetail.transactionDetailsButton
+AgentUserPaymentHistoryFilterPopup,,,,,,,,,,,,,,,agentUserPaymentHistory.filterPopup.name
+代理-下級用戶清單-詳細頁-出入金紀錄頁-篩選器,,,,,,,,,,,,,,,agentUserPaymentHistory.filterPopup.nameDescription
+出入金紀錄篩選,,,,,,,,,,,,,,,agentUserPaymentHistory.filterPopup.popupTitle
+申請日期,,,,,,,,,,,,,,,agentUserPaymentHistory.filterPopup.dateTitle
+出入金類型,,,,,,,,,,,,,,,agentUserPaymentHistory.filterPopup.typesTitle
+出入金方式,,,,,,,,,,,,,,,agentUserPaymentHistory.filterPopup.methodTitle
+請選擇出入金方式,,,,,,,,,,,,,,,agentUserPaymentHistory.filterPopup.methodButtonHint
+狀態,状态,State,สถานะ,,,州,,,상태,,,Trạng thái,,,agentUserPaymentHistory.filterPopup.statusTitle
+請選擇狀態,,,,,,,,,,,,,,,agentUserPaymentHistory.filterPopup.statusButtonHint
+金額,金钱数额,Amount of money,จำนวนเงิน,,,金額,,,금액,,,Lượng tiền,,,agentUserPaymentHistory.filterPopup.amountTitle
+出入金詳情,出入金详情,Deposit and withdrawal details,รายละเอียดเงินฝากและการถอน,,,,,,세부,,,Tiền và chi tiết rút tiền,,,"agentUserPaymentHistory.depositWithdrawalDetailsTitle,paymentHistory.paymentDetail,agentPaymentDetail.depositWithdrawalDetailsTitle"
+入金總額,入金总额,Total amount of money,จำนวนเงินทั้งหมด,,,合計金額,,,총 금액,,,Tổng số tiền,,,"agentUserPaymentHistory.totalDeposit,paymentHistory.paymentTotal,agentPaymentDetail.depositTotal"
+出金總額,,,,,,,,,,,,,,,"agentUserPaymentHistory.totalWithdrawal,paymentHistory.withdrawTotal"
+agentCondition,,,,,,,,,,,,,,,"agentUserPaymentHistory.name,agentUserProfitSharingForm.filterPopup.name,agentCondition.name"
+代理-下級用戶清單-詳細頁-出入金紀錄頁,,,,,,,,,,,,,,,agentUserPaymentHistory.nameDescription
+平倉時間,平仓时间,Positioning time,เวลาวางตำแหน่ง,,,ポジショニング時間,,,포지셔닝 시간,,,Thời gian định vị,,,"agentFundingDetails.filterPopup.closingTimeTitle,agentFundingPositionsDetail.closingTimeTitle,transactionHistory.closePositionTime"
+agentFundingDetailsFilterPopup,,,,,,,,,,,,,,,agentFundingDetails.filterPopup.name
+代理-下級用戶清單-詳細頁-交易明細頁-篩選器,,,,,,,,,,,,,,,agentFundingDetails.filterPopup.nameDescription
+開倉時間,开仓时间,Opening time,เวลาเปิด,,,開始時間,,,개봉 시간,,,Thời gian mở cửa,,,"agentFundingDetails.filterPopup.openingTimeTitle,agentFundingPositionsDetail.openingTimeTitle"
+交易品項,交易品项,Transaction item,รายการธุรกรรม,,,トランザクションアイテム,,,거래 항목,,,Mục giao dịch,,,agentFundingDetails.filterPopup.tradingProductTitle
+請選擇交易品項,请选择交易品项,Please select the transaction item,กรุณาเลือกรายการธุรกรรม,,,トランザクションアイテムを選択してください,,,거래 항목을 선택하십시오,,,Vui lòng chọn mục giao dịch,,,agentFundingDetails.filterPopup.tradingProductButtonHint
+交易方向,交易方向,Transaction direction,ทิศทางการทำธุรกรรม,,,トランザクションの方向,,,거래 방향,,,Hướng giao dịch,,,"agentFundingDetails.filterPopup.tradingDirectionTitle,agentFundingPositionsDetail.tradingDirectionTitle"
+請選擇交易方向,请选择交易方向,Please select the transaction direction,โปรดเลือกทิศทางการทำธุรกรรม,,,トランザクションの方向を選択してください,,,거래 방향을 선택하십시오,,,Vui lòng chọn hướng giao dịch,,,agentFundingDetails.filterPopup.tradingDirectionButtonHint
+槓桿設定,杠杆设定,Leverage settings,การตั้งค่าเลเวอเรจ,,,設定を活用します,,,설정을 활용하십시오,,,Cài đặt đòn bẩy,,,"agentFundingDetails.filterPopup.leverageSettingTitle,agentFundingPositionsList.leverageSettingTitle,agentFundingPositionsDetail.leverageSettingTitle"
+請選擇槓桿設定,,,,,,,,,,,,,,,agentFundingDetails.filterPopup.leverageSettingButtonHint
+持倉篩選器,持仓筛选器,Holding screenwriter,ผู้เขียนบท,,,脚本家を持っています,,,시나리오 작가 개최,,,Giữ nhà biên kịch,,,agentFundingDetails.filterPopup.positionPopupTitle
+開倉篩選器,开仓筛选器,Open Warehouse Filter,ตัวกรองคลังสินค้าเปิด,,,倉庫フィルターを開きます,,,오픈 창고 필터,,,Mở bộ lọc kho,,,agentFundingDetails.filterPopup.openingPopupTitle
+平倉篩選器,,,,,,,,,,,,,,,agentFundingDetails.filterPopup.closingPopupTitle
+總盈虧,总盈亏,Total profit and loss,กำไรและขาดทุนรวม,,,総利益と損失,,,총 이익과 손실,,,Tổng lãi và lỗ,,,"agentFundingDetails.filterPopup.openingFilterGeneralProfit,agentFundingPositionsList.generalProfit,agentFundingPositionsDetail.generalProfit"
+淨盈虧,净盈亏,Net profit and loss,กำไรและขาดทุนสุทธิ,,,純利益と損失,,,순이익과 손실,,,Lãi ròng,,,"agentFundingDetails.filterPopup.openingFilterNetProfit,agentFundingPositionsDetail.netProfit"
+平倉,平仓,close the position,ปิดตำแหน่ง,,,液体,,,액체,,,Đóng vị trí,,,"agentFundingDetails.closePositionButton,positionDetail.closePosition,positions.closePosition"
+開倉,开仓,Open warehouse,คลังสินค้าเปิด,,,倉庫を開きます,,,오픈 창고,,,Hàng mở,,,"agentFundingDetails.openPositionButton,positionDetail.openPositionChartTag"
+資金明細,资金资金,Funds for funds,เงินทุนสำหรับเงินทุน,,,資金明細,,,자금을위한 자금,,,Quỹ cho tiền,,,"agentFundingDetails.appBarTitle,agentFundingPositionsDetail.appBarTitle,agentPaymentDetail.appBarTitle"
+agentFundingDetails,,,,,,,,,,,,,,,agentFundingDetails.name
+代理-下級用戶清單-詳細頁-交易明細頁-大頁,,,,,,,,,,,,,,,agentFundingDetails.nameDescription
+目前持倉,目前持仓,Currently holding positions,ปัจจุบันดำรงตำแหน่ง,,,現在、ポジションを保持しています,,,현재 위치를 보유하고 있습니다,,,Hiện đang giữ vị trí,,,agentFundingDetails.currentPositionButton
+agentTransactionSettingSearch,,,,,,,,,,,,,,,agentTransactionSettingSearch.name
+代理-交易設定搜尋頁,,,,,,,,,,,,,,,agentTransactionSettingSearch.nameDescription
+輸入交易設定搜尋條件,,,,,,,,,,,,,,,agentTransactionSettingSearch.enterDetailSearchHint
+總分潤,总分润,Total score,คะแนนรวม,,,合計点,,,총 점수,,,Tổng điểm,,,"agentUserProfitSharingForm.filterPopup.totalGruntTitle,agentOverview.totalGruntTitle,agentUserProfitSharingFormList.headerTotalGrunt"
+代理-用戶分潤報表頁-篩選器,,,,,,,,,,,,,,,agentUserProfitSharingForm.filterPopup.nameDescription
+用戶分潤篩選器,用户分润筛选器,User Divide Screeninger,ผู้ใช้หารคัดกรอง,,,ユーザー分割スクリーニング,,,사용자는 선별 선별를 분할합니다,,,Bộ lọc phân chia người dùng,,,agentUserProfitSharingForm.filterPopup.popupTitle
+用戶分潤報表,用户分润报表,User division report,รายงานแผนกผู้ใช้,,,ユーザー部門レポート,,,사용자 부문 보고서,,,Báo cáo bộ phận người dùng,,,"agentUserProfitSharingForm.appBarTitle,agentOverview.userPointsTitle"
+agentUserProfitSharingForm,,,,,,,,,,,,,,,agentUserProfitSharingForm.name
+代理-用戶分潤報表頁,,,,,,,,,,,,,,,agentUserProfitSharingForm.nameDescription
+agentFundingDetailsSearch,,,,,,,,,,,,,,,agentFundingDetailsSearch.name
+代理-下級用戶清單-詳細頁-交易明細頁-搜尋頁,,,,,,,,,,,,,,,agentFundingDetailsSearch.nameDescription
+輸入搜尋條件,,,,,,,,,,,,,,,agentFundingDetailsSearch.enterDetailSearchHint
+會員中心-成就&階級-篩選器,,,,,,,,,,,,,,,"receiveAwardPopup.nameDescription,achievementsLevel.filter.nameDescription"
+receiveAwardPopup,,,,,,,,,,,,,,,receiveAwardPopup.name
+已領取{n}個獎勵,,,,,,,,,,,,,,,receiveAwardPopup.receivedCount
+已領取「{n}」,,,,,,,,,,,,,,,receiveAwardPopup.receivedTitle
+我知道了,,,,,,,,,,,,,,,receiveAwardPopup.know
+前往歷史獎勵,,,,,,,,,,,,,,,receiveAwardPopup.historyButton
+今日不再提醒,,,,,,,,,,,,,,,receiveAwardPopup.noTipToday
+ListScrollSheet,,,,,,,,,,,,,,,listScrollSheet.name
+滾動選擇器,,,,,,,,,,,,,,,listScrollSheet.nameDescription
+開倉價,开仓价,,,,,,,,,,,,,,"agentFundingPositionsList.openingPriceTitle,positionDetail.tableOpenPriceTitle,positions.openPositionPrice,futuresTransaction.marketOrderPopup.openPrice,orders.openPriceTitle"
+agentFundingPositionsList,,,,,,,,,,,,,,,agentFundingPositionsList.name
+代理-下級用戶清單-詳細頁-交易明細頁-通用列表,,,,,,,,,,,,,,,agentFundingPositionsList.nameDescription
+止盈價格,止盈价格,Profit price,ราคากำไร,,,利益価格,,,이익 가격,,,Giá lợi nhuận,,,"agentFundingPositionsList.stopProfitPrice,agentFundingPositionsDetail.stopProfitPrice"
+止損價格,止损价格,Stop loss price,หยุดราคาขาดทุน,,,損失価格を停止します,,,손실 가격을 중지하십시오,,,Ngừng mất giá,,,"agentFundingPositionsList.stopLossPrice,agentFundingPositionsDetail.stopLossPrice"
+單號,单号,Single number,หมายเลขเดียว,,,単一番号,,,단일 번호,,,Đơn số,,,"agentFundingPositionsList.singleNumberTitle,agentFundingPositionsDetail.singleNumberTitle"
+立即成交,立即成交,Immediately,โดยทันที,,,すぐに,,,즉시,,,Ngay lập tức,,,"agentFundingPositionsList.repairImmediatelyHint,agentFundingPositionsDetail.repairImmediatelyHint"
+開倉保證金,开仓保证金,Bond,พันธะ,,,つなぐ,,,노예,,,Liên kết,,,"agentFundingPositionsList.openMarginTitle,agentFundingPositionsDetail.openMarginTitle"
+掛單,挂单,Hang up,วางสาย,,,電話を切る,,,끊다,,,Treo lên,,,"agentFundingPositionsDetail.hangingTitle,futuresDetail.bottomSheet.accountOrder,accountTransaction.tabOrder,orderDetail.openPositionChartTag,orderDetail.orderTag,orderDetail.orderChartTag"
+隔夜費,隔夜费,Overnight fee,ค่าธรรมเนียมค้างคืน,,,一晩料金,,,밤새 요금,,,Phí qua đêm,,,"agentFundingPositionsDetail.rolloverTitle,positionDetail.rollover,futuresContract.rollover,transactionHistoryDetail.rollover"
+掛單價格,挂单价格,Hanging order price,ราคาคำสั่งซื้อแขวน,,,ハンギングオーダー価格,,,교수형 주문 가격,,,Giá đặt hàng,,,"agentFundingPositionsDetail.hangingPriceTitle,orderDetail.orderPriceTitle"
+開倉價格,开仓价格,,,,,,,,,,,,,,"agentFundingPositionsDetail.openingPriceTitle,positionDetail.openPriceTitle,transactionHistoryDetail.openPositionPriceTitle"
+平倉價格,,,,,,,,,,,,,,,"agentFundingPositionsDetail.closingPriceTitle,transactionHistoryDetail.closePositionPriceTitle"
+agentFundingPositionsDetail,,,,,,,,,,,,,,,agentFundingPositionsDetail.name
+代理-下級用戶清單-詳細頁-交易明細頁-倉詳細頁,,,,,,,,,,,,,,,agentFundingPositionsDetail.nameDescription
+已複製,,,,,,,,,,,,,,,agentFundingPositionsDetail.copyToast
+交易數量 (手),交易数量 (手),Trading quantity (hand),ปริมาณการซื้อขาย (มือ),,,取引数量（手）,,,거래 수량 (손),,,Số lượng giao dịch (tay),,,agentFundingPositionsDetail.quantityTransactionsTitle
+成交價格,成交价格,the deal price,ราคาดีล,,,取引価格,,,거래 가격,,,Giá thỏa thuận,,,agentFundingPositionsDetail.dealPriceTitle
+下單時間,下单时间,order time,เวลาสั่งซื้อ,,,注文時間,,,주문 시간,,,thời gian phục vụ,,,agentFundingPositionsDetail.orderTimeTitle
+成交時間,成交时间,Transaction time,เวลาในการทำธุรกรรม,,,トランザクション時間,,,거래 시간,,,,,,agentFundingPositionsDetail.dealOrderTimeTitle
+更新時間,更新时间,Update time,อัปเดตเวลา,,,更新時間,,,업데이트 시간,,,Cập nhật thời gian,,,agentFundingPositionsDetail.updateTimeTitle
+持倉數量,持仓数量,Position Quantity,ปริมาณตำแหน่ง,,,ポジション数,,,위치 수,,,Số lượng vị trí,,,agentFundingPositionsDetail.positionQuantityTitle
+平倉原因,平仓原因,Reasonable position,ตำแหน่งที่เหมาะสม,,,合理的な位置,,,합리적인 위치,,,Vị trí hợp lý,,,agentFundingPositionsDetail.closingReasonTitle
+您確定要放棄修改嗎？,,,,,,,,,,,,,,,"positionModify.cancelModify,chartBollSetting.cancelModify,chartKdjSetting.cancelModify,chartMacdSetting.cancelModify,chartMaSetting.cancelModify,chartRsiSetting.cancelModify,chartWrSetting.cancelModify,orderModify.cancelModify"
+止損須在限制範圍內,,,,,,,,,,,,,,,"positionModify.errorStopLossOutRange,futuresTransaction.errorStopLossOutRange,orderModify.errorStopLossOutRange"
+止盈須在限制範圍內,,,,,,,,,,,,,,,"positionModify.errorStopProfitOutRange,futuresTransaction.errorStopProfitOutRange,orderModify.errorStopProfitOutRange"
+預估虧損,,,,,,,,,,,,,,,"positionModify.estimateLoss,futuresTransaction.estimateLoss,orderModify.estimateLoss"
+預估盈利,,,,,,,,,,,,,,,"positionModify.estimateProfit,futuresTransaction.estimateProfit,orderModify.estimateProfit"
+設置止損價格,,,,,,,,,,,,,,,"positionModify.stopLossSubtitle,orderModify.stopLossSubtitle"
+設置止盈價格,设置止盈价格,Set up profit price,ตั้งราคากำไร,,,利益価格を設定します,,,이익 가격을 설정하십시오,,,Thiết lập giá lợi nhuận,,,"positionModify.stopProfitSubtitle,orderModify.stopProfitSubtitle"
+設置追蹤止損距離,设置追踪止损距离,Set tracking stop loss distance,ตั้งค่าการติดตามการหยุดการสูญเสียระยะทาง,,,追跡停止損失距離を設定します,,,추적 중지 손실 거리를 설정합니다,,,Đặt khoảng cách dừng theo dõi,,,"positionModify.trailingStopSubtitle,orderModify.trailingStopSubtitle"
+修改持倉單,修改持仓单,Modify the warehouse,ปรับเปลี่ยนคลังสินค้า,,,倉庫を変更します,,,창고를 수정하십시오,,,Sửa đổi kho,,,positionModify.appBarTitle
+部份單號平倉失敗!,,,,,,,,,,,,,,,positionModify.closeMultiPositionPartialFailTitle
+查無此單號,,,,,,,,,,,,,,,positionModify.errorClosePositionFindNoSerial
+未知錯誤({code}),,,,,,,,,,,,,,,positionModify.errorGeneralCode
+多完交易產品安全,,,,,,,,,,,,,,,home.defaultBannerTitle
+快速下單直覺 多樣化下單工具,,,,,,,,,,,,,,,home.defaultBannerSubtitle
+更多交易,,,,,,,,,,,,,,,home.moreTransaction
+公告,,,,,,,,,,,,,,,home.announcement
+歡迎來到{appName}~,,,,,,,,,,,,,,,home.defaultMarquee
+專屬客服,专属客服,Customer Service,บริการลูกค้า,,,排他的なカスタマーサービス,,,독점 고객 서비스,,,Dịch vụ khách hàng,,,"home.customerServiceButton,customerService.appBarTitle"
+更方便、更快捷、更高效的服務,更方便、更快捷、更高效的服务,More convenient and faster service,บริการที่สะดวกและเร็วขึ้น,,,簡単で、より速く、より効率的なサービス,,,쉽고 빠르며 효율적인 서비스,,,Dịch vụ thuận tiện và nhanh hơn,,,home.customerServiceContent
+任務中心,,,,,,,,,,,,,,,home.missionButton
+歡迎 ~ 立即交易全球市場,欢迎 ~ 立即交易全球市场,"Welcome, start trading on global markets.",ยินดีต้อนรับเริ่มซื้อขายในตลาดโลก,,,ようこそ〜グローバル市場をすぐに取引してください,,,환영합니다 ~ 글로벌 시장을 즉시 거래하십시오,,,"Chào mừng, bắt đầu giao dịch trên thị trường toàn cầu.",,,home.logoMessageContent
+訂單列表,订单列表,,,,,オーダーリスト,,,주문 목록,,,,,,home.tadeListButton
+活動,活动,Event,เหตุการณ์,,,アクティビティ,,,활동,,,Biến cố,,,home.eventButton
+教學,教学,Tutorial,การสอน,,,教育,,,가르치는,,,Hướng dẫn,,,"home.tutorialButton,qa.appBarTitle"
+熱門交易,热门交易,Popular,เป็นที่นิยม,,,人気のある取引,,,인기있는 거래,,,Phổ biến,,,home.futuresTabTop
+自選編輯,,,,,,,,,,,,,,,futuresCustomEdit.appBarTitle
+變更成功,,,,,,,,,,,,,,,futuresCustomEdit.changeSuccess
+全選,,,,,,,,,,,,,,,"futuresCustomEdit.selectAll,positions.selectAll"
+拖動,,,,,,,,,,,,,,,futuresCustomEdit.drag
+無,,,,,,,,,,,,,,,"futuresAlert.enterPriceHint,accountData.referralCodeHint"
+創建價格提醒,,,,,,,,,,,,,,,futuresAlert.appBarTitle
+當,,,,,,,,,,,,,,,futuresAlert.titleTip
+達到以下價格時提醒我,,,,,,,,,,,,,,,futuresAlert.alertWhenPrice
+提醒列表,,,,,,,,,,,,,,,futuresAlert.alertList
+創建提醒成功,,,,,,,,,,,,,,,futuresAlert.createSuccess
+已成功刪除提醒,,,,,,,,,,,,,,,futuresAlert.removeSuccess
+持倉,持仓,Hold a position,ดำรงตำแหน่ง,,,ポジションを保持します,,,위치를 잡으십시오,,,Giữ một vị trí,,,"futuresDetail.bottomSheet.accountPosition,positionDetail.positionTag,accountTransaction.tabPosition"
+我的委託,,,,,,,,,,,,,,,futuresDetail.bottomSheet.header
+尚無持倉,,,,,,,,,,,,,,,"futuresDetail.bottomSheet.positionEmptyTip,futuresDetail.bottomSheet.orderEmptyTip,agentFundingPositions.emptyTip"
+已加入個人自訂品種,,,,,,,,,,,,,,,"futuresDetail.addFavoriteSuccess,futuresChartFullScreen.addFavoriteSuccess"
+已移除個人自訂品種,,,,,,,,,,,,,,,"futuresDetail.removeFavoriteSuccess,futuresChartFullScreen.removeFavoriteSuccess"
+價格漲跌幅,价格涨跌幅,Price rise and fall,การเพิ่มขึ้นและลดราคา,,,価格の上昇,,,가격 상승 및 하락,,,Tăng giá và giảm,,,futuresDetail.dataTab.priceChangeRate
+5分鐘,,,,,,,,,,,,,,,futuresDetail.dataTab.minute5
+1小時,,,,,,,,,,,,,,,"futuresDetail.dataTab.hour1,futuresChart.chartHour1"
+今日,,,,,,,,,,,,,,,futuresDetail.dataTab.today
+價格變化區間,价格变化区间,Price change,การเปลี่ยนแปลงราคา,,,価格の変化,,,가격 변화,,,Thay đổi giá,,,futuresDetail.dataTab.priceChangeValue
+當前價格,当前价格,Current price,ราคาปัจจุบัน,,,現在の価格,,,현재 가격,,,Giá hiện tại,,,"futuresDetail.dataTab.nowPrice,positionDetail.lastPriceTitle,orderDetail.lastPriceTitle"
+最低價,最低价,Minimum price,ราคาต่ำสุด,,,最低価格,,,최소 가격,,,Giá tối thiểu,,,futuresDetail.dataTab.lowPrice
+最高價,最高价,Highest price,ราคาสูงสุด,,,最高価格,,,최고 가격,,,Giá cao nhất,,,futuresDetail.dataTab.highPrice
+成交量,成交量,Transaction volume,ปริมาณธุรกรรม,,,トランザクションボリューム,,,거래량,,,Khối lượng giao dịch,,,"futuresDetail.dataTab.volume,futuresChart.volume"
+委買量,,,,,,,,,,,,,,,futuresDetail.buyInVolume
+委賣量,,,,,,,,,,,,,,,futuresDetail.sellOutVolume
+縮起,,,,,,,,,,,,,,,futuresDetail.recentTransactionFoldLabel
+展開,,,,,,,,,,,,,,,"futuresDetail.recentTransactionUnfoldLabel,futuresContract.tableValueUnfold"
+市場關閉－僅接受掛單交易,市场关闭－仅接受挂单交易,Market shutdown -only accepting orders transactions,การปิดตลาด -รับการทำธุรกรรมคำสั่งซื้อเท่านั้น,,,市場のシャットダウン - 注文取引を受け入れます,,,시장 셧다운 -주문 거래 수락 전용,,,Tắt thị trường -Chấp nhận các đơn đặt hàng giao dịch,,,"futuresDetail.marketClose,futuresTransaction.marketClose"
+行情,行情,quotations,ใบเสนอราคา,,,市場,,,시장,,,trích dẫn,,,futuresDetail.tabChart
+數據,数据,Data,,,,データ,,,데이터,,,Dữ liệu,,,futuresDetail.tabData
+詳情,详情,Detail,รายละเอียด,,,,,,세부 사항,,,Chi tiết,,,futuresDetail.tabContract
+交易中,,,,,,,,,,,,,,,futuresDetail.inTradingTime
+僅接受掛單,,,,,,,,,,,,,,,futuresDetail.onlyLimitOrder
+全倉模式,,,,,,,,,,,,,,,futuresDetail.fullWarehouse
+"此交易為全倉交易，虧損金額會超過保證金金額。
+
+當持續虧損導致賬戶達到強平線時，其他訂單將會被陸續強平，賬戶資金將全部虧損！
+
+建議您設定止盈和止損價格，能夠更有效率的控制資金情況！",,,,,,,,,,,,,,,futuresDetail.fullWarehouseTipContent
+全倉模式說明,,,,,,,,,,,,,,,futuresDetail.fullWarehouseTipTitle
+無法找到想要的解答？,,,,,,,,,,,,,,,qa.noFindQaTip1
+請聯絡我們,,,,,,,,,,,,,,,qa.noFindQaTip2
+保證金比例過低提示! ({percent}%),,,,,,,,,,,,,,,marginLevelWarningBar.tip
+使用信箱註冊,,,,,,,,,,,,,,,signUp.emailRegistrationTitle
+請填寫您的電子信箱,,,,,,,,,,,,,,,"signUp.enterEmailHint,forgotPassword.enterEmailHint,login.enterEmailHint"
+註冊成功,,,,,,,,,,,,,,,signUp.signUpSuccess
+輸入信箱收到的驗證碼,,,,,,,,,,,,,,,signUp.emailEnterCodeHint
+註冊即代表您同意我們的,,,,,,,,,,,,,,,signUp.agreeOurPrivacy
+隱私和政策.,,,,,,,,,,,,,,,signUp.agreeOurPrivacyValue
+已有帳號？,已有帐号？,Already have account?,มีบัญชีแล้ว?,,,既存のアカウント？,,,기존 계정?,,,Đã có tài khoản?,,,"signUp.alreadyHaveAccountButton,signUpNavigation.alreadyHaveAccountButton"
+使用手機號碼註冊,使用手机号码注册,Phone No. Registration,หมายเลขโทรศัพท์ลงทะเบียน,,,携帯電話番号を使用して登録してください,,,휴대 전화 번호를 사용하여 등록하십시오,,,Điện thoại số đăng ký,,,signUp.phoneNumberRegistrationTitle
+請輸入您的手機號碼,请输入您的手机号码,Please enter your phone no.,กรุณากรอกหมายเลขโทรศัพท์ของคุณ,,,電話番号を入力してください,,,전화 번호를 입력하십시오,,,Vui lòng nhập không có điện thoại của bạn.,,,"signUp.enterPhoneNumberHint,forgotPassword.enterPhoneNumberHint,login.enterPhoneNumberHint,phoneBind.inputPhoneHint"
+輸入密碼,输入密码,Enter your password,ป้อนรหัสผ่านของคุณ,,,パスワードを入力する,,,암호를 입력,,,Nhập mật khẩu của bạn,,,"signUp.enterPasswordHint,login.enterPasswordHint"
+輸入簡訊收到的驗證碼,输入简讯收到的验证码,The code you received  via SMS,รหัสที่คุณได้รับผ่าน SMS,,,ニュースレターが受信した検証コードを入力します,,,뉴스 레터에서받은 검증 코드를 입력하십시오,,,Mã bạn nhận được qua SMS,,,"signUp.phoneNumberEnterCodeHint,phoneBind.phoneNumberEnterCodeHint"
+密碼重設成功,,,,,,,,,,,,,,,forgotPassword.resetSuccess
+確認並提交,,,,,,,,,,,,,,,forgotPassword.resetButton
+請輸入新密碼,请输入新密码,New password,รหัสผ่านใหม่,,,新しいパスワードを入力してください,,,새 비밀번호를 입력하십시오,,,Mật khẩu mới,,,"forgotPassword.newPasswordHint,changePassword.newPasswordHint"
+輸入驗證碼,,,,,,,,,,,,,,,"forgotPassword.enterCaptchaHint,changePassword.captchaHint,emailBind.captchaHint"
+登入成功,,,,,,,,,,,,,,,login.loginSuccess
+立刻註冊,立刻注册,Register Now,สมัครตอนนี้,,,すぐに登録してください,,,즉시 등록하십시오,,,Đăng ký ngay bây giờ,,,login.registerNowButton
+忘記密碼？,忘记密码？,Forget password?,ลืมรหัสผ่าน?,,,パスワードを忘れますか？,,,비밀번호 분실?,,,Quên mật khẩu?,,,login.forgetPasswordButton
+超過一百個以上的交易品項,超过一百个以上的交易品项,Explore over 100 exciting markets,สำรวจตลาดที่น่าตื่นเต้นกว่า 100 แห่ง,,,100を超える取引アイテム,,,100 개 이상의 거래 품목,,,Khám phá hơn 100 chợ thú vị,,,signUpNavigation.benefit1
+二十四小時隨時交易,二十四小时随时交易,Trade 24 hours a day,การค้า 24 ชั่วโมงต่อวัน,,,いつでも24時間の取引,,,언제든지 29 시간의 거래,,,Giao dịch 24 giờ một ngày,,,signUpNavigation.benefit2
+免傭金以及低點差,,,,,,,,,,,,,,,signUpNavigation.benefit3
+免費的獨家見解,免费的独家见解,Get FREE exclusive insights,รับข้อมูลเชิงลึกพิเศษฟรี,,,無料の排他的な洞察,,,무료 독점 통찰력,,,Nhận hiểu biết độc quyền miễn phí,,,signUpNavigation.benefit4
+歡迎,欢迎,Welcome,ยินดีต้อนรับ,,,ようこそ,,,환영하다,,,Chào mừng,,,signUpNavigation.welcomeTitle
+新使用者註冊,新使用者注册,new user registration,การลงทะเบียนผู้ใช้ใหม่,,,新しいユーザー登録,,,새로운 사용자 등록,,,Đăng Ký Người Dùng Mới,,,signUpNavigation.newUserTitle
+立即驗證,立即验证,confirm right now,ยืนยันตอนนี้,,,今すぐ確認してください,,,지금 확인하십시오,,,xác nhận ngay bây giờ,,,"phoneBind.confirmButton,emailBind.verifyImmediately"
+驗證電話,,,,,,,,,,,,,,,phoneBind.appBarTitle
+已成功綁定電話,,,,,,,,,,,,,,,phoneBind.bindSuccess
+國家,,,,,,,,,,,,,,,countryCode.country
+請輸入名稱或區碼,,,,,,,,,,,,,,,countryCode.searchEnterHint
+修改密碼,修改密码,change Password,เปลี่ยนรหัสผ่าน,,,パスワードを変更する,,,비밀번호를 변경하십시오,,,đổi mật khẩu,,,"changePassword.appBarTitle,accountManager.changePassword"
+確認變更,,,,,,,,,,,,,,,changePassword.modifyButton
+驗證Email,,,,,,,,,,,,,,,"emailBind.appBarTitle,accountData.emailVerifyButton"
+請輸入信箱,请输入信箱,Please enter the mailbox,กรุณากรอกกล่องจดหมาย,,,メールボックスを入力してください,,,사서함을 입력하십시오,,,Vui lòng nhập hộp thư,,,emailBind.emailHint
+已成功驗證信箱,已成功验证信箱,Successful verification mailbox,กล่องจดหมายยืนยันที่ประสบความสำเร็จ,,,検証メールボックスが成功しました,,,성공적인 확인 사서함,,,Hộp thư xác minh thành công,,,emailBind.bindEmailSuccess
+首頁,首页,Home,บ้าน,,,表紙,,,첫 장,,,Nhà,,,menu.home
+資產,资产,Funds,เงินทุน,,,資産,,,자산,,,Tiền,,,menu.funds
+交易,交易,,,,,トレード,,,거래,,,,,,menu.trade
+我的,我的,My,ของฉัน,,,私の,,,나의 것,,,Của tôi,,,menu.my
+維持保證金,维持保证金,Maintain a deposit,เก็บเงินฝาก,,,デポジットを維持します,,,예금을 유지하십시오,,,Duy trì một khoản tiền gửi,,,"positionDetail.maintenanceMargin,accountTransaction.maintenanceMargin,walletAssetsPopup.maintenanceMargin"
+最高,最高,Highest,มากที่สุด,,,最高,,,제일 높은,,,Cao nhất,,,"positionDetail.highPrice,futuresChart.highPrice,futuresChartFullScreen.highPrice"
+開盤,,,,,,,,,,,,,,,"positionDetail.openPrice,futuresChart.openPrice,futuresChartFullScreen.openPrice"
+最低,最低,lowest,ต่ำที่สุด,,,最低,,,가장 낮습니다,,,thấp nhất,,,"positionDetail.lowPrice,futuresChart.lowPrice,futuresChartFullScreen.lowPrice"
+方向,方向,direction,ทิศทาง,,,方向,,,방향,,,chiều hướng,,,"positionDetail.tradingDirection,orderDetail.tradingDirection,futuresTransaction.tradingDirection"
+手數,,,,,,,,,,,,,,,"positionDetail.lots,futuresTransaction.limitOrderPopup.lots,futuresTransaction.marketOrderPopup.lots,futuresTransaction.lots"
+建立日期,建立日期,Establishment date,วันที่จัดตั้ง,,,設立日,,,설립 날짜,,,Ngày thành lập,,,"positionDetail.createDate,transactionHistoryDetail.createDate,orderDetail.createDate,futuresTransaction.limitOrderPopup.createDate,futuresTransaction.marketOrderPopup.createDate"
+交易保證金,,,,,,,,,,,,,,,"positionDetail.contractMargin,transactionHistoryDetail.contractMargin,futuresTransaction.totalCostPopup.transactionMargin"
+交易綜合費,,,,,,,,,,,,,,,"positionDetail.fee,transactionHistoryDetail.fee,futuresTransaction.totalCostPopup.transactionAllFee"
+修改,修改,Revise,แก้ไขใหม่,,,改訂,,,개정하다,,,Ôn lại,,,"positionDetail.modifyButton,orderDetail.modifyButton"
+訂單號,订单号,order number,หมายเลขสั่งซื้อ,,,注文番号,,,주문 번호,,,Số đặt hàng,,,"positionDetail.transactionSerial,positions.transactionSerial,transactionHistory.transactionSerial,transactionHistoryDetail.transactionSerial,orderDetail.transactionSerial,orders.transactionSerialTitle"
+未設置,未设置,Not set,ไม่ได้ตั้งค่า,,,設定されていません,,,설정되지 않았습니다,,,Không được thiết lập,,,"positionDetail.stopProfitLossEmpty,positionDetail.trailingStopEmpty,transactionHistoryDetail.stopProfitLossEmpty,transactionHistoryDetail.trailingStopEmpty,orderDetail.stopProfitLossEmpty,orderDetail.trailingStopEmpty,numberInputField.defaultHint"
+數量,数量,quantity,ปริมาณ,,,量,,,수량,,,số lượng,,,"positionDetail.tableLotsTitle,orderDetail.lotsTitle"
+當前價值,当前价值,Current value,มูลค่าปัจจุบัน,,,現在の価値,,,현재 가치,,,Giá trị hiện tại,,,"positionDetail.currentPositionValue,orderDetail.currentValueTitle"
+平倉成功,,,,,,,,,,,,,,,"positionDetail.closePositionSuccess,positions.closePositionSuccess"
+平倉手數超過持有手數,,,,,,,,,,,,,,,positionDetail.closePositionLotsOutRange
+確認平倉,,,,,,,,,,,,,,,positionDetail.confirmClosePosition
+開倉數量,,,,,,,,,,,,,,,positionDetail.openPositionLots
+平倉數量,平仓数量,Number of liquidation,จำนวนการชำระบัญชี,,,清算の数,,,청산 수,,,Số lượng thanh lý,,,positionDetail.closePositionLots
+(可輸入數量 {range}),,,,,,,,,,,,,,,positionDetail.lotsInputTip
+"持倉異動, 請重新進入",,,,,,,,,,,,,,,positionDetail.positionChanged
+現價,,,,,,,,,,,,,,,positionDetail.lastPriceChartTag
+讀取中,,,,,,,,,,,,,,,"positionDetail.marginLoading,positionDetail.maintenanceMarginLoading,positionDetail.feeLoading"
+--,,,,,,,,,,,,,,,positionDetail.rolloverEmpty
+開倉價值,开仓价值,Open position value,เปิดค่าตำแหน่ง,,,オープンポジション値,,,열린 위치 값,,,Giá trị vị trí mở,,,"positionDetail.openPositionValue,transactionHistoryDetail.openPositionValue"
+尚無掛單,,,,,,,,,,,,,,,"positions.emptyTip,orders.emptyTip"
+開始交易,,,,,,,,,,,,,,,"positions.emptyButton,orders.emptyButton"
+最新價,,,,,,,,,,,,,,,"positions.lastPrice,orders.lastPriceTitle"
+重置,重置,Reset,รีเซ็ต,,,差し押さえ,,,repossess,,,Cài lại,,,positions.resetSelect
+批量平倉,,,,,,,,,,,,,,,positions.closeMultiPosition
+交易手數超過持有手數,,,,,,,,,,,,,,,positions.closePositionLotsOutRange
+確定平倉,,,,,,,,,,,,,,,positions.isConfirmClosePosition
+尚無紀錄,,,,,,,,,,,,,,,transactionHistory.emptyTip
+開始時間,,,,,,,,,,,,,,,transactionHistory.dateRangeStartDefault
+結束時間,,,,,,,,,,,,,,,transactionHistory.dateRangeEndDefault
+審核中,审核中,under review,ภายใต้การทบทวน,,,レビュー中,,,검토 중,,,đang được xem xét,,,"paymentHistory.statusAudit,agentUserPaymentHistoryList.underAudit,bankAccountManager.bankStatusAudit"
+等待,,,,,,,,,,,,,,,paymentHistory.statusWait
+完成,完成,Finish,เสร็จสิ้น,,,終了,,,마치다,,,Hoàn thành,,,paymentHistory.statusSuccess
+失敗,,,,,,,,,,,,,,,paymentHistory.statusFail
+入金,支付,payment,การชำระเงิน,,,入金,,,지불,,,sự chi trả,,,"paymentHistory.typePayment,agentUserPaymentHistoryList.deposit"
+尚無出入金紀錄,,,,,,,,,,,,,,,paymentHistory.historyEmptyTip
+獲取資料時發生錯誤,,,,,,,,,,,,,,,paymentHistory.historyErrorTip
+入金成功,,,,,,,,,,,,,,,paymentHistory.applyStateSuccess
+入金失敗,,,,,,,,,,,,,,,paymentHistory.applyStateFail
+未支付,,,,,,,,,,,,,,,paymentHistory.applyStateWaitPay
+訂單生成失敗,,,,,,,,,,,,,,,paymentHistory.applyStateCreateFail
+入金金額區間：{unit} {range},,,,,,,,,,,,,,,"withdraw.withdrawPriceRangeTip,paymentBank.paymentPriceRangeTip"
+餘額,,,,,,,,,,,,,,,withdraw.balanceTitle
+全部取出,,,,,,,,,,,,,,,withdraw.withdrawAll
+agentUserPaymentHistoryList,,,,,,,,,,,,,,,agentUserPaymentHistoryList.name
+代理-出入金詳情列表,,,,,,,,,,,,,,,agentUserPaymentHistoryList.nameDescription
+方式,方式,Way,ทาง,,,仕方,,,방법,,,Đường,,,agentUserPaymentHistoryList.methodTitle
+審核失敗,,,,,,,,,,,,,,,agentUserPaymentHistoryList.auditFailed
+已審核,已审核,Audited,ถูกตรวจสอบแล้ว,,,監査,,,감사,,,Đã kiểm toán,,,agentUserPaymentHistoryList.auditedSuccess
+已平倉,已平仓,Have a liquidation,มีการชำระบัญชี,,,清算があります,,,청산이 있습니다,,,Có một thanh lý,,,"accountTransaction.tabHistory,transactionHistoryDetail.orderTag"
+開倉價以高到低,,,,,,,,,,,,,,,accountTransaction.positionSortUp2Down
+開倉價以低到高,,,,,,,,,,,,,,,accountTransaction.positionSortDown2Up
+最久開倉時間,,,,,,,,,,,,,,,accountTransaction.positionSortOld2New
+最近開倉時間,,,,,,,,,,,,,,,accountTransaction.positionSortNew2Old
+時間-上,,,,,,,,,,,,,,,accountTransaction.sortTimeUp
+時間-下,,,,,,,,,,,,,,,accountTransaction.sortTimeDown
+開倉價-上,,,,,,,,,,,,,,,accountTransaction.sortPriceUp
+開倉價-下,,,,,,,,,,,,,,,accountTransaction.sortPriceDown
+模擬帳戶,模拟帐户,Simulation account,บัญชีจำลอง,,,シミュレーションアカウント,,,시뮬레이션 계정,,,Tài khoản mô phỏng,,,accountTransaction.accountSimulation
+真實帳戶,,,,,,,,,,,,,,,accountTransaction.accountReal
+動態權益,,,,,,,,,,,,,,,accountTransaction.dynamicFunds
+保證金,保证金,Margin,ระยะขอบ,,,預り金,,,보증금,,,Lề,,,"accountTransaction.occupyMargin,walletAssetsPopup.margin,futuresTransaction.limitOrderPopup.occupyMargin,futuresTransaction.marketOrderPopup.occupyMargin"
+保證金水平,保证金水平,Margin level,ระดับอัตรากำไรขั้นต้น,,,マージンレベル,,,여백 레벨,,,Mức ký quỹ,,,"accountTransaction.marginLevel,walletAssetsPopup.marginLevel"
+{unit}的{name}價格,,,,,,,,,,,,,,,futuresContract.title
+週一 ~ 週日,,,,,,,,,,,,,,,futuresContract.tradeTimeWeekendOpen
+週一 ~ 週五,,,,,,,,,,,,,,,futuresContract.tradeTimeWeekendClose
+{start} - 隔日{end},,,,,,,,,,,,,,,futuresContract.tradeTimeIntervalOutDay
+{start} - {end},,,,,,,,,,,,,,,futuresContract.tradeTimeIntervalSameDay
+單筆交易數量,单笔交易数量,Number of single transactions,จำนวนธุรกรรมเดียว,,,単一のトランザクションの数,,,단일 거래 수,,,Số lượng giao dịch đơn lẻ,,,futuresContract.transactionLotsTitle
+0.01-90.00 {unit},,,,,,,,,,,,,,,futuresContract.transactionLotsValue
+當前槓桿,当前杠杆,Current leverage,เลเวอเรจปัจจุบัน,,,現在のレバレッジ,,,현재 레버리지,,,Đòn bẩy hiện tại,,,futuresContract.currentLever
+下單可調節,下单可调节,Adjust the order,ปรับคำสั่งซื้อ,,,注文を調整します,,,순서를 조정하십시오,,,Điều chỉnh thứ tự,,,futuresContract.currentLeverValueTip
+合約乘數,,,,,,,,,,,,,,,futuresContract.contractMultiplier
+最大總持倉數量,最大总持仓数量,The maximum total holding of positions,ตำแหน่งสูงสุดของตำแหน่ง,,,位置の最大総保持,,,최대 총 포지션 보유,,,Tổng số vị trí nắm giữ tối đa,,,futuresContract.maxPositionTitle
+收取時間,收取时间,Charging time,เวลาในการชาร์จ,,,充電時間,,,충전 시간,,,Thời gian sạc,,,futuresContract.rolloverTime
+交易時段,交易时段,Transaction period,ระยะเวลาการทำธุรกรรม,,,トランザクション期間,,,거래 기간,,,,,,futuresContract.transactionTimeTitle
+當前時段,当前时段,Current period,งวดปัจจุบัน,,,当期,,,현재 기간,,,Giai đoạn hiện tại,,,futuresContract.transactionTimeCurrent
+下個時段,下个时段,Next time,ครั้งหน้า,,,次の時間,,,다음번,,,Lần tới,,,futuresContract.transactionTimeNext
+查看更多時段,,,,,,,,,,,,,,,futuresContract.viewAllTransactionTime
+"(匯率波動較大時, 將會進行調整)",,,,,,,,,,,,,,,futuresContract.exchangeRateTip
+折疊,,,,,,,,,,,,,,,futuresContract.tableValueFold
+平倉淨盈虧,,,,,,,,,,,,,,,transactionHistoryDetail.netProfitLoss
+平倉價值,,,,,,,,,,,,,,,transactionHistoryDetail.closePositionValue
+尚未設定,,,,,,,,,,,,,,,"accountData.phoneHint,accountData.emailHint"
+手機號碼,手机号码,phone number,หมายเลขโทรศัพท์,,,電話番号,,,전화 번호,,,số điện thoại,,,accountData.phoneTitle
+驗證手機,,,,,,,,,,,,,,,accountData.phoneVerifyButton
+Email,电子邮件,Email,อีเมล,,,Eメール,,,이메일,,,E-mail,,,accountData.emailTitle
+輸入推薦碼,输入推荐码,Enter recommendation code,ป้อนรหัสคำแนะนำ,,,推奨コードを入力します,,,추천 코드를 입력하십시오,,,Nhập mã đề xuất,,,referralCodeBind.appBarTitle
+請輸入推薦碼,,,,,,,,,,,,,,,referralCodeBind.inputHint
+"推薦碼將會影響您的帳號獎勵
+以及交易費用的相關折扣。
+輸入後將無法更改，請確認代
+理或朋友提供給您的推薦碼是
+否正確再輸入。","推荐码将会影响您的帐号奖励
+以及交易费用的相关折扣。
+输入后将无法更改，请确认代
+理或朋友提供给您的推荐码是
+否正确再输入。","The recommendation code will affect your account reward
+And related discounts of transaction costs.
+It will not be changed after input, please confirm the generation
+The recommendation code provided by the reason or a friend is
+Whether to enter it correctly.","รหัสคำแนะนำจะส่งผลต่อรางวัลบัญชีของคุณ
+และส่วนลดที่เกี่ยวข้องของค่าใช้จ่ายในการทำธุรกรรม
+มันจะไม่เปลี่ยนแปลงหลังจากอินพุตโปรดยืนยันการสร้าง
+รหัสคำแนะนำที่ได้รับจากเหตุผลหรือเพื่อนคือ
+ไม่ว่าจะป้อนอย่างถูกต้อง",,,"推奨コードは、アカウントの報酬に影響します
+取引コストの関連する割引。
+入力後に変更されません。世代を確認してください
+理由または友人によって提供される推奨コードは
+正しく入力するかどうか。",,,"추천 코드는 귀하의 계정 보상에 영향을 미칩니다
+거래 비용의 관련 할인.
+입력 후에 변경되지 않습니다. 생성을 확인하십시오.
+이유 또는 친구가 제공하는 추천 코드는
+올바르게 입력할지 여부.",,,"Mã đề xuất sẽ ảnh hưởng đến phần thưởng tài khoản của bạn
+Và giảm giá liên quan của chi phí giao dịch.
+Nó sẽ không được thay đổi sau khi đầu vào, vui lòng xác nhận thế hệ
+Mã khuyến nghị được cung cấp bởi lý do hoặc một người bạn là
+Có nên nhập chính xác không.",,,referralCodeBind.descriptionText
+agentReferralUserList,,,,,,,,,,,,,,,agentReferralUserList.name
+代理-下級用戶清單列表,,,,,,,,,,,,,,,agentReferralUserList.nameDescription
+agentReferralCode,,,,,,,,,,,,,,,agentReferralCode.name
+代理-推薦碼頁,,,,,,,,,,,,,,,agentReferralCode.nameDescription
+使用者驗證資料,使用者验证资料,User verification information,ข้อมูลการยืนยันผู้ใช้,,,ユーザー検証情報,,,사용자 확인 정보,,,Thông tin xác minh người dùng,,,accountIdentifyData.appBarTitle
+真實姓名,真实姓名,actual name,ชื่อจริง,,,実際の名前,,,실제 이름,,,Tên thực tế,,,"accountIdentifyData.actualNameTitle,applyAgent.realName,personalVerify.realNameTitle"
+英文姓名,英文姓名,English name,ชื่อภาษาอังกฤษ,,,英語名,,,영어 이름,,,tên tiêng Anh,,,"accountIdentifyData.englishNameTitle,personalVerify.englishNameTitle"
+地址,地址,address,ที่อยู่,,,住所,,,주소,,,Địa chỉ,,,"accountIdentifyData.addressTitle,personalVerify.addressTitle"
+職業,职业,Profession,วิชาชีพ,,,職業,,,직업,,,Nghề nghiệp,,,accountIdentifyData.professionTitle
+就業狀態,就业状态,Employment,การจ้างงาน,,,雇用状況,,,고용 상태,,,Thuê người làm,,,"accountIdentifyData.employmentTitle,personalVerify.employmentStatusTitle"
+交易經驗,交易经验,Transaction experience,ประสบการณ์การทำธุรกรรม,,,取引経験,,,거래 경험,,,Kinh nghiệm giao dịch,,,"accountIdentifyData.transactionExperienceTitle,personalVerify.tradingExperienceTitle"
+開戶原因,开户原因,Reasons for opening account,เหตุผลในการเปิดบัญชี,,,原因,,,원인,,,Lý do mở tài khoản,,,"accountIdentifyData.reasonsOpeningAccountTitle,personalVerify.accountOpeningReasonTitle"
+收入,收入,income,รายได้,,,所得,,,소득,,,thu nhập,,,"accountIdentifyData.incomeTitle,personalVerify.incomeRangeTitle"
+總財富,总财富,Total wealth,ความมั่งคั่งทั้งหมด,,,一般的な富,,,일반적인 부,,,Tổng số giàu có,,,"accountIdentifyData.totalWealthTitle,personalVerify.totalPossessionsTitle"
+收入與財富來源,收入与财富来源,Source of income and wealth,แหล่งรายได้และความมั่งคั่ง,,,収入と富の源,,,소득과 부의 근원,,,Nguồn thu nhập và sự giàu có,,,"accountIdentifyData.incomeWealthSourceTitle,personalVerify.sourceIncomeTitle"
+身份證明文件,身份证明文件,Identity document,เอกสารประจำตัว,,,身分証明書,,,신원 문서,,,Tài liệu nhận dạng,,,"accountIdentifyData.identityCertificateTitle,fileVerify.idCardTitle"
+申請成功,,,,,,,,,,,,,,,applyAgent.applySuccess
+申請審核預計會需要,,,,,,,,,,,,,,,applyAgent.daysAuditingExpectedHintPart1
+3~5,,,,,,,,,,,,,,,applyAgent.daysAuditingExpectedHintPart2
+"個工作天。
+申請通過後，將會主動通知，就可以使用 APP 內的代理前台來邀請用戶並開始交易。",,,,,,,,,,,,,,,applyAgent.daysAuditingExpectedHintPart3
+回到個人設定,回到个人设定,Back to personal settings,กลับไปที่การตั้งค่าส่วนบุคคล,,,個人的な設定に戻ります,,,개인 설정으로 돌아갑니다,,,Quay lại cài đặt cá nhân,,,applyAgent.backPersonalSettingsButton
+申請完成,申请完成,Apply to complete,สมัครเพื่อเสร็จสิ้น,,,完了に応募します,,,완료하려면 적용하십시오,,,Áp dụng để hoàn thành,,,applyAgent.applicationCompleteTitle
+送出申請,送出申请,send application,ส่งใบสมัคร,,,アプリケーションを送信します,,,신청서를 보내십시오,,,Gửi ứng dụng,,,applyAgent.sendApplyButton
+聯絡電話,联络电话,Contact phone number,หมายเลขโทรศัพท์ติดต่อ,,,連絡先の電話番号,,,연락처 전화 번호,,,Số điện thoại liên hệ,,,applyAgent.contactPhoneTitle
+請輸入聯絡電話,请输入联络电话,Please enter the contact phone number,กรุณากรอกหมายเลขโทรศัพท์ติดต่อ,,,連絡先電話番号を入力してください,,,연락처 전화 번호를 입력하십시오,,,Vui lòng nhập số điện thoại liên hệ,,,applyAgent.enterContactPhoneHint
+微信,微信,WeChat,Wechat,,,wechat,,,Wechat,,,WeChat,,,applyAgent.wechatTitle
+請輸入微信,,,,,,,,,,,,,,,applyAgent.wechatHint
+Line ID,,,,,,,,,,,,,,,applyAgent.lineIdTitle
+請輸入Line ID,,,,,,,,,,,,,,,applyAgent.lineIdHint
+立刻申請成為代理,立刻申请成为代理,Apply immediately as an agent,สมัครเป็นตัวแทนทันที,,,エージェントとしてすぐに適用します,,,에이전트로 즉시 적용하십시오,,,Áp dụng ngay lập tức như một đại lý,,,applyAgent.applyAgentImmediatelyButton
+授權夥伴與我們共享成功果實。前端服務品質至關重要，因此我們只會與夥伴合作完成此項任務。,授权伙伴与我们共享成功果实。前端服务品质至关重要，因此我们只会与伙伴合作完成此项任务。,"The authorized partners share successful fruits with us. The quality of the front -end service is critical, so we will only cooperate with our partners to complete this task.",พันธมิตรที่ได้รับอนุญาตแบ่งปันผลไม้ที่ประสบความสำเร็จกับเรา คุณภาพของบริการด้านหน้าเป็นสิ่งสำคัญดังนั้นเราจะร่วมมือกับพันธมิตรของเราเพื่อทำงานนี้ให้สำเร็จ,,,認可されたパートナーは、成功した果物を私たちと共有しています。フロントエンドサービスの品質は重要であるため、このタスクを完了するためにパートナーとのみ協力します。,,,공인 파트너는 성공적인 과일을 우리와 공유합니다. 프론트 엔드 서비스의 품질은 중요 하므로이 작업을 완료하기 위해 파트너와 협력 할 것입니다.,,,"Các đối tác được ủy quyền chia sẻ trái cây thành công với chúng tôi. Chất lượng của dịch vụ mặt trận là rất quan trọng, vì vậy chúng tôi sẽ chỉ hợp tác với các đối tác của mình để hoàn thành nhiệm vụ này.",,,applyAgent.applyAgentTip
+可以在短邊推測,可以在短边推测,Can be speculated on the short side,สามารถคาดเดาได้ทางด้านสั้น,,,短い面で推測することができます,,,짧은 쪽에서 추측 할 수 있습니다,,,Có thể được suy đoán ở phía ngắn,,,applyAgent.medalTitle1
+獲得更多收益,获得更多收益,Get more benefits,รับประโยชน์เพิ่มเติม,,,より多くのメリットを得る,,,더 많은 혜택을 얻으십시오,,,Nhận thêm lợi ích,,,applyAgent.medalTitle2
+降低風險,降低风险,reduce risk,ลดความเสี่ยง,,,リスクを減らします,,,위험을 줄입니다,,,giảm rủi ro,,,applyAgent.medalTitle3
+投資,投资,invest,ลงทุน,,,投資,,,투자하다,,,đầu tư,,,personalVerify.accountOpenReasonInvest
+對沖,对冲,Hedge,รั้วล้อมรอบ,,,ヘッジ,,,방지책,,,Hàng rào,,,personalVerify.accountOpenReasonHedge
+投機,投机,Speculation,การเก็งกำไร,,,投機,,,추측,,,Đầu cơ,,,personalVerify.accountOpenReasonSpeculation
+在職中,,,,,,,,,,,,,,,personalVerify.employmentStatusEmployed
+自營,自营,Self-service,บริการตนเอง,,,自営業,,,자영업자,,,Tự phục vụ,,,personalVerify.employmentStatusSelfEmployed
+待業,待业,Work,งาน,,,世話をしてください,,,을 돌보다,,,Công việc,,,personalVerify.employmentStatusUnemployed
+學生,学生,student,นักเรียน,,,学生,,,학생,,,sinh viên,,,personalVerify.employmentStatusStudent
+退休,退休,retire,เกษียณอายุ,,,引退,,,은퇴하십시오,,,về hưu,,,personalVerify.employmentStatusRetire
+"超過 USD200,000","超过 USD200,000","More than USD200,000","มากกว่า 2500,000 เหรียญสหรัฐ",,,"200,000米ドル以上",,,"USD200,000 이상",,,Hơn 200.000 USD,,,personalVerify.incomeRangeOver200k
+"USD100,000 - 200,000","100,000美元 -  200,000","USD100,000 - 200,000","USD100,000 - 200,000",,,"USD100,000-200,000",,,"USD100,000- 200,000",,,100.000 - 200.000 USD,,,personalVerify.incomeRange100kTo200k
+"USD50,000 - 100,000","美元50,000-100,000","USD50,000 - 100,000","USD50,000 - 100,000",,,"USD50,000-100,000",,,"USD50,000-100,000",,,50.000.000 - 100.000,,,personalVerify.incomeRange50kTo100k
+"USD20,000 - 50,000","20,000美元 -  50,000","USD20,000 - 50,000","USD 20,000 - 50,000",,,"USD20,000-50,000",,,"USD20,000-50,000",,,20.000 - 50.000 USD,,,personalVerify.incomeRange20kTo50k
+"USD20,000 以下","USD20,000 以下","USD20,000 or less","USD 20,000 หรือน้อยกว่า",,,"以下のUSD20,000",,,"아래 220,000",,,20.000 USD trở xuống,,,personalVerify.incomeRangeBelow20k
+請先填入真實姓名,,,,,,,,,,,,,,,personalVerify.errorRealNameEmpty
+請先填入英文姓名,,,,,,,,,,,,,,,personalVerify.errorEnglishNameEmpty
+尚未選擇國家,,,,,,,,,,,,,,,personalVerify.errorCountryEmpty
+尚未填入地址,,,,,,,,,,,,,,,personalVerify.errorAddressEmpty
+尚未選擇職業別,,,,,,,,,,,,,,,personalVerify.errorProfessionEmpty
+尚未選擇就業狀態,,,,,,,,,,,,,,,personalVerify.errorEmploymentStatusEmpty
+尚未選擇交易經驗,,,,,,,,,,,,,,,personalVerify.errorTradingExperienceEmpty
+尚未選擇開戶原因,,,,,,,,,,,,,,,personalVerify.errorAccountOpeningReasonEmpty
+尚未選擇收入範圍,,,,,,,,,,,,,,,personalVerify.errorIncomeEmpty
+尚未選擇總財產範圍,,,,,,,,,,,,,,,personalVerify.errorTotalPossessionsEmpty
+尚未選擇收入與總財產範圍範圍,,,,,,,,,,,,,,,personalVerify.errorSourceIncomeEmpty
+衛生保健,卫生保健,health care,ดูแลสุขภาพ,,,健康管理,,,보건 의료,,,chăm sóc sức khỏe,,,personalVerify.professionHealthCare
+一般商業,一般商业,General business,ธุรกิจทั่วไป,,,一般事業,,,일반 사업,,,Kinh doanh tổng hợp,,,personalVerify.professionGeneralBusiness
+軍人,军人,soldier,ทหาร,,,兵隊,,,군인,,,lính,,,personalVerify.professionSoldier
+農牧業,农牧业,Agriculture,เกษตรกรรม,,,農業と動物飼育,,,농업과 축산,,,Nông nghiệp,,,personalVerify.professionAgricultureAndAnimalHusbandry
+新聞廣告業,新闻广告业,News advertising industry,อุตสาหกรรมโฆษณาข่าว,,,ニュース広告業界,,,뉴스 광고 산업,,,Công nghiệp quảng cáo tin tức,,,personalVerify.professionNewsAndAdvertising
+公共事業,公共事业,Public utilities,สาธารณูปโภค,,,公益事業,,,공공 시설,,,Tiện ích công cộng,,,personalVerify.professionPublicUtilities
+治安人員,治安人员,Security personnel,เจ้าหน้าที่รักษาความปลอดภัย,,,公安担当者,,,공공 보안 요원,,,Nhân viên an ninh,,,personalVerify.professionSecurityOfficer
+交通運輸業,交通运输业,Transportation industry,อุตสาหกรรมการขนส่ง,,,輸送業界,,,교통 산업,,,Ngành vận tải,,,personalVerify.professionTransportationIndustry
+製造業,制造业,manufacturing,การผลิต,,,製造,,,조작,,,chế tạo,,,personalVerify.professionManufacturing
+宗教團體,宗教团体,Religious group,กลุ่มศาสนา,,,宗教団体,,,종교 단체,,,Nhóm tôn giáo,,,personalVerify.professionReligiousGroup
+資訊業,资讯业,Information,,,,情報業界,,,정보 산업,,,Thông tin,,,personalVerify.professionInformationIndustry
+木材森林業,木材森林业,Wood forest industry,อุตสาหกรรมป่าไม้,,,木製林,,,목재 임업,,,Ngành rừng gỗ,,,personalVerify.professionTimberForestry
+文教機關,文教机关,Cultural and educational organ,อวัยวะทางวัฒนธรรมและการศึกษา,,,文化的および教育機関,,,문화 및 교육 기관,,,Cơ quan văn hóa và giáo dục,,,personalVerify.professionEducationalInstitute
+建築工程業,建筑工程业,"Construction engineering 
+industry","วิศวกรรมการก่อสร้าง
+อุตสาหกรรม",,,建設工学業界,,,건설 공학 산업,,,"Kỹ thuật xây dựng
+ngành công nghiệp",,,personalVerify.professionConstructionIndustry
+家庭管理,家庭管理,Family management,การจัดการครอบครัว,,,家族管理,,,가족 관리,,,Quản lý gia đình,,,personalVerify.professionFamilyManagement
+一般職業,一般职业,General occupation,อาชีพทั่วไป,,,一般的な職業,,,일반적인 직업,,,Nghề nghiệp chung,,,personalVerify.professionGeneralOccupation
+礦業採石業,矿业采石业,Mining quarry industry,อุตสาหกรรมเหมืองเหมืองแร่,,,マイニングストーンコレクション業界,,,광업 석재 수집 산업,,,Công nghiệp khai thác mỏ khai thác,,,personalVerify.professionMiningAndQuarrying
+餐旅業,餐旅业,Restaurant,ร้านอาหาร,,,ダイニング,,,식사,,,Nhà hàng,,,personalVerify.professionHospitalityIndustry
+娛樂業,娱乐业,Entertainment industry,อุตสาหกรรมบันเทิง,,,エンターテインメント業界,,,연예 사업,,,Ngành công nghiệp giải trí,,,personalVerify.professionEntertainmentIndustry
+服務業,服务业,Service industry,อุตสาหกรรมบริการ,,,サービス業界,,,서비스업,,,Công nghiệp dịch vụ,,,personalVerify.professionServiceIndustry
+運動人員,运动人员,Sportsman,นักกีฬา,,,スポーツマン,,,운동가,,,Người chơi thể thao,,,personalVerify.professionAthlete
+漁業,渔业,Fisheries,การประมง,,,漁業,,,어업,,,Thủy sản,,,personalVerify.professionFishery
+儲蓄,储蓄,Savings,เงินออม,,,節約,,,저금,,,Tiết kiệm,,,personalVerify.incomeSourceDeposit
+薪資收入,薪资收入,Salary income,รายได้เงินเดือน,,,,,,,,,Thu nhập lương,,,personalVerify.incomeSourcePay
+租金,租金,rent,เช่า,,,家賃,,,임차료,,,thuê,,,personalVerify.incomeSourceRent
+貸款,贷款,loan,เงินกู้,,,ローン,,,대출,,,khoản vay,,,personalVerify.incomeSourceLoan
+退休金,退休金,pension,เงินบำนาญ,,,年金,,,연금,,,lương hưu,,,personalVerify.incomeSourcePension
+遺產,遗产,heritage,มรดก,,,遺産,,,유산,,,di sản,,,personalVerify.incomeSourceHeritage
+不足一年,不足一年,Less than one year,น้อยกว่าหนึ่งปี,,,1年未満,,,1 년 미만,,,Ít hơn một năm,,,personalVerify.tradingExperienceRangeBelow1y
+一年以上兩年未滿,一年以上两年未满,During the year or two years,ในช่วงปีหรือสองปี,,,1年か2年以上ではありません,,,1 년 또는 2 년이 넘지 않습니다,,,Trong năm hoặc hai năm,,,personalVerify.tradingExperienceMore1yBelow2y
+兩年以上四年未滿,两年以上四年未满,Two years or four years,สองปีหรือสี่ปี,,,2年3年以上にわたり、いっぱいではありませんでした,,,"2 년 2 년 이상 동안, 그것은 가득하지 않았습니다.",,,Hai năm hoặc bốn năm,,,personalVerify.tradingExperienceMore2yBelow4y
+四年以上,四年以上,More than four years,มากกว่าสี่ปี,,,4年以上,,,4 년 이상,,,Hơn bốn năm,,,personalVerify.tradingExperienceMore4y
+無經驗,,,,,,,,,,,,,,,personalVerify.tradingExperienceNo
+步驟1 - 個人資料驗證 (1/4),,,,,,,,,,,,,,,personalVerify.stepHeaderTitle
+共9題,,,,,,,,,,,,,,,personalVerify.stepHeaderSubtitle
+"下一步, 文件驗證",,,,,,,,,,,,,,,personalVerify.nextStepButton
+國家或地區,国家或地区,Country or region,ประเทศหรือภูมิภาค,,,国や地域,,,국가 혹은 지역,,,Quốc gia hoặc khu vực,,,personalVerify.addressDefault
+請輸入信用卡或護照的英文名稱,,,,,,,,,,,,,,,personalVerify.englishNameHint
+職業別,,,,,,,,,,,,,,,personalVerify.professionTitle
+請選擇職業別,请选择职业别,Please select an occupation,กรุณาเลือกอาชีพ,,,キャリアを選んでください,,,경력을 선택하십시오,,,Vui lòng chọn một nghề nghiệp,,,personalVerify.professionDefault
+請輸入身分證上的名字,请输入身分证上的名字,"Please enter the name on the 
+identity card","กรุณากรอกชื่อในไฟล์
+บัตรประจำตัวประชาชน",,,IDカードに名前を入力してください,,,ID 카드에 이름을 입력하십시오,,,"Vui lòng nhập tên trên
+thẻ danh tính",,,personalVerify.realNameHint
+(可多選),(可多选),(Multiple choice),(ปรนัย),,,（複数の選択肢）,,,(다중 선택),,,(Nhiều lựa chọn),,,personalVerify.sourceIncomeSubTitle
+缺少身分證正面,,,,,,,,,,,,,,,fileVerify.errorIdForwardEmpty
+缺少身分證反面,,,,,,,,,,,,,,,fileVerify.errorIdBackwardEmpty
+請上傳護照,,,,,,,,,,,,,,,fileVerify.errorPassportEmpty
+缺少駕照正面,,,,,,,,,,,,,,,fileVerify.errorDrivingLicenseForwardEmpty
+缺少駕照反面,,,,,,,,,,,,,,,fileVerify.errorDrivingLicenseBackwardEmpty
+請上傳戶口名簿/居留證,,,,,,,,,,,,,,,fileVerify.errorAccountBookOrResidentPermitEmpty
+"下一步, 身分驗證",,,,,,,,,,,,,,,fileVerify.nextStepIdCard
+點擊上傳或拍攝身份證明文件正面,点击上传或拍摄身份证明文件正面,Click to upload or shoot the front of the identification document,คลิกเพื่ออัปโหลดหรือถ่ายภาพด้านหน้าของเอกสารประจำตัว,,,クリックして識別ドキュメントの前面をアップロードまたは撮影します,,,식별 문서의 전면을 업로드하거나 촬영하려면 클릭하십시오.,,,Nhấp để tải lên hoặc bắn mặt trước của tài liệu nhận dạng,,,fileVerify.tapUploadIdCardForward
+點擊上傳或拍攝身份證明文件反面,点击上传或拍摄身份证明文件反面,Click to upload or shoot the identity document reverse,คลิกเพื่ออัปโหลดหรือถ่ายภาพเอกสารตัวตนย้อนกลับ,,,クリックしてアイデンティティドキュメントを逆にアップロードまたは撮影します,,,클릭하여 Identity Document Reverse를 업로드하거나 촬영하십시오,,,Nhấp để tải lên hoặc chụp ngược tài liệu nhận dạng,,,fileVerify.tapUploadIdCardBackward
+點擊上傳或拍攝護照,,,,,,,,,,,,,,,fileVerify.tapUploadPassport
+點擊上傳或拍攝駕照正面,,,,,,,,,,,,,,,fileVerify.tapUploadDrivingLicenseForward
+點擊上傳或拍攝駕照反面,,,,,,,,,,,,,,,fileVerify.tapUploadDrivingLicenseBackward
+點擊上傳或拍攝戶口名簿/居留證,,,,,,,,,,,,,,,fileVerify.tapUploadAccountBookOrResidentPermit
+步驟2 - 文件驗證(2/4),,,,,,,,,,,,,,,fileVerify.stepHeaderTitle
+共1題,,,,,,,,,,,,,,,"fileVerify.stepHeaderSubtitle,handIdCardVerify.stepHeaderSubtitle,proveIdVerify.stepHeaderSubtitle"
+請確保文件內容顯示您的全名、出生日期、證件開立日期,请确保文件内容显示您的全名、出生日期、证件开立日期,"Please make sure the file content shows your full name, date of birth, and document opening date",โปรดตรวจสอบให้แน่ใจว่าเนื้อหาไฟล์แสดงชื่อเต็มวันเกิดและวันที่เปิดเอกสารของคุณ,,,ファイルのコンテンツにフルネーム、生年月日、および文書の開設日が表示されていることを確認してください,,,"파일 콘텐츠에 이름, 생년월일 및 문서 개방일이 표시되는지 확인하십시오.",,,"Vui lòng đảm bảo nội dung tệp hiển thị tên đầy đủ, ngày sinh và ngày mở tài liệu của bạn",,,fileVerify.contentTip
+合格文件,合格文件,Qualified file,ไฟล์ที่ผ่านการรับรอง,,,資格のあるファイル,,,자격을 갖춘 파일,,,Tệp đủ điều kiện,,,fileVerify.qualifiedFile
+"照片清晰
+解析度高
+證件四角皆有入鏡",,,,,,,,,,,,,,,fileVerify.qualifiedFileTip
+不合格文件,不合格文件,Unqualified file,ไฟล์ที่ไม่มีเงื่อนไข,,,資格のないファイル,,,자격이없는 파일,,,Tập tin không đủ tiêu chuẩn,,,fileVerify.failedFile
+"照片模糊、反光
+解析度過低
+證件四角被裁切",,,,,,,,,,,,,,,fileVerify.failedFileTip
+設置,,,,,,,,,,,,,,,accountManager.appBarTitle
+身份驗證資料,,,,,,,,,,,,,,,accountManager.accountIdentifyData
+出金帳戶設定,出金帐户设定,Withdrawal account settings,การตั้งค่าบัญชีถอน,,,ゴールドアカウント設定,,,금 계정 설정,,,Cài đặt tài khoản rút tiền,,,"accountManager.withdrawalAccountSettings,bankAccountDetail.appBarTitle"
+帳戶資訊,,,,,,,,,,,,,,,accountManager.accountInfo
+戶名,户名,Household name,ชื่อครัวเรือน,,,有名な名前,,,가구 이름,,,Tên hộ gia đình,,,"bankAccountDetail.accountNameTitle,bankAccountBind.accountNameTitle"
+銀行代號,银行代号,Bank code,รหัสธนาคาร,,,金融機関コード,,,은행 코드,,,Mã ngân hàng,,,"bankAccountDetail.bankCodeTitle,bankAccountBind.bankCodeTitle"
+帳號,帐号,account number,หมายเลขบัญชี,,,口座番号,,,계좌 번호,,,số tài khoản,,,"bankAccountDetail.bankAccountTitle,bankAccountBind.bankAccountTitle"
+銀行轉帳,银行转帐,money transfer,การโอนเงิน,,,送金,,,돈 이체,,,chuyển tiền,,,"bankAccountDetail.bankTransfer,bankAccountBind.bankTransfer,bankAccountManager.bankTransfer,paymentBank.appBarTitle,paymentMethod.bankTitle,withdrawBank.appBarTitle,withdrawMethod.auditMethodBankTitle"
+審核需要 3-5 個工作天，如有任何問題請聯絡客服人員。,,,,,,,,,,,,,,,bankAccountDetail.auditStatusTip
+如欲修正或刪除出金帳戶，請聯繫客服人員進行處理。,,,,,,,,,,,,,,,bankAccountDetail.successStatusTip
+未過審原因,未过审原因,Reasons for no review,เหตุผลที่ไม่มีการตรวจสอบ,,,レビューなしの理由,,,검토가없는 이유,,,Lý do không xem xét,,,bankAccountDetail.failStatusTip
+申請修改,申请修改,Apply to modify,ใช้กับการแก้ไข,,,修正に応募します,,,수정하려면 적용하십시오,,,Áp dụng để sửa đổi,,,"bankAccountDetail.applyModifyButton,bankAccountDetail.fixDataButton"
+取消掛單成功,,,,,,,,,,,,,,,orderDetail.cancelOrderSuccess
+"委託異動, 請重新進入",,,,,,,,,,,,,,,orderDetail.orderChanged
+撤銷,撤销,Revoke,ถอน,,,取り消す,,,,,,Thu hồi,,,"orderDetail.cancelButton,orders.cancelButton"
+限價,,,,,,,,,,,,,,,futuresTransaction.limitOrderPopup.limitPrice
+市價,市价,market price,ราคาตลาด,,,市場価格,,,시장 가격,,,Giá thị trường,,,"futuresTransaction.marketOrderPopup.marketPrice,agentProfitList.typesMarketPrice"
+尚未輸入限價,,,,,,,,,,,,,,,futuresTransaction.errorLimitPriceEmpty
+限價須在限制範圍內,,,,,,,,,,,,,,,futuresTransaction.errorLimitPriceOutRange
+掛單設定成功,挂单设定成功,Success setting,การตั้งค่าความสำเร็จ,,,成功設定,,,성공 설정,,,Cài đặt thành công,,,futuresTransaction.createLimitOrderSuccess
+開倉成功,开仓成功,Successful opening,การเปิดที่ประสบความสำเร็จ,,,オープニングが成功しました,,,성공적인 오프닝,,,Mở thành công,,,futuresTransaction.createMarketOrderSuccess
+合計支付,,,,,,,,,,,,,,,futuresTransaction.totalCostPopup.transactionTotalTitle
+明細,,,,,,,,,,,,,,,futuresTransaction.transactionAmountDetail
+需付保證金,需付保证金,You need to pay a deposit,คุณต้องจ่ายเงินมัดจำ,,,デポジットを支払う必要があります,,,보증금을 지불해야합니다,,,Bạn cần phải trả tiền đặt cọc,,,futuresTransaction.needMargin
+市價單,市价单,Market price list,รายการราคาตลาด,,,市場価格表,,,시장 가격 목록,,,Bảng giá thị trường,,,futuresTransaction.marketOrderTag
+限價單,,,,,,,,,,,,,,,futuresTransaction.limitOrderTag
+當價格滿足條件時{action},,,,,,,,,,,,,,,futuresTransaction.limitSelectorTitle
+請輸入掛單價格,请输入挂单价格,Please enter the hanging order price,กรุณากรอกราคาคำสั่งซื้อแขวน,,,ハンギングオーダー価格を入力してください,,,매달린 주문 가격을 입력하십시오,,,Vui lòng nhập giá đặt hàng,,,futuresTransaction.limitOrderInputTip
+當前僅可接受掛單交易,,,,,,,,,,,,,,,futuresTransaction.lockLimitOrderToast
+槓桿,杠杆,lever,คันโยก,,,レバー,,,지렛대,,,đòn bẩy,,,futuresTransaction.lever
+交易手數,,,,,,,,,,,,,,,futuresTransaction.transactionLots
+價值,价值,value,ค่า,,,価値,,,값,,,giá trị,,,futuresTransaction.futuresValuePrefix
+確認賣出,,,,,,,,,,,,,,,futuresTransaction.confirmSellOut
+確認買入,,,,,,,,,,,,,,,futuresTransaction.confirmBuyIn
+綁定成功,,,,,,,,,,,,,,,bankAccountBind.bindSuccess
+修正帳戶設定,,,,,,,,,,,,,,,bankAccountBind.appBarEditingTitle
+新增帳戶設定,新增帐户设定,New account settings,การตั้งค่าบัญชีใหม่,,,新しいアカウント設定,,,새로운 계정 설정,,,Cài đặt tài khoản mới,,,bankAccountBind.appBarNormalTitle
+銀行存摺封面,银行存折封面,Bank passbook cover,ปกสมุดบัญชีธนาคาร,,,銀行のパスブックカバー,,,은행 패스북 표지,,,Bìa Passbook ngân hàng,,,bankAccountBind.passbookPictureTitle
+請提供包含戶名為您本人的存摺封面或銀行卡照片。,请提供包含户名为您本人的存折封面或银行卡照片。,Please provide a passbook cover or bank card photo containing your own name.,โปรดระบุหน้าปกสมุดบัญชีสมุดบัญชีหรือรูปภาพบัตรธนาคารที่มีชื่อของคุณเอง,,,あなた自身の名前を含むパスブックカバーまたは銀行カードの写真を提供してください。,,,자신의 이름이 포함 된 Passbook 표지 또는 은행 카드 사진을 제공하십시오.,,,Vui lòng cung cấp bìa Passbook hoặc ảnh thẻ ngân hàng có chứa tên của riêng bạn.,,,bankAccountBind.passbookPictureContent
+上傳存摺正面照,,,,,,,,,,,,,,,bankAccountBind.passbookForegroundUpload
+請輸入銀行代號,请输入银行代号,Please enter the bank code,กรุณากรอกรหัสธนาคาร,,,銀行コードを入力してください,,,은행 코드를 입력하십시오,,,Vui lòng nhập mã ngân hàng,,,bankAccountBind.bankCodeHint
+請輸入帳號,请输入帐号,please enter your account,กรุณากรอกบัญชีของคุณ,,,アカウントを入力してください,,,계정을 입력하십시오,,,Vui lòng nhập tài khoản của bạn,,,bankAccountBind.bankAccountHint
+送出等待審核,送出等待审核,Send out waiting for review,ส่งการรอการตรวจสอบ,,,レビューを待つことを送ってください,,,리뷰를 기다리는 것을 보냅니다,,,Gửi ra chờ đánh giá,,,bankAccountBind.sendWaitingAuditButton
+銀行賬戶/卡管理,,,,,,,,,,,,,,,bankAccountManager.appBarTitle
+"您目前沒有任何出金帳戶，請下方或
+右上角「+」按鈕新增後
+進行審核。","您目前没有任何出金帐户，请下方或
+右上角「+」按钮新增后
+进行审核。","You do not have any gold account at present, please below or
+After the ""+"" button in the upper right corner is added
+Examine.","คุณไม่มีบัญชีทองคำในปัจจุบันโปรดด้านล่างหรือ
+หลังจากเพิ่มปุ่ม ""+"" ที่มุมขวาบน
+พิจารณา.",,,"現在、ゴールドアカウントはありません。以下または
+右上隅の「+」ボタンが追加された後
+診る。",,,"현재 금 계정이 없으며 아래 또는
+오른쪽 상단의 ""+""버튼이 추가 된 후
+조사하다.",,,"Hiện tại bạn không có tài khoản vàng nào, xin vui lòng bên dưới hoặc
+Sau khi nút ""+"" ở góc trên bên phải được thêm
+Nghiên cứu.",,,bankAccountManager.emptyTip
+新增出金帳戶,新增出金帐户,Added gold account,เพิ่มบัญชีทองคำ,,,ゴールドアカウントを追加しました,,,골드 계정이 추가되었습니다,,,Đã thêm tài khoản vàng,,,bankAccountManager.addBankAccount
+未過審,未过审,Not over trial,ไม่เกินการทดลอง,,,試用過剰ではありません,,,과도한 재판이 아닙니다,,,Không quá thử,,,bankAccountManager.bankStatusFail
+獲取交易帳戶中,,,,,,,,,,,,,,,paymentBank.gettingTransferAccount
+PAY,,,,,,,,,,,,,,,paymentBank.payTag
+請輸入金額,请输入金额,Please enter the amount,กรุณากรอกจำนวนเงิน,,,金額を入力してください,,,금액을 입력하십시오,,,Vui lòng nhập số tiền,,,paymentBank.paymentPriceTitle
+立即入金享受交易,立即入金享受交易,Enjoy the transaction immediately,เพลิดเพลินกับการทำธุรกรรมทันที,,,すぐにトランザクションをお楽しみください,,,즉시 거래를 즐기십시오,,,Tận hưởng giao dịch ngay lập tức,,,"paymentBank.confirmPaymentButton,paymentCreditCard.confirmValueGetUrlButton"
+最低{value},,,,,,,,,,,,,,,paymentBank.paymentRangeOnlyMin
+{min}-{max},,,,,,,,,,,,,,,paymentBank.paymentRangeMinMax
+重要提醒,重要提醒,Important reminder,การเตือนความจำที่สำคัญ,,,重要なリマインダー,,,중요한 알림,,,Nhắc nhở quan trọng,,,paymentBank.remindTitle
+"請使用本人的帳戶轉帳<1></1>
+帳戶有效期限為 24 小時<3></3>
+轉帳金額務必一致<4></4>
+請勿重複轉帳","请使用本人的帐户转帐<1></1>
+帐户有效期限为 24 小时<3></3>
+转帐金额务必一致<4></4>
+请勿重复转帐","Please use my account to transfer <1> </1>
+Account validity period is 24 hours <3> </3>
+The transfer amount must be consistent <4> </4>
+Do not repeat the transfer","โปรดใช้บัญชีของฉันเพื่อโอน <1> </1>
+ระยะเวลาที่ถูกต้องของบัญชีคือ 24 ชั่วโมง <3> </3>
+จำนวนการถ่ายโอนจะต้องสอดคล้อง <4> </4>
+อย่าทำซ้ำการถ่ายโอน",,,"私のアカウントを使用して<1> </1>を転送してください
+アカウントの妥当性期間は24時間<3> </3>
+転送量は一貫している必要があります<4> </4>
+転送を繰り返さないでください",,,"내 계정을 사용하여 <1> </1>
+계정 유효 기간은 24 시간 <3> </3>
+전송 금액은 일관되어야합니다 <4> </4>
+전송을 반복하지 마십시오",,,"Vui lòng sử dụng tài khoản của tôi để chuyển <1> </1>
+Thời gian hợp lệ của tài khoản là 24 giờ <3> </3>
+Số tiền chuyển phải nhất quán <4> </4>
+Không lặp lại việc chuyển nhượng",,,paymentBank.remindTip
+獲得轉帳資訊 去轉帳,获得转帐资讯 去转帐,Get transfer information to transfer,รับข้อมูลการโอนเพื่อถ่ายโอน,,,転送情報を取得します,,,전송 정보를 전송할 수 있습니다,,,Nhận thông tin chuyển nhượng để chuyển,,,paymentBank.toTransferButton
+我已瞭解上述資訊,,,,,,,,,,,,,,,paymentBank.learnInfoReady
+入金金額,金额存款,Amount deposit,เงินมัดจำจำนวนเงิน,,,入金金額,,,금액 예금,,,Tiền gửi,,,paymentBank.transferAccountTitle
+請於,,,,,,,,,,,,,,,paymentBank.transferCompleteContent1
+完成轉帳,完成转帐,Complete the transfer,กรอกการถ่ายโอน,,,転送を完了します,,,전송을 완료하십시오,,,Hoàn thành việc chuyển nhượng,,,paymentBank.transferCompleteContent2
+收款銀行及代碼,收款银行及代码,Receive bank and code,รับธนาคารและรหัส,,,銀行とコードを受け取ります,,,은행과 코드를받습니다,,,Nhận ngân hàng và mã,,,paymentBank.transferBankAndCode
+收款帳戶,收款帐户,Receipt account,บัญชีใบเสร็จรับเงิน,,,領収書アカウント,,,영수증 계정,,,Tài khoản biên lai,,,paymentBank.transferBankAccount
+已完成轉帳,已完成转帐,Completed transfer,ถ่ายโอนเสร็จสมบูรณ์,,,完了した転送,,,완료된 전송,,,Hoàn thành chuyển nhượng,,,paymentBank.completeButton
+"注意事項：<1></1>
+轉帳金額與申請金額不一致，則無法轉帳成功。<3></3>
+超過有效期限，則無法轉帳成功。<4></4>
+請不要重複匯款。","注意事项：<1></1>
+转帐金额与申请金额不一致，则无法转帐成功。 <3></3>
+超过有效期限，则无法转帐成功。 <4></4>
+请不要重复汇款。","Note: <1> </1>
+The transfer amount is not the same as the application amount, but the transfer cannot be successful. <3> </3>
+If the validity period is exceeded, the transfer cannot be successful. <4> </4>
+Please do not repeat remittances.","หมายเหตุ: <1> </1>
+จำนวนการถ่ายโอนไม่เหมือนกับจำนวนแอปพลิเคชัน แต่การโอนไม่สามารถทำได้ <3> </3>
+หากเกินระยะเวลาความถูกต้องการถ่ายโอนจะไม่สำเร็จ <4> </4>
+โปรดอย่าทำซ้ำการส่งเงิน",,,"注：<1> </1>
+転送量はアプリケーション額と同じではありませんが、転送は成功することはできません。 <3> </3>
+有効期間を超えた場合、転送は成功できません。 <4> </4>
+送金を繰り返さないでください。",,,"참고 : <1> </1>
+전송 금액은 신청 금액과 동일하지 않지만 전송은 성공할 수 없습니다. <3> </3>
+유효 기간이 초과되면 전송이 성공할 수 없습니다. <4> </4>
+송금을 반복하지 마십시오.",,,"Lưu ý: <1> </1>
+Số tiền chuyển không giống với số tiền ứng dụng, nhưng việc chuyển không thể thành công. <3> </3>
+Nếu vượt quá thời hạn hiệu lực, việc chuyển nhượng không thể thành công. <4> </4>
+Vui lòng không lặp lại kiều hối.",,,paymentBank.transferDescriptionTip
+"溫馨提示:如遇入金問題，
+請第一時間聯繫",,,,,,,,,,,,,,,paymentBank.paymentValueTip1
+在線客服,,,,,,,,,,,,,,,paymentBank.paymentValueTip2
+"客服人員會協助您迅速入金。
+服務宗旨:秉承「用戶至上」真誠「
+用心為您服務」。",,,,,,,,,,,,,,,paymentBank.paymentValueTip3
+信用卡線上刷卡,,,,,,,,,,,,,,,paymentMethod.creditTitle
+提供每月5至10次的免費跨行轉帳,,,,,,,,,,,,,,,paymentMethod.bankDescription
+天天刷享超高1.88%現金回饋,天天刷享超高1.88%现金回馈,Enjoy 1.88%cash feedback every day every day,เพลิดเพลินกับข้อเสนอแนะเงินสด 1.88%ทุกวันทุกวัน,,,毎日1.88％の現金フィードバックをお楽しみください,,,매일 매일 1.88%의 현금 피드백을 즐기십시오,,,"Tận hưởng phản hồi tiền mặt 1,88%mỗi ngày",,,paymentMethod.creditDescription
+推薦入金方式,推荐的存款方法,Recommended deposit method,วิธีการฝากเงินที่แนะนำ,,,推薦入金方式,,,권장 예금 방법,,,Phương pháp tiền gửi được đề xuất,,,paymentMethod.recommendedMethod
+其餘入金方式,,,,,,,,,,,,,,,paymentMethod.otherMethod
+提交申請中,,,,,,,,,,,,,,,withdrawBank.withdrawRequestSending
+提交出金申請,,,,,,,,,,,,,,,withdrawBank.withdrawButton
+相關提示:,,,,,,,,,,,,,,,withdrawBank.tipTitle
+"客戶出金所指定之帳號，必需是開戶時所指定之出金銀行帳號。
+電子交易系統之線上出金申請時間為每個營業日上午8：00~14：00",,,,,,,,,,,,,,,withdrawBank.tipContent
+出金申請完成,出金申请完成,Application for money to complete,แอปพลิเคชันเพื่อเงินให้เสร็จสมบูรณ์,,,完了するためのお金の申請,,,완료 할 돈 신청,,,Đơn xin tiền để hoàn thành,,,withdrawBank.completeTitle
+"審核預計會需要 3-5 個工作天。
+通過後，您將會收到資金轉帳通知。",,,,,,,,,,,,,,,withdrawBank.completeContent
+已完成申請,,,,,,,,,,,,,,,withdrawBank.completeButton
+額度,额度,Quota,โควต้า,,,クォータ,,,몫,,,Hạn ngạch,,,withdrawBank.pricePrefix
+請選擇出金方法,请选择出金方法,Please select the gold method,โปรดเลือกวิธีทองคำ,,,ゴールドメソッドを選択してください,,,금 방법을 선택하십시오,,,Vui lòng chọn phương pháp vàng,,,withdrawMethod.appBarTitle
+"24 小時內出金次數已達上限<1></1>
+請於 24 小時後再次提交申請。","24 小时内出金次数已达上限<1></1>
+请于 24 小时后再次提交申请。","The number of gold issues within 24 hours has reached the upper limit <1> </1>
+Please submit the application again after 24 hours.","จำนวนปัญหาทองคำภายใน 24 ชั่วโมงถึงขีด จำกัด บน <1> </1>
+กรุณาส่งใบสมัครอีกครั้งหลังจาก 24 ชั่วโมง",,,"24時間以内の金の問題の数は上限<1> </1>に達しました
+24時間後にもう一度申請書を提出してください。",,,"24 시간 이내에 금 문제의 수가 상한에 도달했습니다 <1> </1>
+24 시간 후에 신청서를 다시 제출하십시오.",,,"Số lượng vấn đề vàng trong vòng 24 giờ đã đạt đến giới hạn trên <1> </1>
+Vui lòng nộp đơn đăng ký lại sau 24 giờ.",,,withdrawMethod.withdrawLimitTip
+"目前不是出金時間
+請於以下時段再次申請出金","目前不是出金时间
+请于以下时段再次申请出金","It's not the time for gold
+Please apply for money again in the following period","ไม่ใช่เวลาสำหรับทองคำ
+กรุณาสมัครเงินอีกครั้งในช่วงเวลาต่อไปนี้",,,"金の時ではありません
+次の期間にもう一度お金を申請してください",,,"금을위한 시간이 아닙니다
+다음 기간에 다시 돈을 신청하십시오",,,"Đó không phải là lúc cho vàng
+Vui lòng nộp đơn xin tiền một lần nữa trong khoảng thời gian sau",,,withdrawMethod.notWithdrawTimeTip
+出金方式,出金方式,Golden way,ทางสีทอง,,,ゴールデンウェイ,,,골든 웨이,,,Cách vàng,,,withdrawMethod.bankMethodTitle
+其餘出金方式,,,,,,,,,,,,,,,withdrawMethod.otherMethodTitle
+如欲申請資產出金，請切換回用戶模式進行申請。,,,,,,,,,,,,,,,withdrawMethod.agentModeTip
+審核中的出金申請,,,,,,,,,,,,,,,withdrawMethod.auditListTitle
+"{number}
+額度：{unit} {value}     日期：{date}",,,,,,,,,,,,,,,withdrawMethod.auditMethodBankSubtitle
+"
+您沒有任何出金帳戶，請前往申請出金帳戶並認證後，再次申請出金。","
+您没有任何出金帐户，请前往申请出金帐户并认证后，再次申请出金。","
+You do n’t have any account account, please go to apply for a gold account and certify before applying for money again.","
+คุณไม่มีบัญชีบัญชีใด ๆ โปรดไปสมัครบัญชีทองคำและรับรองก่อนที่จะสมัครเงินอีกครั้ง",,,"
+アカウントアカウントはありません。ゴールドアカウントを申請して、再び申請する前に認定してください。",,,"
+귀하는 계정 계정이 없습니다. 금 계좌를 신청하고 다시 신청하기 전에 인증을 받으십시오.",,,"
+Bạn không có tài khoản nào, vui lòng đăng ký tài khoản vàng và chứng nhận trước khi đăng ký tiền.",,,withdrawMethod.methodEmptyTip
+前往申請出金帳戶,前往申请出金帐户,Go to apply for withdrawal account,ไปสมัครบัญชีการถอนเงิน,,,ゴールドアカウントを申請します,,,금 계좌를 신청하십시오,,,Đi để đăng ký tài khoản rút tiền,,,withdrawMethod.methodEmptyButton
+BOLL,,,,,,,,,,,,,,,"chartBollSetting.appBarTitle,chartSetting.indicatorBoll,futuresChart.indicatorBoll"
+指標,,,,,,,,,,,,,,,"chartBollSetting.index,chartKdjSetting.index,chartMacdSetting.index"
+默認設置,,,,,,,,,,,,,,,"chartBollSetting.defaultSetting,chartKdjSetting.defaultSetting,chartMacdSetting.defaultSetting,chartMaSetting.defaultSetting,chartRsiSetting.defaultSetting,chartWrSetting.defaultSetting"
+UP,,,,,,,,,,,,,,,chartBollSetting.indexUp
+DN,,,,,,,,,,,,,,,chartBollSetting.indexDn
+MB,,,,,,,,,,,,,,,chartBollSetting.indexMb
+時間週期,,,,,,,,,,,,,,,"chartBollSetting.timePeriod,chartMacdSetting.timePeriod"
+帶寬,,,,,,,,,,,,,,,chartBollSetting.bandWidth
+KDJ,,,,,,,,,,,,,,,"chartSetting.indicatorKdj,futuresChart.indicatorKdj,chartKdjSetting.appBarTitle"
+MA,,,,,,,,,,,,,,,"chartSetting.indicatorMa,futuresChart.indicatorMa,chartMaSetting.appBarTitle,chartMaSetting.indexMa"
+MACD,,,,,,,,,,,,,,,"chartSetting.indicatorMacd,futuresChart.indicatorMacd,chartMacdSetting.appBarTitle"
+RSI,,,,,,,,,,,,,,,"chartSetting.indicatorRsi,futuresChart.indicatorRsi,chartRsiSetting.appBarTitle,chartRsiSetting.indexRsi"
+圖表設置,,,,,,,,,,,,,,,chartSetting.appBarTitle
+技術指標,,,,,,,,,,,,,,,chartSetting.indicatorIndex
+圖表類型,,,,,,,,,,,,,,,"chartSetting.chartType,chartTypeSetting.appBarTitle"
+WR,,,,,,,,,,,,,,,"chartSetting.indicatorWr,futuresChart.indicatorWr,chartWrSetting.appBarTitle,chartWrSetting.indexWr"
+收盤,,,,,,,,,,,,,,,futuresChart.closePrice
+漲跌值,,,,,,,,,,,,,,,futuresChart.changeValue
+漲跌幅,,,,,,,,,,,,,,,futuresChart.changeRate
+加載失敗,,,,,,,,,,,,,,,futuresChart.loadFailTitle
+無法獲取到資料,,,,,,,,,,,,,,,futuresChart.loadFailContent
+更多,更多,More,มากกว่า,,,もっと,,,더,,,Hơn,,,"futuresChart.more,agentOverview.more"
+1分,,,,,,,,,,,,,,,futuresChart.chartMinute1
+5分,,,,,,,,,,,,,,,futuresChart.chartMinute5
+15分,,,,,,,,,,,,,,,futuresChart.chartMinute15
+30分,,,,,,,,,,,,,,,futuresChart.chartMinute30
+周線,,,,,,,,,,,,,,,futuresChart.chartWeek1
+月線,,,,,,,,,,,,,,,futuresChart.chartMonth1
+日線,,,,,,,,,,,,,,,futuresChart.chartDay
+K,,,,,,,,,,,,,,,chartKdjSetting.indexK
+D,,,,,,,,,,,,,,,chartKdjSetting.indexD
+J,,,,,,,,,,,,,,,chartKdjSetting.indexJ
+計算週期,,,,,,,,,,,,,,,chartKdjSetting.calculatePeriod
+移動平均週期1,,,,,,,,,,,,,,,chartKdjSetting.maPeriod1
+移動平均週期2,,,,,,,,,,,,,,,chartKdjSetting.maPeriod2
+DIF,,,,,,,,,,,,,,,chartMacdSetting.indexDif
+DEA,,,,,,,,,,,,,,,chartMacdSetting.indexDea
+短週期,,,,,,,,,,,,,,,chartMacdSetting.shortPeriod
+長週期,,,,,,,,,,,,,,,chartMacdSetting.longPeriod
+週期,,,,,,,,,,,,,,,"chartRsiSetting.period,chartWrSetting.period"
+蠟燭圖,,,,,,,,,,,,,,,chartTypeSetting.kLineChart
+分時圖,,,,,,,,,,,,,,,chartTypeSetting.lineIndexChart
+掛單修改,,,,,,,,,,,,,,,orderModify.appBarTitle
+agentTransactionSetting,,,,,,,,,,,,,,,agentTransactionSetting.name
+代理-交易設定頁,,,,,,,,,,,,,,,agentTransactionSetting.nameDescription
+交易設定,交易设定,Transaction settings,การตั้งค่าธุรกรรม,,,トランザクション設定,,,거래 설정,,,Cài đặt giao dịch,,,agentTransactionSetting.appBarTitle
+請選擇品種,,,,,,,,,,,,,,,agentTransactionSetting.filterVarietyButtonHint
+請先上傳手持證件照,,,,,,,,,,,,,,,handIdCardVerify.errorPictureEmpty
+完成身份證明上傳,完成身份证明上传,Complete identity certificate upload,อัปโหลดใบรับรองข้อมูลประจำตัวที่สมบูรณ์,,,完全な身元証明書のアップロード,,,완전한 신분증 인증서 업로드,,,Hoàn thành tải lên chứng chỉ nhận dạng,,,handIdCardVerify.completeButton
+"點擊上傳或拍攝
+手持身分證或護照的自拍照","点击上传或拍摄
+手持身分证或护照的自拍照","Click to upload or shoot
+Selfie of holding ID card or passport","คลิกเพื่ออัปโหลดหรือถ่ายภาพ
+เซลฟี่ของการถือบัตรประจำตัวหรือหนังสือเดินทาง",,,"クリックしてアップロードまたは撮影します
+IDカードまたはパスポートを保持するセルフィー",,,"업로드하거나 촬영하려면 클릭하십시오
+신분증 또는 여권을 보유하는 셀카",,,"Bấm để tải lên hoặc bắn
+Selfie của giữ thẻ ID hoặc hộ chiếu",,,handIdCardVerify.tapUpload
+"手持證件照自拍上傳時,須符合以下條件","手持证件照自拍上传时,须符合以下条件",uploading  selfiea passport conditions must met,การอัปโหลดเงื่อนไขหนังสือเดินทาง selfiea,,,ハンドヘルド証明書がアップロードされるとき、次の条件を満たす必要があります,,,핸드 헬드 인증서가 업로드되면 다음 조건을 충족해야합니다.,,,tải lên các điều kiện hộ chiếu tự sướng phải đáp ứng,,,handIdCardVerify.pictureTipTitle
+請保留頭頂至下巴完整輪廓,请保留头顶至下巴完整轮廓,Please keep the full outline of the head to the lower chin,โปรดเก็บโครงร่างเต็มของหัวไปที่คางล่าง,,,頭の完全な輪郭を下のあごまで保管してください,,,머리의 전체 개요를 하단 턱으로 유지하십시오.,,,Vui lòng giữ đường viền đầy đủ của đầu đến cằm dưới,,,handIdCardVerify.pictureTipContent1
+身份證置於臉旁勿遮住臉部,身份证置于脸旁勿遮住脸部,Do not cover your face by your face,อย่าปิดหน้าใบหน้าของคุณ,,,顔を顔で覆わないでください,,,얼굴로 얼굴을 덮지 마십시오,,,Không che mặt bằng khuôn mặt của bạn,,,handIdCardVerify.pictureTipContent2
+手指請勿遮住證件文字,手指请勿遮住证件文字,Do not cover the text of your fingers,อย่าครอบคลุมข้อความของนิ้วมือของคุณ,,,指のテキストをカバーしないでください,,,손가락의 텍스트를 덮지 마십시오,,,Không bao gồm văn bản của ngón tay của bạn,,,handIdCardVerify.pictureTipContent3
+步驟4 - 證明身份(4/4),,,,,,,,,,,,,,,handIdCardVerify.stepHeaderTitle
+請先上傳信件照片,,,,,,,,,,,,,,,proveIdVerify.errorLetterEmpty
+請先上傳帳單照片,,,,,,,,,,,,,,,proveIdVerify.errorBillEmpty
+信件,,,,,,,,,,,,,,,proveIdVerify.letterTypeTitle
+帳單,帐单,bill,ใบแจ้งหนี้,,,明細書,,,청구서,,,hóa đơn thanh toán,,,proveIdVerify.billTypeTitle
+證明身份,证明身份,Proof,การพิสูจน์,,,証拠,,,증거,,,Bằng chứng,,,proveIdVerify.typeSelectTitle
+點擊上傳或拍攝信件,,,,,,,,,,,,,,,proveIdVerify.uploadLetterTitle
+點擊上傳或拍攝帳單,,,,,,,,,,,,,,,proveIdVerify.uploadBillTitle
+步驟3 - 證明身份(3/4),,,,,,,,,,,,,,,proveIdVerify.stepHeaderTitle
+重新上傳,重新上传,re-upload,อัปเดตใหม่,,,再アップロード,,,재 포장,,,Tải lại,,,imagePicker.reUpload
+加入照片,加入照片,Add photos,เพิ่มรูปภาพ,,,写真を追加します,,,사진 추가,,,Thêm ảnh,,,imagePicker.sheet.title
+拍照,拍照,Photograph,ถ่ายภาพ,,,写真,,,사진,,,ảnh chụp,,,imagePicker.sheet.camera
+從相簿中選取,从相簿中选取,Select from the album,เลือกจากอัลบั้ม,,,アルバムから選択します,,,앨범에서 선택하십시오,,,Chọn từ album,,,imagePicker.sheet.gallery
+agentFundingPositions,,,,,,,,,,,,,,,agentFundingPositions.name
+代理-下級用戶清單-詳細頁-交易明細頁-目前持倉頁,,,,,,,,,,,,,,,agentFundingPositions.nameDescription
+agentOverview,,,,,,,,,,,,,,,agentOverview.name
+代理-總覽頁面,,,,,,,,,,,,,,,agentOverview.nameDescription
+總覽,总览,Overall view,มุมมองโดยรวม,,,全体的な見解,,,전체보기,,,Nhìn tổng thể,,,agentOverview.appBarTitle
+未領取分潤,未领取分润,Not receiving points,ไม่ได้รับคะแนน,,,ポイントを受信して​​いません,,,수신 포인트가 없습니다,,,Không nhận được điểm,,,agentOverview.unableReceiveGumTitle
+取出分潤,取出分润,Take out,เอาออก,,,テイクアウト,,,테이크아웃,,,Đưa ra,,,agentOverview.takeProfitButton
+分潤概況,分润概况,Metering overview,ภาพรวมการวัด,,,メーターの概要,,,계량 개요,,,Tổng quan đo sáng,,,agentOverview.summaryOverviewTitle
+去入金,,,,,,,,,,,,,,,futuresMarket.toDeposit
+變更最愛列表成功,,,,,,,,,,,,,,,futuresSearch.changeFavoriteSuccess
+品種,,,,,,,,,,,,,,,futuresSearch.futuresType
+添加,,,,,,,,,,,,,,,futuresSearch.add
+查無相關品種,,,,,,,,,,,,,,,futuresSearch.searchEmptyTip
+確定撤單?,,,,,,,,,,,,,,,orders.cancelConfirm
+agentProfitList,,,,,,,,,,,,,,,agentProfitList.name
+代理-分潤細節列表,,,,,,,,,,,,,,,agentProfitList.nameDescription
+全部,全部,all,ทั้งหมด,,,すべて,,,모두,,,tất cả các,,,"agentProfitList.typesAll,achievementsLevel.filter.typesAll"
+身份驗證,,,,,,,,,,,,,,,identifyVerification.appBarTitle
+上傳送審資料成功,,,,,,,,,,,,,,,identifyVerification.uploadSuccess
+"證明身份流程完成, 恭喜獲得
+{award}",,,,,,,,,,,,,,,identifyVerificationResult.title
+將會需要 1-5 個工作天，確認驗證完畢，您就可以入金，享受交易了,将会需要 1-5 个工作天，确认验证完毕，您就可以入金，享受交易了,"It will need 1-5 working days. After confirming the verification, you can enter the gold and enjoy the transaction",จะต้องใช้ 1-5 วันทำการ หลังจากยืนยันการตรวจสอบแล้วคุณสามารถป้อนทองคำและเพลิดเพลินกับการทำธุรกรรม,,,1〜5営業日が必要になります。検証を確認した後、ゴールドに入って取引を楽しむことができます,,,1-5 일이 필요합니다. 검증 확인 후 금에 들어가서 거래를 즐길 수 있습니다.,,,"Nó sẽ cần 1-5 ngày làm việc. Sau khi xác nhận xác minh, bạn có thể nhập vàng và tận hưởng giao dịch",,,identifyVerificationResult.content
+回首頁,回首页,Back to the homepage,กลับไปที่หน้าแรก,,,ホームページに戻ります,,,홈페이지로 돌아갑니다,,,Quay lại trang chủ,,,identifyVerificationResult.backToHome
+語言,,,,,,,,,,,,,,,"languageSetting.appBarTitle,setting.languageTitle"
+系統,,,,,,,,,,,,,,,"languageSetting.localeDefault,setting.languageDefault"
+繁體中文,,,,,,,,,,,,,,,languageSetting.localeZhTw
+簡體中文,,,,,,,,,,,,,,,languageSetting.localeZhCn
+中文,,,,,,,,,,,,,,,languageSetting.localeZh
+English,,,,,,,,,,,,,,,languageSetting.localeEn
+漲跌顏色,,,,,,,,,,,,,,,setting.upDownColorTitle
+通知設定,,,,,,,,,,,,,,,setting.notifySettingTitle
+檢查更新,,,,,,,,,,,,,,,setting.checkUpdateTitle
+當前版本,,,,,,,,,,,,,,,setting.currentVersionTitle
+清理緩存,,,,,,,,,,,,,,,setting.clearCacheTitle
+清除快取失敗,,,,,,,,,,,,,,,setting.errorClearCacheFail
+綠漲紅跌,,,,,,,,,,,,,,,"setting.upGreenDownRed,upDownColorSetting.upGreenDownRed"
+紅漲綠跌,,,,,,,,,,,,,,,"setting.upRedDownGreen,upDownColorSetting.upRedDownGreen"
+已是最新版本,,,,,,,,,,,,,,,setting.versionIsNewest
+已清理 {size} MB,,,,,,,,,,,,,,,setting.clearCacheToast
+尚無緩存需要清理,,,,,,,,,,,,,,,setting.noCacheNeedClean
+成就獎勵領取僅限「真實賬戶」交易行為,,,,,,,,,,,,,,,"achievementsLevel.rewardTip,referralCodeShare.headerTip"
+achievementsLevelFilter,,,,,,,,,,,,,,,achievementsLevel.filter.name
+未完成,,,,,,,,,,,,,,,achievementsLevel.filter.typesUndone
+未領取,,,,,,,,,,,,,,,achievementsLevel.filter.typesNotReceived
+已領取,,,,,,,,,,,,,,,"achievementsLevel.filter.typesReceived,achievementsLevelList.typesReceived"
+achievementsLevel,,,,,,,,,,,,,,,achievementsLevel.name
+會員中心-成就&階級,,,,,,,,,,,,,,,achievementsLevel.nameDescription
+尚無成就任務,,,,,,,,,,,,,,,achievementsLevel.emptyTip
+一鍵領\n取獎勵,,,,,,,,,,,,,,,"achievementsLevel.pickUpAllButton,dailyMission.pickUpAllButton"
+無可領取獎勵,,,,,,,,,,,,,,,"achievementsLevel.noRewardAvailable,dailyMission.noRewardAvailable"
+領取獎勵失敗,,,,,,,,,,,,,,,"achievementsLevel.rewardFailed,dailyMission.rewardFailed"
+前往交易,,,,,,,,,,,,,,,achievementsLevel.goTradeButton
+award,,,,,,,,,,,,,,,award.name
+獎勵大頁,,,,,,,,,,,,,,,award.nameDescription
+可使用獎勵,,,,,,,,,,,,,,,award.tabAvailable
+歷史獎勵,,,,,,,,,,,,,,,award.tabHistory
+awardList,,,,,,,,,,,,,,,awardList.name
+獎勵大頁 - 獎勵列表,,,,,,,,,,,,,,,awardList.nameDescription
+獎勵來源,,,,,,,,,,,,,,,awardList.source
+領取時間,,,,,,,,,,,,,,,awardList.pickUpTime
+使用期限,,,,,,,,,,,,,,,awardList.expiryDate
+使用時間,,,,,,,,,,,,,,,awardList.usageTime
+已使用,,,,,,,,,,,,,,,awardList.used
+已逾期,,,,,,,,,,,,,,,awardList.expired
+永久使用,,,,,,,,,,,,,,,awardList.useForever
+推薦朋友 共同獲利,推荐朋友 共同获利,Recommend friends to profit together,แนะนำเพื่อนเพื่อทำกำไรด้วยกัน,,,一緒に利益を得るように友達をお勧めします,,,친구들이 함께 이익을 추천합니다,,,Đề nghị bạn bè cùng nhau lợi nhuận,,,referralCodeShare.shareFriendTitle
+交易越多賺越多，推薦好友投資，即可獲得獎勵唷,交易越多赚越多，推荐好友投资，即可获得奖励唷,"The more transactions, the more you earn, and you can get a reward when you recommend your friends to invest",ยิ่งธุรกรรมมากเท่าไหร่คุณก็จะได้รับรางวัลมากขึ้นและคุณจะได้รับรางวัลเมื่อคุณแนะนำให้เพื่อนลงทุน,,,トランザクションが多いほど、稼ぐことが多くなり、友達に投資をお勧めすると報酬を得ることができます,,,거래가 많을수록 더 많은 돈을 벌고 친구가 투자하도록 추천 할 때 보상을받을 수 있습니다.,,,"Càng nhiều giao dịch, bạn càng kiếm được nhiều tiền và bạn có thể nhận được phần thưởng khi bạn giới thiệu bạn bè của mình để đầu tư",,,referralCodeShare.shareFriendSubtitle
+發送連結邀請,发送连结邀请,Send link invitation,ส่งคำเชิญลิงค์,,,リンクの招待状を送信します,,,링크 초대를 보내십시오,,,Gửi lời mời liên kết,,,referralCodeShare.sendInviteLink
+社群分享,社群分享,Community sharing,การแบ่งปันชุมชน,,,コミュニティの共有,,,커뮤니티 공유,,,Chia sẻ cộng đồng,,,referralCodeShare.communityShareTitle
+已複製至剪貼板,,,,,,,,,,,,,,,"referralCodeShare.copyToClipboardSuccess,copyButton.copyToClipboardSuccess"
+  (已讀)  ,,,,,,,,,,,,,,,messageNotify.haveRead
+信用卡刷卡,信用卡刷卡,Credit card swiping card,บัตรกวาดบัตรเครดิต,,,クレジットカードスワイプカード,,,신용 카드 스 와이프 카드,,,Thẻ quẹt thẻ tín dụng,,,paymentCreditCard.appBarTitle
+提交資料中,,,,,,,,,,,,,,,paymentCreditCard.getUrlLoading
+請輸入正確的日期,请输入正确的日期,Please enter the correct date,กรุณากรอกวันที่ที่ถูกต้อง,,,正しい日付を入力してください,,,올바른 날짜를 입력하십시오,,,Vui lòng nhập đúng ngày,,,"paymentCreditCard.errorMonthFormat,paymentCreditCard.errorYearFormat"
+請輸入有效的銀行卡號,请输入有效的银行卡号,Please enter the valid bank card number,กรุณากรอกหมายเลขบัตรธนาคารที่ถูกต้อง,,,有効な銀行カード番号を入力してください,,,유효한 은행 카드 번호를 입력하십시오,,,Vui lòng nhập số thẻ ngân hàng hợp lệ,,,paymentCreditCard.errorCardNumberFormat
+請輸入正確的安全碼,请输入正确的安全码,Please enter the correct security code,โปรดป้อนรหัสความปลอดภัยที่ถูกต้อง,,,正しいセキュリティコードを入力してください,,,올바른 보안 코드를 입력하십시오,,,Vui lòng nhập đúng mã bảo mật,,,paymentCreditCard.errorCardSecurityFormat
+卡號,卡号,card number,หมายเลขบัตร,,,カード番号,,,카드 번호,,,số thẻ,,,paymentCreditCard.cardNumberTitle
+有效日期,,,,,,,,,,,,,,,paymentCreditCard.validThruTitle
+CVV 安全碼,,,,,,,,,,,,,,,paymentCreditCard.cardSecurityCodeTitle
+持卡人姓名,持卡人姓名,Cardholder's Name,ชื่อผู้ถือบัตร,,,カード所有者の名前,,,카드 소지자의 이름,,,tên chủ thẻ,,,paymentCreditCard.cardOwnerTitle
+MM,,,,,,,,,,,,,,,paymentCreditCard.monthHint
+YY,,,,,,,,,,,,,,,paymentCreditCard.yearHint
+請輸入信用卡號,,,,,,,,,,,,,,,paymentCreditCard.cardNumberHint
+安全碼,,,,,,,,,,,,,,,paymentCreditCard.cardSecurityCodeHint
+交易成功,,,,,,,,,,,,,,,paymentCreditCard.transactionCompleteTitle
+刷卡金額,刷卡金额,Credit card amount,จำนวนบัตรเครดิต,,,クレジットカードの金額,,,신용 카드 금액,,,Số tiền thẻ tín dụng,,,paymentCreditCard.swipeCardValue
+刷卡時間,刷卡时间,Swipe time,ปัดเวลา,,,スワイプ時間,,,스 와이프 시간,,,Thời gian vuốt,,,paymentCreditCard.swipeCardTime
+匯率,汇率,exchange rate,อัตราแลกเปลี่ยน,,,為替レート,,,환율,,,tỷ giá,,,paymentCreditCard.exchangeRate
+立刻前往交易,立刻前往交易,Go to the transaction immediately,ไปที่ธุรกรรมทันที,,,すぐにトランザクションに移動します,,,즉시 거래로 이동하십시오,,,Đi đến giao dịch ngay lập tức,,,paymentCreditCard.toMarketButton
+agentPaymentDetail,,,,,,,,,,,,,,,agentPaymentDetail.name
+代理資金明細頁,,,,,,,,,,,,,,,agentPaymentDetail.nameDescription
+agentUserProfitSharingFormList,,,,,,,,,,,,,,,agentUserProfitSharingFormList.name
+代理-用戶分潤報表列表,,,,,,,,,,,,,,,agentUserProfitSharingFormList.nameDescription
+輸入搜索條件,,,,,,,,,,,,,,,qaSearch.searchHint
+搜索結果,,,,,,,,,,,,,,,qaSearch.searchResult
+請輸入搜索條件,,,,,,,,,,,,,,,qaSearch.searchTextEmptyTip
+搜索無資料,,,,,,,,,,,,,,,qaSearch.searchResultEmptyTip
+升跌顏色,,,,,,,,,,,,,,,upDownColorSetting.appBarTitle
+用戶協議,,,,,,,,,,,,,,,userProtocol.appBarTitle
+今日不再通知,,,,,,,,,,,,,,,marginLevelWarningPopup.todayNoNotify
+保證金比例,,,,,,,,,,,,,,,marginLevelWarningPopup.marginLevel
+保證金比例風險過高,,,,,,,,,,,,,,,marginLevelWarningPopup.warningReason
+暫不更新,,,,,,,,,,,,,,,updateVersionPopup.ignoreThisTime
+全面更新,,,,,,,,,,,,,,,updateVersionPopup.newVersionTitle
+版本,,,,,,,,,,,,,,,updateVersionPopup.newVersionPrefix
+發現新版本,,,,,,,,,,,,,,,updateVersionPopup.foundNewVersion
+下載中,,,,,,,,,,,,,,,updateVersionPopup.downloading
+立即更新,,,,,,,,,,,,,,,updateVersionPopup.updateImmediately
+發送驗證碼,,,,,,,,,,,,,,,captchaButton.sendPhoneCode
+區碼,,,,,,,,,,,,,,,dialCodeContainer.hint
+最多可選 {max} 項,,,,,,,,,,,,,,,checkboxInputContainer.reachMaxToast
+最少需選 {min} 項,,,,,,,,,,,,,,,checkboxInputContainer.reachMinToast
+微信或LINE ID欄位須擇一填寫,,,,,,,,,,,,,,,"errorInputValidator.userLineEmpty,errorInputValidator.userWechatEmpty"
+Line Id格式有誤,,,,,,,,,,,,,,,errorInputValidator.userLineFormat
+微信格式有誤,,,,,,,,,,,,,,,errorInputValidator.userWechatFormat
+代號不得為空,,,,,,,,,,,,,,,errorInputValidator.bankCodeEmpty
+代號格式錯誤,,,,,,,,,,,,,,,errorInputValidator.bankCodeFormat
+帳號不得為空,,,,,,,,,,,,,,,errorInputValidator.bankAccountEmpty
+帳號格式有誤,,,,,,,,,,,,,,,errorInputValidator.bankAccountFormat
+戶名不得為空,,,,,,,,,,,,,,,errorInputValidator.bankUsernameEmpty
+戶名格式有誤,,,,,,,,,,,,,,,errorInputValidator.bankUsernameFormat
+Email格式錯誤,,,,,,,,,,,,,,,errorInputValidator.emailFormat
+Email不得為空,,,,,,,,,,,,,,,errorInputValidator.emailEmpty
+手機號不得為空,,,,,,,,,,,,,,,errorInputValidator.phoneEmpty
+手機號格式有誤,,,,,,,,,,,,,,,errorInputValidator.phoneFormat
+密碼格式錯誤,,,,,,,,,,,,,,,errorInputValidator.passwordFormat
+密碼不得為空,,,,,,,,,,,,,,,errorInputValidator.passwordEmpty
+驗證碼格式錯誤,,,,,,,,,,,,,,,errorInputValidator.captchaFormat
+驗證碼不得為空,,,,,,,,,,,,,,,errorInputValidator.captchaEmpty
+推薦碼不得為空,,,,,,,,,,,,,,,errorInputValidator.referralCodeEmpty
+推薦碼格式有誤,,,,,,,,,,,,,,,errorInputValidator.referralCodeFormat
+代理條件頁,,,,,,,,,,,,,,,agentCondition.nameDescription
+代理條件,代理条件,Proxy condition,สภาพพร็อกซี,,,プロキシ条件,,,프록시 조건,,,Điều kiện proxy,,,agentCondition.appBarTitle
+入金返利,入金返利,Rebate,การคืนเงิน,,,リベート,,,,,,Hạ giá,,,agentCondition.rebateTitle
+交易手數返利,交易手数返利,Return of the transaction hand,การกลับมาของมือธุรกรรม,,,トランザクションハンドの戻り,,,거래 손의 반환,,,Trả lại của tay giao dịch,,,agentCondition.transactionHandTitle
+最低工資,最低工资,minimum wage,ค่าแรงขั้นต่ำ,,,最低賃金,,,최저 임금,,,lương tối thiểu,,,agentCondition.minimumWageTitle
+最低工資獲得條件,最低工资获得条件,Minimum wage acquisition conditions,เงื่อนไขการรับค่าแรงขั้นต่ำ,,,最低賃金取得条件,,,최저 임금 인수 조건,,,Điều kiện mua lương tối thiểu,,,agentCondition.minimumWageConditionsTitle
+交易點差及手續費範圍,交易点差及手续费范围,Poor transaction point and the range of fees,จุดธุรกรรมที่ไม่ดีและช่วงของค่าธรรมเนียม,,,取引ポイントが低く、料金の範囲,,,거래 지점과 수수료 범위,,,Điểm giao dịch kém và phạm vi phí,,,agentCondition.tradingSpreadsHandlingTitle
+agentConditionList,,,,,,,,,,,,,,,agentConditionFuturesList.name
+代理條件-交易點差及手續費範圍列表,,,,,,,,,,,,,,,agentConditionFuturesList.nameDescription
+agentReferralCodeUsers,,,,,,,,,,,,,,,agentReferralCodeUsers.name
+代理-推薦碼-查詢清單-下級用戶專用頁,,,,,,,,,,,,,,,agentReferralCodeUsers.nameDescription
+下級用戶專用,下级用户专用,Subordinates dedicated to users,ผู้ใต้บังคับบัญชาที่ทุ่มเทให้กับผู้ใช้,,,ユーザー専用の部下,,,사용자에게 전념하는 부하 직원,,,Cấp dưới dành riêng cho người dùng,,,agentReferralCodeUsers.appBarTitle
+AgentFundingHistoryClose,,,,,,,,,,,,,,,agentFundingHistoryClose.name
+代理-下級用戶清單-詳細頁-交易明細頁-開倉頁,,,,,,,,,,,,,,,agentFundingHistoryClose.nameDescription
+尚無平倉,,,,,,,,,,,,,,,agentFundingHistoryClose.emptyTip
+agentFundingHistoryOpen,,,,,,,,,,,,,,,agentFundingHistoryOpen.name
+代理-下級用戶清單-詳細頁-交易明細頁-平倉頁,,,,,,,,,,,,,,,agentFundingHistoryOpen.nameDescription
+尚無開倉,,,,,,,,,,,,,,,agentFundingHistoryOpen.emptyTip
+dailyMission,,,,,,,,,,,,,,,dailyMission.name
+會員中心-每日任務,,,,,,,,,,,,,,,dailyMission.nameDescription
+每日任務,,,,,,,,,,,,,,,dailyMission.appBarTitle
+尚無每日任務,,,,,,,,,,,,,,,dailyMission.emptyTip
+每日任務獎勵領取僅限「真實賬戶」交易行為,,,,,,,,,,,,,,,dailyMission.missionTip
+achievementsLevelList,,,,,,,,,,,,,,,achievementsLevelList.name
+會員中心-成就&階級-列表,,,,,,,,,,,,,,,achievementsLevelList.nameDescription
+去完成,,,,,,,,,,,,,,,achievementsLevelList.typesUndone
+領取,领取,receive,ได้รับ,,,受け取る,,,받다,,,nhận,,,achievementsLevelList.typesNotReceived
+awardAvailable,,,,,,,,,,,,,,,awardAvailable.name
+獎勵大頁 - 可使用獎勵子頁,,,,,,,,,,,,,,,awardAvailable.nameDescription
+尚無可使用獎勵,,,,,,,,,,,,,,,awardAvailable.emptyTip
+awardHistory,,,,,,,,,,,,,,,awardHistory.name
+獎勵大頁 - 歷史獎勵子頁,,,,,,,,,,,,,,,awardHistory.nameDescription
+尚無歷史獎勵,,,,,,,,,,,,,,,awardHistory.emptyTip
+請輸入PIN碼,,,,,,,,,,,,,,,securityVerifyMessage.pinInputTitle
+生物辨識,,,,,,,,,,,,,,,securityVerifyMessage.biometric
+驗證成功,,,,,,,,,,,,,,,securityVerifyMessage.biometricValidateSuccess
+驗證失敗,,,,,,,,,,,,,,,securityVerifyMessage.biometricValidateFail
+掃描指紋或臉部進行身份驗證,,,,,,,,,,,,,,,securityVerifyMessage.androidLocalizedReason
+掃描指紋進行身份驗證,,,,,,,,,,,,,,,securityVerifyMessage.iosLocalizedReason
+觸摸感應,,,,,,,,,,,,,,,securityVerifyMessage.fingerprintHint
+"無法識別指紋, 請在嘗試一次",,,,,,,,,,,,,,,securityVerifyMessage.fingerprintNotRecognized
+指紋識別成功,,,,,,,,,,,,,,,securityVerifyMessage.fingerprintSuccess
+指紋驗證,,,,,,,,,,,,,,,securityVerifyMessage.signInTitle
+指紋辨識需求,,,,,,,,,,,,,,,securityVerifyMessage.fingerprintRequiredTitle
+去設定,,,,,,,,,,,,,,,securityVerifyMessage.goToSettingsButton
+指紋辨識尚未開啓或設定,,,,,,,,,,,,,,,securityVerifyMessage.goToSettingsDescription
+"生物辨識驗證被禁用, 請執行鎖定以及解鎖螢幕後以重新啓用",,,,,,,,,,,,,,,securityVerifyMessage.lockOut
+好的,,,,,,,,,,,,,,,securityVerifyMessage.itsOk
+市價成交,,,,,,,,,,,,,,,orderTransactionType.market
+指價成交,,,,,,,,,,,,,,,orderTransactionType.trust
+止盈成交,,,,,,,,,,,,,,,orderTransactionType.stopProfit
+止損成交,,,,,,,,,,,,,,,orderTransactionType.stopLoss
+時間強平,,,,,,,,,,,,,,,orderTransactionType.timeout
+資金強平,,,,,,,,,,,,,,,orderTransactionType.fundingLimit
+雲端跟單,,,,,,,,,,,,,,,orderTransactionType.followCloud
+套利指標1分鐘,,,,,,,,,,,,,,,orderTransactionType.arbitrage1
+套利指標3分鐘,,,,,,,,,,,,,,,orderTransactionType.arbitrage3
+套利指標5分鐘,,,,,,,,,,,,,,,orderTransactionType.arbitrage5
+實時平均策略,,,,,,,,,,,,,,,orderTransactionType.realTimeAverage
+跟單成交,,,,,,,,,,,,,,,orderTransactionType.track
+合約強平,,,,,,,,,,,,,,,orderTransactionType.contract
+還需等待 {seconds} 秒,,,,,,,,,,,,,,,captchaBloc.statusWait
+請選擇區碼,,,,,,,,,,,,,,,captchaBloc.selectDialCodeFirst
+驗證碼已發送,,,,,,,,,,,,,,,captchaBloc.captchaSendSuccess

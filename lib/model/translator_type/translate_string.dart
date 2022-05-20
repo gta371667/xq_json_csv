@@ -11,11 +11,6 @@ class TranslateString extends TranslateType<String> {
   }
 
   @override
-  void bindTranslateValue(String locale, String value) {
-    translate[locale] = value;
-  }
-
-  @override
   String exportJson() {
     return source;
   }

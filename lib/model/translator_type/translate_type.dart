@@ -11,9 +11,6 @@ abstract class TranslateType<T> {
   /// 輸出要進行翻譯的字串值
   String toTranslateSource();
 
-  /// 綁定翻譯後的字串值
-  void bindTranslateValue(String locale, String value);
-
   /// 轉換為json
   T exportJson();
 

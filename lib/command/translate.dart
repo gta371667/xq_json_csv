@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:args/args.dart';
 import 'package:csv/csv.dart';
-import 'package:quiver/iterables.dart';
 import 'package:xq_json_csv/model/csv/csv.dart';
 import 'package:xq_json_csv/parser.dart';
 
@@ -40,13 +39,13 @@ class TranslateCommand {
         ),
       );
     } else {
-      print('使用檔案路徑，將產生csv');
+      print('使用檔案路徑，將產生csv，以tw為主');
 
       final enParser = _jsonValueParser('$inFile/strings_en.i18n.json', LangEnum.en);
-      final twParser = _jsonValueParser('$inFile/strings_zh_Hans.i18n.json', LangEnum.tw);
-      final cnParser = _jsonValueParser('$inFile/strings_zh_Hant.i18n.json', LangEnum.cn);
+      final twParser = _jsonValueParser('$inFile/strings_zh_Hant.i18n.json', LangEnum.tw);
+      final cnParser = _jsonValueParser('$inFile/strings_zh_Hans.i18n.json', LangEnum.cn);
       final jpParser = _jsonValueParser('$inFile/strings_jp.i18n.json', LangEnum.jp);
-      final krParser = _jsonValueParser('$inFile/strings_kr.i18n.json', LangEnum.tw);
+      final krParser = _jsonValueParser('$inFile/strings_kr.i18n.json', LangEnum.kr);
       final thParser = _jsonValueParser('$inFile/strings_th.i18n.json', LangEnum.th);
       final viParser = _jsonValueParser('$inFile/strings_vi.i18n.json', LangEnum.vi);
 
@@ -58,11 +57,20 @@ class TranslateCommand {
       var th = thParser?.parseToCsvData() ?? [];
       var vi = viParser?.parseToCsvData() ?? [];
 
-      List<CsvData> csvList = [];
-      for (var pair in zip([en, tw, cn, jp, kr, th, vi])) {
-        var data = CsvData.fromCsvList(pair[0], pair[1], pair[2], pair[3], pair[4], pair[5], pair[6]);
-        csvList.add(data);
-      }
+      List<CsvData> csvList = tw.map((e) {
+        var enCsv = findWhere(en, e);
+        var cnCsv = findWhere(cn, e);
+        var jpCsv = findWhere(jp, e);
+        var krCsv = findWhere(kr, e);
+        var thCsv = findWhere(th, e);
+        var viCsv = findWhere(vi, e);
+        return CsvData.fromCsvList(cn: cnCsv, en: enCsv, jp: jpCsv, kr: krCsv, th: thCsv, tw: e, vi: viCsv);
+      }).toList();
+
+      // for (var pair in zip([en, tw, cn, jp, kr, th, vi])) {
+      //   var data = CsvData.fromCsvList(pair[0], pair[1], pair[2], pair[3], pair[4], pair[5], pair[6]);
+      //   csvList.add(data);
+      // }
 
       File(outFile).writeAsStringSync(
         ListToCsvConverter().convert(
@@ -122,5 +130,13 @@ class TranslateCommand {
     if (outFile == null) {
       throw '缺少必要參數(out/o): 輸出檔案';
     }
+  }
+
+  CsvData? findWhere(List<CsvData> list, CsvData data) {
+    int idx = list.indexWhere((element) => element.jsonKey.join(",") == data.jsonKey.join(","));
+    if (idx != -1) {
+      return list[idx];
+    }
+    return null;
   }
 }
