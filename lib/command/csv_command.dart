@@ -22,8 +22,8 @@ class CsvCommand {
       '$outFilePath/strings_en.i18n.json': csvParser.toJsonString(LangEnum.en),
       '$outFilePath/strings_zh_Hans.i18n.json': csvParser.toJsonString(LangEnum.cn),
       '$outFilePath/strings_zh_Hant.i18n.json': csvParser.toJsonString(LangEnum.tw),
-      '$outFilePath/strings_kr.i18n.json': csvParser.toJsonString(LangEnum.kr),
-      '$outFilePath/strings_jp.i18n.json': csvParser.toJsonString(LangEnum.jp),
+      '$outFilePath/strings_ko.i18n.json': csvParser.toJsonString(LangEnum.kr),
+      '$outFilePath/strings_ja.i18n.json': csvParser.toJsonString(LangEnum.jp),
       '$outFilePath/strings_vi.i18n.json': csvParser.toJsonString(LangEnum.vi),
       '$outFilePath/strings_th.i18n.json': csvParser.toJsonString(LangEnum.th),
     };
