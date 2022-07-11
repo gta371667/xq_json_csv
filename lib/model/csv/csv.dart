@@ -13,6 +13,8 @@ const List<dynamic> titleRow = [
   'zh_TW',
   'zh-CN',
   'en-EN',
+  '英文字數',
+  '建議字數',
   'th-TH',
   '泰文字數',
   '建議字數',
@@ -40,6 +42,12 @@ class CsvData {
 
   /// 英文
   final String enEN;
+
+  /// 英文字數
+  final String enEnCount;
+
+  /// 英文建議數字
+  final String enEnSugCount;
 
   /// 泰文
   final String thTH;
@@ -97,6 +105,8 @@ class CsvData {
     required this.vnVNCount,
     required this.vnVNSugCount,
     required this.jsonKey,
+    required this.enEnCount,
+    required this.enEnSugCount,
   });
 
   factory CsvData.fromRow(List<String> row) {
@@ -104,19 +114,21 @@ class CsvData {
       zhTW: row[0],
       zhCN: row[1],
       enEN: row[2],
-      thTH: row[3],
-      thThCount: row[4],
-      thThSugCount: row[5],
-      jpJP: row[6],
-      jpJPCount: row[7],
-      jpJPSubCount: row[8],
-      krKR: row[9],
-      krKRCount: row[10],
-      krKRSugCount: row[11],
-      vnVN: row[12],
-      vnVNCount: row[13],
-      vnVNSugCount: row[14],
-      jsonKey: row[15].split(csvStandard),
+      enEnCount: row[3],
+      enEnSugCount: row[4],
+      thTH: row[5],
+      thThCount: row[6],
+      thThSugCount: row[7],
+      jpJP: row[8],
+      jpJPCount: row[9],
+      jpJPSubCount: row[10],
+      krKR: row[11],
+      krKRCount: row[12],
+      krKRSugCount: row[13],
+      vnVN: row[14],
+      vnVNCount: row[15],
+      vnVNSugCount: row[16],
+      jsonKey: row[17].split(csvStandard),
     );
   }
 
@@ -157,6 +169,8 @@ class CsvData {
       zhTW: zhTW,
       zhCN: zhCN,
       enEN: enEN,
+      enEnCount: '',
+      enEnSugCount: '',
       thTH: thTH,
       thThCount: '',
       thThSugCount: '',
@@ -186,20 +200,60 @@ class CsvData {
       zhTW: tw.zhTW,
       zhCN: cn?.zhCN ?? '',
       enEN: en?.enEN ?? '',
+      enEnCount: '',
+      enEnSugCount: getSuggestCount(tw.zhTW, LangEnum.en),
       thTH: th?.thTH ?? '',
       thThCount: '',
-      thThSugCount: '',
+      thThSugCount: getSuggestCount(tw.zhTW, LangEnum.th),
       jpJP: jp?.jpJP ?? '',
       jpJPCount: '',
-      jpJPSubCount: '',
+      jpJPSubCount: getSuggestCount(tw.zhTW, LangEnum.jp),
       krKR: kr?.krKR ?? '',
       krKRCount: '',
-      krKRSugCount: '',
+      krKRSugCount: getSuggestCount(tw.zhTW, LangEnum.kr),
       vnVN: vi?.vnVN ?? '',
       vnVNCount: '',
-      vnVNSugCount: '',
+      vnVNSugCount: getSuggestCount(tw.zhTW, LangEnum.vi),
       jsonKey: tw.jsonKey,
     );
+  }
+
+  /// 取得建議字數
+  static String getSuggestCount(String tw, LangEnum langEnum) {
+    final regExp = RegExp(r'\{\D{1,999}\}');
+
+    final text = tw
+        .trim()
+        .replaceAll(' ', '')
+        .replaceAll(',', '')
+        .replaceAll('.', '')
+        .replaceAll('\n', '')
+        .replaceAllMapped(regExp, (v) => '');
+
+    int count() {
+      switch (langEnum) {
+        case LangEnum.en:
+          return (text.length * 2.2).toInt();
+        case LangEnum.tw:
+          return text.length;
+        case LangEnum.cn:
+          return text.length;
+        case LangEnum.jp:
+          return text.length;
+        case LangEnum.kr:
+          return (text.length * 1.4).toInt();
+        case LangEnum.th:
+          return (text.length * 1.1818).toInt();
+        case LangEnum.vi:
+          return (text.length * 2.25).toInt();
+      }
+    }
+
+    if (regExp.hasMatch(tw)) {
+      return '${count()} + ?';
+    } else {
+      return '${count()}';
+    }
   }
 
   /// 轉換為csv保存格式
@@ -208,6 +262,8 @@ class CsvData {
       zhTW,
       zhCN,
       enEN,
+      enEnCount,
+      enEnSugCount,
       thTH,
       thThCount,
       thThSugCount,
@@ -287,6 +343,8 @@ class CsvData {
       zhTW: base.zhTW,
       zhCN: base.zhCN,
       enEN: base.enEN,
+      enEnSugCount: base.enEnSugCount,
+      enEnCount: base.enEnCount,
       thTH: base.thTH,
       thThCount: base.thThCount,
       thThSugCount: base.thThSugCount,

@@ -16,6 +16,22 @@ class TranslateCommand {
     final inFile = argsResult['in'] as String;
     final outFile = argsResult['out'] as String;
 
+    // final tw = '已切換為{state}g{qqq}ll';
+    // final text = tw
+    //     .trim()
+    //     .replaceAll(' ', '')
+    //     .replaceAll(',', '')
+    //     .replaceAll('.', '')
+    //     .replaceAllMapped(RegExp(r'\{\D{1,999}\}'), (v) {
+    //
+    //   return 'ccccc';
+    // });
+    //
+    // var a = text;
+    // print('指定檔案模式，將產生csvAAA $a');
+    //
+    // return;
+
     if (File(inFile).existsSync()) {
       print('指定檔案模式，將產生csv');
 
