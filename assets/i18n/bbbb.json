@@ -83,10 +83,7 @@
     "buyPrice": "買入價",
     "customTab": "自選",
     "searchHint": "輸入交易品種 / 英文名稱",
-    "availableBalance": "可用餘額",
-    "lastPrice": "最新價",
-    "changeRate": "漲跌幅",
-    "changeRateSpread": "漲跌幅/點差"
+    "availableBalance": "可用餘額"
   },
   "home": {
     "depositButton": "入金",
@@ -97,9 +94,7 @@
     "buyingPriceTitle": "買入價",
     "futuresTabFavorite": "自選",
     "searchHint": "輸入交易品種 / 英文名稱",
-    "lastPrice": "最新價",
-    "changeRate": "漲跌幅",
-    "defaultBannerTitle": "多元交易產品安全",
+    "defaultBannerTitle": "多完交易產品安全",
     "defaultBannerSubtitle": "快速下單直覺 多樣化下單工具",
     "moreTransaction": "更多交易",
     "announcement": "公告",
@@ -108,74 +103,11 @@
     "customerServiceContent": "更方便、更快捷、更高效的服務",
     "missionButton": "任務中心",
     "logoMessageContent": "歡迎 ~ 立即交易全球市場",
-    "tradeListButton": "訂單列表",
+    "tadeListButton": "訂單列表",
     "eventButton": "活動",
     "tutorialButton": "教學",
     "futuresTabTop": "熱門交易",
-    "spreadPrefix": "點差",
-    "idVerifyNeedPopup": {
-      "title": "提示",
-      "content": "尚未完成/通過身分驗證\n請通過身分驗證後，再進行入金",
-      "confirm": "前往驗證身份"
-    }
-  },
-  "paymentHistory": {
-    "typeDeposit": "入金",
-    "appBarTitle": "出入金紀錄",
-    "typeWithdraw": "出金",
-    "fee": "手續費",
-    "orderSerial": "單號",
-    "filterPopup": {
-      "clearButton": "清除",
-      "filterButton": "篩選",
-      "applyTimeHint": "請選擇日期",
-      "directionHint": "請選擇類型",
-      "popupTitle": "出入金紀錄篩選",
-      "directionTitle": "出入金類型",
-      "categoryTitle": "出入金方式",
-      "categoryHint": "請選擇出入金方式",
-      "statusTitle": "狀態",
-      "statusHint": "請選擇狀態",
-      "amountTitle": "金額",
-      "amountMaxHint": "最高",
-      "amountMinHint": "最低",
-      "applyTimeTitle": "審核時間"
-    },
-    "paymentDetail": "出入金詳情",
-    "paymentTotal": "入金總額",
-    "withdrawTotal": "出金總額",
-    "method": "方式",
-    "type": "類型",
-    "dateTitle": "日期",
-    "statusAudit": "審核中",
-    "orderStatusWithdrawAudit": "審核中",
-    "statusFail": "審核中",
-    "orderStatusDepositAudit": "審核中",
-    "orderStatusWithdrawHandle": "審核中",
-    "statusWait": "等待",
-    "statusSuccess": "完成",
-    "historyEmptyTip": "尚無出入金紀錄",
-    "historyErrorTip": "獲取資料時發生錯誤",
-    "orderStatusDepositSuccess": "入金成功",
-    "orderStatusWithdrawSuccess": "出金成功",
-    "orderStatusDepositWaitPay": "未支付",
-    "orderStatusWithdrawReject": "資金退回"
-  },
-  "agentUserPaymentHistoryList": {
-    "deposit": "入金",
-    "withdraw": "出金",
-    "methodTitle": "方式",
-    "typesTitle": "類型",
-    "dateTitle": "日期",
-    "orderStatusWithdrawAudit": "審核中",
-    "orderStatusFail": "審核中",
-    "orderStatusDepositAudit": "審核中",
-    "orderStatusWithdrawHandle": "審核中",
-    "orderStatusDepositSuccess": "入金成功",
-    "orderStatusWithdrawSuccess": "出金成功",
-    "orderStatusDepositWaitPay": "未支付",
-    "orderStatusWithdrawReject": "資金退回",
-    "nameDescription": "代理-出入金詳情列表"
+    "spreadPrefix": "點差"
   },
   "menu": {
     "positions": "倉位",
@@ -237,7 +169,6 @@
   },
   "positions": {
     "profitLoss": "盈虧",
-    "lastPrice": "最新價",
     "openPositionPrice": "開倉價",
     "closePosition": "平倉",
     "occupyMargin": "保證金",
@@ -247,12 +178,12 @@
     "selectAll": "全選",
     "emptyTip": "尚無持倉",
     "emptyButton": "開始交易",
+    "lastPrice": "最新價",
     "resetSelect": "重置",
     "closeMultiPosition": "批量平倉",
     "closePositionLotsOutRange": "交易手數超過持有手數",
     "isConfirmClosePosition": "確定平倉",
-    "limitedTimePrice": "限時價",
-    "lastPriceTitle": "當前價"
+    "limitedTimePrice": "限時價"
   },
   "transactionHistory": {
     "profitLoss": "盈虧",
@@ -313,11 +244,70 @@
     "totalDeposit": "入金總額",
     "totalWithdrawal": "出金總額"
   },
+  "paymentHistory": {
+    "appBarTitle": "出入金紀錄",
+    "typeWithdraw": "出金",
+    "fee": "手續費",
+    "orderSerial": "單號",
+    "filterPopup": {
+      "amountMaxHint": "最高",
+      "amountMinHint": "最低",
+      "clearButton": "清除",
+      "filterButton": "篩選",
+      "applyTimeHint": "請選擇日期",
+      "directionHint": "請選擇類型",
+      "popupTitle": "出入金紀錄篩選",
+      "directionTitle": "出入金類型",
+      "categoryTitle": "出入金方式",
+      "categoryHint": "請選擇出入金方式",
+      "statusTitle": "狀態",
+      "statusHint": "請選擇狀態",
+      "amountTitle": "金額",
+      "applyTimeTitle": "審核時間"
+    },
+    "paymentDetail": "出入金詳情",
+    "paymentTotal": "入金總額",
+    "withdrawTotal": "出金總額",
+    "method": "方式",
+    "type": "類型",
+    "dateTitle": "日期",
+    "statusAudit": "審核中",
+    "orderStatusWithdrawAudit": "審核中",
+    "statusWait": "等待",
+    "statusSuccess": "完成",
+    "statusFail": "失敗",
+    "typeDeposit": "入金",
+    "historyEmptyTip": "尚無出入金紀錄",
+    "historyErrorTip": "獲取資料時發生錯誤",
+    "orderStatusFail": "處理中",
+    "orderStatusDepositAudit": "處理中",
+    "orderStatusWithdrawHandle": "處理中",
+    "orderStatusDepositSuccess": "入金成功",
+    "orderStatusWithdrawSuccess": "出金成功",
+    "orderStatusDepositWaitPay": "未支付",
+    "orderStatusWithdrawReject": "審核失敗"
+  },
   "withdraw": {
     "appBarTitle": "出金",
     "withdrawPriceRangeTip": "入金金額區間：{unit} {range}",
     "balanceTitle": "餘額",
     "withdrawAll": "全部取出"
+  },
+  "agentUserPaymentHistoryList": {
+    "withdraw": "出金",
+    "methodTitle": "方式",
+    "typesTitle": "類型",
+    "dateTitle": "日期",
+    "orderStatusWithdrawAudit": "審核中",
+    "deposit": "入金",
+    "orderStatusFail": "處理中",
+    "orderStatusDepositAudit": "處理中",
+    "orderStatusWithdrawHandle": "處理中",
+    "orderStatusDepositSuccess": "入金成功",
+    "orderStatusWithdrawSuccess": "出金成功",
+    "orderStatusDepositWaitPay": "未支付",
+    "orderStatusWithdrawReject": "審核失敗",
+    "nameDescription": "代理-出入金詳情列表"
   },
   "withdrawThirdParty": {
     "withdrawButton": "出金",
@@ -328,12 +318,12 @@
       "close": "關閉"
     },
     "tipTitle": "相關提示:",
-    "tipContent": "客戶出金所指定之帳號，必需是開戶時所指定之出金銀行帳號。",
+    "tipContent": "客戶出金所指定之帳號，必需是開戶時所指定之出金銀行帳號。\n電子交易系統之線上出金申請時間為每個營業日上午8：00~14：00",
     "accountBalance": "帳戶餘額",
     "enterAmount": "請輸入額度",
-    "minLimitTip": "出金金額最低額度：$",
-    "maxLimitTip": "最高單筆出金金額：$",
-    "feeTip": "需支付手續費金額：$",
+    "minLimitTip": "出金金額最低額度：USD",
+    "maxLimitTip": "最高單筆出金金額：USD",
+    "feeTip": "需支付手續費金額：USD",
     "description": "說明",
     "dailyFreeFeeTimes": "24小時免費出金次數",
     "dailyWithdrawTimes": "24小時可出金次數"
@@ -343,9 +333,9 @@
     "netAssetValue": "淨值",
     "availableBalance": "可用餘額",
     "tabOrder": "掛單",
-    "occupyMargin": "保證金",
     "tabPosition": "持倉",
     "maintenanceMargin": "維持保證金",
+    "occupyMargin": "保證金",
     "dynamicProfitLoss": "實時盈虧",
     "tabHistory": "已平倉",
     "positionSortUp2Down": "開倉價以高到低",
@@ -365,38 +355,37 @@
     "netAssetValue": "淨值",
     "dynamicProfitLoss": "浮動盈虧",
     "availableBalance": "可用餘額",
-    "margin": "保證金",
     "maintenanceMargin": "維持保證金",
+    "margin": "保證金",
     "marginLevel": "保證金水平"
   },
   "positionDetail": {
     "dynamicProfitLoss": "浮動盈虧",
-    "profitLoss": "浮動盈虧",
     "rollover": "隔夜費",
     "tableOpenPriceTitle": "開倉價格",
     "openPriceTitle": "開倉價格",
+    "profitLoss": "浮動盈虧",
     "closePosition": "平倉",
-    "contractMargin": "保證金",
-    "transactionSerial": "訂單號",
-    "closePositionSuccess": "平倉成功",
-    "estimatedForcedParity": "預估強平價",
-    "highPrice": "最高",
-    "lowPrice": "最低",
-    "positionTag": "持倉",
-    "maintenanceMargin": "維持保證金",
     "openPositionChartTag": "開倉",
     "nowPriceChartTag": "最新",
+    "positionTag": "持倉",
     "lastPriceTitle": "當前價格",
+    "maintenanceMargin": "維持保證金",
+    "highPrice": "最高",
     "openPrice": "開盤",
+    "lowPrice": "最低",
     "tradingDirection": "方向",
     "lots": "手數",
     "createDate": "交易時間",
+    "contractMargin": "保證金",
     "fee": "交易綜合費",
     "modifyButton": "修改",
+    "transactionSerial": "訂單號",
     "stopProfitLossEmpty": "未設置",
     "trailingStopEmpty": "未設置",
     "tableLotsTitle": "數量",
     "currentPositionValue": "當前價值",
+    "closePositionSuccess": "平倉成功",
     "closePositionLotsOutRange": "平倉手數超過持有手數",
     "confirmClosePosition": "確認平倉",
     "openPositionLots": "開倉數量",
@@ -409,6 +398,7 @@
     "feeLoading": "讀取中",
     "rolloverEmpty": "--",
     "openPositionValue": "開倉價值",
+    "estimatedForcedParity": "預估強平價",
     "quantity24h": "24h量"
   },
   "transactionHistoryDetail": {
@@ -419,12 +409,12 @@
     "closePositionPriceTitle": "平倉價格",
     "closePositionReason": "平倉原因",
     "contractMargin": "保證金",
-    "transactionSerial": "訂單號",
-    "orderTag": "已平倉",
     "fee": "交易綜合費",
+    "transactionSerial": "訂單號",
     "stopProfitLossEmpty": "未設置",
     "trailingStopEmpty": "未設置",
     "openPositionValue": "開倉價值",
+    "orderTag": "已平倉",
     "netProfitLoss": "平倉淨盈虧",
     "closePositionValue": "平倉價值"
   },
@@ -434,34 +424,34 @@
     "availableBalance": "可用餘額",
     "totalCostPopup": {
       "handlingFee": "手續費",
-      "needMargin": "需付保證金",
       "transactionAllFee": "交易綜合費",
       "transactionMargin": "交易保證金",
       "transactionTotalTitle": "合計支付",
+      "needMargin": "需付保證金",
       "totalValue": "總計（元）"
     },
     "marketOrderPopup": {
       "openPrice": "開倉價格",
       "occupyMargin": "保證金",
-      "type": "類型",
       "lots": "數量",
+      "type": "類型",
       "createDate": "建立日期",
       "futuresNameTitle": "商品",
       "marketPrice": "市價",
       "transactionMode": "交易模式"
     },
+    "tradingDirection": "方向",
+    "lots": "手數",
     "limitOrderPopup": {
       "occupyMargin": "保證金",
-      "type": "類型",
       "lots": "數量",
+      "type": "類型",
       "createDate": "建立日期",
       "futuresNameTitle": "商品",
       "limitPrice": "限價"
     },
-    "needMargin": "需付保證金",
-    "tradingDirection": "方向",
-    "lots": "手數",
     "marketClose": "市場關閉－僅接受掛單交易",
+    "needMargin": "需付保證金",
     "errorStopLossOutRange": "止損須在限制範圍內",
     "errorStopProfitOutRange": "止盈須在限制範圍內",
     "errorLotsOutRange": "手數須在限制範圍內",
@@ -490,6 +480,10 @@
       "title": "交易數量已達上限",
       "content": "目前交易數量已達上限\n無法進行交易，請稍候再試"
     },
+    "maxPositionPopup": {
+      "title": "持倉量已達到上限",
+      "content": "目前持倉量已達上限\n無法進行交易"
+    },
     "descriptionBevelConfirmPopup": {
       "title": "無法切換為{tradeMode}模式",
       "content": "需要無倉位、無當前持倉。才能夠切換，請立即前往倉位進行平倉",
@@ -502,10 +496,6 @@
       "checkPosition": "查看持倉",
       "checkAccountOrder": "查看掛單",
       "continueTrading": "繼續交易"
-    },
-    "maxPositionPopup": {
-      "title": "持倉量已達到上限",
-      "content": "目前持倉量已達上限\n無法進行交易"
     },
     "stopProfitError": "您所輸入的止盈價格無效",
     "stopLossError": "您所輸入的止損價格無效",
@@ -520,7 +510,7 @@
     "titleHint": "調整倉位模式僅對當前交易訂單生效。",
     "subTitle": "什麼是全倉和逐倉模式？",
     "contentTitle2": "逐倉模式",
-    "contentDescription1": "在全倉下保證金，賬戶裡所有可用餘額都可以充當擔保資產，維持保證金要求以避免被強制平倉。如果強制平倉，全部相對應的可用餘額可能會損失。",
+    "contentDescription1": "在全倉下，賬戶裡所有可用餘額都可以充當擔保資產，維持保證金要求以避免被強制平倉。如果強制平倉，全部相對應的可用餘額可能會損失。",
     "contentDescription2": "在逐倉保證金下，一定數量保證金被分配到倉位上，可手動調整倉位保證金。如果倉位保證金虧損到低於維持保證金水平，倉位將會被強平。在強制平倉的狀況下，您可能會損失起始保證金和加入到此倉位的追加保證金。",
     "button": "確定"
   },
@@ -626,25 +616,6 @@
     "clearCacheToast": "已清理 {size} MB",
     "noCacheNeedClean": "尚無緩存需要清理"
   },
-  "common": {
-    "login": "登入",
-    "buyIn": "買入",
-    "sellOut": "賣出",
-    "cancel": "取消",
-    "loginFirst": "請先登入",
-    "appName": "聯匯",
-    "notInSimulated": "模擬交易下無法使用此功能",
-    "confirm": "確認",
-    "futureClosed": "功能關閉中",
-    "priceUnit": "$",
-    "lotsUnit": "手",
-    "leverUnit": "X",
-    "logout": "登出",
-    "stopLoss": "止損",
-    "stopProfit": "止盈",
-    "trailingStop": "追蹤止損",
-    "bindPhoneFirst": "請先綁定手機"
-  },
   "futuresCustomEdit": {
     "emptyTip": "添加自選",
     "futuresName": "交易品種",
@@ -663,17 +634,16 @@
     "alertWhenPrice": "達到以下價格時提醒我",
     "alertList": "提醒列表",
     "createSuccess": "創建提醒成功",
-    "removeSuccess": "已成功刪除提醒",
-    "setReminder": "設置提醒"
+    "removeSuccess": "已成功刪除提醒"
   },
   "futuresDetail": {
     "sellOutPrice": "賣出價",
     "buyInPrice": "買入價",
     "bottomSheet": {
       "accountOrder": "掛單",
-      "positionEmptyTip": "尚無持倉",
       "accountPosition": "持倉",
       "header": "我的委託",
+      "positionEmptyTip": "尚無持倉",
       "orderEmptyTip": "尚無掛單"
     },
     "dataTab": {
@@ -687,19 +657,19 @@
       "highPrice": "最高價",
       "volume": "成交量"
     },
-    "marketClose": "市場關閉－僅接受掛單交易",
-    "fullWarehouse": "全倉模式",
     "recentTransactionUnfoldLabel": "展開",
     "addFavoriteSuccess": "已加入個人自訂品種",
     "removeFavoriteSuccess": "已移除個人自訂品種",
     "buyInVolume": "委買量",
     "sellOutVolume": "委賣量",
     "recentTransactionFoldLabel": "縮起",
+    "marketClose": "市場關閉－僅接受掛單交易",
     "tabChart": "行情",
     "tabData": "數據",
     "tabContract": "詳情",
     "inTradingTime": "交易中",
     "onlyLimitOrder": "僅接受掛單",
+    "fullWarehouse": "全倉模式",
     "fullWarehouseTipContent": "此交易為全倉交易，虧損金額會超過保證金金額。\n\n當持續虧損導致賬戶達到強平線時，其他訂單將會被陸續強平，賬戶資金將全部虧損！\n\n建議您設定止盈和止損價格，能夠更有效率的控制資金情況！",
     "fullWarehouseTipTitle": "全倉模式說明"
   },
@@ -709,32 +679,6 @@
     "futuresType": "品種",
     "add": "添加",
     "searchEmptyTip": "查無相關品種"
-  },
-  "futuresChart": {
-    "changeRate": "漲跌幅",
-    "highPrice": "最高",
-    "lowPrice": "最低",
-    "openPrice": "開盤",
-    "chartHour1": "1小時",
-    "volume": "成交量",
-    "more": "更多",
-    "indicatorBoll": "BOLL",
-    "indicatorKdj": "KDJ",
-    "indicatorMacd": "MACD",
-    "indicatorMa": "MA",
-    "indicatorRsi": "RSI",
-    "indicatorWr": "WR",
-    "closePrice": "收盤",
-    "changeValue": "漲跌值",
-    "loadFailTitle": "加載失敗",
-    "loadFailContent": "無法獲取到資料",
-    "chartMinute1": "1分",
-    "chartMinute5": "5分",
-    "chartMinute15": "15分",
-    "chartMinute30": "30分",
-    "chartWeek1": "周線",
-    "chartMonth1": "月線",
-    "chartDay": "日線"
   },
   "announcement": {
     "appBarTitle": "公告",
@@ -748,24 +692,6 @@
     "emptyTip": "暫無資料",
     "noFindQaTip1": "無法找到想要的解答？",
     "noFindQaTip2": "請聯絡我們"
-  },
-  "agentTransactionSettingList": {
-    "spreadTitle": "點差",
-    "handlingFeeTitle": "手續費",
-    "descriptionPopup": {
-      "cancelButton": "取消",
-      "deleteTitle": "刪除點差",
-      "deleteButton": "刪除點差",
-      "contentText": "刪除該品項點差，將會導致用戶交易的點差回到預設點差，可能會影響您的利潤。\\n\\n確定要刪除點差嗎？"
-    },
-    "emptyTip": "暫無資料"
-  },
-  "agentConditionFuturesList": {
-    "spreadTitle": "點差",
-    "handlingFeeTitle": "手續費",
-    "emptyTip": "查無資料",
-    "ItemsTitle": "品項",
-    "nameDescription": "代理條件-交易點差及手續費範圍列表"
   },
   "agentOverview": {
     "appBarTitle": "總覽",
@@ -852,6 +778,42 @@
     "filterItemsButtonHint": "請選擇商品",
     "filterVarietyButtonHint": "請選擇品種"
   },
+  "common": {
+    "buyIn": "買入",
+    "sellOut": "賣出",
+    "cancel": "取消",
+    "loginFirst": "請先登入",
+    "appName": "聯匯",
+    "notInSimulated": "模擬交易下無法使用此功能",
+    "confirm": "確認",
+    "futureClosed": "功能關閉中",
+    "priceUnit": "USD",
+    "lotsUnit": "手",
+    "leverUnit": "X",
+    "logout": "登出",
+    "login": "登入",
+    "stopLoss": "止損",
+    "stopProfit": "止盈",
+    "trailingStop": "追蹤止損"
+  },
+  "agentTransactionSettingList": {
+    "handlingFeeTitle": "手續費",
+    "descriptionPopup": {
+      "cancelButton": "取消",
+      "deleteTitle": "刪除點差",
+      "deleteButton": "刪除點差",
+      "contentText": "刪除該品項點差，將會導致用戶交易的點差回到預設點差，可能會影響您的利潤。\\n\\n確定要刪除點差嗎？"
+    },
+    "emptyTip": "暫無資料",
+    "spreadTitle": "點差"
+  },
+  "agentConditionFuturesList": {
+    "handlingFeeTitle": "手續費",
+    "emptyTip": "查無資料",
+    "spreadTitle": "點差",
+    "ItemsTitle": "品項",
+    "nameDescription": "代理條件-交易點差及手續費範圍列表"
+  },
   "agentFundingDetails": {
     "filterPopup": {
       "leverageSettingTitle": "槓桿設定",
@@ -881,9 +843,9 @@
     "openPriceTitle": "開倉價",
     "occupyMargin": "保證金",
     "transactionSerialTitle": "訂單號",
+    "emptyTip": "尚無掛單",
     "emptyButton": "開始交易",
     "lastPriceTitle": "當前價",
-    "emptyTip": "尚無掛單",
     "cancelButton": "撤銷",
     "cancelConfirm": "確定撤單?",
     "orderPrice": "掛單價"
@@ -959,11 +921,11 @@
     "orderChartTag": "掛單",
     "orderPriceTitle": "掛單價格",
     "openingPriceTitle": "開倉價格",
-    "margin": "保證金",
-    "transactionSerial": "訂單號",
     "lastPriceTitle": "當前價格",
     "tradingDirection": "方向",
+    "margin": "保證金",
     "modifyButton": "修改",
+    "transactionSerial": "訂單號",
     "stopProfitLossEmpty": "未設置",
     "trailingStopEmpty": "未設置",
     "lotsTitle": "數量",
@@ -992,8 +954,7 @@
     "transactionTimeNext": "下個時段",
     "viewAllTransactionTime": "查看更多時段",
     "exchangeRateTip": "(匯率波動較大時, 將會進行調整)",
-    "tableValueFold": "折疊",
-    "noLimit": "無限制"
+    "tableValueFold": "折疊"
   },
   "orderModify": {
     "accountOrderTitle": "掛單價格",
@@ -1004,27 +965,63 @@
     "estimateProfit": "預估盈利",
     "trailingStopSubtitle": "設置追蹤止損距離",
     "estimateProfitLoss": "預計盈虧",
-    "stopProfitError": "您所輸入的止盈價格無效",
-    "stopLossError": "您所輸入的止損價格無效",
-    "trailingStopRangeHint": "有效的追蹤止損距離為：{min}-{max}點",
-    "errorTrailingStopOutRange": "追蹤止損須在限制範圍內",
     "cancelModify": "您確定要放棄修改嗎？",
     "stopLossSubtitle": "設置止損價格",
     "stopProfitSubtitle": "設置止盈價格",
     "appBarTitle": "修改掛單",
     "accountOrderInputHint": "請輸入您的掛單價格",
+    "stopProfitError": "您所輸入的止盈價格無效",
+    "stopLossError": "您所輸入的止損價格無效",
+    "trailingStopRangeHint": "有效的追蹤止損距離為：{min}-{max}點",
+    "errorTrailingStopOutRange": "追蹤止損須在限制範圍內",
     "errorLimitPriceOutRange": "掛單價格須在限制範圍內"
+  },
+  "futuresChartFullScreen": {
+    "highPrice": "最高",
+    "openPrice": "開盤",
+    "lowPrice": "最低",
+    "addFavoriteSuccess": "已加入個人自訂品種",
+    "removeFavoriteSuccess": "已移除個人自訂品種"
+  },
+  "futuresChart": {
+    "highPrice": "最高",
+    "openPrice": "開盤",
+    "lowPrice": "最低",
+    "chartHour1": "1小時",
+    "volume": "成交量",
+    "more": "更多",
+    "indicatorBoll": "BOLL",
+    "indicatorKdj": "KDJ",
+    "indicatorMacd": "MACD",
+    "indicatorMa": "MA",
+    "indicatorRsi": "RSI",
+    "indicatorWr": "WR",
+    "closePrice": "收盤",
+    "changeValue": "漲跌值",
+    "changeRate": "漲跌幅",
+    "loadFailTitle": "加載失敗",
+    "loadFailContent": "無法獲取到資料",
+    "chartMinute1": "1分",
+    "chartMinute5": "5分",
+    "chartMinute15": "15分",
+    "chartMinute30": "30分",
+    "chartWeek1": "周線",
+    "chartMonth1": "月線",
+    "chartDay": "日線"
+  },
+  "numberInputField": {
+    "defaultHint": "未設置"
   },
   "adjustmentMarginDescriptionPopup": {
     "content3": "預估強平價",
     "title": "調整保證金",
     "button": "我知道了",
-    "content1": "您可為該持倉追加保證金",
-    "content2": "追加保證金，將獲得更安全的",
+    "content1": "您可為該持倉增加或減少保證金",
+    "content2": "增加保證金，將獲得更安全的",
+    "content4": "減少保證金，將獲得更多",
+    "content5": "可用保證金",
+    "content6": "，但同時持倉風險變大。",
     "tip": "提醒：\n調整保證金，僅改變持倉風險，不影響訂單交易總額和訂單盈虧。"
-  },
-  "agentFundingPositions": {
-    "emptyTip": "尚無持倉"
   },
   "agentProfitSharingSearch": {
     "cancel": "取消",
@@ -1034,8 +1031,8 @@
   },
   "agentUserSearch": {
     "cancel": "取消",
-    "emptyTip": "暫無用戶資料",
     "pleaseEnterSearchHint": "請輸入搜尋條件",
+    "emptyTip": "暫無用戶資料",
     "enterDetailSearchHint": "輸入下級用戶清單搜尋條件",
     "searchResultsTitle": "搜尋結果"
   },
@@ -1114,8 +1111,8 @@
     },
     "dateHint": "請選擇日期",
     "dateTitle": "日期",
-    "appBarTitle": "用戶分潤報表",
-    "emptyTip": "暫無用戶資料"
+    "emptyTip": "暫無用戶資料",
+    "appBarTitle": "用戶分潤報表"
   },
   "agentFundingDetailsSearch": {
     "cancel": "取消",
@@ -1127,16 +1124,16 @@
     "headerFees": "規費",
     "headerTransactionProfit": "交易利潤",
     "emptyTip": "暫無資料",
+    "headerUser": "用戶",
     "headerDiscount": "優惠",
-    "headerTotalGrunt": "總分潤",
-    "headerUser": "用戶"
+    "headerTotalGrunt": "總分潤"
   },
   "agentProfitList": {
     "typesFees": "規費",
     "typesTransactionProfit": "交易利潤",
     "typesOtherProfits": "其他利潤",
-    "typesMarketPrice": "市價",
     "typesAll": "全部",
+    "typesMarketPrice": "市價",
     "emptyTip": "暫無資料",
     "typesDiscount": "優惠",
     "typesSalary": "工資"
@@ -1160,36 +1157,36 @@
     "estimateLoss": "預估虧損",
     "estimateProfit": "預估盈利",
     "trailingStopSubtitle": "設置追蹤止損距離",
-    "estimateProfitLoss": "預計盈虧",
-    "stopProfitError": "您所輸入的止盈價格無效",
-    "stopLossError": "您所輸入的止損價格無效",
-    "trailingStopRangeHint": "有效的追蹤止損距離為：{min}-{max}點",
-    "errorTrailingStopOutRange": "追蹤止損須在限制範圍內",
     "trailingStopTitle": "追蹤止損",
+    "errorNotTradingTime": "當前非交易時段",
+    "errorFuturesNotTradingTime": "該品項暫時無法交易",
     "cancelModify": "您確定要放棄修改嗎？",
     "stopLossSubtitle": "設置止損價格",
     "stopProfitSubtitle": "設置止盈價格",
-    "adjustMargin": "調整保證金",
-    "errorNotTradingTime": "當前非交易時段",
-    "errorFuturesNotTradingTime": "該品項暫時無法交易",
     "appBarTitle": "修改持倉單",
     "closeMultiPositionPartialFailTitle": "部份單號平倉失敗!",
     "errorClosePositionFindNoSerial": "查無此單號",
     "errorGeneralCode": "未知錯誤({code})",
+    "adjustMargin": "調整保證金",
     "adjustedLiquidationPrice": "調整後預估強平價",
     "append": "追加",
     "mostAppend": "最多可追加",
     "adjustMarginHint": "請輸入金額",
     "adjustMarginInputMinHint": "請輸入{min}元以上金額",
     "adjustMarginInputMaxHint": "請輸入{max}元以下金額",
+    "stopProfitError": "您所輸入的止盈價格無效",
+    "stopLossError": "您所輸入的止損價格無效",
+    "trailingStopRangeHint": "有效的追蹤止損距離為：{min}-{max}點",
+    "estimateProfitLoss": "預計盈虧",
+    "errorTrailingStopOutRange": "追蹤止損須在限制範圍內",
     "errorMarginCallOutRange": "調整保證金須在限制範圍內"
   },
   "chartBollSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失敗",
-    "cancelModify": "您確定要放棄修改嗎？",
     "appBarTitle": "BOLL",
     "modifyButton": "儲存",
+    "cancelModify": "您確定要放棄修改嗎？",
     "index": "指標",
     "defaultSetting": "默認設置",
     "indexUp": "UP",
@@ -1201,9 +1198,9 @@
   "chartKdjSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失敗",
-    "cancelModify": "您確定要放棄修改嗎？",
     "appBarTitle": "KDJ",
     "modifyButton": "儲存",
+    "cancelModify": "您確定要放棄修改嗎？",
     "index": "指標",
     "defaultSetting": "默認設置",
     "indexK": "K",
@@ -1216,9 +1213,9 @@
   "chartMacdSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失敗",
-    "cancelModify": "您確定要放棄修改嗎？",
     "appBarTitle": "MACD",
     "modifyButton": "儲存",
+    "cancelModify": "您確定要放棄修改嗎？",
     "index": "指標",
     "defaultSetting": "默認設置",
     "timePeriod": "時間週期",
@@ -1230,29 +1227,29 @@
   "chartMaSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失敗",
-    "cancelModify": "您確定要放棄修改嗎？",
     "appBarTitle": "MA",
     "indexMa": "MA",
     "modifyButton": "儲存",
+    "cancelModify": "您確定要放棄修改嗎？",
     "defaultSetting": "默認設置"
   },
   "chartRsiSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失敗",
-    "cancelModify": "您確定要放棄修改嗎？",
     "appBarTitle": "RSI",
     "indexRsi": "RSI",
     "modifyButton": "儲存",
+    "cancelModify": "您確定要放棄修改嗎？",
     "defaultSetting": "默認設置",
     "period": "週期"
   },
   "chartWrSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失敗",
-    "cancelModify": "您確定要放棄修改嗎？",
     "appBarTitle": "WR",
     "indexWr": "WR",
     "modifyButton": "儲存",
+    "cancelModify": "您確定要放棄修改嗎？",
     "defaultSetting": "默認設置",
     "period": "週期"
   },
@@ -1268,24 +1265,12 @@
     "typesButtonHint": "請選擇類型",
     "appBarTitle": "下級用戶專用"
   },
-  "countryCode": {
-    "emptyTip": "查無資料",
-    "country": "國家",
-    "searchEnterHint": "請輸入名稱或區碼"
-  },
-  "futuresChartFullScreen": {
-    "highPrice": "最高",
-    "lowPrice": "最低",
-    "openPrice": "開盤",
-    "addFavoriteSuccess": "已加入個人自訂品種",
-    "removeFavoriteSuccess": "已移除個人自訂品種"
-  },
   "withdrawBank": {
     "datePrefix": "日期",
-    "tipTitle": "相關提示:",
     "appBarTitle": "銀行轉帳",
     "withdrawRequestSending": "提交申請中",
     "withdrawButton": "提交出金申請",
+    "tipTitle": "相關提示:",
     "tipContent": "客戶出金所指定之帳號，必需是開戶時所指定之出金銀行帳號。\n電子交易系統之線上出金申請時間為每個營業日上午8：00~14：00",
     "completeTitle": "出金申請完成",
     "completeContent": "審核預計會需要 3-5 個工作天。\n通過後，您將會收到資金轉帳通知。",
@@ -1295,35 +1280,19 @@
   "accountPaymentManager": {
     "statusAudit": "審核中",
     "appBarTitle": "出金帳戶設定",
-    "emptyTip": "您目前沒有任何出金帳戶，請按下方或\n右上角「+」按鈕新增後\n進行審核。",
+    "emptyTip": "您目前沒有任何出金帳戶，請下方或\n右上角「+」按鈕新增後\n進行審核。",
     "addBankAccount": "新增出金帳戶",
-    "statusSuccess": "可使用",
+    "statusSuccess": "",
     "statusFail": "未過審",
     "paymentCategoryEmptyPopup": {
       "noPaymentTip": "目前無出金方式，如要新增出金帳戶，請",
       "contactCustomerService": "聯繫客服人員"
     }
   },
-  "languageSetting": {
-    "complete": "完成",
-    "appBarTitle": "語言",
-    "localeDefault": "系統",
-    "localeZhTw": "繁體中文",
-    "localeZhCn": "簡體中文",
-    "localeZh": "中文",
-    "localeEn": "English",
-    "localeJp": "日本語",
-    "localeKr": "한국어",
-    "localeTh": "ไทย",
-    "localeVi": "Tiếng Việt"
-  },
-  "keyboardInputAction": {
-    "complete": "完成"
-  },
   "paymentBank": {
     "paymentPriceRangeTip": "入金金額區間：{unit} {range}",
-    "appBarTitle": "銀行轉帳",
     "paymentPriceTitle": "請輸入金額",
+    "appBarTitle": "銀行轉帳",
     "gettingTransferAccount": "獲取交易帳戶中",
     "payTag": "PAY",
     "confirmPaymentButton": "立即入金享受交易",
@@ -1344,54 +1313,12 @@
     "paymentValueTip2": "在線客服",
     "paymentValueTip3": "客服人員會協助您迅速入金。\n服務宗旨:秉承「用戶至上」真誠「\n用心為您服務」。"
   },
-  "accountBlockPopup": {
-    "closeButton": "關閉",
-    "title": "帳戶封鎖中,無法登入",
-    "content": "可能原因如下:\n   1. 交易行為異常 \n   2. 同 IP 多帳號註冊\n   3. 出入金行為異常",
-    "tip1": "如需解鎖,請聯繫",
-    "tip2": "客服人員"
-  },
-  "otherDevicesLoginPopup": {
-    "closeButton": "關閉",
-    "title": "您已登出",
-    "content": "已在別的裝置上登入，因此從這台裝置登出，請您重新登入"
-  },
-  "depositThirdParty": {
-    "feeTip": "需支付手續費金額：$",
-    "description": "說明",
-    "inputMinHint": "請輸入{min}元以上金額",
-    "inputMaxHint": "請輸入{max}元以下金額",
-    "payTag": "PAY",
-    "confirmPaymentButton": "立即入金享受交易",
-    "tip2": "在線客服",
-    "tip1": "溫馨提示:如遇入金問題，請第一時間聯繫",
-    "tip3": "，客服人員會協助您迅速入金。",
-    "tip4": "客服QQ:{phone}",
-    "tip5": "服務宗旨:秉承「用戶至上」真誠「用心為您服務」。",
-    "payTagTitle": "請輸入入金金額：",
-    "rangeTip": "入金金額區間：$ {min} ~ {max}"
-  },
-  "numberInputField": {
-    "defaultHint": "未設置"
-  },
   "emailBind": {
     "appBarTitle": "驗證Email",
     "captchaHint": "輸入驗證碼",
     "verifyImmediately": "立即驗證",
     "emailHint": "請輸入信箱",
     "bindEmailSuccess": "已成功驗證信箱"
-  },
-  "forgotPassword": {
-    "email": "Email",
-    "enterCaptchaHint": "輸入驗證碼",
-    "enterEmailHint": "請填寫您的電子信箱",
-    "enterPhoneNumberHint": "請輸入您的手機號碼",
-    "title": "忘記密碼",
-    "resetSuccess": "密碼重設成功",
-    "resetButton": "確認並提交",
-    "newPasswordHint": "請輸入新密碼",
-    "changeMethodTip": "使用{method}取回密碼",
-    "phone": "電話"
   },
   "accountIdentifyData": {
     "actualNameTitle": "真實姓名",
@@ -1432,11 +1359,11 @@
     "employmentStatusUnemployed": "待業",
     "employmentStatusStudent": "學生",
     "employmentStatusRetire": "退休",
-    "incomeRangeOver200k": "超過 $ 200,000",
-    "incomeRange100kTo200k": "$ 100,000 - 200,000",
-    "incomeRange50kTo100k": "$ 50,000 - 100,000",
-    "incomeRange20kTo50k": "$ 20,000 - 50,000",
-    "incomeRangeBelow20k": "$ 20,000 以下",
+    "incomeRangeOver200k": "超過 USD200,000",
+    "incomeRange100kTo200k": "USD100,000 - 200,000",
+    "incomeRange50kTo100k": "USD50,000 - 100,000",
+    "incomeRange20kTo50k": "USD20,000 - 50,000",
+    "incomeRangeBelow20k": "USD20,000 以下",
     "errorRealNameEmpty": "請先填入真實姓名",
     "errorEnglishNameEmpty": "請先填入英文姓名",
     "errorCountryEmpty": "尚未選擇國家",
@@ -1507,10 +1434,25 @@
     "emptyTip": "尚無每日任務",
     "missionTip": "每日任務獎勵領取僅限「真實賬戶」交易行為"
   },
+  "languageSetting": {
+    "appBarTitle": "語言",
+    "localeDefault": "系統",
+    "localeZhTw": "繁體中文",
+    "localeZhCn": "簡體中文",
+    "localeZh": "中文",
+    "localeEn": "English",
+    "localeJp": "日本語",
+    "localeKr": "한국어",
+    "localeTh": "ไทย",
+    "localeVi": "Tiếng Việt"
+  },
   "upDownColorSetting": {
     "upGreenDownRed": "綠漲紅跌",
     "upRedDownGreen": "紅漲綠跌",
     "appBarTitle": "升跌顏色"
+  },
+  "agentFundingPositions": {
+    "emptyTip": "尚無持倉"
   },
   "requestError": {
     "noAuth": "請先登入",
@@ -1542,30 +1484,14 @@
   },
   "receiveAwardPopup": {
     "confirmButton": "確認",
-    "know": "我知道了",
     "receivedCount": "已領取{n}個獎勵",
     "receivedTitle": "已領取「{n}」",
+    "know": "我知道了",
     "historyButton": "前往歷史獎勵",
     "noTipToday": "今日不再提醒"
   },
   "listScrollSheet": {
     "confirmButton": "確認"
-  },
-  "paymentMethod": {
-    "bankTitle": "銀行轉帳",
-    "creditTitle": "信用卡線上刷卡",
-    "bankDescription": "提供每月5至10次的免費跨行轉帳",
-    "creditDescription": "天天刷享超高1.88%現金回饋",
-    "recommendedMethod": "推薦入金方式",
-    "otherMethod": "其餘入金方式"
-  },
-  "depositCategory": {
-    "nextStep": "下一步",
-    "recommendedMethod": "推薦入金方式",
-    "appBarTitle": "請選擇入金方法",
-    "empty": "目前暫時無法提供任何入金方式\n請稍後再試",
-    "customerService": "聯絡客服",
-    "depositMethodHint": "請選擇入金方式"
   },
   "signUp": {
     "registerButton": "註冊",
@@ -1574,7 +1500,7 @@
     "signUpSuccess": "註冊成功",
     "emailEnterCodeHint": "輸入信箱收到的驗證碼",
     "agreeOurPrivacy": "註冊即代表您同意我們的",
-    "agreeOurPrivacyValue": "隱私政策.",
+    "agreeOurPrivacyValue": "隱私和政策.",
     "alreadyHaveAccountButton": "已有帳號？",
     "phoneNumberRegistrationTitle": "使用手機號碼註冊",
     "enterPhoneNumberHint": "請輸入您的手機號碼",
@@ -1589,7 +1515,7 @@
     "alreadyHaveAccountButton": "已有帳號？",
     "benefit1": "超過一百個以上的交易品項",
     "benefit2": "二十四小時隨時交易",
-    "benefit3": "免傭金以及低點差",
+    "benefit3": "免佣金以及低點差",
     "benefit4": "免費的獨家見解",
     "welcomeTitle": "歡迎",
     "newUserTitle": "新使用者註冊",
@@ -1605,6 +1531,29 @@
     "chartType": "圖表類型",
     "appBarTitle": "圖表設置",
     "indicatorIndex": "技術指標"
+  },
+  "depositThirdParty": {
+    "inputMinHint": "請輸入{min}元以上金額",
+    "inputMaxHint": "請輸入{max}元以下金額",
+    "payTag": "PAY",
+    "confirmPaymentButton": "立即入金享受交易",
+    "tip2": "在線客服",
+    "feeTip": "需支付手續費金額：USD",
+    "description": "說明",
+    "tip1": "溫馨提示:如遇入金問題，請第一時間聯繫",
+    "tip3": "，客服人員會協助您迅速入金。",
+    "tip4": "客服QQ:{phone}",
+    "tip5": "服務宗旨:秉承“用戶至上”真誠“用心為您服務”。",
+    "payTagTitle": "請輸入入金金額：",
+    "rangeTip": "入金金額區間：USD {min} ~ {max}"
+  },
+  "paymentMethod": {
+    "bankTitle": "銀行轉帳",
+    "creditTitle": "信用卡線上刷卡",
+    "bankDescription": "提供每月5至10次的免費跨行轉帳",
+    "creditDescription": "天天刷享超高1.88%現金回饋",
+    "recommendedMethod": "推薦入金方式",
+    "otherMethod": "其餘入金方式"
   },
   "bankAccountDetail": {
     "appBarTitle": "出金帳戶設定",
@@ -1651,13 +1600,25 @@
   "depositCheck": {
     "title": "重要提醒",
     "button": "獲得轉帳資訊 去轉帳",
-    "checkTip": "我已瞭解上述資訊",
-    "contentTip": "請使用本人的帳戶轉帳\n帳戶有效期限各家銀行不同\n請留意入金帳戶是否正確\n轉帳金額務必一致\n請勿重複轉帳"
+    "contentTip": "請使用本人的帳戶轉帳\n帳戶有效期限各家銀行不同\n請留意入金帳戶是否正確\n轉帳金額務必一致\n請勿重複轉帳",
+    "checkTip": "我已了解上述資訊"
+  },
+  "forgotPassword": {
+    "title": "忘記密碼",
+    "enterCaptchaHint": "輸入驗證碼",
+    "enterEmailHint": "請填寫您的電子信箱",
+    "enterPhoneNumberHint": "請輸入您的手機號碼",
+    "resetSuccess": "密碼重設成功",
+    "resetButton": "確認並提交",
+    "newPasswordHint": "請輸入新密碼",
+    "changeMethodTip": "使用{method}取回密碼",
+    "email": "Email",
+    "phone": "電話"
   },
   "changePassword": {
     "captchaHint": "輸入驗證碼",
-    "appBarTitle": "修改密碼",
     "newPasswordHint": "請輸入新密碼",
+    "appBarTitle": "修改密碼",
     "modifyButton": "確認變更",
     "changeSuccessToast": "密碼變更成功, 請重新登入"
   },
@@ -1668,29 +1629,8 @@
     "appBarTitle": "驗證電話",
     "bindSuccess": "已成功綁定電話"
   },
-  "identifyVerificationResult": {
-    "title": "證明身份流程完成",
-    "content": "將會需要 1-5 個工作天，確認驗證完畢，您就可以入金，享受交易了",
-    "backToHome": "回首頁"
-  },
   "emptyPlace": {
     "tip": "資料為空"
-  },
-  "serverApiError": {
-    "system": "糟糕 出現了一個錯誤",
-    "payment1": "餘額不足",
-    "order2": "餘額不足",
-    "payment2": "金額超出限制",
-    "payment3": "每日出金次數已達上限",
-    "payment4": "當前已有出金訂單審核中, 請勿重複出金",
-    "payment5": "當前非出金時段",
-    "account1": "驗證碼錯誤",
-    "account2": "資料已綁定, 請勿重複綁定",
-    "account3": "實名認證資料已綁定, 請勿重複綁定",
-    "account4": "無法註冊, 請聯繫客服",
-    "account5": "請先綁定手機號",
-    "order1": "查無此產品",
-    "order3": "查無持倉"
   },
   "login": {
     "enterEmailHint": "請填寫您的電子信箱",
@@ -1702,8 +1642,21 @@
     "phoneLogin": "手機登入",
     "emailLogin": "信箱登入"
   },
+  "depositCategory": {
+    "recommendedMethod": "推薦入金方式",
+    "nextStep": "下一步",
+    "appBarTitle": "請選擇入金方法",
+    "empty": "目前暫時無法提供任何入金方式\n請稍後再試",
+    "customerService": "聯絡客服",
+    "depositMethodHint": "請選擇入金方式"
+  },
   "marginLevelWarningBar": {
     "tip": "保證金比例過低提示! ({percent}%)"
+  },
+  "countryCode": {
+    "country": "國家",
+    "searchEnterHint": "請輸入名稱或區碼",
+    "emptyTip": "查無資料"
   },
   "fileVerify": {
     "idCardTitle": "身份證明文件",
@@ -1726,11 +1679,7 @@
     "qualifiedFile": "合格文件",
     "qualifiedFileTip": "照片清晰\n解析度高\n證件四角皆有入鏡",
     "failedFile": "不合格文件",
-    "failedFileTip": "照片模糊、反光\n解析度過低\n證件四角被裁切",
-    "identityCard": "身分證",
-    "passport": "護照",
-    "drivingLicense": "駕照",
-    "accountBookOrResidentPermit": "戶口名簿 / 居留證"
+    "failedFileTip": "照片模糊、反光\n解析度過低\n證件四角被裁切"
   },
   "handIdCardVerify": {
     "stepHeaderSubtitle": "共1題",
@@ -1752,8 +1701,7 @@
     "typeSelectTitle": "證明身份",
     "uploadLetterTitle": "點擊上傳或拍攝信件",
     "uploadBillTitle": "點擊上傳或拍攝帳單",
-    "stepHeaderTitle": "步驟3 - 證明身份(3/4)",
-    "nextStepProve": "下一步, 證明身份"
+    "stepHeaderTitle": "步驟3 - 證明身份(3/4)"
   },
   "imagePicker": {
     "reUpload": "重新上傳",
@@ -1769,6 +1717,11 @@
   "identifyVerification": {
     "appBarTitle": "身份驗證",
     "uploadSuccess": "上傳送審資料成功"
+  },
+  "identifyVerificationResult": {
+    "title": "證明身份流程完成, 恭喜獲得\n{award}",
+    "content": "將會需要 1-5 個工作天，確認驗證完畢，您就可以入金，享受交易了",
+    "backToHome": "回首頁"
   },
   "messageNotify": {
     "haveRead": "(已讀)"
@@ -1847,7 +1800,7 @@
     "androidLocalizedReason": "掃描指紋或臉部進行身份驗證",
     "iosLocalizedReason": "掃描指紋進行身份驗證",
     "fingerprintHint": "觸摸感應",
-    "fingerprintNotRecognized": "無法識別指紋, 請再嘗試一次",
+    "fingerprintNotRecognized": "無法識別指紋, 請在嘗試一次",
     "fingerprintSuccess": "指紋識別成功",
     "signInTitle": "指紋驗證",
     "fingerprintRequiredTitle": "指紋辨識需求",
@@ -1870,17 +1823,6 @@
     "realTimeAverage": "實時平均策略",
     "track": "跟單成交",
     "contract": "合約強平"
-  },
-  "positionOpenReason": {
-    "market": "市價成交",
-    "limit": "限價成交"
-  },
-  "positionCloseReason": {
-    "contract": "合約強平",
-    "margin": "保證金強平",
-    "stopProfit": "止盈平倉",
-    "stopLoss": "止損平倉",
-    "user": "市價平倉"
   },
   "captchaBloc": {
     "statusWait": "還需等待 {seconds} 秒",
@@ -1918,7 +1860,19 @@
     "changeTitle": "您的倉位已更變為",
     "mode": "模式"
   },
-  "numberInputRangeField": {
-    "value": "值"
+  "keyboardInputAction": {
+    "complete": "完成"
+  },
+  "accountBlockPopup": {
+    "title": "帳戶封鎖中,無法登入",
+    "content": "可能原因如下:\n   1. 交易行為異常 \n   2. 同 IP 多帳號註冊\n   3. 出入金行為異常",
+    "tip1": "如需解鎖,請聯繫",
+    "tip2": "客服人員",
+    "closeButton": "關閉"
+  },
+  "otherDevicesLoginPopup": {
+    "title": "您已登出",
+    "content": "已在別的裝置上登入，因此從這台裝置登出，請您重新登入",
+    "closeButton": "關閉"
   }
 }

@@ -18,7 +18,11 @@
     "paymentHistory": "",
     "paymentHistorySubtitle": "",
     "positionsSubtitle": "",
-    "toVerificationAccount": "",
+    "idVerifyButton": {
+      "statusNone": "",
+      "statusAudit": "",
+      "statusReject": ""
+    },
     "depositButtonTip": "",
     "withdrawButton": "",
     "withdrawButtonTip": "",
@@ -59,7 +63,15 @@
     "verificationRealAccountFirst": "",
     "waitVerificationRealAccount": "",
     "levelDiamond": "",
-    "member": ""
+    "member": "",
+    "idVerifyStatus": {
+      "audit": "",
+      "pass": "",
+      "reject": ""
+    },
+    "safeLogout": "",
+    "login": "",
+    "logoutSuccess": ""
   },
   "futuresMarketContent": {
     "accountSimulation": "",
@@ -71,7 +83,10 @@
     "buyPrice": "",
     "customTab": "",
     "searchHint": "",
-    "availableBalance": ""
+    "availableBalance": "",
+    "lastPrice": "",
+    "changeRate": "",
+    "changeRateSpread": ""
   },
   "home": {
     "depositButton": "",
@@ -82,6 +97,8 @@
     "buyingPriceTitle": "",
     "futuresTabFavorite": "",
     "searchHint": "",
+    "lastPrice": "",
+    "changeRate": "",
     "defaultBannerTitle": "",
     "defaultBannerSubtitle": "",
     "moreTransaction": "",
@@ -91,11 +108,74 @@
     "customerServiceContent": "",
     "missionButton": "",
     "logoMessageContent": "",
-    "tadeListButton": "",
+    "tradeListButton": "",
     "eventButton": "",
     "tutorialButton": "",
     "futuresTabTop": "",
-    "logoutSuccess": ""
+    "spreadPrefix": "",
+    "idVerifyNeedPopup": {
+      "title": "",
+      "content": "",
+      "confirm": ""
+    }
+  },
+  "paymentHistory": {
+    "typeDeposit": "",
+    "appBarTitle": "",
+    "typeWithdraw": "",
+    "fee": "",
+    "orderSerial": "",
+    "filterPopup": {
+      "clearButton": "",
+      "filterButton": "",
+      "applyTimeHint": "",
+      "directionHint": "",
+      "popupTitle": "",
+      "directionTitle": "",
+      "categoryTitle": "",
+      "categoryHint": "",
+      "statusTitle": "",
+      "statusHint": "",
+      "amountTitle": "",
+      "amountMaxHint": "",
+      "amountMinHint": "",
+      "applyTimeTitle": ""
+    },
+    "paymentDetail": "",
+    "paymentTotal": "",
+    "withdrawTotal": "",
+    "method": "",
+    "type": "",
+    "dateTitle": "",
+    "statusAudit": "",
+    "orderStatusWithdrawAudit": "",
+    "statusFail": "",
+    "orderStatusDepositAudit": "",
+    "orderStatusWithdrawHandle": "",
+    "statusWait": "",
+    "statusSuccess": "",
+    "historyEmptyTip": "",
+    "historyErrorTip": "",
+    "orderStatusDepositSuccess": "",
+    "orderStatusWithdrawSuccess": "",
+    "orderStatusDepositWaitPay": "",
+    "orderStatusWithdrawReject": ""
+  },
+  "agentUserPaymentHistoryList": {
+    "deposit": "",
+    "withdraw": "",
+    "methodTitle": "",
+    "typesTitle": "",
+    "dateTitle": "",
+    "orderStatusWithdrawAudit": "",
+    "orderStatusFail": "",
+    "orderStatusDepositAudit": "",
+    "orderStatusWithdrawHandle": "",
+    "orderStatusDepositSuccess": "",
+    "orderStatusWithdrawSuccess": "",
+    "orderStatusDepositWaitPay": "",
+    "orderStatusWithdrawReject": "",
+    "nameDescription": ""
   },
   "menu": {
     "positions": "",
@@ -157,6 +237,7 @@
   },
   "positions": {
     "profitLoss": "",
+    "lastPrice": "",
     "openPositionPrice": "",
     "closePosition": "",
     "occupyMargin": "",
@@ -166,12 +247,12 @@
     "selectAll": "",
     "emptyTip": "",
     "emptyButton": "",
-    "lastPrice": "",
     "resetSelect": "",
     "closeMultiPosition": "",
     "closePositionLotsOutRange": "",
     "isConfirmClosePosition": "",
-    "limitedTimePrice": ""
+    "limitedTimePrice": "",
+    "lastPriceTitle": ""
   },
   "transactionHistory": {
     "profitLoss": "",
@@ -232,70 +313,11 @@
     "totalDeposit": "",
     "totalWithdrawal": ""
   },
-  "paymentHistory": {
-    "appBarTitle": "",
-    "typeWithdraw": "",
-    "fee": "",
-    "orderSerial": "",
-    "filterPopup": {
-      "amountMaxHint": "",
-      "amountMinHint": "",
-      "clearButton": "",
-      "filterButton": "",
-      "applyTimeHint": "",
-      "directionHint": "",
-      "popupTitle": "",
-      "directionTitle": "",
-      "categoryTitle": "",
-      "categoryHint": "",
-      "statusTitle": "",
-      "statusHint": "",
-      "amountTitle": "",
-      "applyTimeTitle": ""
-    },
-    "paymentDetail": "",
-    "paymentTotal": "",
-    "withdrawTotal": "",
-    "method": "",
-    "type": "",
-    "dateTitle": "",
-    "statusAudit": "",
-    "orderStatusWithdrawAudit": "",
-    "statusWait": "",
-    "statusSuccess": "",
-    "statusFail": "",
-    "typeDeposit": "",
-    "historyEmptyTip": "",
-    "historyErrorTip": "",
-    "orderStatusFail": "",
-    "orderStatusDepositAudit": "",
-    "orderStatusWithdrawHandle": "",
-    "orderStatusDepositSuccess": "",
-    "orderStatusWithdrawSuccess": "",
-    "orderStatusDepositWaitPay": "",
-    "orderStatusWithdrawReject": ""
-  },
   "withdraw": {
     "appBarTitle": "",
     "withdrawPriceRangeTip": "",
     "balanceTitle": "",
     "withdrawAll": ""
-  },
-  "agentUserPaymentHistoryList": {
-    "withdraw": "",
-    "methodTitle": "",
-    "typesTitle": "",
-    "dateTitle": "",
-    "orderStatusWithdrawAudit": "",
-    "deposit": "",
-    "orderStatusFail": "",
-    "orderStatusDepositAudit": "",
-    "orderStatusWithdrawHandle": "",
-    "orderStatusDepositSuccess": "",
-    "orderStatusWithdrawSuccess": "",
-    "orderStatusDepositWaitPay": "",
-    "orderStatusWithdrawReject": "",
-    "nameDescription": ""
   },
   "withdrawThirdParty": {
     "withdrawButton": "",
@@ -321,9 +343,9 @@
     "netAssetValue": "",
     "availableBalance": "",
     "tabOrder": "",
+    "occupyMargin": "",
     "tabPosition": "",
     "maintenanceMargin": "",
-    "occupyMargin": "",
     "dynamicProfitLoss": "",
     "tabHistory": "",
     "positionSortUp2Down": "",
@@ -343,36 +365,38 @@
     "netAssetValue": "",
     "dynamicProfitLoss": "",
     "availableBalance": "",
-    "maintenanceMargin": "",
     "margin": "",
+    "maintenanceMargin": "",
     "marginLevel": ""
   },
   "positionDetail": {
     "dynamicProfitLoss": "",
+    "profitLoss": "",
     "rollover": "",
     "tableOpenPriceTitle": "",
     "openPriceTitle": "",
-    "profitLoss": "",
     "closePosition": "",
-    "openPositionChartTag": "",
-    "positionTag": "",
-    "lastPriceTitle": "",
-    "maintenanceMargin": "",
+    "contractMargin": "",
+    "transactionSerial": "",
+    "closePositionSuccess": "",
+    "estimatedForcedParity": "",
     "highPrice": "",
-    "openPrice": "",
     "lowPrice": "",
+    "positionTag": "",
+    "maintenanceMargin": "",
+    "openPositionChartTag": "",
+    "nowPriceChartTag": "",
+    "lastPriceTitle": "",
+    "openPrice": "",
     "tradingDirection": "",
     "lots": "",
     "createDate": "",
-    "contractMargin": "",
     "fee": "",
     "modifyButton": "",
-    "transactionSerial": "",
     "stopProfitLossEmpty": "",
     "trailingStopEmpty": "",
     "tableLotsTitle": "",
     "currentPositionValue": "",
-    "closePositionSuccess": "",
     "closePositionLotsOutRange": "",
     "confirmClosePosition": "",
     "openPositionLots": "",
@@ -385,7 +409,6 @@
     "feeLoading": "",
     "rolloverEmpty": "",
     "openPositionValue": "",
-    "estimatedForcedParity": "",
     "quantity24h": ""
   },
   "transactionHistoryDetail": {
@@ -396,12 +419,12 @@
     "closePositionPriceTitle": "",
     "closePositionReason": "",
     "contractMargin": "",
-    "fee": "",
     "transactionSerial": "",
+    "orderTag": "",
+    "fee": "",
     "stopProfitLossEmpty": "",
     "trailingStopEmpty": "",
     "openPositionValue": "",
-    "orderTag": "",
     "netProfitLoss": "",
     "closePositionValue": ""
   },
@@ -411,34 +434,34 @@
     "availableBalance": "",
     "totalCostPopup": {
       "handlingFee": "",
+      "needMargin": "",
       "transactionAllFee": "",
       "transactionMargin": "",
       "transactionTotalTitle": "",
-      "needMargin": "",
       "totalValue": ""
     },
     "marketOrderPopup": {
       "openPrice": "",
       "occupyMargin": "",
-      "lots": "",
       "type": "",
+      "lots": "",
       "createDate": "",
       "futuresNameTitle": "",
       "marketPrice": "",
       "transactionMode": ""
     },
-    "tradingDirection": "",
-    "lots": "",
     "limitOrderPopup": {
       "occupyMargin": "",
-      "lots": "",
       "type": "",
+      "lots": "",
       "createDate": "",
       "futuresNameTitle": "",
       "limitPrice": ""
     },
-    "marketClose": "",
     "needMargin": "",
+    "tradingDirection": "",
+    "lots": "",
+    "marketClose": "",
     "errorStopLossOutRange": "",
     "errorStopProfitOutRange": "",
     "errorLotsOutRange": "",
@@ -479,7 +502,15 @@
       "checkPosition": "",
       "checkAccountOrder": "",
       "continueTrading": ""
-    }
+    },
+    "maxPositionPopup": {
+      "title": "",
+      "content": ""
+    },
+    "stopProfitError": "",
+    "stopLossError": "",
+    "trailingStopRangeHint": "",
+    "errorTrailingStopOutRange": ""
   },
   "tradeModePopup": {
     "crossMargin": "",
@@ -595,6 +626,25 @@
     "clearCacheToast": "",
     "noCacheNeedClean": ""
   },
+  "common": {
+    "login": "",
+    "buyIn": "",
+    "sellOut": "",
+    "cancel": "",
+    "loginFirst": "",
+    "appName": "",
+    "notInSimulated": "",
+    "confirm": "",
+    "futureClosed": "",
+    "priceUnit": "",
+    "lotsUnit": "",
+    "leverUnit": "",
+    "logout": "",
+    "stopLoss": "",
+    "stopProfit": "",
+    "trailingStop": "",
+    "bindPhoneFirst": ""
+  },
   "futuresCustomEdit": {
     "emptyTip": "",
     "futuresName": "",
@@ -613,16 +663,17 @@
     "alertWhenPrice": "",
     "alertList": "",
     "createSuccess": "",
-    "removeSuccess": ""
+    "removeSuccess": "",
+    "setReminder": ""
   },
   "futuresDetail": {
     "sellOutPrice": "",
     "buyInPrice": "",
     "bottomSheet": {
       "accountOrder": "",
+      "positionEmptyTip": "",
       "accountPosition": "",
       "header": "",
-      "positionEmptyTip": "",
       "orderEmptyTip": ""
     },
     "dataTab": {
@@ -636,19 +687,19 @@
       "highPrice": "",
       "volume": ""
     },
+    "marketClose": "",
+    "fullWarehouse": "",
     "recentTransactionUnfoldLabel": "",
     "addFavoriteSuccess": "",
     "removeFavoriteSuccess": "",
     "buyInVolume": "",
     "sellOutVolume": "",
     "recentTransactionFoldLabel": "",
-    "marketClose": "",
     "tabChart": "",
     "tabData": "",
     "tabContract": "",
     "inTradingTime": "",
     "onlyLimitOrder": "",
-    "fullWarehouse": "",
     "fullWarehouseTipContent": "",
     "fullWarehouseTipTitle": ""
   },
@@ -658,6 +709,32 @@
     "futuresType": "",
     "add": "",
     "searchEmptyTip": ""
+  },
+  "futuresChart": {
+    "changeRate": "",
+    "highPrice": "",
+    "lowPrice": "",
+    "openPrice": "",
+    "chartHour1": "",
+    "volume": "",
+    "more": "",
+    "indicatorBoll": "",
+    "indicatorKdj": "",
+    "indicatorMacd": "",
+    "indicatorMa": "",
+    "indicatorRsi": "",
+    "indicatorWr": "",
+    "closePrice": "",
+    "changeValue": "",
+    "loadFailTitle": "",
+    "loadFailContent": "",
+    "chartMinute1": "",
+    "chartMinute5": "",
+    "chartMinute15": "",
+    "chartMinute30": "",
+    "chartWeek1": "",
+    "chartMonth1": "",
+    "chartDay": ""
   },
   "announcement": {
     "appBarTitle": "",
@@ -671,6 +748,24 @@
     "emptyTip": "",
     "noFindQaTip1": "",
     "noFindQaTip2": ""
+  },
+  "agentTransactionSettingList": {
+    "spreadTitle": "",
+    "handlingFeeTitle": "",
+    "descriptionPopup": {
+      "cancelButton": "",
+      "deleteTitle": "",
+      "deleteButton": "",
+      "contentText": ""
+    },
+    "emptyTip": ""
+  },
+  "agentConditionFuturesList": {
+    "spreadTitle": "",
+    "handlingFeeTitle": "",
+    "emptyTip": "",
+    "ItemsTitle": "",
+    "nameDescription": ""
   },
   "agentOverview": {
     "appBarTitle": "",
@@ -757,42 +852,6 @@
     "filterItemsButtonHint": "",
     "filterVarietyButtonHint": ""
   },
-  "common": {
-    "buyIn": "",
-    "sellOut": "",
-    "cancel": "",
-    "loginFirst": "",
-    "appName": "",
-    "notInSimulated": "",
-    "confirm": "",
-    "futureClosed": "",
-    "priceUnit": "",
-    "lotsUnit": "",
-    "leverUnit": "",
-    "logout": "",
-    "login": "",
-    "stopLoss": "",
-    "stopProfit": "",
-    "trailingStop": ""
-  },
-  "agentTransactionSettingList": {
-    "handlingFeeTitle": "",
-    "descriptionPopup": {
-      "cancelButton": "",
-      "deleteTitle": "",
-      "deleteButton": "",
-      "contentText": ""
-    },
-    "emptyTip": "",
-    "spreadTitle": ""
-  },
-  "agentConditionFuturesList": {
-    "handlingFeeTitle": "",
-    "emptyTip": "",
-    "spreadTitle": "",
-    "ItemsTitle": "",
-    "nameDescription": ""
-  },
   "agentFundingDetails": {
     "filterPopup": {
       "leverageSettingTitle": "",
@@ -822,9 +881,9 @@
     "openPriceTitle": "",
     "occupyMargin": "",
     "transactionSerialTitle": "",
-    "emptyTip": "",
     "emptyButton": "",
     "lastPriceTitle": "",
+    "emptyTip": "",
     "cancelButton": "",
     "cancelConfirm": "",
     "orderPrice": ""
@@ -900,11 +959,11 @@
     "orderChartTag": "",
     "orderPriceTitle": "",
     "openingPriceTitle": "",
+    "margin": "",
+    "transactionSerial": "",
     "lastPriceTitle": "",
     "tradingDirection": "",
-    "margin": "",
     "modifyButton": "",
-    "transactionSerial": "",
     "stopProfitLossEmpty": "",
     "trailingStopEmpty": "",
     "lotsTitle": "",
@@ -933,7 +992,8 @@
     "transactionTimeNext": "",
     "viewAllTransactionTime": "",
     "exchangeRateTip": "",
-    "tableValueFold": ""
+    "tableValueFold": "",
+    "noLimit": ""
   },
   "orderModify": {
     "accountOrderTitle": "",
@@ -944,47 +1004,16 @@
     "estimateProfit": "",
     "trailingStopSubtitle": "",
     "estimateProfitLoss": "",
+    "stopProfitError": "",
+    "stopLossError": "",
+    "trailingStopRangeHint": "",
+    "errorTrailingStopOutRange": "",
     "cancelModify": "",
     "stopLossSubtitle": "",
     "stopProfitSubtitle": "",
     "appBarTitle": "",
-    "accountOrderInputHint": ""
-  },
-  "futuresChartFullScreen": {
-    "highPrice": "",
-    "openPrice": "",
-    "lowPrice": "",
-    "addFavoriteSuccess": "",
-    "removeFavoriteSuccess": ""
-  },
-  "futuresChart": {
-    "highPrice": "",
-    "openPrice": "",
-    "lowPrice": "",
-    "chartHour1": "",
-    "volume": "",
-    "more": "",
-    "indicatorBoll": "",
-    "indicatorKdj": "",
-    "indicatorMacd": "",
-    "indicatorMa": "",
-    "indicatorRsi": "",
-    "indicatorWr": "",
-    "closePrice": "",
-    "changeValue": "",
-    "changeRate": "",
-    "loadFailTitle": "",
-    "loadFailContent": "",
-    "chartMinute1": "",
-    "chartMinute5": "",
-    "chartMinute15": "",
-    "chartMinute30": "",
-    "chartWeek1": "",
-    "chartMonth1": "",
-    "chartDay": ""
-  },
-  "numberInputField": {
-    "defaultHint": ""
+    "accountOrderInputHint": "",
+    "errorLimitPriceOutRange": ""
   },
   "adjustmentMarginDescriptionPopup": {
     "content3": "",
@@ -992,10 +1021,10 @@
     "button": "",
     "content1": "",
     "content2": "",
-    "content4": "",
-    "content5": "",
-    "content6": "",
     "tip": ""
+  },
+  "agentFundingPositions": {
+    "emptyTip": ""
   },
   "agentProfitSharingSearch": {
     "cancel": "",
@@ -1005,8 +1034,8 @@
   },
   "agentUserSearch": {
     "cancel": "",
-    "pleaseEnterSearchHint": "",
     "emptyTip": "",
+    "pleaseEnterSearchHint": "",
     "enterDetailSearchHint": "",
     "searchResultsTitle": ""
   },
@@ -1085,8 +1114,8 @@
     },
     "dateHint": "",
     "dateTitle": "",
-    "emptyTip": "",
-    "appBarTitle": ""
+    "appBarTitle": "",
+    "emptyTip": ""
   },
   "agentFundingDetailsSearch": {
     "cancel": "",
@@ -1098,16 +1127,16 @@
     "headerFees": "",
     "headerTransactionProfit": "",
     "emptyTip": "",
-    "headerUser": "",
     "headerDiscount": "",
-    "headerTotalGrunt": ""
+    "headerTotalGrunt": "",
+    "headerUser": ""
   },
   "agentProfitList": {
     "typesFees": "",
     "typesTransactionProfit": "",
     "typesOtherProfits": "",
-    "typesAll": "",
     "typesMarketPrice": "",
+    "typesAll": "",
     "emptyTip": "",
     "typesDiscount": "",
     "typesSalary": ""
@@ -1131,30 +1160,36 @@
     "estimateLoss": "",
     "estimateProfit": "",
     "trailingStopSubtitle": "",
+    "estimateProfitLoss": "",
+    "stopProfitError": "",
+    "stopLossError": "",
+    "trailingStopRangeHint": "",
+    "errorTrailingStopOutRange": "",
     "trailingStopTitle": "",
-    "errorNotTradingTime": "",
-    "errorFuturesNotTradingTime": "",
     "cancelModify": "",
     "stopLossSubtitle": "",
     "stopProfitSubtitle": "",
+    "adjustMargin": "",
+    "errorNotTradingTime": "",
+    "errorFuturesNotTradingTime": "",
     "appBarTitle": "",
     "closeMultiPositionPartialFailTitle": "",
     "errorClosePositionFindNoSerial": "",
     "errorGeneralCode": "",
-    "adjustMargin": "",
     "adjustedLiquidationPrice": "",
     "append": "",
     "mostAppend": "",
     "adjustMarginHint": "",
     "adjustMarginInputMinHint": "",
-    "adjustMarginInputMaxHint": ""
+    "adjustMarginInputMaxHint": "",
+    "errorMarginCallOutRange": ""
   },
   "chartBollSetting": {
     "modifySuccess": "",
     "modifyFail": "",
+    "cancelModify": "",
     "appBarTitle": "",
     "modifyButton": "",
-    "cancelModify": "",
     "index": "",
     "defaultSetting": "",
     "indexUp": "",
@@ -1166,9 +1201,9 @@
   "chartKdjSetting": {
     "modifySuccess": "",
     "modifyFail": "",
+    "cancelModify": "",
     "appBarTitle": "",
     "modifyButton": "",
-    "cancelModify": "",
     "index": "",
     "defaultSetting": "",
     "indexK": "",
@@ -1181,9 +1216,9 @@
   "chartMacdSetting": {
     "modifySuccess": "",
     "modifyFail": "",
+    "cancelModify": "",
     "appBarTitle": "",
     "modifyButton": "",
-    "cancelModify": "",
     "index": "",
     "defaultSetting": "",
     "timePeriod": "",
@@ -1195,29 +1230,29 @@
   "chartMaSetting": {
     "modifySuccess": "",
     "modifyFail": "",
+    "cancelModify": "",
     "appBarTitle": "",
     "indexMa": "",
     "modifyButton": "",
-    "cancelModify": "",
     "defaultSetting": ""
   },
   "chartRsiSetting": {
     "modifySuccess": "",
     "modifyFail": "",
+    "cancelModify": "",
     "appBarTitle": "",
     "indexRsi": "",
     "modifyButton": "",
-    "cancelModify": "",
     "defaultSetting": "",
     "period": ""
   },
   "chartWrSetting": {
     "modifySuccess": "",
     "modifyFail": "",
+    "cancelModify": "",
     "appBarTitle": "",
     "indexWr": "",
     "modifyButton": "",
-    "cancelModify": "",
     "defaultSetting": "",
     "period": ""
   },
@@ -1233,12 +1268,24 @@
     "typesButtonHint": "",
     "appBarTitle": ""
   },
+  "countryCode": {
+    "emptyTip": "",
+    "country": "",
+    "searchEnterHint": ""
+  },
+  "futuresChartFullScreen": {
+    "highPrice": "",
+    "lowPrice": "",
+    "openPrice": "",
+    "addFavoriteSuccess": "",
+    "removeFavoriteSuccess": ""
+  },
   "withdrawBank": {
     "datePrefix": "",
+    "tipTitle": "",
     "appBarTitle": "",
     "withdrawRequestSending": "",
     "withdrawButton": "",
-    "tipTitle": "",
     "tipContent": "",
     "completeTitle": "",
     "completeContent": "",
@@ -1257,10 +1304,26 @@
       "contactCustomerService": ""
     }
   },
+  "languageSetting": {
+    "complete": "",
+    "appBarTitle": "",
+    "localeDefault": "",
+    "localeZhTw": "",
+    "localeZhCn": "",
+    "localeZh": "",
+    "localeEn": "",
+    "localeJp": "",
+    "localeKr": "",
+    "localeTh": "",
+    "localeVi": ""
+  },
+  "keyboardInputAction": {
+    "complete": ""
+  },
   "paymentBank": {
     "paymentPriceRangeTip": "",
-    "paymentPriceTitle": "",
     "appBarTitle": "",
+    "paymentPriceTitle": "",
     "gettingTransferAccount": "",
     "payTag": "",
     "confirmPaymentButton": "",
@@ -1281,12 +1344,54 @@
     "paymentValueTip2": "",
     "paymentValueTip3": ""
   },
+  "accountBlockPopup": {
+    "closeButton": "",
+    "title": "",
+    "content": "",
+    "tip1": "",
+    "tip2": ""
+  },
+  "otherDevicesLoginPopup": {
+    "closeButton": "",
+    "title": "",
+    "content": ""
+  },
+  "depositThirdParty": {
+    "feeTip": "",
+    "description": "",
+    "inputMinHint": "",
+    "inputMaxHint": "",
+    "payTag": "",
+    "confirmPaymentButton": "",
+    "tip2": "",
+    "tip1": "",
+    "tip3": "",
+    "tip4": "",
+    "tip5": "",
+    "payTagTitle": "",
+    "rangeTip": ""
+  },
+  "numberInputField": {
+    "defaultHint": ""
+  },
   "emailBind": {
     "appBarTitle": "",
     "captchaHint": "",
     "verifyImmediately": "",
     "emailHint": "",
     "bindEmailSuccess": ""
+  },
+  "forgotPassword": {
+    "email": "",
+    "enterCaptchaHint": "",
+    "enterEmailHint": "",
+    "enterPhoneNumberHint": "",
+    "title": "",
+    "resetSuccess": "",
+    "resetButton": "",
+    "newPasswordHint": "",
+    "changeMethodTip": "",
+    "phone": ""
   },
   "accountIdentifyData": {
     "actualNameTitle": "",
@@ -1301,7 +1406,13 @@
     "totalWealthTitle": "",
     "incomeWealthSourceTitle": "",
     "handleIdCardTitle": "",
-    "needModifyTip": ""
+    "needModifyTip": "",
+    "identifyStatusTip": {
+      "audit": "",
+      "pass": "",
+      "reject": ""
+    },
+    "editDataTitle": ""
   },
   "personalVerify": {
     "realNameTitle": "",
@@ -1378,6 +1489,9 @@
     "professionTitle": "",
     "professionDefault": "",
     "realNameHint": "",
+    "cityHint": "",
+    "distHint": "",
+    "addressHint": "",
     "sourceIncomeSubTitle": ""
   },
   "achievementsLevelList": {
@@ -1393,25 +1507,10 @@
     "emptyTip": "",
     "missionTip": ""
   },
-  "languageSetting": {
-    "appBarTitle": "",
-    "localeDefault": "",
-    "localeZhTw": "",
-    "localeZhCn": "",
-    "localeZh": "",
-    "localeEn": "",
-    "localeJp": "",
-    "localeKr": "",
-    "localeTh": "",
-    "localeVi": ""
-  },
   "upDownColorSetting": {
     "upGreenDownRed": "",
     "upRedDownGreen": "",
     "appBarTitle": ""
-  },
-  "agentFundingPositions": {
-    "emptyTip": ""
   },
   "requestError": {
     "noAuth": "",
@@ -1443,14 +1542,30 @@
   },
   "receiveAwardPopup": {
     "confirmButton": "",
+    "know": "",
     "receivedCount": "",
     "receivedTitle": "",
-    "know": "",
     "historyButton": "",
     "noTipToday": ""
   },
   "listScrollSheet": {
     "confirmButton": ""
+  },
+  "paymentMethod": {
+    "bankTitle": "",
+    "creditTitle": "",
+    "bankDescription": "",
+    "creditDescription": "",
+    "recommendedMethod": "",
+    "otherMethod": ""
+  },
+  "depositCategory": {
+    "nextStep": "",
+    "recommendedMethod": "",
+    "appBarTitle": "",
+    "empty": "",
+    "customerService": "",
+    "depositMethodHint": ""
   },
   "signUp": {
     "registerButton": "",
@@ -1465,7 +1580,9 @@
     "enterPhoneNumberHint": "",
     "enterPasswordHint": "",
     "enterReferralInputHint": "",
-    "phoneNumberEnterCodeHint": ""
+    "phoneNumberEnterCodeHint": "",
+    "otherMethodTitle": "",
+    "insufficientPasswordStrength": ""
   },
   "signUpNavigation": {
     "registerButton": "",
@@ -1488,29 +1605,6 @@
     "chartType": "",
     "appBarTitle": "",
     "indicatorIndex": ""
-  },
-  "depositThirdParty": {
-    "inputMinHint": "",
-    "inputMaxHint": "",
-    "payTag": "",
-    "confirmPaymentButton": "",
-    "tip2": "",
-    "feeTip": "",
-    "description": "",
-    "tip1": "",
-    "tip3": "",
-    "tip4": "",
-    "tip5": "",
-    "payTagTitle": "",
-    "rangeTip": ""
-  },
-  "paymentMethod": {
-    "bankTitle": "",
-    "creditTitle": "",
-    "bankDescription": "",
-    "creditDescription": "",
-    "recommendedMethod": "",
-    "otherMethod": ""
   },
   "bankAccountDetail": {
     "appBarTitle": "",
@@ -1557,22 +1651,15 @@
   "depositCheck": {
     "title": "",
     "button": "",
-    "contentTip": "",
-    "checkTip": ""
-  },
-  "forgotPassword": {
-    "enterCaptchaHint": "",
-    "enterEmailHint": "",
-    "enterPhoneNumberHint": "",
-    "resetSuccess": "",
-    "resetButton": "",
-    "newPasswordHint": ""
+    "checkTip": "",
+    "contentTip": ""
   },
   "changePassword": {
     "captchaHint": "",
-    "newPasswordHint": "",
     "appBarTitle": "",
-    "modifyButton": ""
+    "newPasswordHint": "",
+    "modifyButton": "",
+    "changeSuccessToast": ""
   },
   "phoneBind": {
     "confirmButton": "",
@@ -1581,8 +1668,29 @@
     "appBarTitle": "",
     "bindSuccess": ""
   },
+  "identifyVerificationResult": {
+    "title": "",
+    "content": "",
+    "backToHome": ""
+  },
   "emptyPlace": {
     "tip": ""
+  },
+  "serverApiError": {
+    "system": "",
+    "payment1": "",
+    "order2": "",
+    "payment2": "",
+    "payment3": "",
+    "payment4": "",
+    "payment5": "",
+    "account1": "",
+    "account2": "",
+    "account3": "",
+    "account4": "",
+    "account5": "",
+    "order1": "",
+    "order3": ""
   },
   "login": {
     "enterEmailHint": "",
@@ -1590,22 +1698,12 @@
     "enterPasswordHint": "",
     "loginSuccess": "",
     "registerNowButton": "",
-    "forgetPasswordButton": ""
-  },
-  "depositCategory": {
-    "recommendedMethod": "",
-    "nextStep": "",
-    "appBarTitle": "",
-    "empty": "",
-    "customerService": "",
-    "depositMethodHint": ""
+    "forgetPasswordButton": "",
+    "phoneLogin": "",
+    "emailLogin": ""
   },
   "marginLevelWarningBar": {
     "tip": ""
-  },
-  "countryCode": {
-    "country": "",
-    "searchEnterHint": ""
   },
   "fileVerify": {
     "idCardTitle": "",
@@ -1628,7 +1726,11 @@
     "qualifiedFile": "",
     "qualifiedFileTip": "",
     "failedFile": "",
-    "failedFileTip": ""
+    "failedFileTip": "",
+    "identityCard": "",
+    "passport": "",
+    "drivingLicense": "",
+    "accountBookOrResidentPermit": ""
   },
   "handIdCardVerify": {
     "stepHeaderSubtitle": "",
@@ -1650,7 +1752,8 @@
     "typeSelectTitle": "",
     "uploadLetterTitle": "",
     "uploadBillTitle": "",
-    "stepHeaderTitle": ""
+    "stepHeaderTitle": "",
+    "nextStepProve": ""
   },
   "imagePicker": {
     "reUpload": "",
@@ -1666,11 +1769,6 @@
   "identifyVerification": {
     "appBarTitle": "",
     "uploadSuccess": ""
-  },
-  "identifyVerificationResult": {
-    "title": "",
-    "content": "",
-    "backToHome": ""
   },
   "messageNotify": {
     "haveRead": ""
@@ -1773,6 +1871,17 @@
     "track": "",
     "contract": ""
   },
+  "positionOpenReason": {
+    "market": "",
+    "limit": ""
+  },
+  "positionCloseReason": {
+    "contract": "",
+    "margin": "",
+    "stopProfit": "",
+    "stopLoss": "",
+    "user": ""
+  },
   "captchaBloc": {
     "statusWait": "",
     "selectDialCodeFirst": "",
@@ -1808,5 +1917,8 @@
   "tradeModeChangeSuccessPopup": {
     "changeTitle": "",
     "mode": ""
+  },
+  "numberInputRangeField": {
+    "value": ""
   }
 }
