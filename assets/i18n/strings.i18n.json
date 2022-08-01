@@ -71,7 +71,8 @@
     },
     "safeLogout": "安全登出",
     "login": "登入",
-    "logoutSuccess": "登出成功"
+    "logoutSuccess": "登出成功",
+    "contactUs": "關於我們"
   },
   "futuresMarketContent": {
     "accountSimulation": "模擬",
@@ -115,7 +116,7 @@
     "spreadPrefix": "點差",
     "idVerifyNeedPopup": {
       "title": "提示",
-      "content": "尚未完成/通過身分驗證\n請通過身分驗證後，再進行入金",
+      "content": "尚未完成/通過身分驗證\n請通過身分驗證後，再進行{target}",
       "confirm": "前往驗證身份"
     }
   },
@@ -409,14 +410,15 @@
     "feeLoading": "讀取中",
     "rolloverEmpty": "--",
     "openPositionValue": "開倉價值",
-    "quantity24h": "24h量"
+    "quantity24h": "24h量",
+    "netWorthMargin": "淨值保證金",
+    "netProfitLoss": "浮動淨盈虧"
   },
   "transactionHistoryDetail": {
     "dynamicProfitLoss": "平倉盈虧",
+    "openPositionPriceTitle": "開倉價",
     "createDate": "平倉時間",
     "rollover": "隔夜費",
-    "openPositionPriceTitle": "開倉價格",
-    "closePositionPriceTitle": "平倉價格",
     "closePositionReason": "平倉原因",
     "contractMargin": "保證金",
     "transactionSerial": "訂單號",
@@ -426,7 +428,9 @@
     "trailingStopEmpty": "未設置",
     "openPositionValue": "開倉價值",
     "netProfitLoss": "平倉淨盈虧",
-    "closePositionValue": "平倉價值"
+    "closePositionValue": "平倉價值",
+    "closePositionPriceTitle": "平倉價",
+    "tradingDirection": "開倉方向"
   },
   "futuresTransaction": {
     "crossMargin": "全倉",
@@ -886,7 +890,8 @@
     "emptyTip": "尚無掛單",
     "cancelButton": "撤銷",
     "cancelConfirm": "確定撤單?",
-    "orderPrice": "掛單價"
+    "orderPrice": "掛單價",
+    "cancelOrderSuccess": "取消掛單成功"
   },
   "withdrawCategory": {
     "orderSerial": "單號",
@@ -972,6 +977,16 @@
     "createDate": "交易日期",
     "cancelOrderSuccess": "取消掛單成功",
     "orderChanged": "委託異動, 請重新進入"
+  },
+  "cancelOrderConfirmPopup": {
+    "orderTag": "掛單",
+    "lastPrice": "當前價",
+    "tradingDirection": "方向",
+    "lots": "數量",
+    "orderPrice": "掛單價",
+    "title": "撤銷掛單",
+    "orderTime": "掛單時間",
+    "confirm": "確定撤銷"
   },
   "futuresContract": {
     "rollover": "隔夜費",
@@ -1263,6 +1278,11 @@
     "kLineChart": "蠟燭圖",
     "lineIndexChart": "分時圖"
   },
+  "marginCallEditPopup": {
+    "modifySuccess": "修改成功",
+    "modifyFail": "修改失敗",
+    "errorMarginCallOutRange": "調整保證金須在限制範圍內"
+  },
   "agentReferralCodeUsers": {
     "emptyTip": "查無資料",
     "typesButtonHint": "請選擇類型",
@@ -1319,6 +1339,12 @@
   },
   "keyboardInputAction": {
     "complete": "完成"
+  },
+  "upDownColorSetting": {
+    "complete": "完成",
+    "upGreenDownRed": "綠漲紅跌",
+    "upRedDownGreen": "紅漲綠跌",
+    "appBarTitle": "升跌顏色"
   },
   "paymentBank": {
     "paymentPriceRangeTip": "入金金額區間：{unit} {range}",
@@ -1412,7 +1438,8 @@
       "pass": "證明身份流程完成",
       "reject": "您的身分證資料未通過，請重新提交驗證資料"
     },
-    "editDataTitle": "編輯資料"
+    "editDataTitle": "編輯資料",
+    "idNumberTitle": "證件號碼"
   },
   "personalVerify": {
     "realNameTitle": "真實姓名",
@@ -1506,11 +1533,6 @@
     "appBarTitle": "每日任務",
     "emptyTip": "尚無每日任務",
     "missionTip": "每日任務獎勵領取僅限「真實賬戶」交易行為"
-  },
-  "upDownColorSetting": {
-    "upGreenDownRed": "綠漲紅跌",
-    "upRedDownGreen": "紅漲綠跌",
-    "appBarTitle": "升跌顏色"
   },
   "requestError": {
     "noAuth": "請先登入",
@@ -1690,7 +1712,9 @@
     "account4": "無法註冊, 請聯繫客服",
     "account5": "請先綁定手機號",
     "order1": "查無此產品",
-    "order3": "查無持倉"
+    "order3": "查無持倉",
+    "account6": "綁定失敗, 已綁定過的資料",
+    "http400": "帳密錯誤"
   },
   "login": {
     "enterEmailHint": "請填寫您的電子信箱",
@@ -1730,7 +1754,10 @@
     "identityCard": "身分證",
     "passport": "護照",
     "drivingLicense": "駕照",
-    "accountBookOrResidentPermit": "戶口名簿 / 居留證"
+    "accountBookOrResidentPermit": "戶口名簿 / 居留證",
+    "idNumberTitle": "證件號碼",
+    "errorIdNumberEmpty": "請輸入證件號碼",
+    "idNumberHint": "請輸入您的證件號碼"
   },
   "handIdCardVerify": {
     "stepHeaderSubtitle": "共1題",

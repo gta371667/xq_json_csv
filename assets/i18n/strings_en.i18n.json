@@ -1,20 +1,20 @@
 {
-  "jsonKey": "en-En",
+  "jsonKey": "en調整",
   "app": {
     "changeAccountType": "Changed to {state}",
-    "accountSimulation": "Simulation",
+    "accountSimulation": "Demo",
     "accountReal": "Real",
     "loginAuthExpiredPopup": {
       "title": "Your login has expired. \nPlease log in again."
     }
   },
   "assets": {
-    "accountSimulation": "Simulation",
+    "accountSimulation": "Demo",
     "accountReal": "Real",
     "depositButton": "Deposit",
-    "positions": "Position",
+    "positions": "Positions",
     "guestName": "Guest",
-    "profitLoss": "Profit or Loss",
+    "profitLoss": "P/L",
     "paymentHistory": "Deposit and Withdrawal Records",
     "paymentHistorySubtitle": "View detailed deposit and withdrawal",
     "positionsSubtitle": "View trading activities at specific stages",
@@ -27,17 +27,17 @@
     "withdrawButton": "Withdraw",
     "withdrawButtonTip": "Withdraw Funds",
     "availableFunds": "Available Funds",
-    "netAssetValue": "Net Value",
+    "netAssetValue": "Equity",
     "occupyMargin": "Initial Margin",
-    "maintenanceMarginTotal": "Total Maintenance Margin",
-    "dynamicProfitLoss": "Floating Profit/Loss",
-    "closePositionProfitLoss": "Offset Profit/ Loss",
+    "maintenanceMarginTotal": "Total M. Margin",
+    "dynamicProfitLoss": "Unrealised P/L",
+    "closePositionProfitLoss": "Realised P/L",
     "freezeMargin": "Frozen Margin",
     "crossMargin": "Cross Margin",
     "isolateMargin": "Isolated Margin"
   },
   "memberCenter": {
-    "accountSimulation": "Simulation",
+    "accountSimulation": "Demo",
     "accountReal": "Real",
     "guestName": "Guest",
     "accountInfo": "Account Information",
@@ -67,39 +67,42 @@
     "idVerifyStatus": {
       "audit": "Under Certification",
       "pass": "Passed",
+      "reject": "Reject"
     },
     "safeLogout": "Logged out safely",
     "login": "Log in",
-    "logoutSuccess": "Logout Succeeded"
+    "logoutSuccess": "Logout Succeeded",
+    "contactUs": "contact Us"
   },
   "futuresMarketContent": {
-    "accountSimulation": "Simulation",
+    "accountSimulation": "Demo",
     "accountReal": "Real",
     "listEmptyTip": "No quotes available for the moment",
     "addCustomQuotaTip": "Add optional",
-    "futuresName": "Trading Varieties",
+    "futuresName": "Varieties",
     "sellPrice": "Selling Rate",
     "buyPrice": "Buying Rate",
     "customTab": "Optional",
-    "searchHint": "Enter trading variety / English name",
-    "availableBalance": "Available Balance",
+    "searchHint": "Enter variety / English name",
+    "availableBalance": "Available",
     "lastPrice": "Current Price",
     "changeRate": "Volatility",
+    "changeRateSpread": "Volatility / Spread"
   },
   "home": {
     "depositButton": "Deposit",
     "quotaEmptyTip": "No quotes available for the moment",
     "addCustomQuotaTip": "Add optional",
-    "tradingVarietyTitle": "Trading Varieties",
+    "tradingVarietyTitle": "Varieties",
     "sellingPriceTitle": "Selling Rate",
     "buyingPriceTitle": "Buying Rate",
     "futuresTabFavorite": "Optional",
-    "searchHint": "Enter trading variety / English name",
+    "searchHint": "Enter variety / English name",
     "lastPrice": "Current Price",
     "changeRate": "Volatility",
     "defaultBannerTitle": "Diverse Transaction, Safe Products",
     "defaultBannerSubtitle": "Quick and intuitive ordering, diversified order placement tools",
-    "moreTransaction": "More Transactions",
+    "moreTransaction": "More",
     "announcement": "Announcement",
     "defaultMarquee": "Welcome to {AppName}~",
     "customerServiceButton": "Exclusive Customer Service",
@@ -113,7 +116,7 @@
     "spreadPrefix": "Spread",
     "idVerifyNeedPopup": {
       "title": "Tip:",
-      "content": "Identity verification not yet completed/passed \nPlease pass the identity verification before making a deposit.",
+      "content": "Identity verification not yet completed/passed \nPlease pass the identity verification before making a {target}.",
       "confirm": "Verify your identity"
     }
   },
@@ -122,7 +125,7 @@
     "appBarTitle": "Deposit and Withdrawal Records",
     "typeWithdraw": "Withdraw",
     "fee": "Handling Fee",
-    "orderSerial": "Order Number",
+    "orderSerial": "Order No",
     "filterPopup": {
       "clearButton": "Clear",
       "filterButton": "Filter",
@@ -157,6 +160,7 @@
     "orderStatusDepositSuccess": "Fund deposited successfully",
     "orderStatusWithdrawSuccess": "Fund withdrawn successfully",
     "orderStatusDepositWaitPay": "Unpaid",
+    "orderStatusWithdrawReject": "Funds returned"
   },
   "agentUserPaymentHistoryList": {
     "deposit": "Deposit",
@@ -171,14 +175,15 @@
     "orderStatusDepositSuccess": "Fund deposited successfully",
     "orderStatusWithdrawSuccess": "Fund withdrawn successfully",
     "orderStatusDepositWaitPay": "Unpaid",
+    "orderStatusWithdrawReject": "Funds returned",
     "nameDescription": "Agent-List of Deposit and Withdrawal Details"
   },
   "menu": {
-    "positions": "Position",
-    "home": "Homepage",
+    "positions": "Positions",
+    "home": "Home",
     "funds": "Assets",
     "trade": "Trade",
-    "my": "Mine",
+    "my": "Hub",
     "overview": "Overview",
     "users": "User List",
     "profitSharing": "Revenue Share Details",
@@ -186,7 +191,7 @@
     "transactionSetting": "Transaction Settings"
   },
   "agentFundingPositionsList": {
-    "profitLossTitle": "Profit or Loss",
+    "profitLossTitle": "P/L",
     "buyingTitle": "Buy",
     "sellTitle": "Sell",
     "handlingFeeTitle": "Handling Fee",
@@ -195,12 +200,12 @@
     "openingPriceTitle": "Open Price",
     "stopProfitPrice": "Take Profit Price",
     "stopLossPrice": "Stop Loss Price",
-    "singleNumberTitle": "Order Number",
+    "singleNumberTitle": "Order No",
     "repairImmediatelyHint": "Immediate transaction",
     "openMarginTitle": "Opening Margin"
   },
   "agentFundingPositionsDetail": {
-    "profitLossTitle": "Profit or Loss",
+    "profitLossTitle": "P/L",
     "buyingTitle": "Buy",
     "sellTitle": "Sell",
     "handlingFeeTitle": "Handling Fee",
@@ -208,7 +213,7 @@
     "generalProfit": "Total Profit or Loss",
     "stopProfitPrice": "Take Profit Price",
     "stopLossPrice": "Stop Loss Price",
-    "singleNumberTitle": "Order Number",
+    "singleNumberTitle": "Order No",
     "repairImmediatelyHint": "Immediate transaction",
     "openMarginTitle": "Opening Margin",
     "copyButton": "Copy",
@@ -217,9 +222,9 @@
     "tradingDirectionTitle": "Trading Direction",
     "netProfit": "Net Profit or Loss",
     "appBarTitle": "Funds Details",
-    "hangingTitle": "Pending Order",
-    "rolloverTitle": "Overnight Fee",
-    "hangingPriceTitle": "Pending Order Price",
+    "hangingTitle": "Orders",
+    "rolloverTitle": "Overnight Funding",
+    "hangingPriceTitle": "Order Price",
     "openingPriceTitle": "Open Price",
     "closingPriceTitle": "Closing Price",
     "copyToast": "Copied",
@@ -229,15 +234,15 @@
     "dealOrderTimeTitle": "Transaction Time",
     "updateTimeTitle": "Update Time",
     "positionQuantityTitle": "Open Position",
-    "closingReasonTitle": "Reason for Closing Position"
+    "closingReasonTitle": "Closing Reason"
   },
   "positions": {
-    "profitLoss": "Profit or Loss",
+    "profitLoss": "P/L",
     "lastPrice": "Current Price",
     "openPositionPrice": "Open Price",
-    "closePosition": "Close Position",
+    "closePosition": "Close",
     "occupyMargin": "Margin",
-    "transactionSerial": "Order Number",
+    "transactionSerial": "Order No",
     "closePositionSuccess": "Position closed successfully",
     "estimatedForcedParity": "Estimated Forced Parity",
     "selectAll": "Select All",
@@ -251,16 +256,16 @@
     "lastPriceTitle": "Current Price"
   },
   "transactionHistory": {
-    "profitLoss": "Profit or Loss",
+    "profitLoss": "P/L",
     "closePositionTime": "Closing Time",
-    "transactionSerial": "Order Number",
+    "transactionSerial": "Order No",
     "emptyTip": "No record yet",
     "dateRangeStartDefault": "Start Time",
     "dateRangeEndDefault": "End Time"
   },
   "agentUsersDetail": {
     "historyButton": "Deposit and Withdrawal Records",
-    "availableBalance": "Available Balance",
+    "availableBalance": "Available",
     "handlingFeeTitle": "Handling Fee",
     "descriptionPopup": {
       "cancelButton": "Cancel",
@@ -284,7 +289,7 @@
     "profitLossTitle": "Loss",
     "totalMargin": "Total Margin",
     "equity": "Equity",
-    "totalMaintenanceMargin": "Total Maintenance Margin",
+    "totalMaintenanceMargin": "Total M. Margin",
     "transactionDetailsButton": "Transaction Details"
   },
   "agentUserPaymentHistory": {
@@ -324,6 +329,7 @@
       "close": "Closed"
     },
     "tipTitle": "Related tips:",
+    "tipContent": "The account number specified by the customer for withdrawal must be the account number of the withdrawal bank specified at the time of account opening.",
     "accountBalance": "Account Balance",
     "enterAmount": "Please enter the quota.",
     "minLimitTip": "Minimum withdrawal amount: $",
@@ -335,14 +341,14 @@
   },
   "accountTransaction": {
     "availableFunds": "Available Funds",
-    "netAssetValue": "Net Value",
-    "availableBalance": "Available Balance",
-    "tabOrder": "Pending Order",
+    "netAssetValue": "Equity",
+    "availableBalance": "Available",
+    "tabOrder": "Orders",
     "occupyMargin": "Margin",
-    "tabPosition": "Open Position",
-    "maintenanceMargin": "Maintenance Margin",
-    "dynamicProfitLoss": "Real-time Profit or Loss",
-    "tabHistory": "The position has been closed.",
+    "tabPosition": "Open",
+    "maintenanceMargin": "M. Margin",
+    "dynamicProfitLoss": "Real-time Profit/Loss",
+    "tabHistory": "Closed",
     "positionSortUp2Down": "Open Price from High to Low",
     "positionSortDown2Up": "Open Price from Low to High",
     "positionSortOld2New": "Longest Opening Time",
@@ -357,28 +363,28 @@
     "marginLevel": "Margin Level"
   },
   "walletAssetsPopup": {
-    "netAssetValue": "Net Value",
-    "dynamicProfitLoss": "Floating Profit/Loss",
-    "availableBalance": "Available Balance",
+    "netAssetValue": "Equity",
+    "dynamicProfitLoss": "Unrealised P/L",
+    "availableBalance": "Available",
     "margin": "Margin",
-    "maintenanceMargin": "Maintenance Margin",
+    "maintenanceMargin": "M. Margin",
     "marginLevel": "Margin Level"
   },
   "positionDetail": {
-    "dynamicProfitLoss": "Floating Profit/Loss",
-    "profitLoss": "Floating Profit/Loss",
-    "rollover": "Overnight Fee",
+    "dynamicProfitLoss": "Unrealised P/L",
+    "profitLoss": "Unrealised P/L",
+    "rollover": "Overnight Funding",
     "tableOpenPriceTitle": "Open Price",
     "openPriceTitle": "Open Price",
-    "closePosition": "Close Position",
+    "closePosition": "Close",
     "contractMargin": "Margin",
-    "transactionSerial": "Order Number",
+    "transactionSerial": "Order No",
     "closePositionSuccess": "Position closed successfully",
     "estimatedForcedParity": "Estimated Forced Parity",
     "highPrice": "Highest",
     "lowPrice": "Lowest",
-    "positionTag": "Open Position",
-    "maintenanceMargin": "Maintenance Margin",
+    "positionTag": "Open",
+    "maintenanceMargin": "M. Margin",
     "openPositionChartTag": "Open Position",
     "nowPriceChartTag": "Latest",
     "lastPriceTitle": "Current Price",
@@ -388,14 +394,14 @@
     "createDate": "Trading Hours",
     "fee": "Transaction Fees",
     "modifyButton": "Modify",
-    "stopProfitLossEmpty": "Not set up",
-    "trailingStopEmpty": "Not set up",
+    "stopProfitLossEmpty": "Unset",
+    "trailingStopEmpty": "Unset",
     "tableLotsTitle": "Quantity",
     "currentPositionValue": "Current Value",
     "closePositionLotsOutRange": "The number of closed lots exceeds lots held.",
-    "confirmClosePosition": "Confirm Closing Position",
-    "openPositionLots": "The number of open positions",
-    "closePositionLots": "The number of closed positions",
+    "confirmClosePosition": "Confirm to Close",
+    "openPositionLots": "Opening quantity",
+    "closePositionLots": "Closing quantity",
     "lotsInputTip": "(Quantity to be entered {range})",
     "positionChanged": "Open position has changed. Please re-enter.",
     "lastPriceChartTag": "Current Price",
@@ -404,29 +410,32 @@
     "feeLoading": "Loading",
     "rolloverEmpty": "--",
     "openPositionValue": "Open Value",
-    "quantity24h": "24h Volume"
+    "quantity24h": "24h Volume",
+    "netWorthMargin": "Net margin",
+    "netProfitLoss": "P/L"
   },
   "transactionHistoryDetail": {
-    "dynamicProfitLoss": "Offset Profit/ Loss",
-    "createDate": "Closing Time",
-    "rollover": "Overnight Fee",
+    "dynamicProfitLoss": "Realised P/L",
     "openPositionPriceTitle": "Open Price",
-    "closePositionPriceTitle": "Closing Price",
-    "closePositionReason": "Reason for Closing Position",
+    "createDate": "Closing Time",
+    "rollover": "Overnight Funding",
+    "closePositionReason": "Closing Reason",
     "contractMargin": "Margin",
-    "transactionSerial": "Order Number",
-    "orderTag": "The position has been closed.",
+    "transactionSerial": "Order No",
+    "orderTag": "Closed",
     "fee": "Transaction Fees",
-    "stopProfitLossEmpty": "Not set up",
-    "trailingStopEmpty": "Not set up",
+    "stopProfitLossEmpty": "Unset",
+    "trailingStopEmpty": "Unset",
     "openPositionValue": "Open Value",
-    "netProfitLoss": "Net Profit/loss on Closing Position",
-    "closePositionValue": "Closeout Value"
+    "netProfitLoss": "Net realised P/L",
+    "closePositionValue": "Closeout Value",
+    "closePositionPriceTitle": "Closeout Value",
+    "tradingDirection": "Direction"
   },
   "futuresTransaction": {
     "crossMargin": "Cross Margin",
     "isolateMargin": "Isolated Margin",
-    "availableBalance": "Available Balance",
+    "availableBalance": "Available",
     "totalCostPopup": {
       "handlingFee": "Handling Fee",
       "needMargin": "Margin Required",
@@ -469,7 +478,7 @@
     "transactionAmountDetail": "Details",
     "marketOrderTag": "Market Order",
     "limitOrderTag": "Limit Order",
-    "limitSelectorTitle": "When the price meets the conditions {action}",
+    "limitSelectorTitle": "{action} When price is",
     "limitOrderInputTip": "Please enter an order price.",
     "lockLimitOrderToast": "Only order transactions are accepted currently.",
     "lever": "Leverage",
@@ -490,9 +499,9 @@
       "content": "Switching is allowed when there is no open or current positions.  Please close all the positions immediately.",
       "confirmText": "Go to Position"
     },
-    "currentPositionQty": "Current Open Position",
+    "currentPositionQty": "Current Open Position ",
     "trailingStopSubtitle": "Set trailing stop-loss distance",
-    "estimateProfitLoss": "Projected Profit/Loss",
+    "estimateProfitLoss": "Estimated P/L",
     "createOrderResultPopup": {
       "checkPosition": "View positions",
       "checkAccountOrder": "View order",
@@ -502,8 +511,8 @@
       "title": "Your open position has reached the upper limit.",
       "content": "Your current open position has reached the upper limit. You are unable to trade."
     },
-    "stopProfitError": "The take profit price you entered is invalid.",
-    "stopLossError": "The stop loss price you entered is invalid.",
+    "stopProfitError": "Invalid entry for take profit price",
+    "stopLossError": "Invalid entry for stop loss price",
     "trailingStopRangeHint": "The valid trailing stop distance is: {min}-{max} points.",
     "errorTrailingStopOutRange": "Trailing stop must be within the limit."
   },
@@ -638,10 +647,11 @@
     "stopLoss": "Stop Loss",
     "stopProfit": "Take Profit",
     "trailingStop": "Trailing Stop",
+    "bindPhoneFirst": "Please connect your phone first"
   },
   "futuresCustomEdit": {
     "emptyTip": "Add optional",
-    "futuresName": "Trading Varieties",
+    "futuresName": "Varieties",
     "selectAll": "Select All",
     "delete": "Delete",
     "appBarTitle": "Optional Editing",
@@ -664,15 +674,15 @@
     "sellOutPrice": "Selling Rate",
     "buyInPrice": "Buying Rate",
     "bottomSheet": {
-      "accountOrder": "Pending Order",
+      "accountOrder": "Orders",
       "positionEmptyTip": "No open position yet",
-      "accountPosition": "Open Position",
+      "accountPosition": "Open",
       "header": "My Order",
       "orderEmptyTip": "No order yet"
     },
     "dataTab": {
       "nowPrice": "Current Price",
-      "priceChangeRate": "Price Rise and Fall",
+      "priceChangeRate": "Price change",
       "minute5": "5 Minutes",
       "hour1": "1 Hour",
       "today": "Today",
@@ -689,7 +699,7 @@
     "buyInVolume": "Purchase Volume",
     "sellOutVolume": "Commission Volume",
     "recentTransactionFoldLabel": "Shrink up",
-    "tabChart": "Quotes",
+    "tabChart": "Market",
     "tabData": "Data",
     "tabContract": "Details",
     "inTradingTime": "Trading",
@@ -698,7 +708,7 @@
     "fullWarehouseTipTitle": "Cross Leverage Description"
   },
   "futuresSearch": {
-    "searchInputHint": "Enter trading variety / English name",
+    "searchInputHint": "Enter variety / English name",
     "changeFavoriteSuccess": "Favorite list changed successfully",
     "futuresType": "Products",
     "add": "Add",
@@ -722,10 +732,10 @@
     "changeValue": "Volatility Value",
     "loadFailTitle": "Loading Failed",
     "loadFailContent": "You are unable to obtain information.",
-    "chartMinute1": "1 Minute",
-    "chartMinute5": "5 Minutes",
-    "chartMinute15": "15 Minutes",
-    "chartMinute30": "30 Minutes",
+    "chartMinute1": "1m",
+    "chartMinute5": "5m",
+    "chartMinute15": "15m",
+    "chartMinute30": "30m",
     "chartWeek1": "5 MA",
     "chartMonth1": "20 MA",
     "chartDay": "1 MA"
@@ -867,23 +877,24 @@
       "closingPopupTitle": "Closing Filter"
     },
     "appBarTitle": "Funds Details",
-    "closePositionButton": "Close Position",
+    "closePositionButton": "Close",
     "openPositionButton": "Open Position",
     "currentPositionButton": "Current Open Position"
   },
   "orders": {
     "openPriceTitle": "Open Price",
     "occupyMargin": "Margin",
-    "transactionSerialTitle": "Order Number",
+    "transactionSerialTitle": "Order No",
     "emptyButton": "Start Trading",
     "lastPriceTitle": "Current Price",
     "emptyTip": "No order yet",
     "cancelButton": "Cancel",
     "cancelConfirm": "Are you sure you want to cancel the order?",
-    "orderPrice": "Order Price"
+    "orderPrice": "Order Price",
+    "cancelOrderSuccess": "Order cancelled successfully"
   },
   "withdrawCategory": {
-    "orderSerial": "Order Number",
+    "orderSerial": "Order No",
     "method": "Method",
     "type": "Type",
     "dateTitle": "Date",
@@ -900,6 +911,7 @@
       "part3": "to make an application."
     },
     "auditListTitle": "Withdrawal Application under Review",
+    "methodEmptyTip": "You do not have any withdrawal account, please go to apply for a withdrawal account and verify it, and try withdrawal again.",
     "methodEmptyButton": "Apply for a Withdrawal Account",
     "categorySelectedDefault": "Please select a withdrawal method.",
     "nextStep": "Next Step",
@@ -918,6 +930,7 @@
       "timeRange": "{start}-{end}"
     },
     "noWithdrawCategory": {
+      "title": "Withdrawal channel is closed. Please try later.",
       "content": "The possible reasons are as follows: \n1. Funds cannot be withdrawn through the withdrawal channel again due to the daily withdrawal amount reaching the upper limit. \n2. System is under maintenance."
     }
   },
@@ -946,18 +959,18 @@
     "depositTotal": "Total Deposit"
   },
   "orderDetail": {
-    "openPositionChartTag": "Pending Order",
-    "orderTag": "Pending Order",
-    "orderChartTag": "Pending Order",
-    "orderPriceTitle": "Pending Order Price",
+    "openPositionChartTag": "Orders",
+    "orderTag": "Orders",
+    "orderChartTag": "Orders",
+    "orderPriceTitle": "Order Price",
     "openingPriceTitle": "Open Price",
     "margin": "Margin",
-    "transactionSerial": "Order Number",
+    "transactionSerial": "Order No",
     "lastPriceTitle": "Current Price",
     "tradingDirection": "Direction",
     "modifyButton": "Modify",
-    "stopProfitLossEmpty": "Not set up",
-    "trailingStopEmpty": "Not set up",
+    "stopProfitLossEmpty": "Unset",
+    "trailingStopEmpty": "Unset",
     "lotsTitle": "Quantity",
     "currentValueTitle": "Value",
     "cancelButton": "Cancel",
@@ -965,38 +978,49 @@
     "cancelOrderSuccess": "Order cancelled successfully",
     "orderChanged": "Your order changed. Please re-enter."
   },
+  "cancelOrderConfirmPopup": {
+    "orderTag": "Orders",
+    "lastPrice": "Current Price",
+    "tradingDirection": "Direction",
+    "lots": "Quantity",
+    "orderPrice": "Order Price",
+    "title": "Cancel pending order",
+    "orderTime": "Creation Time",
+    "confirm": "confirm"
+  },
   "futuresContract": {
-    "rollover": "Overnight Fee",
+    "rollover": "Overnight Funding",
     "tableValueUnfold": "Expand",
     "title": "{name} Price of {unit}",
     "tradeTimeWeekend": "Weeks",
     "tradeTimeIntervalOutDay": "{start}-The next day {end}",
     "tradeTimeIntervalSameDay": "{start} - {end}",
-    "transactionLotsTitle": "Quantity of Transactions",
+    "transactionLotsTitle": "Volume Per Trade",
     "transactionLotsValue": "{min}-{max} {unit}",
     "currentLever": "Current Leverage",
     "currentLeverValueTip": "Orders are adjustable.",
     "contractSize": "Contract Size",
     "maxPositionTitle": "Maximum Open Position",
     "rolloverTime": "Collection Time",
-    "transactionTimeTitle": "Trading Hours",
-    "transactionTimeCurrent": "Current Period",
-    "transactionTimeNext": "Next Period",
-    "viewAllTransactionTime": "View more periods",
+    "transactionTimeTitle": "Trading Session",
+    "transactionTimeCurrent": "Current Session",
+    "transactionTimeNext": "Next Session",
+    "viewAllTransactionTime": "View more session",
     "exchangeRateTip": "(Adjustments will be made with greater fluctuations in exchange rates. )",
     "tableValueFold": "Fold",
+    "noLimit": "Unrestricted"
   },
   "orderModify": {
-    "accountOrderTitle": "Pending Order Price",
+    "accountOrderTitle": "Order Price",
     "modifySuccess": "Modified successfully",
     "errorStopLossOutRange": "Stop loss must be within the limit.",
     "errorStopProfitOutRange": "Take profit must be within the limit.",
     "estimateLoss": "Projected Loss",
     "estimateProfit": "Projected Profit",
     "trailingStopSubtitle": "Set trailing stop-loss distance",
-    "estimateProfitLoss": "Projected Profit/Loss",
-    "stopProfitError": "The take profit price you entered is invalid.",
-    "stopLossError": "The stop loss price you entered is invalid.",
+    "estimateProfitLoss": "Estimated P/L",
+    "stopProfitError": "Invalid entry for take profit price",
+    "stopLossError": "Invalid entry for stop loss price",
     "trailingStopRangeHint": "The valid trailing stop distance is: {min}-{max} points.",
     "errorTrailingStopOutRange": "Trailing stop must be within the limit.",
     "cancelModify": "Are you sure you want to abandon the modification?",
@@ -1010,6 +1034,8 @@
     "content3": "Estimated Forced Parity",
     "title": "Adjust Margin",
     "button": "I got it.",
+    "content1": "You can increase the margin on this open position.",
+    "content2": "If you increase the margin, you will get safer",
     "tip": "Reminder: adjustment to margin only changes position risk but does not affect the total amount of transaction orders and the profit or loss of orders."
   },
   "agentFundingPositions": {
@@ -1149,9 +1175,9 @@
     "estimateLoss": "Projected Loss",
     "estimateProfit": "Projected Profit",
     "trailingStopSubtitle": "Set trailing stop-loss distance",
-    "estimateProfitLoss": "Projected Profit/Loss",
-    "stopProfitError": "The take profit price you entered is invalid.",
-    "stopLossError": "The stop loss price you entered is invalid.",
+    "estimateProfitLoss": "Estimated P/L",
+    "stopProfitError": "Invalid entry for take profit price",
+    "stopLossError": "Invalid entry for stop loss price",
     "trailingStopRangeHint": "The valid trailing stop distance is: {min}-{max} points.",
     "errorTrailingStopOutRange": "Trailing stop must be within the limit.",
     "trailingStopTitle": "Trailing Stop",
@@ -1163,7 +1189,7 @@
     "errorFuturesNotTradingTime": "This item is unavailable for the moment.",
     "appBarTitle": "Modify Position Order",
     "closeMultiPositionPartialFailTitle": "Failed to close some orders!",
-    "errorClosePositionFindNoSerial": "This order number is not found.",
+    "errorClosePositionFindNoSerial": "This order no is not found.",
     "errorGeneralCode": "Unknown Error ({code})",
     "adjustedLiquidationPrice": "Projected Forced Parity after Adjustment",
     "append": "Add",
@@ -1252,6 +1278,11 @@
     "kLineChart": "Candlestick Chart",
     "lineIndexChart": "Time-sharing Chart"
   },
+  "marginCallEditPopup": {
+    "modifySuccess": "Modified successfully",
+    "modifyFail": "Modification failed",
+    "errorMarginCallOutRange": "The adjustment to the margin must be within the limit."
+  },
   "agentReferralCodeUsers": {
     "emptyTip": "No information found",
     "typesButtonHint": "Please select a type.",
@@ -1286,6 +1317,7 @@
     "appBarTitle": "Withdrawal Account Settings",
     "emptyTip": "You do not have any withdrawal account currently. Please click the \"+\" button below or the one in the upper right corner to add an account for review.",
     "addBankAccount": "Add Withdrawal Account",
+    "statusSuccess": "Enable",
     "statusFail": "Not approved",
     "paymentCategoryEmptyPopup": {
       "noPaymentTip": "There is no withdrawal method currently. If you want to add a new withdrawal account, please",
@@ -1296,9 +1328,23 @@
     "complete": "Completed",
     "appBarTitle": "Language",
     "localeDefault": "System",
+    "localeZhTw": "",
+    "localeZhCn": "",
+    "localeZh": "",
+    "localeEn": "",
+    "localeJp": "",
+    "localeKr": "",
+    "localeTh": "",
+    "localeVi": ""
   },
   "keyboardInputAction": {
     "complete": "Completed"
+  },
+  "upDownColorSetting": {
+    "complete": "Completed",
+    "upGreenDownRed": "Green Up and Red Down",
+    "upRedDownGreen": "Red Up and Green Down",
+    "appBarTitle": "Colors of Up and Down"
   },
   "paymentBank": {
     "paymentPriceRangeTip": "Deposit amount range: {unit} {range}",
@@ -1352,7 +1398,7 @@
     "rangeTip": "Deposit amount range: $ {min} ~ {max}"
   },
   "numberInputField": {
-    "defaultHint": "Not set up"
+    "defaultHint": "Unset"
   },
   "emailBind": {
     "appBarTitle": "Verify Email",
@@ -1392,7 +1438,8 @@
       "pass": "The identity proofing process is completed.",
       "reject": "Your ID card information did not pass the verification. Please resubmit the verification information."
     },
-    "editDataTitle": "Edit Information"
+    "editDataTitle": "Edit Information",
+    "idNumberTitle": "ID number"
   },
   "personalVerify": {
     "realNameTitle": "Real Name",
@@ -1487,11 +1534,6 @@
     "emptyTip": "No daily task yet",
     "missionTip": "Daily mission rewards are only available for transactions in Real Account."
   },
-  "upDownColorSetting": {
-    "upGreenDownRed": "Green Up and Red Down",
-    "upRedDownGreen": "Red Up and Green Down",
-    "appBarTitle": "Colors of Up and Down"
-  },
   "requestError": {
     "noAuth": "Please log in.",
     "notTradingTime": "Not in trading hours",
@@ -1569,6 +1611,7 @@
     "alreadyHaveAccountButton": "Have an account already?",
     "benefit1": "Over 100 trading items",
     "benefit2": "Trade 24 hours a day",
+    "benefit3": "Commission-free and Low Spread",
     "benefit4": "Free Exclusive Insights",
     "welcomeTitle": "Welcome",
     "newUserTitle": "New User Registration",
@@ -1657,6 +1700,21 @@
   },
   "serverApiError": {
     "system": "Oops, an error occured.",
+    "payment1": "Insufficient balance",
+    "order2": "Insufficient balance",
+    "payment2": "The amount exceeds the limit",
+    "payment3": "The maximum number of daily withdrawals has been reached",
+    "payment4": "There is a withdrawal order review, please do not repeat the withdrawal",
+    "payment5": "Not in withdrawal hours",
+    "account1": "Verification code error",
+    "account2": "The information has been bound, please do not bind it again",
+    "account3": "The real-name authentication information has already been bound, please do not bind it again",
+    "account4": "Unable to register, please contact customer service",
+    "account5": "Please connect your phone first",
+    "order1": "No product found",
+    "order3": "No open positions yet.",
+    "account6": "Binding failed, already bound data",
+    "http400": "Account password error"
   },
   "login": {
     "enterEmailHint": "Please fill in your email address.",
@@ -1696,7 +1754,10 @@
     "identityCard": "ID card",
     "passport": "Passport",
     "drivingLicense": "Driver's license",
-    "accountBookOrResidentPermit": "Household certificate/Residence certificate"
+    "accountBookOrResidentPermit": "Household certificate/Residence certificate",
+    "idNumberTitle": "ID number",
+    "errorIdNumberEmpty": "Please enter the ID number",
+    "idNumberHint": "Please enter your ID number"
   },
   "handIdCardVerify": {
     "stepHeaderSubtitle": "1 question in total",
@@ -1839,9 +1900,14 @@
   },
   "positionOpenReason": {
     "market": "Market Price Closing",
+    "limit": "Price Limit Closing"
   },
   "positionCloseReason": {
     "contract": "Contract Forced Liquidation",
+    "margin": "Margin Forced Liquidation",
+    "stopProfit": "Take Profit Close Position",
+    "stopLoss": "Stop Loss Close Position",
+    "user": "Market Price Close Position "
   },
   "captchaBloc": {
     "statusWait": "You still need to wait {seconds} seconds.",

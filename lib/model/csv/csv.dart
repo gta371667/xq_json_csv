@@ -13,6 +13,7 @@ const List<dynamic> titleRow = [
   'zh_TW',
   'zh-CN',
   'en-En',
+  'en手動調整',
   'th-TH',
   '泰文字數',
   '建議字數',
@@ -40,6 +41,9 @@ class CsvData {
 
   /// 英文
   final String enEN;
+
+  /// 手動調整後的英文
+  final String enEnAdjust;
 
   /// 英文字數
   final String enEnCount;
@@ -105,6 +109,7 @@ class CsvData {
     required this.jsonKey,
     required this.enEnCount,
     required this.enEnSugCount,
+    required this.enEnAdjust,
   });
 
   factory CsvData.fromRow(List<String> row) {
@@ -112,21 +117,22 @@ class CsvData {
       zhTW: row[0],
       zhCN: row[1],
       enEN: row[2],
+      enEnAdjust: row[3],
       enEnCount: '',
       enEnSugCount: '',
-      thTH: row[3],
-      thThCount: row[4],
-      thThSugCount: row[5],
-      jpJP: row[6],
-      jpJPCount: row[7],
-      jpJPSubCount: row[8],
-      krKR: row[9],
-      krKRCount: row[10],
-      krKRSugCount: row[11],
-      vnVN: row[12],
-      vnVNCount: row[13],
-      vnVNSugCount: row[14],
-      jsonKey: row[15].split(csvStandard),
+      thTH: row[4],
+      thThCount: row[5],
+      thThSugCount: row[6],
+      jpJP: row[7],
+      jpJPCount: row[8],
+      jpJPSubCount: row[9],
+      krKR: row[10],
+      krKRCount: row[11],
+      krKRSugCount: row[12],
+      vnVN: row[13],
+      vnVNCount: row[14],
+      vnVNSugCount: row[15],
+      jsonKey: row[16].split(csvStandard),
     );
   }
 
@@ -167,6 +173,7 @@ class CsvData {
       zhTW: zhTW,
       zhCN: zhCN,
       enEN: enEN,
+      enEnAdjust: '',
       enEnCount: '',
       enEnSugCount: '',
       thTH: thTH,
@@ -198,6 +205,7 @@ class CsvData {
       zhTW: tw.zhTW,
       zhCN: cn?.zhCN ?? '',
       enEN: en?.enEN ?? '',
+      enEnAdjust: en?.enEnAdjust ?? en?.enEN ?? '',
       enEnCount: '',
       enEnSugCount: getSuggestCount(tw.zhTW, LangEnum.en),
       thTH: th?.thTH ?? '',
@@ -260,6 +268,7 @@ class CsvData {
       zhTW,
       zhCN,
       enEN,
+      enEnAdjust,
       // TODO 暫時拿掉
       // enEnCount,
       // enEnSugCount,
@@ -291,7 +300,7 @@ class CsvData {
   String _getValue(LangEnum langEnum) {
     switch (langEnum) {
       case LangEnum.en:
-        return enEN;
+        return enEnAdjust.isEmpty ? enEN : enEnAdjust;
       case LangEnum.tw:
         return zhTW;
       case LangEnum.cn:
@@ -342,6 +351,7 @@ class CsvData {
       zhTW: base.zhTW,
       zhCN: base.zhCN,
       enEN: base.enEN,
+      enEnAdjust: base.enEnAdjust,
       enEnSugCount: base.enEnSugCount,
       enEnCount: base.enEnCount,
       thTH: base.thTH,
