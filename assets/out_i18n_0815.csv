@@ -1,0 +1,1142 @@
+zh_TW,zh-CN,en-En,en手動調整,th-TH,泰文字數,建議字數,jp-JP,日文字數,建議字數,kr-KR,韓文字數,建議字數,vn-VN,越文字數,建議字數,jsonKey
+zh_TW,,en調整,,,,5,,,5,,,7,,,11,jsonKey
+已切換為{state},,Changed to {state},,,,4 + ?,,,4 + ?,,,5 + ?,,,9 + ?,app.changeAccountType
+模擬,,Demo,,,,2,,,2,,,2,,,4,"app.accountSimulation,assets.accountSimulation,memberCenter.accountSimulation,futuresMarketContent.accountSimulation"
+真實,,Real,,,,2,,,2,,,2,,,4,"app.accountReal,assets.accountReal,memberCenter.accountReal,futuresMarketContent.accountReal"
+"登入效期已過
+請重新登入",,"Your login has expired. 
+Please log in again.",,,,12,,,11,,,15,,,24,app.loginAuthExpiredPopup.title
+入金,,Deposit,,,,2,,,2,,,2,,,4,"assets.depositButton,home.depositButton,paymentHistory.typeDeposit,agentUserPaymentHistoryList.deposit"
+倉位,,Positions,,,,2,,,2,,,2,,,4,"assets.positions,menu.positions"
+訪客,,Guest,,,,2,,,2,,,2,,,4,"assets.guestName,memberCenter.guestName"
+盈虧,,P/L,,,,2,,,2,,,2,,,4,"assets.profitLoss,agentFundingPositionsList.profitLossTitle,agentFundingPositionsDetail.profitLossTitle,positions.profitLoss,transactionHistory.profitLoss"
+出入金紀錄,,Deposit and Withdrawal Records,,,,5,,,5,,,7,,,11,"assets.paymentHistory,paymentHistory.appBarTitle,agentUsersDetail.historyButton,agentUserPaymentHistory.appBarTitle"
+查看詳細的出入金交易活動,,View detailed deposit and withdrawal,,,,14,,,12,,,16,,,27,assets.paymentHistorySubtitle
+查看特定階段的交易活動,,View trading activities at specific stages,,,,12,,,11,,,15,,,24,assets.positionsSubtitle
+前往驗證真實賬戶,,Verify Your Real Account,,,,9,,,8,,,11,,,18,assets.idVerifyButton.statusNone
+真實帳戶審核中,,Real account under review,,,,8,,,7,,,9,,,15,assets.idVerifyButton.statusAudit
+真實帳戶驗證未通過,,Real account verification failed,,,,10,,,9,,,12,,,20,assets.idVerifyButton.statusReject
+存入資金,,Deposit Funds,,,,4,,,4,,,5,,,9,assets.depositButtonTip
+出金,,Withdraw,,,,2,,,2,,,2,,,4,"assets.withdrawButton,paymentHistory.typeWithdraw,agentUserPaymentHistoryList.withdraw,withdraw.appBarTitle,withdrawThirdParty.withdrawButton"
+提取資金,,Withdraw Funds,,,,4,,,4,,,5,,,9,assets.withdrawButtonTip
+自由資金,,Available Funds,,,,4,,,4,,,5,,,9,"assets.availableFunds,accountTransaction.availableFunds"
+淨值,,Equity,,,,2,,,2,,,2,,,4,"assets.netAssetValue,accountTransaction.netAssetValue,walletAssetsPopup.netAssetValue"
+初始保證金,,Initial Margin,,,,5,,,5,,,7,,,11,assets.occupyMargin
+維持保證金總額,,Total M. Margin,,,,8,,,7,,,9,,,15,assets.maintenanceMarginTotal
+浮動盈虧,,Unrealised P/L,,,,4,,,4,,,5,,,9,"assets.dynamicProfitLoss,walletAssetsPopup.dynamicProfitLoss,positionDetail.dynamicProfitLoss,positionDetail.profitLoss"
+平倉盈虧,,Realised P/L,,,,4,,,4,,,5,,,9,"assets.closePositionProfitLoss,transactionHistoryDetail.dynamicProfitLoss"
+凍結保證金,,Frozen Margin,,,,5,,,5,,,7,,,11,assets.freezeMargin
+全倉,,Cross Margin,,,,2,,,2,,,2,,,4,"assets.crossMargin,futuresTransaction.crossMargin,tradeModePopup.crossMargin"
+逐倉,,Isolated Margin,,,,2,,,2,,,2,,,4,"assets.isolateMargin,futuresTransaction.isolateMargin,tradeModePopup.isolateMargin"
+資金淨值($),,,,,,8,,,7,,,9,,,15,assets.netWorth
+佔用保證金($),,,,,,9,,,8,,,11,,,18,assets.positionMargin
+可用保證金($),,,,,,9,,,8,,,11,,,18,assets.availableMargin
+帳號資訊,,Account Information,,,,4,,,4,,,5,,,9,"memberCenter.accountInfo,accountData.appBarTitle"
+成為代理,,Become an Agent,,,,4,,,4,,,5,,,9,"memberCenter.applyAgent,applyAgent.appBarTitle,applyAgent.applyAgentButton"
+會員中心,,Member Center,,,,4,,,4,,,5,,,9,memberCenter.appBarTitle
+通知,,Notification,,,,2,,,2,,,2,,,4,"memberCenter.messageNotify,agentSetting.messageNotify"
+成就 & 階級,,Achievement & Rank,,,,5,,,5,,,7,,,11,"memberCenter.achievement,agentSetting.achievementsLevel,achievementsLevel.appBarTitle"
+獎勵,,Rewards,,,,2,,,2,,,2,,,4,"memberCenter.award,award.appBarTitle,awardList.bonus"
+分享推薦碼,,Share Referral Code,,,,5,,,5,,,7,,,11,"memberCenter.shareReferralCode,referralCodeShare.appBarTitle"
+身份認證,,Identity Certification,,,,4,,,4,,,5,,,9,memberCenter.identifyVerification
+設定,,Settings,,,,2,,,2,,,2,,,4,"memberCenter.setting,setting.appBarTitle"
+合約屬性,,Contract Properties,,,,4,,,4,,,5,,,9,memberCenter.contractProperties
+聲明和協議,,Statement and Agreement,,,,5,,,5,,,7,,,11,memberCenter.statementAndAgreement
+帳戶設定,,Account Settings,,,,4,,,4,,,5,,,9,memberCenter.accountSetting
+已複製推薦碼,,Referral Code Copied,,,,7,,,6,,,8,,,13,memberCenter.copyReferralCodeToast
+我的推薦碼,,My Referral Code,,,,5,,,5,,,7,,,11,"memberCenter.myReferralCode,referralCodeShare.myReferralCode"
+用戶服務,,User Service,,,,4,,,4,,,5,,,9,memberCenter.userService
+代理服務,,Agent Service,,,,4,,,4,,,5,,,9,memberCenter.agentService
+切換回用戶模式,,Switch to User Mode,,,,8,,,7,,,9,,,15,memberCenter.backToUserService
+切換至代理模式,,Switch to Agent Mode,,,,8,,,7,,,9,,,15,memberCenter.toAgentService
+代理審核中,,Agency under review,,,,5,,,5,,,7,,,11,memberCenter.agentStatusAudit
+代理權限被撤銷,,Agent authority revoked,,,,8,,,7,,,9,,,15,memberCenter.agentStatusBlock
+請先驗證真實帳戶,,Please verify your real account.,,,,9,,,8,,,11,,,18,memberCenter.verificationRealAccountFirst
+等待真實帳戶審核中,,Awaiting review for your real account,,,,10,,,9,,,12,,,20,memberCenter.waitVerificationRealAccount
+鑽石階級,,Diamond Rank,,,,4,,,4,,,5,,,9,memberCenter.levelDiamond
+會員,,Member,,,,2,,,2,,,2,,,4,memberCenter.member
+認證中,,Under Certification,,,,3,,,3,,,4,,,6,memberCenter.idVerifyStatus.audit
+已通過,,Passed,,,,3,,,3,,,4,,,6,memberCenter.idVerifyStatus.pass
+未通過,,Reject,,,,3,,,3,,,4,,,6,memberCenter.idVerifyStatus.reject
+安全登出,,Logged out safely,,,,4,,,4,,,5,,,9,memberCenter.safeLogout
+登入,,Log in,,,,2,,,2,,,2,,,4,"memberCenter.login,common.login"
+登出成功,,Logout Succeeded,,,,4,,,4,,,5,,,9,memberCenter.logoutSuccess
+關於我們,,Contact Us,,,,4,,,4,,,5,,,9,memberCenter.contactUs
+用戶指南,,User Guide,,,,4,,,4,,,5,,,9,"memberCenter.userGuide,userGuideCategory.title"
+暫無行情,,No quotes available for the moment,,,,4,,,4,,,5,,,9,"futuresMarketContent.listEmptyTip,home.quotaEmptyTip"
+添加自選,,Add optional,,,,4,,,4,,,5,,,9,"futuresMarketContent.addCustomQuotaTip,home.addCustomQuotaTip,futuresCustomEdit.emptyTip"
+交易品種,,Varieties,,,,4,,,4,,,5,,,9,"futuresMarketContent.futuresName,home.tradingVarietyTitle,futuresCustomEdit.futuresName"
+賣出價,,Selling Rate,,,,3,,,3,,,4,,,6,"futuresMarketContent.sellPrice,home.sellingPriceTitle,futuresAlert.sellOutPrice,futuresDetail.sellOutPrice"
+買入價,,Buying Rate,,,,3,,,3,,,4,,,6,"futuresMarketContent.buyPrice,home.buyingPriceTitle,futuresAlert.buyInPrice,futuresDetail.buyInPrice"
+自選,,Optional,,,,2,,,2,,,2,,,4,"futuresMarketContent.customTab,home.futuresTabFavorite"
+輸入交易品種 / 英文名稱,,Enter variety / English name,,,,12,,,11,,,15,,,24,"futuresMarketContent.searchHint,home.searchHint,futuresSearch.searchInputHint"
+可用餘額,,Available,,,,4,,,4,,,5,,,9,"futuresMarketContent.availableBalance,agentUsersDetail.availableBalance,accountTransaction.availableBalance,walletAssetsPopup.availableBalance,futuresTransaction.availableBalance"
+最新價,,Current Price,,,,3,,,3,,,4,,,6,"futuresMarketContent.lastPrice,home.lastPrice,positions.lastPrice"
+漲跌幅,,Volatility,,,,3,,,3,,,4,,,6,"futuresMarketContent.changeRate,home.changeRate,futuresChart.changeRate"
+漲跌幅/點差,,Volatility / Spread,,,,7,,,6,,,8,,,13,futuresMarketContent.changeRateSpread
+多元交易產品安全,,"Diverse Transaction, Safe Products",,,,9,,,8,,,11,,,18,home.defaultBannerTitle
+快速下單直覺 多樣化下單工具,,"Quick and intuitive ordering, diversified order placement tools",,,,15,,,13,,,18,,,29,home.defaultBannerSubtitle
+更多交易,,More,,,,4,,,4,,,5,,,9,home.moreTransaction
+公告,,Announcement,,,,2,,,2,,,2,,,4,"home.announcement,announcement.appBarTitle"
+歡迎來到{appName}~,,Welcome to {AppName}~,,,,5 + ?,,,5 + ?,,,7 + ?,,,11 + ?,home.defaultMarquee
+專屬客服,,Exclusive Customer Service,,,,4,,,4,,,5,,,9,"home.customerServiceButton,customerService.appBarTitle"
+更方便、更快捷、更高效的服務,,"More convenient, faster and more efficient service",,,,16,,,14,,,19,,,31,home.customerServiceContent
+任務中心,,Mission Center,,,,4,,,4,,,5,,,9,home.missionButton
+歡迎 ~ 立即交易全球市場,,Welcome ~ Trade in the global market now.,,,,12,,,11,,,15,,,24,home.logoMessageContent
+訂單列表,,Order List,,,,4,,,4,,,5,,,9,home.tradeListButton
+活動,,Event,,,,2,,,2,,,2,,,4,"home.eventButton,campaign.title"
+教學,,Tutorial,,,,2,,,2,,,2,,,4,"home.tutorialButton,qa.appBarTitle"
+熱門交易,,Top Transactions,,,,4,,,4,,,5,,,9,home.futuresTabTop
+點差,,Spread,,,,2,,,2,,,2,,,4,"home.spreadPrefix,agentTransactionSettingList.spreadTitle,agentConditionFuturesList.spreadTitle"
+提示,,Tip:,,,,2,,,2,,,2,,,4,home.idVerifyNeedPopup.title
+"尚未完成/通過身分驗證
+請通過身分驗證後，再進行{target}",,"Identity verification not yet completed/passed 
+Please pass the identity verification before making a {target}.",,,,27 + ?,,,23 + ?,,,32 + ?,,,51 + ?,home.idVerifyNeedPopup.content
+前往驗證身份,,Verify your identity,,,,7,,,6,,,8,,,13,home.idVerifyNeedPopup.confirm
+手續費,,Handling Fee,,,,3,,,3,,,4,,,6,"paymentHistory.fee,agentFundingPositionsList.handlingFeeTitle,agentFundingPositionsDetail.handlingFeeTitle,agentUsersDetail.handlingFeeTitle,futuresTransaction.totalCostPopup.handlingFee,agentTransactionSettingList.handlingFeeTitle,agentConditionFuturesList.handlingFeeTitle"
+單號,,Order No,,,,2,,,2,,,2,,,4,"paymentHistory.orderSerial,agentFundingPositionsList.singleNumberTitle,agentFundingPositionsDetail.singleNumberTitle,withdrawCategory.orderSerial"
+清除,,Clear,,,,2,,,2,,,2,,,4,"paymentHistory.filterPopup.clearButton,agentUserPaymentHistory.filterPopup.cleanButton,agentProfitSharing.filterPopup.cleanButton,agentUser.filterPopup.cleanButton,agentFundingDetails.filterPopup.cleanButton,agentUserProfitSharingForm.filterPopup.cleanButton"
+篩選,,Filter,,,,2,,,2,,,2,,,4,"paymentHistory.filterPopup.filterButton,agentUserPaymentHistory.filterPopup.filterButton,agentProfitSharing.filterPopup.filterButton,agentUser.filterPopup.filterButton,agentTransactionSetting.filterTitle,agentFundingDetails.filterPopup.filterButton,agentUserProfitSharingForm.filterPopup.filterButton"
+請選擇日期,,Please select a date.,,,,5,,,5,,,7,,,11,"paymentHistory.filterPopup.applyTimeHint,agentUserPaymentHistory.filterPopup.dateButtonHint,agentOverview.dateHint,agentProfitSharing.dateButtonHint,agentUser.filterPopup.selectDateButton,agentFundingDetails.filterPopup.dateButtonHint,agentUserProfitSharingForm.dateHint"
+請選擇類型,,Please select a type.,,,,5,,,5,,,7,,,11,"paymentHistory.filterPopup.directionHint,agentUserPaymentHistory.filterPopup.typesButtonHint,agentProfitSharing.typesButtonHint,agentReferralCodeUsers.typesButtonHint"
+出入金紀錄篩選,,Deposit and Withdrawal Records Filtering,,,,8,,,7,,,9,,,15,"paymentHistory.filterPopup.popupTitle,agentUserPaymentHistory.filterPopup.popupTitle"
+出入金類型,,Deposit and Withdrawal Type,,,,5,,,5,,,7,,,11,"paymentHistory.filterPopup.directionTitle,agentUserPaymentHistory.filterPopup.typesTitle"
+出入金方式,,Deposit and Withdrawal Method,,,,5,,,5,,,7,,,11,"paymentHistory.filterPopup.categoryTitle,agentUserPaymentHistory.filterPopup.methodTitle"
+請選擇出入金方式,,Please select a method to deposit and withdraw funds.,,,,9,,,8,,,11,,,18,"paymentHistory.filterPopup.categoryHint,agentUserPaymentHistory.filterPopup.methodButtonHint"
+狀態,,Status,,,,2,,,2,,,2,,,4,"paymentHistory.filterPopup.statusTitle,agentUserPaymentHistory.filterPopup.statusTitle"
+請選擇狀態,,Please select a status.,,,,5,,,5,,,7,,,11,"paymentHistory.filterPopup.statusHint,agentUserPaymentHistory.filterPopup.statusButtonHint"
+金額,,Amount,,,,2,,,2,,,2,,,4,"paymentHistory.filterPopup.amountTitle,agentUserPaymentHistory.filterPopup.amountTitle"
+最高,,Highest,,,,2,,,2,,,2,,,4,"paymentHistory.filterPopup.amountMaxHint,positionDetail.highPrice,futuresChart.highPrice,futuresChartFullScreen.highPrice"
+最低,,Lowest,,,,2,,,2,,,2,,,4,"paymentHistory.filterPopup.amountMinHint,positionDetail.lowPrice,futuresChart.lowPrice,futuresChartFullScreen.lowPrice"
+審核時間,,Review Time,,,,4,,,4,,,5,,,9,paymentHistory.filterPopup.applyTimeTitle
+出入金詳情,,Deposit and Withdrawal Details,,,,5,,,5,,,7,,,11,"paymentHistory.paymentDetail,agentUserPaymentHistory.depositWithdrawalDetailsTitle,agentPaymentDetail.depositWithdrawalDetailsTitle"
+入金總額,,Total Deposit,,,,4,,,4,,,5,,,9,"paymentHistory.paymentTotal,agentUserPaymentHistory.totalDeposit,agentPaymentDetail.depositTotal"
+出金總額,,Total Withdrawal,,,,4,,,4,,,5,,,9,"paymentHistory.withdrawTotal,agentUserPaymentHistory.totalWithdrawal"
+方式,,Method,,,,2,,,2,,,2,,,4,"paymentHistory.method,agentUserPaymentHistoryList.methodTitle,withdrawCategory.method"
+類型,,Type,,,,2,,,2,,,2,,,4,"paymentHistory.type,agentUserPaymentHistoryList.typesTitle,futuresTransaction.marketOrderPopup.type,futuresTransaction.limitOrderPopup.type,agentProfitSharing.typesTitle,withdrawCategory.type"
+日期,,Date,,,,2,,,2,,,2,,,4,"paymentHistory.dateTitle,agentUserPaymentHistoryList.dateTitle,agentOverview.dateTitle,agentProfitSharing.dateTitle,withdrawCategory.dateTitle,agentUserProfitSharingForm.dateTitle,withdrawBank.datePrefix"
+審核中,,Under review,,,,3,,,3,,,4,,,6,"paymentHistory.statusAudit,paymentHistory.orderStatusWithdrawAudit,paymentHistory.statusFail,paymentHistory.orderStatusDepositAudit,paymentHistory.orderStatusWithdrawHandle,agentUserPaymentHistoryList.orderStatusWithdrawAudit,agentUserPaymentHistoryList.orderStatusFail,agentUserPaymentHistoryList.orderStatusDepositAudit,agentUserPaymentHistoryList.orderStatusWithdrawHandle,accountPaymentManager.statusAudit"
+等待,,Pending,,,,2,,,2,,,2,,,4,paymentHistory.statusWait
+完成,,Completed,,,,2,,,2,,,2,,,4,"paymentHistory.statusSuccess,languageSetting.complete,keyboardInputAction.complete,upDownColorSetting.complete,serverLineSetting.complete"
+尚無出入金紀錄,,No deposit or withdrawal record yet,,,,8,,,7,,,9,,,15,paymentHistory.historyEmptyTip
+獲取資料時發生錯誤,,An error occurred while obtaining information.,,,,10,,,9,,,12,,,20,paymentHistory.historyErrorTip
+入金成功,,Fund deposited successfully,,,,4,,,4,,,5,,,9,"paymentHistory.orderStatusDepositSuccess,agentUserPaymentHistoryList.orderStatusDepositSuccess"
+出金成功,,Fund withdrawn successfully,,,,4,,,4,,,5,,,9,"paymentHistory.orderStatusWithdrawSuccess,agentUserPaymentHistoryList.orderStatusWithdrawSuccess"
+未支付,,Unpaid,,,,3,,,3,,,4,,,6,"paymentHistory.orderStatusDepositWaitPay,agentUserPaymentHistoryList.orderStatusDepositWaitPay"
+資金退回,,Funds returned,,,,4,,,4,,,5,,,9,"paymentHistory.orderStatusWithdrawReject,agentUserPaymentHistoryList.orderStatusWithdrawReject"
+代理-出入金詳情列表,,Agent-List of Deposit and Withdrawal Details,,,,11,,,10,,,14,,,22,agentUserPaymentHistoryList.nameDescription
+首頁,,Home,,,,2,,,2,,,2,,,4,menu.home
+資產,,Assets,,,,2,,,2,,,2,,,4,menu.funds
+交易,,Trade,,,,2,,,2,,,2,,,4,menu.trade
+我的,,Hub,,,,2,,,2,,,2,,,4,menu.my
+總覽,,Overview,,,,2,,,2,,,2,,,4,"menu.overview,agentSetting.agentOverview,agentOverview.appBarTitle"
+用戶清單,,User List,,,,4,,,4,,,5,,,9,"menu.users,agentSetting.agentUsers"
+分潤細節,,Revenue Share Details,,,,4,,,4,,,5,,,9,"menu.profitSharing,agentSetting.agentProfitSharing,agentOverview.agentProfitTitle,agentProfitSharing.appBarTitle"
+推薦碼,,Referral Code,,,,3,,,3,,,4,,,6,"menu.referralCode,accountData.referralCodeTitle,agentSetting.agentReferralCode,agentUser.filterPopup.recommendedCode,agentReferralCode.appBarTitle,referralCodeBind.inputTitle,agentReferralUserList.recommendedCode"
+交易設定,,Transaction Settings,,,,4,,,4,,,5,,,9,"menu.transactionSetting,agentSetting.transactionSetting,agentTransactionSetting.appBarTitle"
+買入,,Buy,,,,2,,,2,,,2,,,4,"agentFundingPositionsList.buyingTitle,agentFundingPositionsDetail.buyingTitle,common.buyIn"
+賣出,,Sell,,,,2,,,2,,,2,,,4,"agentFundingPositionsList.sellTitle,agentFundingPositionsDetail.sellTitle,common.sellOut"
+槓桿設定,,Leverage Settings,,,,4,,,4,,,5,,,9,"agentFundingPositionsList.leverageSettingTitle,agentFundingPositionsDetail.leverageSettingTitle,agentFundingDetails.filterPopup.leverageSettingTitle"
+總盈虧,,Total Profit or Loss,,,,3,,,3,,,4,,,6,"agentFundingPositionsList.generalProfit,agentFundingPositionsDetail.generalProfit,agentFundingDetails.filterPopup.openingFilterGeneralProfit"
+開倉價,,Open Price,,,,3,,,3,,,4,,,6,"agentFundingPositionsList.openingPriceTitle,positions.openPositionPrice,transactionHistoryDetail.openPositionPriceTitle,orders.openPriceTitle"
+止盈價格,,Take Profit Price,,,,4,,,4,,,5,,,9,"agentFundingPositionsList.stopProfitPrice,agentFundingPositionsDetail.stopProfitPrice"
+止損價格,,Stop Loss Price,,,,4,,,4,,,5,,,9,"agentFundingPositionsList.stopLossPrice,agentFundingPositionsDetail.stopLossPrice"
+立即成交,,Immediate transaction,,,,4,,,4,,,5,,,9,"agentFundingPositionsList.repairImmediatelyHint,agentFundingPositionsDetail.repairImmediatelyHint"
+開倉保證金,,Opening Margin,,,,5,,,5,,,7,,,11,"agentFundingPositionsList.openMarginTitle,agentFundingPositionsDetail.openMarginTitle"
+複製,,Copy,,,,2,,,2,,,2,,,4,"agentFundingPositionsDetail.copyButton,agentReferralCodeList.copyButton,copyButton.title"
+平倉時間,,Closing Time,,,,4,,,4,,,5,,,9,"agentFundingPositionsDetail.closingTimeTitle,transactionHistory.closePositionTime,transactionHistoryDetail.createDate,agentFundingDetails.filterPopup.closingTimeTitle"
+開倉時間,,Opening Time,,,,4,,,4,,,5,,,9,"agentFundingPositionsDetail.openingTimeTitle,agentFundingDetails.filterPopup.openingTimeTitle"
+交易方向,,Trading Direction,,,,4,,,4,,,5,,,9,"agentFundingPositionsDetail.tradingDirectionTitle,agentFundingDetails.filterPopup.tradingDirectionTitle"
+淨盈虧,,Net Profit or Loss,,,,3,,,3,,,4,,,6,"agentFundingPositionsDetail.netProfit,agentFundingDetails.filterPopup.openingFilterNetProfit"
+資金明細,,Funds Details,,,,4,,,4,,,5,,,9,"agentFundingPositionsDetail.appBarTitle,agentFundingDetails.appBarTitle,agentPaymentDetail.appBarTitle"
+掛單,,Orders,,,,2,,,2,,,2,,,4,"agentFundingPositionsDetail.hangingTitle,accountTransaction.tabOrder,futuresDetail.bottomSheet.accountOrder,orderDetail.openPositionChartTag,orderDetail.orderTag,orderDetail.orderChartTag,cancelOrderConfirmPopup.orderTag"
+隔夜費,,Overnight Funding,,,,3,,,3,,,4,,,6,"agentFundingPositionsDetail.rolloverTitle,positionDetail.rollover,transactionHistoryDetail.rollover,futuresContract.rollover"
+掛單價格,,Order Price,,,,4,,,4,,,5,,,9,"agentFundingPositionsDetail.hangingPriceTitle,orderDetail.orderPriceTitle,orderModify.accountOrderTitle"
+開倉價格,,Open Price,,,,4,,,4,,,5,,,9,"agentFundingPositionsDetail.openingPriceTitle,positionDetail.tableOpenPriceTitle,positionDetail.openPriceTitle,futuresTransaction.marketOrderPopup.openPrice,orderDetail.openingPriceTitle"
+平倉價格,,Closing Price,,,,4,,,4,,,5,,,9,agentFundingPositionsDetail.closingPriceTitle
+已複製,,Copied,,,,3,,,3,,,4,,,6,agentFundingPositionsDetail.copyToast
+交易數量 (手),,Quantity of Transaction (lots),,,,8,,,7,,,9,,,15,agentFundingPositionsDetail.quantityTransactionsTitle
+成交價格,,Transaction Price,,,,4,,,4,,,5,,,9,agentFundingPositionsDetail.dealPriceTitle
+下單時間,,Order Time,,,,4,,,4,,,5,,,9,agentFundingPositionsDetail.orderTimeTitle
+成交時間,,Transaction Time,,,,4,,,4,,,5,,,9,agentFundingPositionsDetail.dealOrderTimeTitle
+更新時間,,Update Time,,,,4,,,4,,,5,,,9,agentFundingPositionsDetail.updateTimeTitle
+持倉數量,,Open Position,,,,4,,,4,,,5,,,9,agentFundingPositionsDetail.positionQuantityTitle
+平倉原因,,Closing Reason,,,,4,,,4,,,5,,,9,"agentFundingPositionsDetail.closingReasonTitle,transactionHistoryDetail.closePositionReason"
+平倉,,Close,,,,2,,,2,,,2,,,4,"positions.closePosition,positionDetail.closePosition,agentFundingDetails.closePositionButton"
+保證金,,Margin,,,,3,,,3,,,4,,,6,"positions.occupyMargin,accountTransaction.occupyMargin,walletAssetsPopup.margin,positionDetail.contractMargin,transactionHistoryDetail.contractMargin,futuresTransaction.marketOrderPopup.occupyMargin,futuresTransaction.limitOrderPopup.occupyMargin,orders.occupyMargin,orderDetail.margin"
+訂單號,,Order No,,,,3,,,3,,,4,,,6,"positions.transactionSerial,transactionHistory.transactionSerial,positionDetail.transactionSerial,transactionHistoryDetail.transactionSerial,orders.transactionSerialTitle,orderDetail.transactionSerial"
+平倉成功,,Position closed successfully,,,,4,,,4,,,5,,,9,"positions.closePositionSuccess,positionDetail.closePositionSuccess"
+預估強平價,,Estimated Forced Parity,,,,5,,,5,,,7,,,11,"positions.estimatedForcedParity,positionDetail.estimatedForcedParity,adjustmentMarginDescriptionPopup.content3"
+全選,,Select All,,,,2,,,2,,,2,,,4,"positions.selectAll,futuresCustomEdit.selectAll"
+尚無持倉,,No open position yet,,,,4,,,4,,,5,,,9,"positions.emptyTip,futuresDetail.bottomSheet.positionEmptyTip,agentFundingPositions.emptyTip"
+開始交易,,Start Trading,,,,4,,,4,,,5,,,9,"positions.emptyButton,orders.emptyButton"
+重置,,Reset,,,,2,,,2,,,2,,,4,positions.resetSelect
+批量平倉,,Batch Close,,,,4,,,4,,,5,,,9,positions.closeMultiPosition
+交易手數超過持有手數,,The number of trading lots exceeds that of lots held.,,,,11,,,10,,,14,,,22,positions.closePositionLotsOutRange
+確定平倉,,Closed position confirmed,,,,4,,,4,,,5,,,9,positions.isConfirmClosePosition
+限時價,,Limited Time Price,,,,3,,,3,,,4,,,6,positions.limitedTimePrice
+當前價,,Current Price,,,,3,,,3,,,4,,,6,"positions.lastPriceTitle,orders.lastPriceTitle,cancelOrderConfirmPopup.lastPrice"
+止損,,Stop Loss,,,,2,,,2,,,2,,,4,"positions.stopLoss,common.stopLoss,orders.stopLoss"
+止盈,,Take Profit,,,,2,,,2,,,2,,,4,"positions.stopProfit,common.stopProfit,orders.stopProfit"
+尚無紀錄,,No record yet,,,,4,,,4,,,5,,,9,transactionHistory.emptyTip
+開始時間,,Start Time,,,,4,,,4,,,5,,,9,transactionHistory.dateRangeStartDefault
+結束時間,,End Time,,,,4,,,4,,,5,,,9,transactionHistory.dateRangeEndDefault
+取消,,Cancel,,,,2,,,2,,,2,,,4,"agentUsersDetail.descriptionPopup.cancelButton,agentUserPaymentHistory.filterPopup.cancelButton,common.cancel,agentTransactionSettingList.descriptionPopup.cancelButton,agentProfitSharing.filterPopup.cancelButton,agentUser.filterPopup.cancelButton,agentFundingDetails.filterPopup.cancelButton,agentReferralCodeList.descriptionPopup.cancelButton,agentProfitSharingSearch.cancel,agentUserSearch.cancel,agentReferralCodeSearch.cancel,agentReferralCodeFunctionPopup.cancelButton,editAgentReferralCode.descriptionPopup.cancelButton,addAgentReferralCodePopup.cancelButton,agentTransactionSettingSearch.cancel,agentUserProfitSharingForm.filterPopup.cancelButton,agentFundingDetailsSearch.cancel"
+刪除點差,,Delete Spread,,,,4,,,4,,,5,,,9,"agentUsersDetail.descriptionPopup.deleteTitle,agentUsersDetail.descriptionPopup.deleteButton,agentTransactionSettingList.descriptionPopup.deleteTitle,agentTransactionSettingList.descriptionPopup.deleteButton,editAgentReferralCode.descriptionPopup.deleteTitle,editAgentReferralCode.descriptionPopup.deleteButton"
+刪除該品項點差，將會導致用戶交易的點差回到預設點差，可能會影響您的利潤。\n\n確定要刪除點差嗎？,,"Deleting the spread of this item will cause the spread of the transaction to return to the default spread, which may affect your profits. \n\n Are you sure you want to delete the spread?",,,,57,,,49,,,68,,,110,"agentUsersDetail.descriptionPopup.contentText,agentTransactionSettingList.descriptionPopup.contentText,editAgentReferralCode.descriptionPopup.contentText"
+規費,,Fee,,,,2,,,2,,,2,,,4,"agentUsersDetail.feesTitle,agentOverview.feesTitle,agentProfitSharing.feesTitle,agentUserProfitSharingForm.filterPopup.feesTitle,agentUserProfitSharingFormList.headerFees,agentProfitList.typesFees,agentCondition.FeesTitle"
+交易利潤,,Trading Profit,,,,4,,,4,,,5,,,9,"agentUsersDetail.transactionProfitTitle,agentOverview.transactionProfitTitle,agentProfitSharing.transactionProfitTitle,agentUserProfitSharingForm.filterPopup.transactionProfitTitle,agentUserProfitSharingFormList.headerTransactionProfit,agentProfitList.typesTransactionProfit"
+其他利潤,,Other Profit,,,,4,,,4,,,5,,,9,"agentUsersDetail.otherProfitsTitle,agentOverview.otherProfitsTitle,agentProfitSharing.otherProfitsTitle,agentProfitList.typesOtherProfits"
+總利潤,,Total Profit,,,,3,,,3,,,4,,,6,"agentUsersDetail.totalProfitTitle,agentProfitSharing.totalProfitTitle"
+刪除成功,,Deleted successfully,,,,4,,,4,,,5,,,9,"agentUsersDetail.deleteSuccess,agentReferralCode.deleteSuccess,agentTransactionSetting.deleteSuccess,agentReferralCodeSearch.deleteSuccess,editAgentReferralCode.deleteSuccess,agentTransactionSettingSearch.deleteSuccess"
+刪除失敗,,Deletion failed,,,,4,,,4,,,5,,,9,"agentUsersDetail.deleteFailed,agentReferralCode.deleteFailed,agentTransactionSetting.deleteFailed,agentReferralCodeSearch.deleteFailed,agentTransactionSettingSearch.deleteFailed"
+點差及手續費,,Spread and Handling Fee,,,,7,,,6,,,8,,,13,"agentUsersDetail.distributionHandlingFeeTitle,agentReferralCodeList.distributionHandlingFeeTitle,editAgentReferralCode.distributionHandlingFeeTitle"
+修改成功,,Modified successfully,,,,4,,,4,,,5,,,9,"agentUsersDetail.editSuccess,agentTransactionSetting.editSuccess,orderModify.modifySuccess,editAgentReferralCode.editSuccess,agentTransactionSettingSearch.editSuccess,positionModify.modifySuccess,chartBollSetting.modifySuccess,chartKdjSetting.modifySuccess,chartMacdSetting.modifySuccess,chartMaSetting.modifySuccess,chartRsiSetting.modifySuccess,chartWrSetting.modifySuccess,chartTypeSetting.modifySuccess,marginCallEditPopup.modifySuccess"
+新增,,Add,,,,2,,,2,,,2,,,4,"agentUsersDetail.addButton,editAgentReferralCode.addButton"
+修改失敗,,Modification failed,,,,4,,,4,,,5,,,9,"agentUsersDetail.editFailed,agentTransactionSetting.editFailed,agentTransactionSettingSearch.editFailed,chartBollSetting.modifyFail,chartKdjSetting.modifyFail,chartMacdSetting.modifyFail,chartMaSetting.modifyFail,chartRsiSetting.modifyFail,chartWrSetting.modifyFail,chartTypeSetting.modifyFail,marginCallEditPopup.modifyFail"
+查無資料,,No information found,,,,4,,,4,,,5,,,9,"agentUsersDetail.emptyTip,agentUserPaymentHistory.emptyTip,agentConditionFuturesList.emptyTip,agentTransactionSetting.emptyTip,agentPaymentDetail.emptyTip,agentTransactionSettingSearch.emptyTip,agentFundingDetailsSearch.emptyTip,agentCondition.emptyTip,agentReferralCodeUsers.emptyTip,countryCode.emptyTip,userGuideCategory.emptyTip,userGuideSection.emptyTip,userGuideArticle.emptyTip"
+利潤,,Profit,,,,2,,,2,,,2,,,4,agentUsersDetail.profitTitle
+交易概況,,Transaction Overview,,,,4,,,4,,,5,,,9,agentUsersDetail.tradingOverviewTitle
+利潤損失,,Loss,,,,4,,,4,,,5,,,9,agentUsersDetail.profitLossTitle
+總保證金,,Total Margin,,,,4,,,4,,,5,,,9,agentUsersDetail.totalMargin
+股權,,Equity,,,,2,,,2,,,2,,,4,agentUsersDetail.equity
+總維持保證金,,Total M. Margin,,,,7,,,6,,,8,,,13,agentUsersDetail.totalMaintenanceMargin
+交易明細,,Transaction Details,,,,4,,,4,,,5,,,9,agentUsersDetail.transactionDetailsButton
+申請日期,,Application Date,,,,4,,,4,,,5,,,9,agentUserPaymentHistory.filterPopup.dateTitle
+入金金額區間：{unit} {range},,Deposit amount range: {unit} {range},,,,8 + ?,,,7 + ?,,,9 + ?,,,15 + ?,"withdraw.withdrawPriceRangeTip,paymentBank.paymentPriceRangeTip"
+餘額,,Balance,,,,2,,,2,,,2,,,4,withdraw.balanceTitle
+全部取出,,Withdraw All,,,,4,,,4,,,5,,,9,withdraw.withdrawAll
+需付保證金,,Margin Required,,,,5,,,5,,,7,,,11,"withdrawThirdParty.feeCollectionRulesPopup.depositRequired,futuresTransaction.totalCostPopup.needMargin,futuresTransaction.needMargin"
+手續費收取規則,,Transaction Fee Rules,,,,8,,,7,,,9,,,15,withdrawThirdParty.feeCollectionRulesPopup.title
+提取金額,,Withdraw Amount,,,,4,,,4,,,5,,,9,withdrawThirdParty.feeCollectionRulesPopup.withdrawalAmount
+關閉,,Closed,,,,2,,,2,,,2,,,4,"withdrawThirdParty.feeCollectionRulesPopup.close,accountBlockPopup.closeButton,otherDevicesLoginPopup.closeButton"
+相關提示:,,Related tips:,,,,5,,,5,,,7,,,11,"withdrawThirdParty.tipTitle,withdrawBank.tipTitle"
+客戶出金所指定之帳號，必需是開戶時所指定之出金銀行帳號。,,The account number specified by the customer for withdrawal must be the account number of the withdrawal bank specified at the time of account opening.,,,,33,,,28,,,39,,,63,withdrawThirdParty.tipContent
+帳戶餘額,,Account Balance,,,,4,,,4,,,5,,,9,withdrawThirdParty.accountBalance
+請輸入額度,,Please enter the quota.,,,,5,,,5,,,7,,,11,withdrawThirdParty.enterAmount
+出金金額最低額度：$,,Minimum withdrawal amount: $,,,,11,,,10,,,14,,,22,withdrawThirdParty.minLimitTip
+最高單筆出金金額：$,,Maximum single withdrawal amount: $,,,,11,,,10,,,14,,,22,withdrawThirdParty.maxLimitTip
+需支付手續費金額：$,,Transaction fee to be paid: $,,,,11,,,10,,,14,,,22,"withdrawThirdParty.feeTip,depositThirdParty.feeTip"
+說明,,Description,,,,2,,,2,,,2,,,4,"withdrawThirdParty.description,depositThirdParty.description"
+24小時免費出金次數,,Free Withdrawal times within 24 Hours,,,,11,,,10,,,14,,,22,withdrawThirdParty.dailyFreeFeeTimes
+24小時可出金次數,,Withdrawal times within 24 Hours,,,,10,,,9,,,12,,,20,withdrawThirdParty.dailyWithdrawTimes
+持倉,,Open,,,,2,,,2,,,2,,,4,"accountTransaction.tabPosition,positionDetail.positionTag,futuresDetail.bottomSheet.accountPosition"
+維持保證金,,M. Margin,,,,5,,,5,,,7,,,11,"accountTransaction.maintenanceMargin,walletAssetsPopup.maintenanceMargin,positionDetail.maintenanceMargin"
+實時盈虧,,Real-time Profit/Loss,,,,4,,,4,,,5,,,9,accountTransaction.dynamicProfitLoss
+已平倉,,Closed,,,,3,,,3,,,4,,,6,"accountTransaction.tabHistory,transactionHistoryDetail.orderTag"
+開倉價以高到低,,Open Price from High to Low,,,,8,,,7,,,9,,,15,accountTransaction.positionSortUp2Down
+開倉價以低到高,,Open Price from Low to High,,,,8,,,7,,,9,,,15,accountTransaction.positionSortDown2Up
+最久開倉時間,,Longest Opening Time,,,,7,,,6,,,8,,,13,accountTransaction.positionSortOld2New
+最近開倉時間,,Latest Opening Time,,,,7,,,6,,,8,,,13,accountTransaction.positionSortNew2Old
+時間-上,,Time-up,,,,4,,,4,,,5,,,9,accountTransaction.sortTimeUp
+時間-下,,Time-down,,,,4,,,4,,,5,,,9,accountTransaction.sortTimeDown
+開倉價-上,,Open Price-up,,,,5,,,5,,,7,,,11,accountTransaction.sortPriceUp
+開倉價-下,,Open Price-Down,,,,5,,,5,,,7,,,11,accountTransaction.sortPriceDown
+模擬帳戶,,Demo Account,,,,4,,,4,,,5,,,9,accountTransaction.accountSimulation
+真實帳戶,,Real Account,,,,4,,,4,,,5,,,9,accountTransaction.accountReal
+動態權益,,Dynamic Equity,,,,4,,,4,,,5,,,9,accountTransaction.dynamicFunds
+保證金水平,,Margin Level,,,,5,,,5,,,7,,,11,"accountTransaction.marginLevel,walletAssetsPopup.marginLevel"
+開倉,,Open Position,,,,2,,,2,,,2,,,4,"positionDetail.openPositionChartTag,agentFundingDetails.openPositionButton"
+最新,,Latest,,,,2,,,2,,,2,,,4,positionDetail.nowPriceChartTag
+當前價格,,Current Price,,,,4,,,4,,,5,,,9,"positionDetail.lastPriceTitle,futuresDetail.dataTab.nowPrice,orderDetail.lastPriceTitle"
+開盤,,Open,,,,2,,,2,,,2,,,4,"positionDetail.openPrice,futuresChart.openPrice,futuresChartFullScreen.openPrice"
+方向,,Direction,,,,2,,,2,,,2,,,4,"positionDetail.tradingDirection,futuresTransaction.tradingDirection,orderDetail.tradingDirection,cancelOrderConfirmPopup.tradingDirection"
+手數,,Quantity of Lots,,,,2,,,2,,,2,,,4,"positionDetail.lots,futuresTransaction.lots"
+交易時間,,Trading Hours,,,,4,,,4,,,5,,,9,positionDetail.createDate
+交易綜合費,,Transaction Fees,,,,5,,,5,,,7,,,11,"positionDetail.fee,transactionHistoryDetail.fee,futuresTransaction.totalCostPopup.transactionAllFee"
+修改,,Modify,,,,2,,,2,,,2,,,4,"positionDetail.modifyButton,orderDetail.modifyButton"
+未設置,,Unset,,,,3,,,3,,,4,,,6,"positionDetail.stopProfitLossEmpty,positionDetail.trailingStopEmpty,transactionHistoryDetail.stopProfitLossEmpty,transactionHistoryDetail.trailingStopEmpty,orderDetail.stopProfitLossEmpty,orderDetail.trailingStopEmpty,numberInputField.defaultHint"
+數量,,Quantity,,,,2,,,2,,,2,,,4,"positionDetail.tableLotsTitle,futuresTransaction.marketOrderPopup.lots,futuresTransaction.limitOrderPopup.lots,orderDetail.lotsTitle,cancelOrderConfirmPopup.lots"
+當前價值,,Current Value,,,,4,,,4,,,5,,,9,positionDetail.currentPositionValue
+平倉手數超過持有手數,,The number of closed lots exceeds lots held.,,,,11,,,10,,,14,,,22,positionDetail.closePositionLotsOutRange
+確認平倉,,Confirm to Close,,,,4,,,4,,,5,,,9,positionDetail.confirmClosePosition
+開倉數量,,Opening quantity,,,,4,,,4,,,5,,,9,positionDetail.openPositionLots
+平倉數量,,Closing quantity,,,,4,,,4,,,5,,,9,positionDetail.closePositionLots
+(可輸入數量 {range}),,(Quantity to be entered {range}),,,,8 + ?,,,7 + ?,,,9 + ?,,,15 + ?,positionDetail.lotsInputTip
+"持倉異動, 請重新進入",,Open position has changed. Please re-enter.,,,,10,,,9,,,12,,,20,positionDetail.positionChanged
+現價,,Current Price,,,,2,,,2,,,2,,,4,positionDetail.lastPriceChartTag
+讀取中,,Loading,,,,3,,,3,,,4,,,6,"positionDetail.marginLoading,positionDetail.maintenanceMarginLoading,positionDetail.feeLoading"
+--,,--,,,,2,,,2,,,2,,,4,positionDetail.rolloverEmpty
+開倉價值,,Open Value,,,,4,,,4,,,5,,,9,"positionDetail.openPositionValue,transactionHistoryDetail.openPositionValue"
+24h量,,24h Volume,,,,4,,,4,,,5,,,9,positionDetail.quantity24h
+淨值保證金,,Net margin,,,,5,,,5,,,7,,,11,positionDetail.netWorthMargin
+浮動淨盈虧,,P/L,,,,5,,,5,,,7,,,11,positionDetail.netProfitLoss
+平倉淨盈虧,,Net realised P/L,,,,5,,,5,,,7,,,11,transactionHistoryDetail.netProfitLoss
+平倉價值,,Closeout Value,,,,4,,,4,,,5,,,9,transactionHistoryDetail.closePositionValue
+平倉價,,Closeout Value,,,,3,,,3,,,4,,,6,transactionHistoryDetail.closePositionPriceTitle
+開倉方向,,Direction,,,,4,,,4,,,5,,,9,transactionHistoryDetail.tradingDirection
+交易保證金,,Trading Margin,,,,5,,,5,,,7,,,11,futuresTransaction.totalCostPopup.transactionMargin
+合計支付,,Total Payment,,,,4,,,4,,,5,,,9,futuresTransaction.totalCostPopup.transactionTotalTitle
+總計（元）,,Total Amount (dollar),,,,5,,,5,,,7,,,11,futuresTransaction.totalCostPopup.totalValue
+建立日期,,Create Date,,,,4,,,4,,,5,,,9,"futuresTransaction.marketOrderPopup.createDate,futuresTransaction.limitOrderPopup.createDate"
+商品,,Commodity,,,,2,,,2,,,2,,,4,"futuresTransaction.marketOrderPopup.futuresNameTitle,futuresTransaction.limitOrderPopup.futuresNameTitle,agentProfitSharing.filterPopup.itemsTitle"
+市價,,Market Price,,,,2,,,2,,,2,,,4,"futuresTransaction.marketOrderPopup.marketPrice,agentProfitList.typesMarketPrice"
+交易模式,,Trade Mode,,,,4,,,4,,,5,,,9,futuresTransaction.marketOrderPopup.transactionMode
+限價,,Price Limit,,,,2,,,2,,,2,,,4,futuresTransaction.limitOrderPopup.limitPrice
+市場關閉－僅接受掛單交易,,The market is closed－only orders are accepted.,,,,14,,,12,,,16,,,27,"futuresTransaction.marketClose,futuresDetail.marketClose"
+止損須在限制範圍內,,Stop loss must be within the limit.,,,,10,,,9,,,12,,,20,"futuresTransaction.errorStopLossOutRange,orderModify.errorStopLossOutRange,positionModify.errorStopLossOutRange"
+止盈須在限制範圍內,,Take profit must be within the limit.,,,,10,,,9,,,12,,,20,"futuresTransaction.errorStopProfitOutRange,orderModify.errorStopProfitOutRange,positionModify.errorStopProfitOutRange"
+手數須在限制範圍內,,Trading lots must be within the limit.,,,,10,,,9,,,12,,,20,futuresTransaction.errorLotsOutRange
+預估虧損,,Projected Loss,,,,4,,,4,,,5,,,9,"futuresTransaction.estimateLoss,orderModify.estimateLoss,positionModify.estimateLoss"
+預估盈利,,Projected Profit,,,,4,,,4,,,5,,,9,"futuresTransaction.estimateProfit,orderModify.estimateProfit,positionModify.estimateProfit"
+尚未輸入限價,,You have not entered a price limit.,,,,7,,,6,,,8,,,13,futuresTransaction.errorLimitPriceEmpty
+限價須在限制範圍內,,The price limit must be within the limit.,,,,10,,,9,,,12,,,20,futuresTransaction.errorLimitPriceOutRange
+掛單設定成功,,Order set successfully,,,,7,,,6,,,8,,,13,futuresTransaction.createLimitOrderSuccess
+開倉成功,,Position opened successfully,,,,4,,,4,,,5,,,9,futuresTransaction.createMarketOrderSuccess
+明細,,Details,,,,2,,,2,,,2,,,4,futuresTransaction.transactionAmountDetail
+市價單,,Market Order,,,,3,,,3,,,4,,,6,futuresTransaction.marketOrderTag
+限價單,,Limit Order,,,,3,,,3,,,4,,,6,futuresTransaction.limitOrderTag
+當價格滿足條件時{action},,{action} When price is,,,,9 + ?,,,8 + ?,,,11 + ?,,,18 + ?,futuresTransaction.limitSelectorTitle
+請輸入掛單價格,,Please enter an order price.,,,,8,,,7,,,9,,,15,futuresTransaction.limitOrderInputTip
+當前僅可接受掛單交易,,Only order transactions are accepted currently.,,,,11,,,10,,,14,,,22,futuresTransaction.lockLimitOrderToast
+槓桿,,Leverage,,,,2,,,2,,,2,,,4,futuresTransaction.lever
+交易手數,,Quantity of Lots,,,,4,,,4,,,5,,,9,futuresTransaction.transactionLots
+價值,,Value,,,,2,,,2,,,2,,,4,"futuresTransaction.futuresValuePrefix,orderDetail.currentValueTitle"
+確認賣出,,Confirm Sell,,,,4,,,4,,,5,,,9,futuresTransaction.confirmSellOut
+確認買入,,Confirm Buy,,,,4,,,4,,,5,,,9,futuresTransaction.confirmBuyIn
+保證金餘額不足,,Insufficient Margin Balance,,,,8,,,7,,,9,,,15,futuresTransaction.marginNotEnoughPopup.title
+立即入金,,Deposit Now,,,,4,,,4,,,5,,,9,futuresTransaction.marginNotEnoughPopup.paymentImmediate
+交易數量已達上限,,The transactions have reached the upper limit.,,,,9,,,8,,,11,,,18,futuresTransaction.limitReachedPopup.title
+"目前交易數量已達上限
+無法進行交易，請稍候再試",,"The current transactions have reached the upper limit. 
+You are unable to trade. Please try again later.",,,,25,,,22,,,30,,,49,futuresTransaction.limitReachedPopup.content
+無法切換為{tradeMode}模式,,Unable to switch to {tradeMode} mode,,,,8 + ?,,,7 + ?,,,9 + ?,,,15 + ?,futuresTransaction.descriptionBevelConfirmPopup.title
+需要無倉位、無當前持倉。才能夠切換，請立即前往倉位進行平倉,,Switching is allowed when there is no open or current positions.  Please close all the positions immediately.,,,,34,,,29,,,40,,,65,futuresTransaction.descriptionBevelConfirmPopup.content
+前往倉位,,Go to Position,,,,4,,,4,,,5,,,9,futuresTransaction.descriptionBevelConfirmPopup.confirmText
+目前持倉數量,,Current Open Position,,,,7,,,6,,,8,,,13,futuresTransaction.currentPositionQty
+設置追蹤止損距離,,Set trailing stop-loss distance,,,,9,,,8,,,11,,,18,"futuresTransaction.trailingStopSubtitle,orderModify.trailingStopSubtitle,positionModify.trailingStopSubtitle"
+預計盈虧,,Estimated P/L,,,,4,,,4,,,5,,,9,"futuresTransaction.estimateProfitLoss,orderModify.estimateProfitLoss,positionModify.estimateProfitLoss"
+查看持倉,,View positions,,,,4,,,4,,,5,,,9,futuresTransaction.createOrderResultPopup.checkPosition
+查看掛單,,View order,,,,4,,,4,,,5,,,9,futuresTransaction.createOrderResultPopup.checkAccountOrder
+繼續交易,,Continue Trading,,,,4,,,4,,,5,,,9,futuresTransaction.createOrderResultPopup.continueTrading
+持倉量已達到上限,,Your open position has reached the upper limit.,,,,9,,,8,,,11,,,18,futuresTransaction.maxPositionPopup.title
+"目前持倉量已達上限
+無法進行交易",,Your current open position has reached the upper limit. You are unable to trade.,,,,17,,,15,,,21,,,33,futuresTransaction.maxPositionPopup.content
+您所輸入的止盈價格無效,,Invalid entry for take profit price,,,,12,,,11,,,15,,,24,"futuresTransaction.stopProfitError,orderModify.stopProfitError,positionModify.stopProfitError"
+您所輸入的止損價格無效,,Invalid entry for stop loss price,,,,12,,,11,,,15,,,24,"futuresTransaction.stopLossError,orderModify.stopLossError,positionModify.stopLossError"
+有效的追蹤止損距離為：{min}-{max}點,,The valid trailing stop distance is: {min}-{max} points.,,,,14 + ?,,,12 + ?,,,16 + ?,,,27 + ?,"futuresTransaction.trailingStopRangeHint,orderModify.trailingStopRangeHint,positionModify.trailingStopRangeHint"
+追蹤止損須在限制範圍內,,Trailing stop must be within the limit.,,,,12,,,11,,,15,,,24,"futuresTransaction.errorTrailingStopOutRange,orderModify.errorTrailingStopOutRange,positionModify.errorTrailingStopOutRange"
+您輸入的掛單價格無效,,Invalid entry for take pending order price,,,,11,,,10,,,14,,,22,futuresTransaction.errorLimitPriceOutTip
+全倉模式,,Cross Leverage,,,,4,,,4,,,5,,,9,"tradeModePopup.contentTitle1,futuresDetail.fullWarehouse"
+倉位模式,,Position Mode,,,,4,,,4,,,5,,,9,tradeModePopup.title
+調整倉位模式僅對當前交易訂單生效。,,Adjustment to the position mode is only effective for the current trading order.,,,,20,,,17,,,23,,,38,tradeModePopup.titleHint
+什麼是全倉和逐倉模式？,,What are the cross margin mode and isolated margin mode?,,,,12,,,11,,,15,,,24,tradeModePopup.subTitle
+逐倉模式,,Isolated Margin Mode,,,,4,,,4,,,5,,,9,tradeModePopup.contentTitle2
+在全倉下保證金，賬戶裡所有可用餘額都可以充當擔保資產，維持保證金要求以避免被強制平倉。如果強制平倉，全部相對應的可用餘額可能會損失。,,"Under cross margin mode, all the available balance in your account can be used as collateral to meet the maintenance margin required to avoid forced liquidation. If positions are liquidated, all the corresponding available balances may be lost.",,,,77,,,66,,,92,,,148,tradeModePopup.contentDescription1
+在逐倉保證金下，一定數量保證金被分配到倉位上，可手動調整倉位保證金。如果倉位保證金虧損到低於維持保證金水平，倉位將會被強平。在強制平倉的狀況下，您可能會損失起始保證金和加入到此倉位的追加保證金。,,"Under isolated margin mode, a certain amount of margin is allocated to the position, and the margin can be adjusted manually. Open positions will be liquidated if the position margin is below the maintenance margin level. In the case of forced liquidation, you may lose the initial margin and the additional margin added to this position.",,,,114,,,97,,,135,,,218,tradeModePopup.contentDescription2
+確定,,Confirm,,,,2,,,2,,,2,,,4,tradeModePopup.button
+新增推薦碼,,Add Referral Code,,,,5,,,5,,,7,,,11,"accountData.referralAddButton,referralCodeBind.addButton,editAgentReferralCode.addReferralCodeTitle"
+無,,None,,,,1,,,1,,,1,,,2,"accountData.referralCodeHint,futuresAlert.enterPriceHint"
+驗證Email,,Verify Email,,,,8,,,7,,,9,,,15,"accountData.emailVerifyButton,emailBind.appBarTitle"
+尚未設定,,Not set up yet,,,,4,,,4,,,5,,,9,"accountData.phoneHint,accountData.emailHint"
+手機號碼,,Mobile Number,,,,4,,,4,,,5,,,9,accountData.phoneTitle
+驗證手機,,Verify Mobile Number,,,,4,,,4,,,5,,,9,accountData.phoneVerifyButton
+Email,,Email,,,,5,,,5,,,7,,,11,"accountData.emailTitle,forgotPassword.email"
+真實姓名,,Real Name,,,,4,,,4,,,5,,,9,"applyAgent.realName,accountIdentifyData.actualNameTitle,personalVerify.realNameTitle"
+申請成功,,Application Successful,,,,4,,,4,,,5,,,9,applyAgent.applySuccess
+申請審核預計會需要,,An application for review takes,,,,10,,,9,,,12,,,20,applyAgent.daysAuditingExpectedHintPart1
+3~5,,3~5,,,,3,,,3,,,4,,,6,applyAgent.daysAuditingExpectedHintPart2
+"個工作天。
+申請通過後，將會主動通知，就可以使用 APP 內的代理前台來邀請用戶並開始交易。",,"
+working days. You will be notified after the application is approved. Then you can use the agent front desk in the APP to invite users and start trading.",,,,50,,,43,,,60,,,96,applyAgent.daysAuditingExpectedHintPart3
+回到個人設定,,Return to Personal Settings,,,,7,,,6,,,8,,,13,applyAgent.backPersonalSettingsButton
+申請完成,,Application Completed,,,,4,,,4,,,5,,,9,applyAgent.applicationCompleteTitle
+送出申請,,Send Application,,,,4,,,4,,,5,,,9,applyAgent.sendApplyButton
+聯絡電話,,Contact Number,,,,4,,,4,,,5,,,9,applyAgent.contactPhoneTitle
+請輸入聯絡電話,,Please enter your contact number.,,,,8,,,7,,,9,,,15,applyAgent.enterContactPhoneHint
+微信,,WeChat,,,,2,,,2,,,2,,,4,applyAgent.wechatTitle
+請輸入微信,,Please enter your WeChat.,,,,5,,,5,,,7,,,11,applyAgent.wechatHint
+Line ID,,Line ID,,,,7,,,6,,,8,,,13,applyAgent.lineIdTitle
+請輸入Line ID,,Please enter your Line ID.,,,,10,,,9,,,12,,,20,applyAgent.lineIdHint
+立刻申請成為代理,,Apply now to become an agent,,,,9,,,8,,,11,,,18,applyAgent.applyAgentImmediatelyButton
+授權夥伴與我們共享成功果實。前端服務品質至關重要，因此我們只會與夥伴合作完成此項任務。,,"Our partners are authorized to share the fruits of success with us. The quality of front-end service is very important, so we will only work with our partners to complete this task.",,,,50,,,43,,,60,,,96,applyAgent.applyAgentTip
+可以在短邊推測,,You can speculat on the short side,,,,8,,,7,,,9,,,15,applyAgent.medalTitle1
+獲得更多收益,,to gain more profits,,,,7,,,6,,,8,,,13,applyAgent.medalTitle2
+降低風險,,and reduce risk.,,,,4,,,4,,,5,,,9,applyAgent.medalTitle3
+代理條件,,Terms of Agency,,,,4,,,4,,,5,,,9,"agentSetting.agentCondition,agentCondition.appBarTitle"
+代理資金明細,,Agency Funds Details,,,,7,,,6,,,8,,,13,agentSetting.agentPaymentDetail
+全部,,All,,,,2,,,2,,,2,,,4,"achievementsLevel.filter.typesAll,agentProfitList.typesAll"
+未完成,,Unfinished,,,,3,,,3,,,4,,,6,achievementsLevel.filter.typesUndone
+未領取,,Unclaimed,,,,3,,,3,,,4,,,6,achievementsLevel.filter.typesNotReceived
+已領取,,Received,,,,3,,,3,,,4,,,6,"achievementsLevel.filter.typesReceived,achievementsLevelList.typesReceived"
+成就獎勵領取僅限「真實賬戶」交易行為,,Achievement rewards are only available for transactions in real accounts.,,,,21,,,18,,,25,,,40,"achievementsLevel.rewardTip,referralCodeShare.headerTip"
+尚無成就任務,,No achievement tasks yet,,,,7,,,6,,,8,,,13,achievementsLevel.emptyTip
+一鍵領\n取獎勵,,Click to Receive \n Rewards,,,,9,,,8,,,11,,,18,"achievementsLevel.pickUpAllButton,dailyMission.pickUpAllButton"
+無可領取獎勵,,No rewards available,,,,7,,,6,,,8,,,13,"achievementsLevel.noRewardAvailable,dailyMission.noRewardAvailable"
+領取獎勵失敗,,Failed to claim rewards,,,,7,,,6,,,8,,,13,"achievementsLevel.rewardFailed,dailyMission.rewardFailed"
+前往交易,,Trade Now,,,,4,,,4,,,5,,,9,achievementsLevel.goTradeButton
+可使用獎勵,,Rewards Available,,,,5,,,5,,,7,,,11,award.tabAvailable
+歷史獎勵,,Reward History,,,,4,,,4,,,5,,,9,award.tabHistory
+獎勵來源,,Source of Rewards,,,,4,,,4,,,5,,,9,awardList.source
+領取時間,,Collection Time,,,,4,,,4,,,5,,,9,awardList.pickUpTime
+使用期限,,Validity Period,,,,4,,,4,,,5,,,9,awardList.expiryDate
+使用時間,,Time of Usage,,,,4,,,4,,,5,,,9,awardList.usageTime
+已使用,,Used,,,,3,,,3,,,4,,,6,awardList.used
+已逾期,,Overdue,,,,3,,,3,,,4,,,6,awardList.expired
+永久使用,,Permanent Use,,,,4,,,4,,,5,,,9,awardList.useForever
+推薦朋友 共同獲利,,Recommend friends to make profits together.,,,,9,,,8,,,11,,,18,referralCodeShare.shareFriendTitle
+交易越多賺越多，推薦好友投資，即可獲得獎勵唷,,"The more you trade, the more you earn. If you recommend a friend to invest, you can get rewards.",,,,25,,,22,,,30,,,49,referralCodeShare.shareFriendSubtitle
+發送連結邀請,,Send Invitation Link,,,,7,,,6,,,8,,,13,referralCodeShare.sendInviteLink
+社群分享,,Community Sharing,,,,4,,,4,,,5,,,9,referralCodeShare.communityShareTitle
+已複製至剪貼板,,Copied to Clipboard,,,,8,,,7,,,9,,,15,"referralCodeShare.copyToClipboardSuccess,copyButton.copyToClipboardSuccess"
+語言,,Language,,,,2,,,2,,,2,,,4,"setting.languageTitle,languageSetting.appBarTitle"
+系統,,System,,,,2,,,2,,,2,,,4,"setting.languageDefault,languageSetting.localeDefault"
+漲跌顏色,,Color of Ups and Downs,,,,4,,,4,,,5,,,9,setting.upDownColorTitle
+通知設定,,Notification Settings,,,,4,,,4,,,5,,,9,setting.notifySettingTitle
+檢查更新,,Check for Updates,,,,4,,,4,,,5,,,9,setting.checkUpdateTitle
+當前版本,,Current Version,,,,4,,,4,,,5,,,9,setting.currentVersionTitle
+清理緩存,,Clear Cache,,,,4,,,4,,,5,,,9,setting.clearCacheTitle
+清除快取失敗,,Failed to clear cache,,,,7,,,6,,,8,,,13,setting.errorClearCacheFail
+綠漲紅跌,,Green Up and Red Down,,,,4,,,4,,,5,,,9,"setting.upGreenDownRed,upDownColorSetting.upGreenDownRed"
+紅漲綠跌,,Red Up and Green Down,,,,4,,,4,,,5,,,9,"setting.upRedDownGreen,upDownColorSetting.upRedDownGreen"
+已是最新版本,,It is the latest version.,,,,7,,,6,,,8,,,13,setting.versionIsNewest
+已清理 {size} MB,,Cleared {size} MB,,,,5 + ?,,,5 + ?,,,7 + ?,,,11 + ?,setting.clearCacheToast
+尚無緩存需要清理,,No cache to clear yet,,,,9,,,8,,,11,,,18,setting.noCacheNeedClean
+伺服器線路,,Server Line,,,,5,,,5,,,7,,,11,"setting.serverLine,serverLineSetting.title"
+請先登入,,Please log in.,,,,4,,,4,,,5,,,9,"common.loginFirst,requestError.noAuth"
+聯匯,,Linked Exchange Rate System,,,,2,,,2,,,2,,,4,common.appName
+模擬交易下無法使用此功能,,This function cannot be used when performing demo transactions.,,,,14,,,12,,,16,,,27,common.notInSimulated
+確認,,Confirm,,,,2,,,2,,,2,,,4,"common.confirm,receiveAwardPopup.confirmButton,listScrollSheet.confirmButton"
+功能關閉中,,Function is off.,,,,5,,,5,,,7,,,11,common.futureClosed
+$,,$,,,,1,,,1,,,1,,,2,common.priceUnit
+手,,lot,,,,1,,,1,,,1,,,2,common.lotsUnit
+X,,X,,,,1,,,1,,,1,,,2,common.leverUnit
+登出,,Log out,,,,2,,,2,,,2,,,4,common.logout
+追蹤止損,,Trailing Stop,,,,4,,,4,,,5,,,9,"common.trailingStop,positionModify.trailingStopTitle"
+請先綁定手機,,Please connect your phone first,,,,7,,,6,,,8,,,13,common.bindPhoneFirst
+刪除,,Delete,,,,2,,,2,,,2,,,4,"futuresCustomEdit.delete,agentReferralCodeList.descriptionPopup.deleteButton,agentReferralCodeFunctionPopup.deleteButton"
+自選編輯,,Optional Editing,,,,4,,,4,,,5,,,9,futuresCustomEdit.appBarTitle
+變更成功,,Successful Change,,,,4,,,4,,,5,,,9,futuresCustomEdit.changeSuccess
+拖動,,Drag,,,,2,,,2,,,2,,,4,futuresCustomEdit.drag
+創建價格提醒,,Create Price Reminder,,,,7,,,6,,,8,,,13,futuresAlert.appBarTitle
+當,,Remind me,,,,1,,,1,,,1,,,2,futuresAlert.titleTip
+達到以下價格時提醒我,,when the following prices are reached.,,,,11,,,10,,,14,,,22,futuresAlert.alertWhenPrice
+提醒列表,,Reminder List,,,,4,,,4,,,5,,,9,futuresAlert.alertList
+創建提醒成功,,Reminder created successfully,,,,7,,,6,,,8,,,13,futuresAlert.createSuccess
+已成功刪除提醒,,Reminder deleted successfully,,,,8,,,7,,,9,,,15,futuresAlert.removeSuccess
+設置提醒,,Set reminders,,,,4,,,4,,,5,,,9,futuresAlert.setReminder
+我的委託,,My Order,,,,4,,,4,,,5,,,9,futuresDetail.bottomSheet.header
+尚無掛單,,No order yet,,,,4,,,4,,,5,,,9,"futuresDetail.bottomSheet.orderEmptyTip,orders.emptyTip"
+價格漲跌幅,,Price change,,,,5,,,5,,,7,,,11,futuresDetail.dataTab.priceChangeRate
+5分鐘,,5 Minutes,,,,3,,,3,,,4,,,6,futuresDetail.dataTab.minute5
+1小時,,1 Hour,,,,3,,,3,,,4,,,6,"futuresDetail.dataTab.hour1,futuresChart.chartHour1"
+今日,,Today,,,,2,,,2,,,2,,,4,futuresDetail.dataTab.today
+價格變化區間,,Price Range,,,,7,,,6,,,8,,,13,futuresDetail.dataTab.priceChangeValue
+最低價,,Lowest Price,,,,3,,,3,,,4,,,6,futuresDetail.dataTab.lowPrice
+最高價,,Highest Price,,,,3,,,3,,,4,,,6,futuresDetail.dataTab.highPrice
+成交量,,Volume,,,,3,,,3,,,4,,,6,"futuresDetail.dataTab.volume,futuresChart.volume"
+展開,,Expand,,,,2,,,2,,,2,,,4,"futuresDetail.recentTransactionUnfoldLabel,futuresContract.tableValueUnfold"
+已加入個人自訂品種,,A custom variety has been added.,,,,10,,,9,,,12,,,20,"futuresDetail.addFavoriteSuccess,futuresChartFullScreen.addFavoriteSuccess"
+已移除個人自訂品種,,A custom variety has been removed.,,,,10,,,9,,,12,,,20,"futuresDetail.removeFavoriteSuccess,futuresChartFullScreen.removeFavoriteSuccess"
+委買量,,Purchase Volume,,,,3,,,3,,,4,,,6,futuresDetail.buyInVolume
+委賣量,,Commission Volume,,,,3,,,3,,,4,,,6,futuresDetail.sellOutVolume
+縮起,,Shrink up,,,,2,,,2,,,2,,,4,futuresDetail.recentTransactionFoldLabel
+行情,,Market,,,,2,,,2,,,2,,,4,futuresDetail.tabChart
+數據,,Data,,,,2,,,2,,,2,,,4,futuresDetail.tabData
+詳情,,Details,,,,2,,,2,,,2,,,4,futuresDetail.tabContract
+交易中,,Trading,,,,3,,,3,,,4,,,6,futuresDetail.inTradingTime
+僅接受掛單,,Only orders are accepted.,,,,5,,,5,,,7,,,11,futuresDetail.onlyLimitOrder
+"此交易為全倉交易，虧損金額會超過保證金金額。
+
+當持續虧損導致賬戶達到強平線時，其他訂單將會被陸續強平，賬戶資金將全部虧損！
+
+建議您設定止盈和止損價格，能夠更有效率的控制資金情況！",,"This is a cross leverage transaction, and the loss amount can exceed the margin amount. 
+
+When continuous losses cause the account to reach the liquidation line, other orders will be liquidated one after another, and all the account funds will be lost! 
+
+It is recommended that you set take profit and stop loss prices to control the funds more efficiently!",,,,102,,,87,,,121,,,195,futuresDetail.fullWarehouseTipContent
+全倉模式說明,,Cross Leverage Description,,,,7,,,6,,,8,,,13,futuresDetail.fullWarehouseTipTitle
+交易時段,,Trading Session,,,,4,,,4,,,5,,,9,"futuresDetail.transactionTimeTitle,futuresContract.transactionTimeTitle"
+在 {time} 開市,,Market opens at {time},,,,3 + ?,,,3 + ?,,,4 + ?,,,6 + ?,futuresDetail.whenOpenMarket
+變更最愛列表成功,,Favorite list changed successfully,,,,9,,,8,,,11,,,18,futuresSearch.changeFavoriteSuccess
+品種,,Products,,,,2,,,2,,,2,,,4,futuresSearch.futuresType
+添加,,Add,,,,2,,,2,,,2,,,4,futuresSearch.add
+查無相關品種,,No related varieties found,,,,7,,,6,,,8,,,13,futuresSearch.searchEmptyTip
+更多,,More,,,,2,,,2,,,2,,,4,"futuresChart.more,agentOverview.more"
+BOLL,,BOLL,,,,4,,,4,,,5,,,9,"futuresChart.indicatorBoll,chartBollSetting.appBarTitle,chartSetting.indicatorBoll"
+KDJ,,KDJ,,,,3,,,3,,,4,,,6,"futuresChart.indicatorKdj,chartKdjSetting.appBarTitle,chartSetting.indicatorKdj"
+MACD,,MACD,,,,4,,,4,,,5,,,9,"futuresChart.indicatorMacd,chartMacdSetting.appBarTitle,chartSetting.indicatorMacd"
+MA,,MA,,,,2,,,2,,,2,,,4,"futuresChart.indicatorMa,chartMaSetting.appBarTitle,chartMaSetting.indexMa,chartSetting.indicatorMa"
+RSI,,RSI,,,,3,,,3,,,4,,,6,"futuresChart.indicatorRsi,chartRsiSetting.appBarTitle,chartRsiSetting.indexRsi,chartSetting.indicatorRsi"
+WR,,WR,,,,2,,,2,,,2,,,4,"futuresChart.indicatorWr,chartWrSetting.appBarTitle,chartWrSetting.indexWr,chartSetting.indicatorWr"
+收盤,,Close,,,,2,,,2,,,2,,,4,futuresChart.closePrice
+漲跌值,,Volatility Value,,,,3,,,3,,,4,,,6,futuresChart.changeValue
+加載失敗,,Loading Failed,,,,4,,,4,,,5,,,9,futuresChart.loadFailTitle
+無法獲取到資料,,You are unable to obtain information.,,,,8,,,7,,,9,,,15,futuresChart.loadFailContent
+1分,,1m,,,,2,,,2,,,2,,,4,futuresChart.chartMinute1
+5分,,5m,,,,2,,,2,,,2,,,4,futuresChart.chartMinute5
+15分,,15m,,,,3,,,3,,,4,,,6,futuresChart.chartMinute15
+30分,,30m,,,,3,,,3,,,4,,,6,futuresChart.chartMinute30
+周線,,5 MA,,,,2,,,2,,,2,,,4,futuresChart.chartWeek1
+月線,,20 MA,,,,2,,,2,,,2,,,4,futuresChart.chartMonth1
+日線,,1 MA,,,,2,,,2,,,2,,,4,futuresChart.chartDay
+暫無公告,,No announcement for the moment,,,,4,,,4,,,5,,,9,announcement.emptyDataTip
+暫無資料,,No information available for the moment,,,,4,,,4,,,5,,,9,"qa.emptyTip,agentTransactionSettingList.emptyTip,agentProfitSharing.emptyTip,agentReferralCode.emptyTip,agentReferralCodeList.emptyTip,agentProfitSharingSearch.emptyTip,agentReferralCodeSearch.emptyTip,editAgentReferralCode.emptyTip,agentUserProfitSharingFormList.emptyTip,agentProfitList.emptyTip"
+無法找到想要的解答？,,Can't find the answer you want?,,,,11,,,10,,,14,,,22,qa.noFindQaTip1
+請聯絡我們,,Please contact us.,,,,5,,,5,,,7,,,11,qa.noFindQaTip2
+品項,,Item,,,,2,,,2,,,2,,,4,"agentConditionFuturesList.ItemsTitle,addAgentReferralCodePopup.itemsTitle"
+代理條件-交易點差及手續費範圍列表,,Terms of Agency-List of Spread and Transaction Fee Limit,,,,20,,,17,,,23,,,38,agentConditionFuturesList.nameDescription
+優惠,,Offer,,,,2,,,2,,,2,,,4,"agentOverview.discountTitle,agentProfitSharing.discountTitle,agentUserProfitSharingForm.filterPopup.discountTitle,agentUserProfitSharingFormList.headerDiscount,agentProfitList.typesDiscount,agentCondition.discountTitle"
+工資,,Wage,,,,2,,,2,,,2,,,4,"agentOverview.salaryTitle,agentProfitSharing.salaryTitle,agentProfitList.typesSalary"
+總分潤,,Total Revenue Share,,,,3,,,3,,,4,,,6,"agentOverview.totalGruntTitle,agentUserProfitSharingForm.filterPopup.totalGruntTitle,agentUserProfitSharingFormList.headerTotalGrunt"
+用戶分潤報表,,User Revenue Share Report,,,,7,,,6,,,8,,,13,"agentOverview.userPointsTitle,agentUserProfitSharingForm.appBarTitle"
+未領取分潤,,Unclaimed Revenue Share,,,,5,,,5,,,7,,,11,agentOverview.unableReceiveGumTitle
+取出分潤,,Take Out Revenue Share,,,,4,,,4,,,5,,,9,agentOverview.takeProfitButton
+分潤概況,,Revenue Share Overview,,,,4,,,4,,,5,,,9,agentOverview.summaryOverviewTitle
+分潤細節篩選器,,Revenue Share Details Filter,,,,8,,,7,,,9,,,15,agentProfitSharing.filterPopup.title
+分潤,,Revenue Share,,,,2,,,2,,,2,,,4,agentProfitSharing.filterPopup.profitTitle
+用戶,,User,,,,2,,,2,,,2,,,4,"agentProfitSharing.filterPopup.userTitle,agentUserProfitSharingFormList.headerUser"
+請選擇用戶,,Please select a user.,,,,5,,,5,,,7,,,11,agentProfitSharing.filterPopup.selectUserButtonHint
+請選擇商品,,Please select a product.,,,,5,,,5,,,7,,,11,"agentProfitSharing.filterPopup.selectItemsButtonHint,agentTransactionSetting.filterItemsButtonHint"
+註冊時間,,Registration Date,,,,4,,,4,,,5,,,9,"agentProfitSharing.registrationTimeButton,agentUser.filterPopup.registrationTime,agentUser.registrationTimeButton"
+下級用戶清單篩選,,Basic User List Filter,,,,9,,,8,,,11,,,18,agentUser.filterPopup.title
+請選擇推薦碼,,Please select a referral code.,,,,7,,,6,,,8,,,13,agentUser.filterPopup.selectRecommendedCode
+下級用戶清單,,Basic User List,,,,7,,,6,,,8,,,13,agentUser.appBarTitle
+暫無用戶資料,,No user information available for the moment,,,,7,,,6,,,8,,,13,"agentUser.emptyTip,agentUserSearch.emptyTip,agentUserProfitSharingForm.emptyTip"
+輸入推薦碼,,Enter Referral Code,,,,5,,,5,,,7,,,11,referralCodeBind.appBarTitle
+請輸入推薦碼,,Please enter a referral code.,,,,7,,,6,,,8,,,13,referralCodeBind.inputHint
+"推薦碼將會影響您的帳號獎勵
+以及交易費用的相關折扣。
+輸入後將無法更改，請確認代
+理或朋友提供給您的推薦碼是
+否正確再輸入。",,"The referral code will affect your account rewards and related discounts on transaction fees. It cannot be changed after entering, so please enter it after confirming whether the referral code provided to you by an agent or friend is correct. ",,,,68,,,58,,,81,,,130,referralCodeBind.descriptionText
+請選擇品種,,Please select a variety.,,,,5,,,5,,,7,,,11,agentTransactionSetting.filterVarietyButtonHint
+交易品項,,Trading Items,,,,4,,,4,,,5,,,9,agentFundingDetails.filterPopup.tradingProductTitle
+請選擇交易品項,,Please select a trading item.,,,,8,,,7,,,9,,,15,agentFundingDetails.filterPopup.tradingProductButtonHint
+請選擇交易方向,,Please select a trading direction.,,,,8,,,7,,,9,,,15,agentFundingDetails.filterPopup.tradingDirectionButtonHint
+請選擇槓桿設定,,Please select leverage settings.,,,,8,,,7,,,9,,,15,agentFundingDetails.filterPopup.leverageSettingButtonHint
+持倉篩選器,,Position Filter,,,,5,,,5,,,7,,,11,agentFundingDetails.filterPopup.positionPopupTitle
+開倉篩選器,,Open Position Filter,,,,5,,,5,,,7,,,11,agentFundingDetails.filterPopup.openingPopupTitle
+平倉篩選器,,Closing Filter,,,,5,,,5,,,7,,,11,agentFundingDetails.filterPopup.closingPopupTitle
+目前持倉,,Current Open Position,,,,4,,,4,,,5,,,9,agentFundingDetails.currentPositionButton
+撤銷,,Cancel,,,,2,,,2,,,2,,,4,"orders.cancelButton,orderDetail.cancelButton"
+確定撤單?,,Are you sure you want to cancel the order?,,,,5,,,5,,,7,,,11,orders.cancelConfirm
+掛單價,,Order Price,,,,3,,,3,,,4,,,6,"orders.orderPrice,cancelOrderConfirmPopup.orderPrice"
+取消掛單成功,,Order cancelled successfully,,,,7,,,6,,,8,,,13,"orders.cancelOrderSuccess,orderDetail.cancelOrderSuccess"
+銀行轉帳,,Bank Transfer,,,,4,,,4,,,5,,,9,"withdrawCategory.auditMethodBankTitle,withdrawBank.appBarTitle,paymentBank.appBarTitle,paymentMethod.bankTitle"
+請選擇出金方法,,Please select a withdrawal method.,,,,8,,,7,,,9,,,15,withdrawCategory.appBarTitle
+"24 小時內出金次數已達上限
+請於 24 小時後再次提交申請。",,"The withdrawal limits within 24 hours have reached the upper limit. 
+Please submit your application again after 24 hours.",,,,31,,,27,,,37,,,60,withdrawCategory.withdrawLimitTip
+"目前不是出金時間
+請於以下時段再次申請出金",,"It's not the time for withdrawing funds now. 
+Please apply for withdrawal again during the following periods.",,,,23,,,20,,,28,,,45,withdrawCategory.notWithdrawTimeTip
+出金方式,,Withdrawal Method,,,,4,,,4,,,5,,,9,withdrawCategory.bankMethodTitle
+其餘出金方式,,Other Withdrawal Methods,,,,7,,,6,,,8,,,13,withdrawCategory.otherMethodTitle
+如欲申請資產出金，請切換回用戶模式進行申請。,,"If you want to apply for funds withdrawal, please switch back to user mode to apply.",,,,25,,,22,,,30,,,49,withdrawCategory.agentModeTip
+如欲申請其他出金方式，請前往,,"If you want to apply for other withdrawal methods, please go to ",,,,16,,,14,,,19,,,31,withdrawCategory.userModeTip.part1
+帳戶管理,,Account Management,,,,4,,,4,,,5,,,9,withdrawCategory.userModeTip.part2
+進行申請。,,to make an application.,,,,5,,,5,,,7,,,11,withdrawCategory.userModeTip.part3
+審核中的出金申請,,Withdrawal Application under Review,,,,9,,,8,,,11,,,18,withdrawCategory.auditListTitle
+"
+您沒有任何出金帳戶，請前往申請出金帳戶並認證後，再次申請出金。",,"You do not have any withdrawal account, please go to apply for a withdrawal account and verify it, and try withdrawal again.",,,,36,,,31,,,43,,,69,withdrawCategory.methodEmptyTip
+前往申請出金帳戶,,Apply for a Withdrawal Account,,,,9,,,8,,,11,,,18,withdrawCategory.methodEmptyButton
+請選擇出金方式,,Please select a withdrawal method.,,,,8,,,7,,,9,,,15,withdrawCategory.categorySelectedDefault
+下一步,,Next Step,,,,3,,,3,,,4,,,6,"withdrawCategory.nextStep,depositCategory.nextStep"
+"無綁定帳戶, 不可選擇",,No accounts are bound to be selected.,,,,10,,,9,,,12,,,20,withdrawCategory.statusNoBindPayment
+無可使用帳戶,,No account available,,,,7,,,6,,,8,,,13,withdrawCategory.statusNoAvailablePayment
+每週,,Every week,,,,2,,,2,,,2,,,4,withdrawCategory.weekInterval.prefix
+一,,Monday,,,,1,,,1,,,1,,,2,withdrawCategory.weekInterval.week1
+二,,Tuesday,,,,1,,,1,,,1,,,2,withdrawCategory.weekInterval.week2
+三,,Wednesday,,,,1,,,1,,,1,,,2,withdrawCategory.weekInterval.week3
+四,,Thursday,,,,1,,,1,,,1,,,2,withdrawCategory.weekInterval.week4
+五,,Friday,,,,1,,,1,,,1,,,2,withdrawCategory.weekInterval.week5
+六,,Saturday,,,,1,,,1,,,1,,,2,withdrawCategory.weekInterval.week6
+日,,Sunday,,,,1,,,1,,,1,,,2,withdrawCategory.weekInterval.week7
+{start}至{end},,{start} to {end},,,,0 + ?,,,0 + ?,,,0 + ?,,,0 + ?,withdrawCategory.weekInterval.weekRange
+{start}-{end},,{start}-{end},,,,0 + ?,,,0 + ?,,,0 + ?,,,0 + ?,withdrawCategory.weekInterval.timeRange
+"當前出金通道關閉中
+無法出金",,Withdrawal channel is closed. Please try later.,,,,15,,,13,,,18,,,29,withdrawCategory.noWithdrawCategory.title
+"可能原因如下:
+1.出金通道因每日出金到達上限無法再次出金
+2.系統維護中",,"The possible reasons are as follows: 
+1. Funds cannot be withdrawn through the withdrawal channel again due to the daily withdrawal amount reaching the upper limit. 
+2. System is under maintenance.",,,,38,,,33,,,46,,,74,withdrawCategory.noWithdrawCategory.content
+刪除推薦碼,,Delete Referral Code,,,,5,,,5,,,7,,,11,agentReferralCodeList.descriptionPopup.deleteTitle
+"刪除該推薦碼，將會導致已經發出去的連結可能會失效。
+已使用該推薦碼註冊的用戶則不會受到影響。
+
+確定要刪除推薦碼嗎？",,"Deleting the referral code will cause the link that has been sent out to be invalid. 
+Users who have registered with the referral code will not be affected. 
+
+Are you sure you want to delete the referral code?",,,,64,,,55,,,77,,,123,agentReferralCodeList.descriptionPopup.contentText
+註冊,,Register,,,,2,,,2,,,2,,,4,"agentReferralCodeList.registerTitle,signUp.registerButton,signUpNavigation.registerButton"
+開戶,,Open an Account,,,,2,,,2,,,2,,,4,agentReferralCodeList.openAccountTitle
+已複製推薦碼連結,,Referral Link Cpied,,,,9,,,8,,,11,,,18,agentReferralCodeList.recommendedCodeLinkToast
+交易日期,,Trade Date,,,,4,,,4,,,5,,,9,orderDetail.createDate
+"委託異動, 請重新進入",,Your order changed. Please re-enter.,,,,10,,,9,,,12,,,20,orderDetail.orderChanged
+撤銷掛單,,Cancel pending order,,,,4,,,4,,,5,,,9,cancelOrderConfirmPopup.title
+掛單時間,,Creation Time,,,,4,,,4,,,5,,,9,cancelOrderConfirmPopup.orderTime
+確定撤銷,,Confirm,,,,4,,,4,,,5,,,9,cancelOrderConfirmPopup.confirm
+{unit}的{name}價格,,{name} Price of {unit},,,,2 + ?,,,2 + ?,,,2 + ?,,,4 + ?,futuresContract.title
+週數,,Weeks,,,,2,,,2,,,2,,,4,futuresContract.tradeTimeWeekend
+{start} - 隔日{end},,{start}-The next day {end},,,,0 + ?,,,0 + ?,,,0 + ?,,,0 + ?,futuresContract.tradeTimeIntervalOutDay
+{start} - {end},,{start} - {end},,,,0 + ?,,,0 + ?,,,0 + ?,,,0 + ?,futuresContract.tradeTimeIntervalSameDay
+單筆交易數量,,Volume Per Trade,,,,7,,,6,,,8,,,13,futuresContract.transactionLotsTitle
+{min}-{max} {unit},,{min}-{max} {unit},,,,0 + ?,,,0 + ?,,,0 + ?,,,0 + ?,futuresContract.transactionLotsValue
+當前槓桿,,Current Leverage,,,,4,,,4,,,5,,,9,futuresContract.currentLever
+下單可調節,,Orders are adjustable.,,,,5,,,5,,,7,,,11,futuresContract.currentLeverValueTip
+契約規模,,Contract Size,,,,4,,,4,,,5,,,9,futuresContract.contractSize
+最大總持倉數量,,Maximum Open Position,,,,8,,,7,,,9,,,15,futuresContract.maxPositionTitle
+收取時間,,Collection Time,,,,4,,,4,,,5,,,9,futuresContract.rolloverTime
+當前時段,,Current Session,,,,4,,,4,,,5,,,9,futuresContract.transactionTimeCurrent
+下個時段,,Next Session,,,,4,,,4,,,5,,,9,futuresContract.transactionTimeNext
+查看更多時段,,View more session,,,,7,,,6,,,8,,,13,futuresContract.viewAllTransactionTime
+"(匯率波動較大時, 將會進行調整)",,(Adjustments will be made with greater fluctuations in exchange rates. ),,,,17,,,15,,,21,,,33,futuresContract.exchangeRateTip
+折疊,,Fold,,,,2,,,2,,,2,,,4,futuresContract.tableValueFold
+無限制,,Unrestricted,,,,3,,,3,,,4,,,6,futuresContract.noLimit
+您確定要放棄修改嗎？,,Are you sure you want to abandon the modification?,,,,11,,,10,,,14,,,22,"orderModify.cancelModify,positionModify.cancelModify,chartBollSetting.cancelModify,chartKdjSetting.cancelModify,chartMacdSetting.cancelModify,chartMaSetting.cancelModify,chartRsiSetting.cancelModify,chartWrSetting.cancelModify"
+設置止損價格,,Set stop-loss price,,,,7,,,6,,,8,,,13,"orderModify.stopLossSubtitle,positionModify.stopLossSubtitle"
+設置止盈價格,,Set take-profit price,,,,7,,,6,,,8,,,13,"orderModify.stopProfitSubtitle,positionModify.stopProfitSubtitle"
+修改掛單,,Modify Order,,,,4,,,4,,,5,,,9,orderModify.appBarTitle
+請輸入您的掛單價格,,Please enter your order price.,,,,10,,,9,,,12,,,20,orderModify.accountOrderInputHint
+掛單價格須在限制範圍內,,The pending order price must be within the limit.,,,,12,,,11,,,15,,,24,orderModify.errorLimitPriceOutRange
+調整保證金,,Adjust Margin,,,,5,,,5,,,7,,,11,"adjustmentMarginDescriptionPopup.title,positionModify.adjustMargin"
+我知道了,,I got it.,,,,4,,,4,,,5,,,9,"adjustmentMarginDescriptionPopup.button,receiveAwardPopup.know"
+您可為該持倉追加保證金,,You can increase the margin on this open position.,,,,12,,,11,,,15,,,24,adjustmentMarginDescriptionPopup.content1
+追加保證金，將獲得更安全的,,"If you increase the margin, you will get safer",,,,15,,,13,,,18,,,29,adjustmentMarginDescriptionPopup.content2
+"提醒：
+調整保證金，僅改變持倉風險，不影響訂單交易總額和訂單盈虧。",,Reminder: adjustment to margin only changes position risk but does not affect the total amount of transaction orders and the profit or loss of orders.,,,,37,,,32,,,44,,,72,adjustmentMarginDescriptionPopup.tip
+輸入分潤細節搜尋條件,,Enter search criteria for revenue share details,,,,11,,,10,,,14,,,22,agentProfitSharingSearch.enterDetailSearchHint
+請輸入搜尋條件,,Please enter search criteria.,,,,8,,,7,,,9,,,15,"agentProfitSharingSearch.pleaseEnterSearchHint,agentUserSearch.pleaseEnterSearchHint,agentReferralCodeSearch.pleaseEnterSearchHint,agentTransactionSettingSearch.pleaseEnterSearchHint,agentFundingDetailsSearch.pleaseEnterSearchHint"
+輸入下級用戶清單搜尋條件,,Enter search criteria for basic user list,,,,14,,,12,,,16,,,27,agentUserSearch.enterDetailSearchHint
+搜尋結果,,Search Results,,,,4,,,4,,,5,,,9,agentUserSearch.searchResultsTitle
+輸入推薦碼搜尋條件,,Enter search criteria for referral code,,,,10,,,9,,,12,,,20,agentReferralCodeSearch.enterDetailSearchHint
+請選擇動作,,Please select an action.,,,,5,,,5,,,7,,,11,agentReferralCodeFunctionPopup.actionsTitle
+查看清單,,View List,,,,4,,,4,,,5,,,9,agentReferralCodeFunctionPopup.actionsViewListButton
+編輯,,Edit,,,,2,,,2,,,2,,,4,agentReferralCodeFunctionPopup.editButton
+請輸入戶名,,Please enter your account name.,,,,5,,,5,,,7,,,11,editAgentReferralCode.enterNameHint
+編輯推薦碼,,Edit Referral Code,,,,5,,,5,,,7,,,11,editAgentReferralCode.editReferralCodeTitle
+新增成功,,Added successfully,,,,4,,,4,,,5,,,9,editAgentReferralCode.addSuccess
+名稱,,Name,,,,2,,,2,,,2,,,4,editAgentReferralCode.nameTitle
+備註,,Notes,,,,2,,,2,,,2,,,4,editAgentReferralCode.remarkTitle
+請輸入備註,,Please enter notes.,,,,5,,,5,,,7,,,11,editAgentReferralCode.enterNoteHint
+儲存,,Save,,,,2,,,2,,,2,,,4,"addAgentReferralCodePopup.confirmButton,chartBollSetting.modifyButton,chartKdjSetting.modifyButton,chartMacdSetting.modifyButton,chartMaSetting.modifyButton,chartRsiSetting.modifyButton,chartWrSetting.modifyButton"
+尚有資料未填寫,,Information not yet completed,,,,8,,,7,,,9,,,15,addAgentReferralCodePopup.emptyTip
+編輯點差及手續費,,Edit Spread and Transaction Fee,,,,9,,,8,,,11,,,18,addAgentReferralCodePopup.editReferralCodeTitle
+新增點差及手續費,,Add Spread and Transaction Fee,,,,9,,,8,,,11,,,18,addAgentReferralCodePopup.addReferralCodeTitle
+類別,,Category,,,,2,,,2,,,2,,,4,addAgentReferralCodePopup.categoryTitle
+請選擇類別,,Please select a category.,,,,5,,,5,,,7,,,11,addAgentReferralCodePopup.categoryButtonHint
+請選擇品項,,Please select an item.,,,,5,,,5,,,7,,,11,addAgentReferralCodePopup.itemsButtonHint
+代號,,Symbol,,,,2,,,2,,,2,,,4,addAgentReferralCodePopup.codeNumberTitle
+請輸入代號,,Please enter a symbol.,,,,5,,,5,,,7,,,11,addAgentReferralCodePopup.codeButtonHint
+調整點差,,Adjust Spread,,,,4,,,4,,,5,,,9,addAgentReferralCodePopup.adjustmentSpreadTitle
+調整手續費,,Adjust Transaction Fee,,,,5,,,5,,,7,,,11,addAgentReferralCodePopup.adjustmentFeeTitle
+超出手續費範圍,,Beyond transaction fee limit,,,,8,,,7,,,9,,,15,addAgentReferralCodePopup.beyondFeeRangeTip
+超出點差範圍,,Beyond spread limit,,,,7,,,6,,,8,,,13,addAgentReferralCodePopup.overnightRangeTip
+輸入交易設定搜尋條件,,Enter search criteria for trading settings,,,,11,,,10,,,14,,,22,agentTransactionSettingSearch.enterDetailSearchHint
+用戶分潤篩選器,,User Revenue Share Filter,,,,8,,,7,,,9,,,15,agentUserProfitSharingForm.filterPopup.popupTitle
+輸入搜尋條件,,Enter search criteria,,,,7,,,6,,,8,,,13,agentFundingDetailsSearch.enterDetailSearchHint
+代理條件頁,,Terms of Agency Page,,,,5,,,5,,,7,,,11,agentCondition.nameDescription
+入金返利,,Deposit Rebate,,,,4,,,4,,,5,,,9,agentCondition.rebateTitle
+交易手數返利,,Rebate on Trading Lots,,,,7,,,6,,,8,,,13,agentCondition.transactionHandTitle
+最低工資,,Minimum Wage,,,,4,,,4,,,5,,,9,agentCondition.minimumWageTitle
+最低工資獲得條件,,Conditions for Obtaining the Minimum Wage,,,,9,,,8,,,11,,,18,agentCondition.minimumWageConditionsTitle
+交易點差及手續費範圍,,Spread and Transaction Fee Limit,,,,11,,,10,,,14,,,22,agentCondition.tradingSpreadsHandlingTitle
+當前非交易時段,,Not in trading hours,,,,8,,,7,,,9,,,15,"positionModify.errorNotTradingTime,requestError.notTradingTime"
+該品項暫時無法交易,,This item is unavailable for the moment.,,,,10,,,9,,,12,,,20,"positionModify.errorFuturesNotTradingTime,requestError.quotaUpdateOutTime"
+修改持倉單,,Modify Position Order,,,,5,,,5,,,7,,,11,positionModify.appBarTitle
+部份單號平倉失敗!,,Failed to close some orders!,,,,10,,,9,,,12,,,20,positionModify.closeMultiPositionPartialFailTitle
+查無此單號,,This order no is not found.,,,,5,,,5,,,7,,,11,positionModify.errorClosePositionFindNoSerial
+未知錯誤({code}),,Unknown Error ({code}),,,,7 + ?,,,6 + ?,,,8 + ?,,,13 + ?,positionModify.errorGeneralCode
+調整後預估強平價,,Projected Forced Parity after Adjustment,,,,9,,,8,,,11,,,18,positionModify.adjustedLiquidationPrice
+追加,,Add,,,,2,,,2,,,2,,,4,positionModify.append
+最多可追加,,Maximum to be added,,,,5,,,5,,,7,,,11,positionModify.mostAppend
+請輸入金額,,Please enter an amount.,,,,5,,,5,,,7,,,11,"positionModify.adjustMarginHint,paymentBank.paymentPriceTitle"
+請輸入{min}元以上金額,,Please enter an amount above {min} dollars.,,,,9 + ?,,,8 + ?,,,11 + ?,,,18 + ?,"positionModify.adjustMarginInputMinHint,depositThirdParty.inputMinHint"
+請輸入{max}元以下金額,,Please enter an amount below {max} dollars.,,,,9 + ?,,,8 + ?,,,11 + ?,,,18 + ?,"positionModify.adjustMarginInputMaxHint,depositThirdParty.inputMaxHint"
+調整保證金須在限制範圍內,,The adjustment to the margin must be within the limit.,,,,14,,,12,,,16,,,27,"positionModify.errorMarginCallOutRange,marginCallEditPopup.errorMarginCallOutRange"
+指標,,Index,,,,2,,,2,,,2,,,4,"chartBollSetting.index,chartKdjSetting.index,chartMacdSetting.index"
+默認設置,,Default Settings,,,,4,,,4,,,5,,,9,"chartBollSetting.defaultSetting,chartKdjSetting.defaultSetting,chartMacdSetting.defaultSetting,chartMaSetting.defaultSetting,chartRsiSetting.defaultSetting,chartWrSetting.defaultSetting"
+UP,,UP,,,,2,,,2,,,2,,,4,chartBollSetting.indexUp
+DN,,DN,,,,2,,,2,,,2,,,4,chartBollSetting.indexDn
+MB,,MB,,,,2,,,2,,,2,,,4,chartBollSetting.indexMb
+時間週期,,Cycle,,,,4,,,4,,,5,,,9,"chartBollSetting.timePeriod,chartMacdSetting.timePeriod"
+帶寬,,Bandwidth,,,,2,,,2,,,2,,,4,chartBollSetting.bandWidth
+K,,K,,,,1,,,1,,,1,,,2,chartKdjSetting.indexK
+D,,D,,,,1,,,1,,,1,,,2,chartKdjSetting.indexD
+J,,J,,,,1,,,1,,,1,,,2,chartKdjSetting.indexJ
+計算週期,,Calculate Cycle,,,,4,,,4,,,5,,,9,chartKdjSetting.calculatePeriod
+移動平均週期1,,Moving Average Cycle 1,,,,8,,,7,,,9,,,15,chartKdjSetting.maPeriod1
+移動平均週期2,,Moving Average Cycle 2,,,,8,,,7,,,9,,,15,chartKdjSetting.maPeriod2
+DIF,,DIF,,,,3,,,3,,,4,,,6,chartMacdSetting.indexDif
+DEA,,DEA,,,,3,,,3,,,4,,,6,chartMacdSetting.indexDea
+短週期,,Short Cycle,,,,3,,,3,,,4,,,6,chartMacdSetting.shortPeriod
+長週期,,Long Cycle,,,,3,,,3,,,4,,,6,chartMacdSetting.longPeriod
+週期,,Cycle,,,,2,,,2,,,2,,,4,"chartRsiSetting.period,chartWrSetting.period"
+圖表類型,,Type of Chart,,,,4,,,4,,,5,,,9,"chartTypeSetting.appBarTitle,chartSetting.chartType"
+蠟燭圖,,Candlestick Chart,,,,3,,,3,,,4,,,6,chartTypeSetting.kLineChart
+分時圖,,Time-sharing Chart,,,,3,,,3,,,4,,,6,chartTypeSetting.lineIndexChart
+下級用戶專用,,Only for Basic User,,,,7,,,6,,,8,,,13,agentReferralCodeUsers.appBarTitle
+國家,,Country,,,,2,,,2,,,2,,,4,countryCode.country
+請輸入名稱或區碼,,Please enter a name or area code.,,,,9,,,8,,,11,,,18,countryCode.searchEnterHint
+提交申請中,,Submitting Application,,,,5,,,5,,,7,,,11,withdrawBank.withdrawRequestSending
+提交出金申請,,Submit Withdrawal Application,,,,7,,,6,,,8,,,13,withdrawBank.withdrawButton
+"客戶出金所指定之帳號，必需是開戶時所指定之出金銀行帳號。
+電子交易系統之線上出金申請時間為每個營業日上午8：00~14：00",,"The account number specified by the customer for withdrawal must be the account number of the withdrawal bank specified at the time of account opening. 
+The online withdrawal application time of the electronic trading system is from 8:00 am to 14:00 am on each business day.",,,,72,,,61,,,85,,,137,withdrawBank.tipContent
+出金申請完成,,Withdrawal Application Completed,,,,7,,,6,,,8,,,13,withdrawBank.completeTitle
+"審核預計會需要 3-5 個工作天。
+通過後，您將會收到資金轉帳通知。",,"The review application is expected to take 3-5 working days. 
+After approval, you will receive a notification of the fund transfer.",,,,36,,,31,,,43,,,69,withdrawBank.completeContent
+已完成申請,,Application Completed,,,,5,,,5,,,7,,,11,withdrawBank.completeButton
+額度,,Limit,,,,2,,,2,,,2,,,4,withdrawBank.pricePrefix
+出金帳戶設定,,Withdrawal Account Settings,,,,7,,,6,,,8,,,13,"accountPaymentManager.appBarTitle,bankAccountDetail.appBarTitle,accountManager.withdrawalAccountSettings"
+"您目前沒有任何出金帳戶，請按下方或
+右上角「+」按鈕新增後
+進行審核。",,"You do not have any withdrawal account currently. Please click the ""+"" button below or the one in the upper right corner to add an account for review.",,,,38,,,33,,,46,,,74,accountPaymentManager.emptyTip
+新增出金帳戶,,Add Withdrawal Account,,,,7,,,6,,,8,,,13,accountPaymentManager.addBankAccount
+可使用,,Enable,,,,3,,,3,,,4,,,6,accountPaymentManager.statusSuccess
+未過審,,Not approved,,,,3,,,3,,,4,,,6,accountPaymentManager.statusFail
+目前無出金方式，如要新增出金帳戶，請,,"There is no withdrawal method currently. If you want to add a new withdrawal account, please",,,,21,,,18,,,25,,,40,accountPaymentManager.paymentCategoryEmptyPopup.noPaymentTip
+聯繫客服人員,,contact customer support,,,,7,,,6,,,8,,,13,accountPaymentManager.paymentCategoryEmptyPopup.contactCustomerService
+繁體中文,,繁體中文,,,,4,,,4,,,5,,,9,languageSetting.localeZhTw
+簡體中文,,簡體中文,,,,4,,,4,,,5,,,9,languageSetting.localeZhCn
+中文,,中文,,,,2,,,2,,,2,,,4,languageSetting.localeZh
+English,,English,,,,8,,,7,,,9,,,15,languageSetting.localeEn
+日本語,,日本語,,,,3,,,3,,,4,,,6,languageSetting.localeJp
+한국어,,한국어,,,,3,,,3,,,4,,,6,languageSetting.localeKr
+ไทย,,ไทย,,,,3,,,3,,,4,,,6,languageSetting.localeTh
+Tiếng Việt,,Tiếng Việt,,,,10,,,9,,,12,,,20,languageSetting.localeVi
+升跌顏色,,Colors of Up and Down,,,,4,,,4,,,5,,,9,upDownColorSetting.appBarTitle
+獲取交易帳戶中,,Getting Trading Account,,,,8,,,7,,,9,,,15,paymentBank.gettingTransferAccount
+PAY,,PAY,,,,3,,,3,,,4,,,6,"paymentBank.payTag,depositThirdParty.payTag,depositChannel.payTag"
+立即入金享受交易,,Deposit now to enjoy the trading.,,,,9,,,8,,,11,,,18,"paymentBank.confirmPaymentButton,depositThirdParty.confirmPaymentButton,paymentCreditCard.confirmValueGetUrlButton"
+最低{value},,Minimum {value},,,,2 + ?,,,2 + ?,,,2 + ?,,,4 + ?,paymentBank.paymentRangeOnlyMin
+{min}-{max},,{min}-{max},,,,0 + ?,,,0 + ?,,,0 + ?,,,0 + ?,paymentBank.paymentRangeMinMax
+重要提醒,,Important Reminder,,,,4,,,4,,,5,,,9,"paymentBank.remindTitle,depositCheck.title"
+"請使用本人的帳戶轉帳
+帳戶有效期限為 24 小時
+轉帳金額務必一致
+請勿重複轉帳",,"Please transfer funds through your own account. 
+The account is valid for 24 hours. 
+The transfer amount must be consistent. 
+Please do not make duplicate transfers.",,,,41,,,35,,,49,,,78,paymentBank.remindTip
+獲得轉帳資訊 去轉帳,,Get transfer information to transfer funds.,,,,10,,,9,,,12,,,20,"paymentBank.toTransferButton,depositCheck.button"
+我已瞭解上述資訊,,I already understand the above information.,,,,9,,,8,,,11,,,18,"paymentBank.learnInfoReady,depositCheck.checkTip"
+入金金額,,Deposit Amount,,,,4,,,4,,,5,,,9,paymentBank.transferAccountTitle
+請於,,Please,,,,2,,,2,,,2,,,4,paymentBank.transferCompleteContent1
+完成轉帳,,complete the transfer by,,,,4,,,4,,,5,,,9,paymentBank.transferCompleteContent2
+收款銀行及代碼,,Receiving Bank and Code,,,,8,,,7,,,9,,,15,paymentBank.transferBankAndCode
+收款帳戶,,Receiving Account,,,,4,,,4,,,5,,,9,paymentBank.transferBankAccount
+已完成轉帳,,Transfer Completed,,,,5,,,5,,,7,,,11,paymentBank.completeButton
+"注意事項：
+轉帳金額與申請金額不一致，則無法轉帳成功。
+超過有效期限，則無法轉帳成功。
+請不要重複匯款。",,"Note: 
+The transfer cannot be successful if the transfer amount is inconsistent with the amount in the application. 
+The transfer cannot be successful if the order expires. 
+Please do not make duplicate remittances.",,,,57,,,49,,,68,,,110,paymentBank.transferDescriptionTip
+"溫馨提示:如遇入金問題，
+請第一時間聯繫",,"Friendly Reminder: In case of deposit problems, please contact",,,,22,,,19,,,26,,,42,paymentBank.paymentValueTip1
+在線客服,,the online customer service promptly.,,,,4,,,4,,,5,,,9,"paymentBank.paymentValueTip2,depositThirdParty.tip2"
+"客服人員會協助您迅速入金。
+服務宗旨:秉承「用戶至上」真誠「
+用心為您服務」。",,"The customer support agents will help you deposit funds quickly. 
+Service tenet: we sincerely “serve you with all our hearts” with our motto “client first.” ",,,,43,,,37,,,51,,,83,paymentBank.paymentValueTip3
+"帳戶封鎖中,無法登入",,The account is locked. You are unable to log in.,,,,10,,,9,,,12,,,20,accountBlockPopup.title
+"可能原因如下:
+   1. 交易行為異常 
+   2. 同 IP 多帳號註冊
+   3. 出入金行為異常",,"The possible reasons are as follows:
+   1. Abnormal trading behavior 
+   2. Multi-account registration with the same IP
+   3. Abnormal deposit and withdrawal behavior",,,,36,,,31,,,43,,,69,accountBlockPopup.content
+"如需解鎖,請聯繫",,"To unlock, please contact",,,,8,,,7,,,9,,,15,accountBlockPopup.tip1
+客服人員,,customer support.,,,,4,,,4,,,5,,,9,accountBlockPopup.tip2
+您已登出,,You have logged out.,,,,4,,,4,,,5,,,9,otherDevicesLoginPopup.title
+已在別的裝置上登入，因此從這台裝置登出，請您重新登入,,"You have logged in on another device, so logged out from this device. Please log in again.",,,,30,,,26,,,36,,,58,otherDevicesLoginPopup.content
+溫馨提示:如遇入金問題，請第一時間聯繫,,"Reminder: If you have any deposit problems, please contact customer support agents as soon as possible.",,,,22,,,19,,,26,,,42,depositThirdParty.tip1
+，客服人員會協助您迅速入金。,,The customer support agents will help you deposit funds quickly.,,,,16,,,14,,,19,,,31,depositThirdParty.tip3
+客服QQ:{phone},,QQ Customer Support : {phone},,,,5 + ?,,,5 + ?,,,7 + ?,,,11 + ?,depositThirdParty.tip4
+服務宗旨:秉承「用戶至上」真誠「用心為您服務」。,,Service tenet: we sincerely “serve you with all our hearts” with our motto “client first.”,,,,28,,,24,,,33,,,54,depositThirdParty.tip5
+請輸入入金金額：,,Please enter the deposit amount:,,,,9,,,8,,,11,,,18,depositThirdParty.payTagTitle
+入金金額區間：$ {min} ~ {max},,Deposit amount range: $ {min} ~ {max},,,,9 + ?,,,8 + ?,,,11 + ?,,,18 + ?,depositThirdParty.rangeTip
+輸入驗證碼,,Enter the verification code,,,,5,,,5,,,7,,,11,"emailBind.captchaHint,forgotPassword.enterCaptchaHint,changePassword.captchaHint"
+立即驗證,,Verify Now,,,,4,,,4,,,5,,,9,"emailBind.verifyImmediately,phoneBind.confirmButton"
+請輸入信箱,,Please enter your email address.,,,,5,,,5,,,7,,,11,emailBind.emailHint
+已成功驗證信箱,,Email address verified successfully,,,,8,,,7,,,9,,,15,emailBind.bindEmailSuccess
+請填寫您的電子信箱,,Please fill in your email address.,,,,10,,,9,,,12,,,20,"forgotPassword.enterEmailHint,signUp.enterEmailHint,login.enterEmailHint"
+請輸入您的手機號碼,,Please enter your mobile number.,,,,10,,,9,,,12,,,20,"forgotPassword.enterPhoneNumberHint,signUp.enterPhoneNumberHint,phoneBind.inputPhoneHint,login.enterPhoneNumberHint"
+忘記密碼,,Forgot your password,,,,4,,,4,,,5,,,9,forgotPassword.title
+密碼重設成功,,Password reset successfully,,,,7,,,6,,,8,,,13,forgotPassword.resetSuccess
+確認並提交,,Confirm and Submit,,,,5,,,5,,,7,,,11,forgotPassword.resetButton
+請輸入新密碼,,Please enter a new password.,,,,7,,,6,,,8,,,13,"forgotPassword.newPasswordHint,changePassword.newPasswordHint"
+使用{method}取回密碼,,Use {method} to retrieve the password.,,,,7 + ?,,,6 + ?,,,8 + ?,,,13 + ?,forgotPassword.changeMethodTip
+電話,,Phone,,,,2,,,2,,,2,,,4,forgotPassword.phone
+使用者驗證資料,,User Verification Data,,,,8,,,7,,,9,,,15,accountIdentifyData.appBarTitle
+英文姓名,,English Name,,,,4,,,4,,,5,,,9,"accountIdentifyData.englishNameTitle,personalVerify.englishNameTitle"
+地址,,Address,,,,2,,,2,,,2,,,4,"accountIdentifyData.addressTitle,personalVerify.addressTitle"
+職業,,Occupation,,,,2,,,2,,,2,,,4,accountIdentifyData.professionTitle
+就業狀態,,Employment Status,,,,4,,,4,,,5,,,9,"accountIdentifyData.employmentTitle,personalVerify.employmentStatusTitle"
+交易經驗,,Experience in Trading,,,,4,,,4,,,5,,,9,"accountIdentifyData.transactionExperienceTitle,personalVerify.tradingExperienceTitle"
+開戶原因,,Reason for Opening Account,,,,4,,,4,,,5,,,9,"accountIdentifyData.reasonsOpeningAccountTitle,personalVerify.accountOpeningReasonTitle"
+收入,,Income,,,,2,,,2,,,2,,,4,"accountIdentifyData.incomeTitle,personalVerify.incomeRangeTitle"
+總財富,,Gross Wealth,,,,3,,,3,,,4,,,6,"accountIdentifyData.totalWealthTitle,personalVerify.totalPossessionsTitle"
+收入與財富來源,,Sources of Income and Wealth,,,,8,,,7,,,9,,,15,"accountIdentifyData.incomeWealthSourceTitle,personalVerify.sourceIncomeTitle"
+手持證件照,,Handheld Photo ID,,,,5,,,5,,,7,,,11,accountIdentifyData.handleIdCardTitle
+如需修改驗證資料，請洽客服人員,,"If you need to modify the verification information, please contact customer support agents.",,,,17,,,15,,,21,,,33,accountIdentifyData.needModifyTip
+您的身份證證資料審核中，請耐心等待,,Your ID card information is under review. Please wait patiently.,,,,20,,,17,,,23,,,38,accountIdentifyData.identifyStatusTip.audit
+證明身份流程完成,,The identity proofing process is completed.,,,,9,,,8,,,11,,,18,"accountIdentifyData.identifyStatusTip.pass,identifyVerificationResult.title"
+您的身分證資料未通過，請重新提交驗證資料,,Your ID card information did not pass the verification. Please resubmit the verification information.,,,,23,,,20,,,28,,,45,accountIdentifyData.identifyStatusTip.reject
+編輯資料,,Edit Information,,,,4,,,4,,,5,,,9,accountIdentifyData.editDataTitle
+證件號碼,,ID number,,,,4,,,4,,,5,,,9,"accountIdentifyData.idNumberTitle,fileVerify.idNumberTitle"
+投資,,Investment,,,,2,,,2,,,2,,,4,personalVerify.accountOpenReasonInvest
+對沖,,Hedge,,,,2,,,2,,,2,,,4,personalVerify.accountOpenReasonHedge
+投機,,Speculation,,,,2,,,2,,,2,,,4,personalVerify.accountOpenReasonSpeculation
+在職中,,In service,,,,3,,,3,,,4,,,6,personalVerify.employmentStatusEmployed
+自營,,Self-employed,,,,2,,,2,,,2,,,4,personalVerify.employmentStatusSelfEmployed
+待業,,Unemployed,,,,2,,,2,,,2,,,4,personalVerify.employmentStatusUnemployed
+學生,,Student,,,,2,,,2,,,2,,,4,personalVerify.employmentStatusStudent
+退休,,Retirement,,,,2,,,2,,,2,,,4,personalVerify.employmentStatusRetire
+"超過 $ 200,000",,"More than 200,000 $",,,,10,,,9,,,12,,,20,personalVerify.incomeRangeOver200k
+"$ 100,000 - 200,000",,"100,000 - 200,000 $",,,,16,,,14,,,19,,,31,personalVerify.incomeRange100kTo200k
+"$ 50,000 - 100,000",,"50,000 - 100,000 $",,,,15,,,13,,,18,,,29,personalVerify.incomeRange50kTo100k
+"$ 20,000 - 50,000",,"20,000 - 50,000 $",,,,14,,,12,,,16,,,27,personalVerify.incomeRange20kTo50k
+"$ 20,000 以下",,"Below 20,000 $",,,,9,,,8,,,11,,,18,personalVerify.incomeRangeBelow20k
+請先填入真實姓名,,Please fill in your real name.,,,,9,,,8,,,11,,,18,personalVerify.errorRealNameEmpty
+請先填入英文姓名,,Please fill in your English name.,,,,9,,,8,,,11,,,18,personalVerify.errorEnglishNameEmpty
+尚未選擇國家,,You have not selected your country yet.,,,,7,,,6,,,8,,,13,personalVerify.errorCountryEmpty
+尚未填入地址,,You have not filled in your address.,,,,7,,,6,,,8,,,13,personalVerify.errorAddressEmpty
+尚未選擇職業別,,You have not selected your profession.,,,,8,,,7,,,9,,,15,personalVerify.errorProfessionEmpty
+尚未選擇就業狀態,,You have not selected your employment status.,,,,9,,,8,,,11,,,18,personalVerify.errorEmploymentStatusEmpty
+尚未選擇交易經驗,,You have not selected your experience in trading.,,,,9,,,8,,,11,,,18,personalVerify.errorTradingExperienceEmpty
+尚未選擇開戶原因,,You have not selected your reason for opening the account.,,,,9,,,8,,,11,,,18,personalVerify.errorAccountOpeningReasonEmpty
+尚未選擇收入範圍,,You have not selected your income range.,,,,9,,,8,,,11,,,18,personalVerify.errorIncomeEmpty
+尚未選擇總財產範圍,,You have not selected your gross property range.,,,,10,,,9,,,12,,,20,personalVerify.errorTotalPossessionsEmpty
+尚未選擇收入與總財產範圍範圍,,You have not selected your income and gross property range.,,,,16,,,14,,,19,,,31,personalVerify.errorSourceIncomeEmpty
+衛生保健,,Health Care,,,,4,,,4,,,5,,,9,personalVerify.professionHealthCare
+一般商業,,General Business,,,,4,,,4,,,5,,,9,personalVerify.professionGeneralBusiness
+軍人,,Military personnel,,,,2,,,2,,,2,,,4,personalVerify.professionSoldier
+農牧業,,Agriculture and Animal Industry,,,,3,,,3,,,4,,,6,personalVerify.professionAgricultureAndAnimalHusbandry
+新聞廣告業,,News and Advertising Industry,,,,5,,,5,,,7,,,11,personalVerify.professionNewsAndAdvertising
+公共事業,,Public Utilities,,,,4,,,4,,,5,,,9,personalVerify.professionPublicUtilities
+治安人員,,Security Personnel,,,,4,,,4,,,5,,,9,personalVerify.professionSecurityOfficer
+交通運輸業,,Transportation Industry,,,,5,,,5,,,7,,,11,personalVerify.professionTransportationIndustry
+製造業,,Manufacturing Industry,,,,3,,,3,,,4,,,6,personalVerify.professionManufacturing
+宗教團體,,Religious Groups,,,,4,,,4,,,5,,,9,personalVerify.professionReligiousGroup
+資訊業,,Information Industry,,,,3,,,3,,,4,,,6,personalVerify.professionInformationIndustry
+木材森林業,,Timber and Forest Industry,,,,5,,,5,,,7,,,11,personalVerify.professionTimberForestry
+文教機關,,Cultural and Educational Institutions,,,,4,,,4,,,5,,,9,personalVerify.professionEducationalInstitute
+建築工程業,,Construction Engineering Industry,,,,5,,,5,,,7,,,11,personalVerify.professionConstructionIndustry
+家庭管理,,Family Management,,,,4,,,4,,,5,,,9,personalVerify.professionFamilyManagement
+一般職業,,General Occupation,,,,4,,,4,,,5,,,9,personalVerify.professionGeneralOccupation
+礦業採石業,,Mining and Quarrying Industry,,,,5,,,5,,,7,,,11,personalVerify.professionMiningAndQuarrying
+餐旅業,,Restaurants and Travel Industry,,,,3,,,3,,,4,,,6,personalVerify.professionHospitalityIndustry
+娛樂業,,Entertainment Industry,,,,3,,,3,,,4,,,6,personalVerify.professionEntertainmentIndustry
+服務業,,Service Industry,,,,3,,,3,,,4,,,6,personalVerify.professionServiceIndustry
+運動人員,,Sports Personnel,,,,4,,,4,,,5,,,9,personalVerify.professionAthlete
+漁業,,Fishery,,,,2,,,2,,,2,,,4,personalVerify.professionFishery
+儲蓄,,Savings,,,,2,,,2,,,2,,,4,personalVerify.incomeSourceDeposit
+薪資收入,,Salary Income,,,,4,,,4,,,5,,,9,personalVerify.incomeSourcePay
+租金,,Rent,,,,2,,,2,,,2,,,4,personalVerify.incomeSourceRent
+貸款,,Loan,,,,2,,,2,,,2,,,4,personalVerify.incomeSourceLoan
+退休金,,Pension,,,,3,,,3,,,4,,,6,personalVerify.incomeSourcePension
+遺產,,Heritage,,,,2,,,2,,,2,,,4,personalVerify.incomeSourceHeritage
+不足一年,,Less than a year,,,,4,,,4,,,5,,,9,personalVerify.tradingExperienceRangeBelow1y
+一年以上兩年未滿,,Over one year and less than two years,,,,9,,,8,,,11,,,18,personalVerify.tradingExperienceMore1yBelow2y
+兩年以上四年未滿,,Over two years and less than four years,,,,9,,,8,,,11,,,18,personalVerify.tradingExperienceMore2yBelow4y
+四年以上,,Over four years,,,,4,,,4,,,5,,,9,personalVerify.tradingExperienceMore4y
+無經驗,,No experience,,,,3,,,3,,,4,,,6,personalVerify.tradingExperienceNo
+步驟1 - 個人資料驗證 (1/4),,Step 1-Personal Data Verification (1/4),,,,17,,,15,,,21,,,33,personalVerify.stepHeaderTitle
+共9題,,9 questions in total,,,,3,,,3,,,4,,,6,personalVerify.stepHeaderSubtitle
+"下一步, 文件驗證",,Next step: Document Verification,,,,8,,,7,,,9,,,15,personalVerify.nextStepButton
+國家或地區,,Country or Region,,,,5,,,5,,,7,,,11,personalVerify.addressDefault
+請輸入信用卡或護照的英文名稱,,Please enter your English name on your credit card or passport.,,,,16,,,14,,,19,,,31,personalVerify.englishNameHint
+職業別,,Occupation,,,,3,,,3,,,4,,,6,personalVerify.professionTitle
+請選擇職業別,,Please select an occupation.,,,,7,,,6,,,8,,,13,personalVerify.professionDefault
+請輸入身分證上的名字,,Please enter the name on your ID card.,,,,11,,,10,,,14,,,22,personalVerify.realNameHint
+縣市,,County and city,,,,2,,,2,,,2,,,4,personalVerify.cityHint
+區,,District,,,,1,,,1,,,1,,,2,personalVerify.distHint
+詳細地址,,Detailed address,,,,4,,,4,,,5,,,9,personalVerify.addressHint
+(可多選),,(multiple choices),,,,5,,,5,,,7,,,11,personalVerify.sourceIncomeSubTitle
+去完成,,Complete Now,,,,3,,,3,,,4,,,6,achievementsLevelList.typesUndone
+領取,,Receive,,,,2,,,2,,,2,,,4,achievementsLevelList.typesNotReceived
+每日任務,,Daily Task,,,,4,,,4,,,5,,,9,dailyMission.appBarTitle
+尚無每日任務,,No daily task yet,,,,7,,,6,,,8,,,13,dailyMission.emptyTip
+每日任務獎勵領取僅限「真實賬戶」交易行為,,Daily mission rewards are only available for transactions in Real Account.,,,,23,,,20,,,28,,,45,dailyMission.missionTip
+資料為空,,You must enter data.,,,,4,,,4,,,5,,,9,"requestError.dataEmpty,emptyPlace.tip"
+連線逾時,,Connection Timeout,,,,4,,,4,,,5,,,9,requestError.connectTimeOut
+糟糕 出現了一個錯誤,,"Oops, an error occured.",,,,10,,,9,,,12,,,20,"requestError.system,serverApiError.system"
+賬號密碼錯誤,,Wrong Password,,,,7,,,6,,,8,,,13,requestError.accPwdError
+賬戶已停權,,This account has been suspended.,,,,5,,,5,,,7,,,11,requestError.blackAccount
+交易資金不足,,Insufficient Funds,,,,7,,,6,,,8,,,13,requestError.capitalScarcity
+交易只可開倉,,Only for Opening Position transaction,,,,7,,,6,,,8,,,13,requestError.openPositionOnly
+交易只可平倉,,Only for Closing Position transaction,,,,7,,,6,,,8,,,13,requestError.closePositionOnly
+更新資料失敗,,Failed to update information,,,,7,,,6,,,8,,,13,requestError.updateDataFail
+此品項當前不可交易,,This product is currently unavailable.,,,,10,,,9,,,12,,,20,requestError.contractDisabled
+手機號格式錯誤,,Wrong Mobile Number Format,,,,8,,,7,,,9,,,15,requestError.phoneFormat
+手機驗證碼錯誤,,Wrong Mobile Verification Code,,,,8,,,7,,,9,,,15,requestError.phoneCode
+請先清空持倉,,Please close all your open positions.,,,,7,,,6,,,8,,,13,requestError.positionNotEmpty
+資金不足,,Insufficient Funds,,,,4,,,4,,,5,,,9,requestError.withdrawUnderFunding
+請先綁定銀行卡,,Please bind your bank card to your account.,,,,8,,,7,,,9,,,15,requestError.noBankBind
+戶名需與賬號名稱相同,,The account name must be the same as the name on the account.,,,,11,,,10,,,14,,,22,requestError.bankCardAccNoSame
+發生未預期錯誤,,An unexpected error occurred.,,,,8,,,7,,,9,,,15,requestError.unexpected
+請先切換狀態為實盤交易,,Please switch the status to live trading mode.,,,,12,,,11,,,15,,,24,requestError.simulateAccountNoFeature
+前筆訂單尚未完成,,The previous order has not been completed.,,,,9,,,8,,,11,,,18,requestError.preFundingOrderNoComplete
+金額超出範圍,,Beyond Amount Limit,,,,7,,,6,,,8,,,13,requestError.fundingOutPriceOutRange
+入金通道維護中,,The deposit channel is under maintenance.,,,,8,,,7,,,9,,,15,requestError.fundingInClose
+漲停跌停時停止交易,,Stop trading when the limit up or down is reached.,,,,10,,,9,,,12,,,20,"requestError.limitUpCanNotBuyIn,requestError.limitDownCanNotSellOut"
+已領取{n}個獎勵,,Have received {n} rewards,,,,7 + ?,,,6 + ?,,,8 + ?,,,13 + ?,receiveAwardPopup.receivedCount
+已領取「{n}」,,"Have Received ""{n}""",,,,5 + ?,,,5 + ?,,,7 + ?,,,11 + ?,receiveAwardPopup.receivedTitle
+前往歷史獎勵,,Go to Reward History,,,,7,,,6,,,8,,,13,receiveAwardPopup.historyButton
+今日不再提醒,,No more reminders today,,,,7,,,6,,,8,,,13,receiveAwardPopup.noTipToday
+信用卡線上刷卡,,Pay with Credit Card Online,,,,8,,,7,,,9,,,15,paymentMethod.creditTitle
+提供每月5至10次的免費跨行轉帳,,5 to 10 free inter-bank transfers are provided per month.,,,,18,,,16,,,22,,,36,paymentMethod.bankDescription
+天天刷享超高1.88%現金回饋,,Every day you get 1.88% cashback if purchasing with a credit card.,,,,16,,,14,,,19,,,31,paymentMethod.creditDescription
+推薦入金方式,,Recommended Deposit Method,,,,7,,,6,,,8,,,13,"paymentMethod.recommendedMethod,depositCategory.recommendedMethod"
+其餘入金方式,,Other Deposit Methods,,,,7,,,6,,,8,,,13,paymentMethod.otherMethod
+請選擇入金方法,,Please select a deposit method.,,,,8,,,7,,,9,,,15,depositCategory.appBarTitle
+"目前暫時無法提供任何入金方式
+請稍後再試",,No deposit methods can currently be provided. Please try again later.,,,,22,,,19,,,26,,,42,depositCategory.empty
+聯絡客服,,Contact Customer Support,,,,4,,,4,,,5,,,9,depositCategory.customerService
+請選擇入金方式,,Please select a deposit method.,,,,8,,,7,,,9,,,15,depositCategory.depositMethodHint
+使用信箱註冊,,Register with Email Address,,,,7,,,6,,,8,,,13,signUp.emailRegistrationTitle
+註冊成功,,Registration Successful,,,,4,,,4,,,5,,,9,signUp.signUpSuccess
+輸入信箱收到的驗證碼,,Enter verification code in the Email,,,,11,,,10,,,14,,,22,signUp.emailEnterCodeHint
+註冊即代表您同意我們的,,"If you register, you agree to our ",,,,12,,,11,,,15,,,24,signUp.agreeOurPrivacy
+隱私政策.,,privacy policies.,,,,4,,,4,,,5,,,9,signUp.agreeOurPrivacyValue
+已有帳號？,,Have an account already?,,,,5,,,5,,,7,,,11,"signUp.alreadyHaveAccountButton,signUpNavigation.alreadyHaveAccountButton"
+使用手機號碼註冊,,Register with Mobile Number,,,,9,,,8,,,11,,,18,signUp.phoneNumberRegistrationTitle
+輸入密碼,,Enter password,,,,4,,,4,,,5,,,9,"signUp.enterPasswordHint,login.enterPasswordHint"
+輸入邀請碼(非必填),,Enter an invitation code (not required),,,,11,,,10,,,14,,,22,signUp.enterReferralInputHint
+輸入簡訊收到的驗證碼,,Enter the SMS verification code,,,,11,,,10,,,14,,,22,"signUp.phoneNumberEnterCodeHint,phoneBind.phoneNumberEnterCodeHint"
+其餘註冊方式,,Other Registration Methods,,,,7,,,6,,,8,,,13,signUp.otherMethodTitle
+密碼強度不足，請至少輸入 6 個字元,,The password strength is insufficient. Please enter at least 6 characters.,,,,18,,,16,,,22,,,36,signUp.insufficientPasswordStrength
+超過一百個以上的交易品項,,Over 100 trading items,,,,14,,,12,,,16,,,27,signUpNavigation.benefit1
+二十四小時隨時交易,,Trade 24 hours a day,,,,10,,,9,,,12,,,20,signUpNavigation.benefit2
+免傭金以及低點差,,Commission-free and Low Spread,,,,9,,,8,,,11,,,18,signUpNavigation.benefit3
+免費的獨家見解,,Free Exclusive Insights,,,,8,,,7,,,9,,,15,signUpNavigation.benefit4
+歡迎,,Welcome,,,,2,,,2,,,2,,,4,signUpNavigation.welcomeTitle
+新使用者註冊,,New User Registration,,,,7,,,6,,,8,,,13,signUpNavigation.newUserTitle
+您還沒註冊嗎?,,Haven't registered yet?,,,,8,,,7,,,9,,,15,signUpNavigation.registeredYet
+圖表設置,,Chart Settings,,,,4,,,4,,,5,,,9,chartSetting.appBarTitle
+技術指標,,Technical Indicator,,,,4,,,4,,,5,,,9,chartSetting.indicatorIndex
+審核需要 3-5 個工作天，如有任何問題請聯絡客服人員。,,"The review takes 3-5 working days. If you have any questions, please contact our customer support.",,,,30,,,26,,,36,,,58,bankAccountDetail.auditStatusTip
+如欲修正或刪除出金帳戶，請聯繫客服人員進行處理。,,"If you want to correct or delete your withdrawal account, please contact customer support.",,,,28,,,24,,,33,,,54,bankAccountDetail.successStatusTip
+未過審原因,,Reasons for not approved,,,,5,,,5,,,7,,,11,bankAccountDetail.failStatusTip
+申請修改,,Apply for Modification,,,,4,,,4,,,5,,,9,"bankAccountDetail.applyModifyButton,bankAccountDetail.fixDataButton"
+修改密碼,,Change Password,,,,4,,,4,,,5,,,9,"accountManager.changePassword,changePassword.appBarTitle"
+設置,,Settings,,,,2,,,2,,,2,,,4,accountManager.appBarTitle
+帳戶資訊,,Account Information,,,,4,,,4,,,5,,,9,accountManager.accountInfo
+請選擇入金帳戶,,Please select a deposit account.,,,,8,,,7,,,9,,,15,depositChannel.appBarTitle
+入金帳戶,,Deposit Account,,,,4,,,4,,,5,,,9,depositChannel.depositAccount
+入金金額區間：,,Deposit amount range:,,,,8,,,7,,,9,,,15,depositChannel.amountRange
+信用卡刷卡,,Pay with Credit Card,,,,5,,,5,,,7,,,11,paymentCreditCard.appBarTitle
+提交資料中,,Submitting Information,,,,5,,,5,,,7,,,11,paymentCreditCard.getUrlLoading
+請輸入正確的日期,,Please enter the correct date.,,,,9,,,8,,,11,,,18,"paymentCreditCard.errorMonthFormat,paymentCreditCard.errorYearFormat"
+請輸入有效的銀行卡號,,Please enter the valid bank card number,,,,11,,,10,,,14,,,22,paymentCreditCard.errorCardNumberFormat
+請輸入正確的安全碼,,Please enter the correct security code.,,,,10,,,9,,,12,,,20,paymentCreditCard.errorCardSecurityFormat
+卡號,,Card Number,,,,2,,,2,,,2,,,4,paymentCreditCard.cardNumberTitle
+有效日期,,Valid Date,,,,4,,,4,,,5,,,9,paymentCreditCard.validThruTitle
+CVV 安全碼,,CVV Security Code,,,,7,,,6,,,8,,,13,paymentCreditCard.cardSecurityCodeTitle
+持卡人姓名,,Cardholder Name,,,,5,,,5,,,7,,,11,paymentCreditCard.cardOwnerTitle
+MM,,MM,,,,2,,,2,,,2,,,4,paymentCreditCard.monthHint
+YY,,YY,,,,2,,,2,,,2,,,4,paymentCreditCard.yearHint
+請輸入信用卡號,,Please enter your credit card number.,,,,8,,,7,,,9,,,15,paymentCreditCard.cardNumberHint
+安全碼,,Security code,,,,3,,,3,,,4,,,6,paymentCreditCard.cardSecurityCodeHint
+交易成功,,Successful Transaction,,,,4,,,4,,,5,,,9,paymentCreditCard.transactionCompleteTitle
+刷卡金額,,Credit Card Charges,,,,4,,,4,,,5,,,9,paymentCreditCard.swipeCardValue
+刷卡時間,,Credit card swipe time,,,,4,,,4,,,5,,,9,paymentCreditCard.swipeCardTime
+匯率,,Exchange Rate,,,,2,,,2,,,2,,,4,paymentCreditCard.exchangeRate
+立刻前往交易,,Go to Trade Now,,,,7,,,6,,,8,,,13,paymentCreditCard.toMarketButton
+"請使用本人的帳戶轉帳
+帳戶有效期限各家銀行不同
+請留意入金帳戶是否正確
+轉帳金額務必一致
+請勿重複轉帳",,"Please transfer funds through your own account. 
+Account validity period varies from bank to bank. 
+Please note whether the deposit account is correct. 
+The transfer amount must be consistent. 
+Please do not make duplicate transfers.",,,,55,,,47,,,65,,,105,depositCheck.contentTip
+確認變更,,The change has been confirmed.,,,,4,,,4,,,5,,,9,changePassword.modifyButton
+"密碼變更成功, 請重新登入",,The password was changed successfully. Please log in again.,,,,12,,,11,,,15,,,24,changePassword.changeSuccessToast
+驗證電話,,Verify Phone Number,,,,4,,,4,,,5,,,9,phoneBind.appBarTitle
+已成功綁定電話,,Phone number bound successfully,,,,8,,,7,,,9,,,15,phoneBind.bindSuccess
+將會需要 1-5 個工作天，確認驗證完畢，您就可以入金，享受交易了,,"It will take 1-5 working days. After the verification is completed, you can deposit funds and enjoy the transaction.",,,,36,,,31,,,43,,,69,identifyVerificationResult.content
+回首頁,,Return to Homepage,,,,3,,,3,,,4,,,6,identifyVerificationResult.backToHome
+餘額不足,,Insufficient balance,,,,4,,,4,,,5,,,9,"serverApiError.payment1,serverApiError.order2"
+金額超出限制,,The amount exceeds the limit,,,,7,,,6,,,8,,,13,serverApiError.payment2
+每日出金次數已達上限,,The maximum number of daily withdrawals has been reached,,,,11,,,10,,,14,,,22,serverApiError.payment3
+"當前已有出金訂單審核中, 請勿重複出金",,"There is a withdrawal order review, please do not repeat the withdrawal",,,,20,,,17,,,23,,,38,serverApiError.payment4
+當前非出金時段,,Not in withdrawal hours,,,,8,,,7,,,9,,,15,serverApiError.payment5
+驗證碼錯誤,,Verification code error,,,,5,,,5,,,7,,,11,serverApiError.account1
+"資料已綁定, 請勿重複綁定",,"The information has been bound, please do not bind it again",,,,12,,,11,,,15,,,24,serverApiError.account2
+"實名認證資料已綁定, 請勿重複綁定",,"The real-name authentication information has already been bound, please do not bind it again",,,,17,,,15,,,21,,,33,serverApiError.account3
+"無法註冊, 請聯繫客服",,"Unable to register, please contact customer service",,,,10,,,9,,,12,,,20,serverApiError.account4
+請先綁定手機號,,Please connect your phone first,,,,8,,,7,,,9,,,15,serverApiError.account5
+查無此產品,,No product found,,,,5,,,5,,,7,,,11,serverApiError.order1
+查無持倉,,No open positions yet.,,,,4,,,4,,,5,,,9,serverApiError.order3
+"綁定失敗, 已綁定過的資料",,"Binding failed, already bound data",,,,12,,,11,,,15,,,24,serverApiError.account6
+帳密錯誤,,Account password error,,,,4,,,4,,,5,,,9,serverApiError.http400
+登入成功,,Logged in successfully,,,,4,,,4,,,5,,,9,login.loginSuccess
+立刻註冊,,Register Now,,,,4,,,4,,,5,,,9,login.registerNowButton
+忘記密碼？,,Forgot your password?,,,,5,,,5,,,7,,,11,login.forgetPasswordButton
+手機登入,,Mobile login,,,,4,,,4,,,5,,,9,login.phoneLogin
+信箱登入,,Email login,,,,4,,,4,,,5,,,9,login.emailLogin
+保證金比例過低提示! ({percent}%),,Reminder of margin ratio too low! ({percent}%),,,,15 + ?,,,13 + ?,,,18 + ?,,,29 + ?,marginLevelWarningBar.tip
+身份證明文件,,Identity Document,,,,7,,,6,,,8,,,13,fileVerify.idCardTitle
+缺少身分證正面,,Lack of the front of your ID card,,,,8,,,7,,,9,,,15,fileVerify.errorIdForwardEmpty
+缺少身分證反面,,Lack of the reverse side of your ID card,,,,8,,,7,,,9,,,15,fileVerify.errorIdBackwardEmpty
+請上傳護照,,Please upload your passport.,,,,5,,,5,,,7,,,11,fileVerify.errorPassportEmpty
+缺少駕照正面,,Lack of the front of your driver's license,,,,7,,,6,,,8,,,13,fileVerify.errorDrivingLicenseForwardEmpty
+缺少駕照反面,,Lack of the reverse side of your driver's license,,,,7,,,6,,,8,,,13,fileVerify.errorDrivingLicenseBackwardEmpty
+請上傳戶口名簿/居留證,,Please upload your household certificate/residence certificate.,,,,12,,,11,,,15,,,24,fileVerify.errorAccountBookOrResidentPermitEmpty
+"下一步, 身分驗證",,Next step: Identity Verification,,,,8,,,7,,,9,,,15,fileVerify.nextStepIdCard
+點擊上傳或拍攝身份證明文件正面,,Click to upload or take a photo of the front of your identity document.,,,,17,,,15,,,21,,,33,fileVerify.tapUploadIdCardForward
+點擊上傳或拍攝身份證明文件反面,,Click to upload or take a photo of the reverse side of your identity document.,,,,17,,,15,,,21,,,33,fileVerify.tapUploadIdCardBackward
+點擊上傳或拍攝護照,,Click to upload or take a photo of your passport.,,,,10,,,9,,,12,,,20,fileVerify.tapUploadPassport
+點擊上傳或拍攝駕照正面,,Click to upload or take a photo of the front of your driver's license.,,,,12,,,11,,,15,,,24,fileVerify.tapUploadDrivingLicenseForward
+點擊上傳或拍攝駕照反面,,Click to upload or take the reverse side of your driver's license.,,,,12,,,11,,,15,,,24,fileVerify.tapUploadDrivingLicenseBackward
+點擊上傳或拍攝戶口名簿/居留證,,Click to upload or take a photo of your household certificate/residence certificate.,,,,17,,,15,,,21,,,33,fileVerify.tapUploadAccountBookOrResidentPermit
+步驟2 - 文件驗證(2/4),,Step 2-Document Verification (2/4),,,,15,,,13,,,18,,,29,fileVerify.stepHeaderTitle
+共1題,,1 question in total,,,,3,,,3,,,4,,,6,"fileVerify.stepHeaderSubtitle,handIdCardVerify.stepHeaderSubtitle,proveIdVerify.stepHeaderSubtitle"
+請確保文件內容顯示您的全名、出生日期、證件開立日期,,"Please make sure that your full name, birth date, and ID issuance date are shown in the document.",,,,29,,,25,,,35,,,56,fileVerify.contentTip
+合格文件,,Qualified document,,,,4,,,4,,,5,,,9,fileVerify.qualifiedFile
+"照片清晰
+解析度高
+證件四角皆有入鏡",,"Clear photos 
+High resolution 
+The four corners of the ID card are shown in the photo.",,,,18,,,16,,,22,,,36,fileVerify.qualifiedFileTip
+不合格文件,,Unqualified document,,,,5,,,5,,,7,,,11,fileVerify.failedFile
+"照片模糊、反光
+解析度過低
+證件四角被裁切",,"Blurred and reflective photo 
+Low Resolution 
+The four corners of the ID document are cut.",,,,22,,,19,,,26,,,42,fileVerify.failedFileTip
+身分證,,ID card,,,,3,,,3,,,4,,,6,fileVerify.identityCard
+護照,,Passport,,,,2,,,2,,,2,,,4,fileVerify.passport
+駕照,,Driver's license,,,,2,,,2,,,2,,,4,fileVerify.drivingLicense
+戶口名簿 / 居留證,,Household certificate/Residence certificate,,,,9,,,8,,,11,,,18,fileVerify.accountBookOrResidentPermit
+請輸入證件號碼,,Please enter the ID number,,,,8,,,7,,,9,,,15,fileVerify.errorIdNumberEmpty
+請輸入您的證件號碼,,Please enter your ID number,,,,10,,,9,,,12,,,20,fileVerify.idNumberHint
+請先上傳手持證件照,,Please upload a photo of your hand-holding the ID card.,,,,10,,,9,,,12,,,20,handIdCardVerify.errorPictureEmpty
+完成身份證明上傳,,Uploading the identity documents is completed.,,,,9,,,8,,,11,,,18,handIdCardVerify.completeButton
+"點擊上傳或拍攝
+手持身分證或護照的自拍照",,Click to upload or take a selfie of hand-holding your ID Card or Passport,,,,22,,,19,,,26,,,42,handIdCardVerify.tapUpload
+"手持證件照自拍上傳時,須符合以下條件",,The following conditions must be met when uploading a selfie of hand-holding your ID card.,,,,20,,,17,,,23,,,38,handIdCardVerify.pictureTipTitle
+請保留頭頂至下巴完整輪廓,,Please show the complete outline from the top of your head to your chin.,,,,14,,,12,,,16,,,27,handIdCardVerify.pictureTipContent1
+身份證置於臉旁勿遮住臉部,,Place your ID card next to your face and do not cover your face.,,,,14,,,12,,,16,,,27,handIdCardVerify.pictureTipContent2
+手指請勿遮住證件文字,,Do not cover the text on the ID card with your fingers.,,,,11,,,10,,,14,,,22,handIdCardVerify.pictureTipContent3
+步驟4 - 證明身份(4/4),,Step 4-Identity Proofing (4/4),,,,15,,,13,,,18,,,29,handIdCardVerify.stepHeaderTitle
+請先上傳信件照片,,Please upload photos of your letters.,,,,9,,,8,,,11,,,18,proveIdVerify.errorLetterEmpty
+請先上傳帳單照片,,Please upload photos of your bills.,,,,9,,,8,,,11,,,18,proveIdVerify.errorBillEmpty
+信件,,Letter,,,,2,,,2,,,2,,,4,proveIdVerify.letterTypeTitle
+帳單,,Bill,,,,2,,,2,,,2,,,4,proveIdVerify.billTypeTitle
+證明身份,,Identity Proofing,,,,4,,,4,,,5,,,9,proveIdVerify.typeSelectTitle
+點擊上傳或拍攝信件,,Click to upload or take a photo of your letter.,,,,10,,,9,,,12,,,20,proveIdVerify.uploadLetterTitle
+點擊上傳或拍攝帳單,,Click to upload or take a photo of your bill.,,,,10,,,9,,,12,,,20,proveIdVerify.uploadBillTitle
+步驟3 - 證明身份(3/4),,Step 3-Identity Proofing (3/4),,,,15,,,13,,,18,,,29,proveIdVerify.stepHeaderTitle
+"下一步, 證明身份",,Next step: Identity Proofing,,,,8,,,7,,,9,,,15,proveIdVerify.nextStepProve
+重新上傳,,Re-upload,,,,4,,,4,,,5,,,9,imagePicker.reUpload
+加入照片,,Add Photos,,,,4,,,4,,,5,,,9,imagePicker.sheet.title
+拍照,,Take photos,,,,2,,,2,,,2,,,4,imagePicker.sheet.camera
+從相簿中選取,,Select from photo album,,,,7,,,6,,,8,,,13,imagePicker.sheet.gallery
+去入金,,Deposit Now,,,,3,,,3,,,4,,,6,futuresMarket.toDeposit
+身份驗證,,Identity Verification,,,,4,,,4,,,5,,,9,identifyVerification.appBarTitle
+上傳送審資料成功,,Documents for Review Uploaded and Submitted Successfully,,,,9,,,8,,,11,,,18,identifyVerification.uploadSuccess
+(已讀),,(Read),,,,4,,,4,,,5,,,9,messageNotify.haveRead
+輸入搜索條件,,Enter search criteria,,,,7,,,6,,,8,,,13,qaSearch.searchHint
+搜索結果,,Search Results,,,,4,,,4,,,5,,,9,qaSearch.searchResult
+請輸入搜索條件,,Please enter search criteria.,,,,8,,,7,,,9,,,15,qaSearch.searchTextEmptyTip
+無匹配資料,,No information in search results,,,,5,,,5,,,7,,,11,qaSearch.searchResultEmptyTip
+用戶協議,,User Agreement,,,,4,,,4,,,5,,,9,userProtocol.appBarTitle
+今日不再通知,,No more notifications today,,,,7,,,6,,,8,,,13,marginLevelWarningPopup.todayNoNotify
+保證金比例,,Margin ratio,,,,5,,,5,,,7,,,11,marginLevelWarningPopup.marginLevel
+保證金比例風險過高,,Margin ratio at high risk,,,,10,,,9,,,12,,,20,marginLevelWarningPopup.warningReason
+暫不更新,,Not updated for the moment,,,,4,,,4,,,5,,,9,updateVersionPopup.ignoreThisTime
+全面更新,,Fully Updated,,,,4,,,4,,,5,,,9,updateVersionPopup.newVersionTitle
+版本,,Version,,,,2,,,2,,,2,,,4,updateVersionPopup.newVersionPrefix
+發現新版本,,Discover New Version,,,,5,,,5,,,7,,,11,updateVersionPopup.foundNewVersion
+下載中,,Downloading,,,,3,,,3,,,4,,,6,updateVersionPopup.downloading
+立即更新,,Update Now,,,,4,,,4,,,5,,,9,updateVersionPopup.updateImmediately
+發送驗證碼,,Send,,,,5,,,5,,,7,,,11,captchaButton.sendPhoneCode
+區碼,,Area code,,,,2,,,2,,,2,,,4,dialCodeContainer.hint
+最多可選 {max} 項,,At most {max} items can be selected.,,,,5 + ?,,,5 + ?,,,7 + ?,,,11 + ?,checkboxInputContainer.reachMaxToast
+最少需選 {min} 項,,At least {min} items need to be selected.,,,,5 + ?,,,5 + ?,,,7 + ?,,,11 + ?,checkboxInputContainer.reachMinToast
+微信或LINE ID欄位須擇一填寫,,You must select either WeChat or LINE ID field to fill in.,,,,18,,,16,,,22,,,36,"errorInputValidator.userLineEmpty,errorInputValidator.userWechatEmpty"
+Line Id格式有誤,,Wrong Line ID Format,,,,11,,,10,,,14,,,22,errorInputValidator.userLineFormat
+微信格式有誤,,Wrong WeChat Format,,,,7,,,6,,,8,,,13,errorInputValidator.userWechatFormat
+代號不得為空,,Please enter a ticker symbol.,,,,7,,,6,,,8,,,13,errorInputValidator.bankCodeEmpty
+代號格式錯誤,,Wrong Symbol Format,,,,7,,,6,,,8,,,13,errorInputValidator.bankCodeFormat
+帳號不得為空,,Please enter your account number.,,,,7,,,6,,,8,,,13,errorInputValidator.bankAccountEmpty
+帳號格式有誤,,Wrong Account Number Format,,,,7,,,6,,,8,,,13,errorInputValidator.bankAccountFormat
+戶名不得為空,,Please enter your account name.,,,,7,,,6,,,8,,,13,errorInputValidator.bankUsernameEmpty
+戶名格式有誤,,Wrong Account Name Format,,,,7,,,6,,,8,,,13,errorInputValidator.bankUsernameFormat
+Email格式錯誤,,Wrong Email Format,,,,10,,,9,,,12,,,20,errorInputValidator.emailFormat
+Email不得為空,,Please enter your Email.,,,,10,,,9,,,12,,,20,errorInputValidator.emailEmpty
+手機號不得為空,,Please enter your mobile number.,,,,8,,,7,,,9,,,15,errorInputValidator.phoneEmpty
+手機號格式有誤,,Wrong Mobile Number Format,,,,8,,,7,,,9,,,15,errorInputValidator.phoneFormat
+密碼格式錯誤,,Wrong Password Format,,,,7,,,6,,,8,,,13,errorInputValidator.passwordFormat
+密碼不得為空,,Please enter your password.,,,,7,,,6,,,8,,,13,errorInputValidator.passwordEmpty
+驗證碼格式錯誤,,Wrong Verification Code Format,,,,8,,,7,,,9,,,15,errorInputValidator.captchaFormat
+驗證碼不得為空,,Please enter your verification code.,,,,8,,,7,,,9,,,15,errorInputValidator.captchaEmpty
+推薦碼不得為空,,Please enter your referral code.,,,,8,,,7,,,9,,,15,errorInputValidator.referralCodeEmpty
+推薦碼格式有誤,,Wrong Referral Code Format,,,,8,,,7,,,9,,,15,errorInputValidator.referralCodeFormat
+尚無平倉,,No close position yet,,,,4,,,4,,,5,,,9,agentFundingHistoryClose.emptyTip
+尚無開倉,,No open position yet,,,,4,,,4,,,5,,,9,agentFundingHistoryOpen.emptyTip
+尚無可使用獎勵,,No rewards available yet,,,,8,,,7,,,9,,,15,awardAvailable.emptyTip
+尚無歷史獎勵,,No reward history yet,,,,7,,,6,,,8,,,13,awardHistory.emptyTip
+請輸入PIN碼,,Please enter your PIN.,,,,8,,,7,,,9,,,15,securityVerifyMessage.pinInputTitle
+生物辨識,,Biometric,,,,4,,,4,,,5,,,9,securityVerifyMessage.biometric
+驗證成功,,Verification Successful,,,,4,,,4,,,5,,,9,securityVerifyMessage.biometricValidateSuccess
+驗證失敗,,Varification failed,,,,4,,,4,,,5,,,9,securityVerifyMessage.biometricValidateFail
+掃描指紋或臉部進行身份驗證,,Scan your fingerprint or face for ID verification.,,,,15,,,13,,,18,,,29,securityVerifyMessage.androidLocalizedReason
+掃描指紋進行身份驗證,,Scan your fingerprint for ID verification.,,,,11,,,10,,,14,,,22,securityVerifyMessage.iosLocalizedReason
+觸摸感應,,Touch sensing,,,,4,,,4,,,5,,,9,securityVerifyMessage.fingerprintHint
+"無法識別指紋, 請再嘗試一次",,The fingerprint cannot be recognized. Please try again.,,,,14,,,12,,,16,,,27,securityVerifyMessage.fingerprintNotRecognized
+指紋識別成功,,Fingerprint Recognition Successful,,,,7,,,6,,,8,,,13,securityVerifyMessage.fingerprintSuccess
+指紋驗證,,Fingerprint Verification,,,,4,,,4,,,5,,,9,securityVerifyMessage.signInTitle
+指紋辨識需求,,Fingerprint Recognition Requirements,,,,7,,,6,,,8,,,13,securityVerifyMessage.fingerprintRequiredTitle
+去設定,,Set Up Now,,,,3,,,3,,,4,,,6,securityVerifyMessage.goToSettingsButton
+指紋辨識尚未開啓或設定,,Fingerprint recognition is not turned on or set up.,,,,12,,,11,,,15,,,24,securityVerifyMessage.goToSettingsDescription
+"生物辨識驗證被禁用, 請執行鎖定以及解鎖螢幕後以重新啓用",,Biometric verification is disabled. Please perform locking and unlocking the screen to restart.,,,,30,,,26,,,36,,,58,securityVerifyMessage.lockOut
+好的,,No problem.,,,,2,,,2,,,2,,,4,securityVerifyMessage.itsOk
+市價成交,,Market Price Closing,,,,4,,,4,,,5,,,9,"orderTransactionType.market,positionOpenReason.market"
+指價成交,,Index Price Closing,,,,4,,,4,,,5,,,9,orderTransactionType.trust
+止盈成交,,Take Profit Closing,,,,4,,,4,,,5,,,9,orderTransactionType.stopProfit
+止損成交,,Stop Loss Closing,,,,4,,,4,,,5,,,9,orderTransactionType.stopLoss
+時間強平,,Time Forced Liquidation,,,,4,,,4,,,5,,,9,orderTransactionType.timeout
+資金強平,,Funds Forced Liquidation,,,,4,,,4,,,5,,,9,orderTransactionType.fundingLimit
+雲端跟單,,Cloud Order-handling Closing,,,,4,,,4,,,5,,,9,orderTransactionType.followCloud
+套利指標1分鐘,,Arbitrage Indicator 1 Minute,,,,8,,,7,,,9,,,15,orderTransactionType.arbitrage1
+套利指標3分鐘,,Arbitrage Indicator 3 Minutes,,,,8,,,7,,,9,,,15,orderTransactionType.arbitrage3
+套利指標5分鐘,,Arbitrage Indicator 5 Minutes,,,,8,,,7,,,9,,,15,orderTransactionType.arbitrage5
+實時平均策略,,Real-time Averaging Strategy,,,,7,,,6,,,8,,,13,orderTransactionType.realTimeAverage
+跟單成交,,Walkthrough Order Closing,,,,4,,,4,,,5,,,9,orderTransactionType.track
+合約強平,,Contract Forced Liquidation,,,,4,,,4,,,5,,,9,"orderTransactionType.contract,positionCloseReason.contract"
+限價成交,,Price Limit Closing,,,,4,,,4,,,5,,,9,positionOpenReason.limit
+保證金強平,,Margin Forced Liquidation,,,,5,,,5,,,7,,,11,positionCloseReason.margin
+止盈平倉,,Take Profit Close Position,,,,4,,,4,,,5,,,9,positionCloseReason.stopProfit
+止損平倉,,Stop Loss Close Position,,,,4,,,4,,,5,,,9,positionCloseReason.stopLoss
+市價平倉,,Market Price Close Position,,,,4,,,4,,,5,,,9,positionCloseReason.user
+還需等待 {seconds} 秒,,You still need to wait {seconds} seconds.,,,,5 + ?,,,5 + ?,,,7 + ?,,,11 + ?,captchaBloc.statusWait
+請選擇區碼,,Please select a area code.,,,,5,,,5,,,7,,,11,captchaBloc.selectDialCodeFirst
+驗證碼已發送,,A verification code has been sent.,,,,7,,,6,,,8,,,13,captchaBloc.captchaSendSuccess
+溫馨提醒,,Friendly reminder,,,,4,,,4,,,5,,,9,descriptionBevelConfirmPopup.WarmReminder
+是否要登出？,,Do you want to log out?,,,,7,,,6,,,8,,,13,descriptionBevelConfirmPopup.checkLogout
+新增帳戶設定,,Add Account Settings,,,,7,,,6,,,8,,,13,bindPaymentInfo.appBarTitleAdd
+編輯帳戶設定,,Edit Account Settings,,,,7,,,6,,,8,,,13,bindPaymentInfo.appBarTitleEdit
+選擇,,Select,,,,2,,,2,,,2,,,4,bindPaymentInfo.select
+請選擇金流類別,,Please select a payment flow category.,,,,8,,,7,,,9,,,15,bindPaymentInfo.categorySelectHint
+帳號,,Account Number,,,,2,,,2,,,2,,,4,bindPaymentInfo.account
+其他欄位,,Other Fields,,,,4,,,4,,,5,,,9,bindPaymentInfo.otherFields
+請輸入帳號,,Please enter your account number.,,,,5,,,5,,,7,,,11,bindPaymentInfo.accountHint
+請輸入,,Please enter.,,,,3,,,3,,,4,,,6,bindPaymentInfo.inputHint
+審核圖片等,,"Pictures Review, etc.",,,,5,,,5,,,7,,,11,bindPaymentInfo.auditTitle
+請提供包含戶名為您本人的存摺封面或銀行卡照片。,,Please provide a photo of the cover of your passbook or bank card with your account name.,,,,27,,,23,,,32,,,51,bindPaymentInfo.auditDescription
+點擊上傳,,Click and Upload,,,,4,,,4,,,5,,,9,bindPaymentInfo.upload
+送出等待審核,,Sent out for Review,,,,7,,,6,,,8,,,13,bindPaymentInfo.sendWaitingAuditButton
+已提交審核,,Submitted for review,,,,5,,,5,,,7,,,11,bindPaymentInfo.bindSuccess
+已重新提交審核,,Resubmitted for review,,,,8,,,7,,,9,,,15,bindPaymentInfo.updateSuccess
+不得為空,,An answer must be entered.,,,,4,,,4,,,5,,,9,bindPaymentInfo.errorEmptyInput
+此出金方式已有綁定帳戶，如需修改請聯繫客服,,,,,,24,,,21,,,29,,,47,bindPaymentInfo.reachMaxLimit
+請選擇出金帳戶,,Please select a withdrawal account.,,,,8,,,7,,,9,,,15,withdrawAccount.appBarTitle
+出金帳戶,,Withdrawal Account,,,,4,,,4,,,5,,,9,withdrawAccount.listTitle
+出金金額區間{start}-{end},,Withdrawal Amount Range {start}-{end},,,,7 + ?,,,6 + ?,,,8 + ?,,,13 + ?,withdrawAccount.amountRange
+帳戶狀態,,Account Status,,,,4,,,4,,,5,,,9,withdrawAccount.accountStatus
+您的倉位已更變為,,Your position is changed to,,,,9,,,8,,,11,,,18,tradeModeChangeSuccessPopup.changeTitle
+模式,,Mode,,,,2,,,2,,,2,,,4,tradeModeChangeSuccessPopup.mode
+值,,Value,,,,1,,,1,,,1,,,2,numberInputRangeField.value
+查無活動,,No Event found,,,,4,,,4,,,5,,,9,campaign.emptyTip
+線路 {index},,Line {index},,,,2 + ?,,,2 + ?,,,2 + ?,,,4 + ?,serverLineSetting.linePrefix

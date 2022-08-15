@@ -319,6 +319,10 @@ class CsvData {
   Map<String, dynamic> _parentList(List<String> spKeys, String value) {
     Map<String, dynamic> map = {};
 
+    if(value.isEmpty){
+      return map;
+    }
+
     if (spKeys.length == 1 && spKeys.first.isEmpty) {
       return {};
     }
