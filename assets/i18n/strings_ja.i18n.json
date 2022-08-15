@@ -61,6 +61,7 @@
     "waitVerificationRealAccount": "実際のアカウントレビューを待っています",
     "levelDiamond": "ダイヤモンドクラス",
     "member": "メンバー",
+    "login": "ログインする",
     "logoutSuccess": "正常にログインします"
   },
   "futuresMarketContent": {
@@ -73,7 +74,9 @@
     "buyPrice": "購入価格",
     "customTab": "選択",
     "searchHint": "トランザクションの品種 /英語名を入力します",
-    "availableBalance": "利用可能残高"
+    "availableBalance": "利用可能残高",
+    "lastPrice": "最新の価格",
+    "changeRate": "引用の変更"
   },
   "home": {
     "depositButton": "ストレージ値",
@@ -84,6 +87,8 @@
     "buyingPriceTitle": "購入価格",
     "futuresTabFavorite": "選択",
     "searchHint": "トランザクションの品種 /英語名を入力します",
+    "lastPrice": "最新の価格",
+    "changeRate": "引用の変更",
     "defaultBannerTitle": "より多くのトランザクション製品が安全です",
     "defaultBannerSubtitle": "直感的な多様な注文ツールを注文する",
     "moreTransaction": "より多くのトランザクション",
@@ -96,7 +101,66 @@
     "tradeListButton": "オーダーリスト",
     "eventButton": "アクティビティ",
     "tutorialButton": "教育",
-    "futuresTabTop": "人気のある取引"
+    "futuresTabTop": "人気のある取引",
+    "spreadPrefix": "ポイントの違い"
+  },
+  "paymentHistory": {
+    "typeDeposit": "ストレージ値",
+    "appBarTitle": "ゴールドレコードに出入りする",
+    "typeWithdraw": "出金",
+    "fee": "手数料",
+    "orderSerial": "単一番号",
+    "filterPopup": {
+      "clearButton": "削除する",
+      "filterButton": "フィルター",
+      "applyTimeHint": "日付を選択してください",
+      "directionHint": "タイプを選択してください",
+      "popupTitle": "懲戒金の記録スクリーニング",
+      "directionTitle": "ゴールドタイプ",
+      "categoryTitle": "出入りする方法",
+      "categoryHint": "出入りする方法を選択してください",
+      "statusTitle": "州",
+      "statusHint": "ステータスを選択してください",
+      "amountTitle": "金額",
+      "amountMaxHint": "最高",
+      "amountMinHint": "最低",
+      "applyTimeTitle": "時間を確認します"
+    },
+    "paymentDetail": "詳細",
+    "paymentTotal": "合計金額",
+    "withdrawTotal": "金の総量",
+    "method": "仕方",
+    "type": "タイプ",
+    "dateTitle": "日にち",
+    "statusAudit": "レビュー中",
+    "orderStatusWithdrawAudit": "レビュー中",
+    "statusFail": "レビュー中",
+    "orderStatusDepositAudit": "レビュー中",
+    "orderStatusWithdrawHandle": "レビュー中",
+    "statusWait": "待つ",
+    "statusSuccess": "終了",
+    "historyEmptyTip": "エントリアンドエグジットゴールドレコードはありません",
+    "historyErrorTip": "情報を取得するときにエラーが発生します",
+    "orderStatusDepositSuccess": "入金成功",
+    "orderStatusWithdrawSuccess": "金で成功します",
+    "orderStatusDepositWaitPay": "未払い",
+    "orderStatusWithdrawReject": "監査失敗"
+  },
+  "agentUserPaymentHistoryList": {
+    "deposit": "ストレージ値",
+    "withdraw": "出金",
+    "methodTitle": "仕方",
+    "typesTitle": "タイプ",
+    "dateTitle": "日にち",
+    "orderStatusWithdrawAudit": "レビュー中",
+    "orderStatusFail": "レビュー中",
+    "orderStatusDepositAudit": "レビュー中",
+    "orderStatusWithdrawHandle": "レビュー中",
+    "orderStatusDepositSuccess": "入金成功",
+    "orderStatusWithdrawSuccess": "金で成功します",
+    "orderStatusDepositWaitPay": "未払い",
+    "orderStatusWithdrawReject": "監査失敗",
+    "nameDescription": "詳細のエージェントから検出されたリスト"
   },
   "menu": {
     "positions": "位置",
@@ -112,28 +176,28 @@
   },
   "agentFundingPositionsList": {
     "profitLossTitle": "利益と損失",
+    "handlingFeeTitle": "手数料",
+    "singleNumberTitle": "単一番号",
     "buyingTitle": "買う",
     "sellTitle": "売る",
-    "handlingFeeTitle": "手数料",
     "leverageSettingTitle": "設定を活用します",
     "generalProfit": "総利益と損失",
     "openingPriceTitle": "オープニング価格",
     "stopProfitPrice": "利益価格",
     "stopLossPrice": "損失価格を停止します",
-    "singleNumberTitle": "単一番号",
     "repairImmediatelyHint": "すぐに",
     "openMarginTitle": "つなぐ"
   },
   "agentFundingPositionsDetail": {
     "profitLossTitle": "利益と損失",
+    "handlingFeeTitle": "手数料",
+    "singleNumberTitle": "単一番号",
     "buyingTitle": "買う",
     "sellTitle": "売る",
-    "handlingFeeTitle": "手数料",
     "leverageSettingTitle": "設定を活用します",
     "generalProfit": "総利益と損失",
     "stopProfitPrice": "利益価格",
     "stopLossPrice": "損失価格を停止します",
-    "singleNumberTitle": "単一番号",
     "repairImmediatelyHint": "すぐに",
     "openMarginTitle": "つなぐ",
     "copyButton": "コピー",
@@ -158,6 +222,7 @@
   },
   "positions": {
     "profitLoss": "利益と損失",
+    "lastPrice": "最新の価格",
     "openPositionPrice": "オープニング価格",
     "closePosition": "液体",
     "occupyMargin": "デポジット",
@@ -167,12 +232,14 @@
     "selectAll": "すべて選択",
     "emptyTip": "ハンギングオーダーはありません",
     "emptyButton": "取引を開始します",
-    "lastPrice": "最新の価格",
     "resetSelect": "差し押さえ",
     "closeMultiPosition": "バッチクロージャー",
     "closePositionLotsOutRange": "トランザクションの数は、所有者の数を超えています",
     "isConfirmClosePosition": "位置を決定します",
-    "limitedTimePrice": "限られた時間の価格"
+    "limitedTimePrice": "限られた時間の価格",
+    "lastPriceTitle": "現在の価格",
+    "stopLoss": "停止損失",
+    "stopProfit": "利益を上げます"
   },
   "transactionHistory": {
     "profitLoss": "利益と損失",
@@ -214,88 +281,30 @@
   "agentUserPaymentHistory": {
     "appBarTitle": "ゴールドレコードに出入りする",
     "filterPopup": {
-      "cancelButton": "キャンセル",
       "cleanButton": "削除する",
       "filterButton": "フィルター",
       "dateButtonHint": "日付を選択してください",
       "typesButtonHint": "タイプを選択してください",
       "popupTitle": "懲戒金の記録スクリーニング",
-      "dateTitle": "申請日",
       "typesTitle": "ゴールドタイプ",
       "methodTitle": "出入りする方法",
       "methodButtonHint": "出入りする方法を選択してください",
       "statusTitle": "州",
       "statusButtonHint": "ステータスを選択してください",
-      "amountTitle": "金額"
+      "amountTitle": "金額",
+      "cancelButton": "キャンセル",
+      "dateTitle": "申請日"
     },
-    "emptyTip": "準備ができていない情報",
     "depositWithdrawalDetailsTitle": "詳細",
     "totalDeposit": "合計金額",
-    "totalWithdrawal": "金の総量"
-  },
-  "paymentHistory": {
-    "appBarTitle": "ゴールドレコードに出入りする",
-    "typeWithdraw": "出金",
-    "fee": "手数料",
-    "orderSerial": "単一番号",
-    "filterPopup": {
-      "amountMaxHint": "最高",
-      "amountMinHint": "最低",
-      "clearButton": "削除する",
-      "filterButton": "フィルター",
-      "applyTimeHint": "日付を選択してください",
-      "directionHint": "タイプを選択してください",
-      "popupTitle": "懲戒金の記録スクリーニング",
-      "directionTitle": "ゴールドタイプ",
-      "categoryTitle": "出入りする方法",
-      "categoryHint": "出入りする方法を選択してください",
-      "statusTitle": "州",
-      "statusHint": "ステータスを選択してください",
-      "amountTitle": "金額",
-      "applyTimeTitle": "時間を確認します"
-    },
-    "paymentDetail": "詳細",
-    "paymentTotal": "合計金額",
-    "withdrawTotal": "金の総量",
-    "method": "仕方",
-    "type": "タイプ",
-    "dateTitle": "日にち",
-    "statusAudit": "レビュー中",
-    "orderStatusWithdrawAudit": "レビュー中",
-    "statusWait": "待つ",
-    "statusSuccess": "終了",
-    "statusFail": "処理",
-    "typeDeposit": "入金",
-    "historyEmptyTip": "エントリアンドエグジットゴールドレコードはありません",
-    "historyErrorTip": "情報を取得するときにエラーが発生します",
-    "orderStatusDepositAudit": "処理",
-    "orderStatusWithdrawHandle": "処理",
-    "orderStatusDepositSuccess": "入金成功",
-    "orderStatusWithdrawSuccess": "金で成功します",
-    "orderStatusDepositWaitPay": "未払い",
-    "orderStatusWithdrawReject": "監査失敗"
+    "totalWithdrawal": "金の総量",
+    "emptyTip": "準備ができていない情報"
   },
   "withdraw": {
     "appBarTitle": "出金",
     "withdrawPriceRangeTip": "交差範囲：{unit} {range}",
     "balanceTitle": "バランス",
     "withdrawAll": "すべてを取り出します"
-  },
-  "agentUserPaymentHistoryList": {
-    "withdraw": "出金",
-    "methodTitle": "仕方",
-    "typesTitle": "タイプ",
-    "dateTitle": "日にち",
-    "orderStatusWithdrawAudit": "レビュー中",
-    "deposit": "入金",
-    "orderStatusFail": "処理",
-    "orderStatusDepositAudit": "処理",
-    "orderStatusWithdrawHandle": "処理",
-    "orderStatusDepositSuccess": "入金成功",
-    "orderStatusWithdrawSuccess": "金で成功します",
-    "orderStatusDepositWaitPay": "未払い",
-    "orderStatusWithdrawReject": "監査失敗",
-    "nameDescription": "詳細のエージェントから検出されたリスト"
   },
   "withdrawThirdParty": {
     "withdrawButton": "出金",
@@ -321,9 +330,9 @@
     "netAssetValue": "純資産",
     "availableBalance": "利用可能残高",
     "tabOrder": "電話を切る",
+    "occupyMargin": "デポジット",
     "tabPosition": "ポジションを保持します",
     "maintenanceMargin": "デポジットを維持します",
-    "occupyMargin": "デポジット",
     "dynamicProfitLoss": "リアルタイムの利益と損失",
     "tabHistory": "清算があります",
     "positionSortUp2Down": "営業価格は高くなります",
@@ -343,36 +352,37 @@
     "netAssetValue": "純資産",
     "dynamicProfitLoss": "浮かぶ利益と損失",
     "availableBalance": "利用可能残高",
-    "maintenanceMargin": "デポジットを維持します",
     "margin": "デポジット",
+    "maintenanceMargin": "デポジットを維持します",
     "marginLevel": "マージンレベル"
   },
   "positionDetail": {
     "dynamicProfitLoss": "浮かぶ利益と損失",
+    "profitLoss": "浮かぶ利益と損失",
+    "highPrice": "最高",
+    "lowPrice": "最低",
     "rollover": "一晩料金",
     "tableOpenPriceTitle": "オープニング価格",
     "openPriceTitle": "オープニング価格",
-    "profitLoss": "浮かぶ純利益と損失",
     "closePosition": "液体",
-    "openPositionChartTag": "倉庫を開きます",
+    "contractMargin": "デポジット",
+    "transactionSerial": "注文番号",
+    "closePositionSuccess": "清算の成功",
+    "estimatedForcedParity": "推定強力なパリティ",
     "positionTag": "ポジションを保持します",
-    "lastPriceTitle": "現在の価格",
     "maintenanceMargin": "デポジットを維持します",
-    "highPrice": "最高",
+    "openPositionChartTag": "倉庫を開きます",
+    "lastPriceTitle": "現在の価格",
     "openPrice": "オープニング",
-    "lowPrice": "最低",
     "tradingDirection": "方向",
     "lots": "番号",
     "createDate": "トランザクション時間",
-    "contractMargin": "デポジット",
     "fee": "包括的な取引料",
     "modifyButton": "改訂",
-    "transactionSerial": "注文番号",
     "stopProfitLossEmpty": "設定されていません",
     "trailingStopEmpty": "設定されていません",
     "tableLotsTitle": "量",
     "currentPositionValue": "現在の価値",
-    "closePositionSuccess": "清算の成功",
     "closePositionLotsOutRange": "手虫の数は、所有者の数を超えています",
     "confirmClosePosition": "清算を確認します",
     "openPositionLots": "オープンウェアハウスの数",
@@ -385,25 +395,25 @@
     "feeLoading": "読み込み",
     "rolloverEmpty": " - ",
     "openPositionValue": "オープンポジション値",
-    "estimatedForcedParity": "推定強力なパリティ",
     "quantity24h": "24時間の量"
   },
   "transactionHistoryDetail": {
     "dynamicProfitLoss": "ごみと損失",
-    "createDate": "ポジショニング時間",
-    "rollover": "一晩料金",
     "openPositionPriceTitle": "オープニング価格",
-    "closePositionPriceTitle": "ポジショニング価格",
+    "createDate": "ポジショニング時間",
+    "openPositionDate": "開始時間",
+    "rollover": "一晩料金",
     "closePositionReason": "合理的な位置",
     "contractMargin": "デポジット",
-    "fee": "包括的な取引料",
     "transactionSerial": "注文番号",
+    "orderTag": "清算があります",
+    "fee": "包括的な取引料",
     "stopProfitLossEmpty": "設定されていません",
     "trailingStopEmpty": "設定されていません",
     "openPositionValue": "オープンポジション値",
-    "orderTag": "清算があります",
     "netProfitLoss": "倉庫の純利益と損失",
-    "closePositionValue": "ポジショニング値"
+    "closePositionValue": "ポジショニング値",
+    "closePositionPriceTitle": "ポジショニング価格"
   },
   "futuresTransaction": {
     "crossMargin": "全倉",
@@ -411,34 +421,34 @@
     "availableBalance": "利用可能残高",
     "totalCostPopup": {
       "handlingFee": "手数料",
+      "needMargin": "デポジットを支払う必要があります",
       "transactionAllFee": "包括的な取引料",
       "transactionMargin": "取引デポジット",
       "transactionTotalTitle": "お支払い総額",
-      "needMargin": "デポジットを支払う必要があります",
       "totalValue": "合計（元）"
     },
     "marketOrderPopup": {
+      "type": "タイプ",
       "openPrice": "オープニング価格",
       "occupyMargin": "デポジット",
       "lots": "量",
-      "type": "タイプ",
       "createDate": "設立日",
       "futuresNameTitle": "商品",
       "marketPrice": "市場価格",
       "transactionMode": "トランザクションモード"
     },
-    "tradingDirection": "方向",
-    "lots": "番号",
     "limitOrderPopup": {
+      "type": "タイプ",
       "occupyMargin": "デポジット",
       "lots": "量",
-      "type": "タイプ",
       "createDate": "設立日",
       "futuresNameTitle": "商品",
       "limitPrice": "価格を制限します"
     },
-    "marketClose": "市場のシャットダウン - 注文取引を受け入れます",
     "needMargin": "デポジットを支払う必要があります",
+    "tradingDirection": "方向",
+    "lots": "番号",
+    "marketClose": "市場のシャットダウン - 注文取引を受け入れます",
     "errorStopLossOutRange": "停止損失は、制限の範囲内でなければなりません",
     "errorStopProfitOutRange": "停止は制限の範囲内でなければなりません",
     "errorLotsOutRange": "手の数は限界範囲内でなければなりません",
@@ -595,6 +605,24 @@
     "clearCacheToast": "Cleanned {size} mb",
     "noCacheNeedClean": "キャッシュをクリーンアップする必要はありません"
   },
+  "common": {
+    "login": "ログインする",
+    "buyIn": "買う",
+    "sellOut": "売る",
+    "stopLoss": "停止損失",
+    "stopProfit": "利益を上げます",
+    "cancel": "キャンセル",
+    "loginFirst": "最初にログインしてください",
+    "appName": "セミナー",
+    "notInSimulated": "この機能は、シミュレーショントランザクションでは使用できません",
+    "confirm": "確認",
+    "futureClosed": "機能シャットダウン",
+    "priceUnit": "米ドル",
+    "lotsUnit": "手",
+    "leverUnit": "バツ",
+    "logout": "サインアウト",
+    "trailingStop": "追跡された停止損失"
+  },
   "futuresCustomEdit": {
     "emptyTip": "から選択することを選択します",
     "futuresName": "トランザクションの種類",
@@ -620,10 +648,10 @@
     "buyInPrice": "購入価格",
     "bottomSheet": {
       "accountOrder": "電話を切る",
+      "positionEmptyTip": "ハンギングオーダーはありません",
       "accountPosition": "ポジションを保持します",
       "header": "私の委員会",
-      "positionEmptyTip": "位置はありません",
-      "orderEmptyTip": "位置はありません"
+      "orderEmptyTip": "ハンギングオーダーはありません"
     },
     "dataTab": {
       "nowPrice": "現在の価格",
@@ -636,21 +664,22 @@
       "highPrice": "最高価格",
       "volume": "トランザクションボリューム"
     },
+    "marketClose": "市場のシャットダウン - 注文取引を受け入れます",
+    "fullWarehouse": "フルウェアハウスモード",
     "recentTransactionUnfoldLabel": "展開",
     "addFavoriteSuccess": "個人的なカスタマイズされた品種が追加されました",
     "removeFavoriteSuccess": "個人的なカスタマイズされた品種が削除されました",
     "buyInVolume": "音量",
     "sellOutVolume": "販売量",
     "recentTransactionFoldLabel": "縮む",
-    "marketClose": "市場のシャットダウン - 注文取引を受け入れます",
     "tabChart": "市場",
     "tabData": "データ",
     "tabContract": "詳細",
     "inTradingTime": "トランザクション",
     "onlyLimitOrder": "リストのみを受け入れます",
-    "fullWarehouse": "フルウェアハウスモード",
     "fullWarehouseTipContent": "このトランザクションはフルポジショントランザクションであり、損失額は預金額を超えます。\n\n継続的な損失がアカウントが強力なフラットラインに到達すると、他の注文が強くフラットになり、すべてのアカウントファンドが失われます！\n\n資本の状況をより効率的に制御するために、利益を設定し、損失価格を停止することをお勧めします！",
-    "fullWarehouseTipTitle": "フルウェアハウスモードの説明"
+    "fullWarehouseTipTitle": "フルウェアハウスモードの説明",
+    "transactionTimeTitle": "トランザクション期間"
   },
   "futuresSearch": {
     "searchInputHint": "トランザクションの品種 /英語名を入力します",
@@ -659,6 +688,32 @@
     "add": "追加",
     "searchEmptyTip": "無関係な品種"
   },
+  "futuresChart": {
+    "changeRate": "引用の変更",
+    "highPrice": "最高",
+    "lowPrice": "最低",
+    "openPrice": "オープニング",
+    "chartHour1": "1時間",
+    "volume": "トランザクションボリューム",
+    "more": "もっと",
+    "indicatorBoll": "ボル",
+    "indicatorKdj": "KDJ",
+    "indicatorMacd": "Macd",
+    "indicatorMa": "と",
+    "indicatorRsi": "rsi",
+    "indicatorWr": "wr",
+    "closePrice": "近い",
+    "changeValue": "浮き沈み",
+    "loadFailTitle": "読み込みに失敗しました",
+    "loadFailContent": "情報を取得できません",
+    "chartMinute1": "1ポイント",
+    "chartMinute5": "5ポイント",
+    "chartMinute15": "15ポイント",
+    "chartMinute30": "30ポイント",
+    "chartWeek1": "毎週",
+    "chartMonth1": "月線",
+    "chartDay": "日線"
+  },
   "announcement": {
     "appBarTitle": "発表",
     "emptyDataTip": "発表はありません"
@@ -666,116 +721,17 @@
   "customerService": {
     "appBarTitle": "排他的なカスタマーサービス"
   },
+  "campaign": {
+    "title": "アクティビティ"
+  },
   "qa": {
     "appBarTitle": "教育",
     "emptyTip": "まだ情報はありません",
     "noFindQaTip1": "あなたが望む答えが見つかりませんか？",
     "noFindQaTip2": "お問い合わせください"
   },
-  "agentOverview": {
-    "appBarTitle": "全体的な見解",
-    "agentProfitTitle": "義務の詳細",
-    "feesTitle": "料金",
-    "transactionProfitTitle": "取引利益",
-    "otherProfitsTitle": "その他の利益",
-    "dateHint": "日付を選択してください",
-    "dateTitle": "日にち",
-    "more": "もっと",
-    "discountTitle": "割引",
-    "salaryTitle": "給料",
-    "totalGruntTitle": "合計スコア",
-    "userPointsTitle": "ユーザー部門レポート",
-    "unableReceiveGumTitle": "ポイントを受信して​​いません",
-    "takeProfitButton": "テイクアウト",
-    "summaryOverviewTitle": "メーターの概要"
-  },
-  "agentProfitSharing": {
-    "appBarTitle": "義務の詳細",
-    "filterPopup": {
-      "cancelButton": "キャンセル",
-      "cleanButton": "削除する",
-      "filterButton": "フィルター",
-      "itemsTitle": "商品",
-      "title": "フィルターの詳細を分割します",
-      "profitTitle": "分ける",
-      "userTitle": "ユーザー",
-      "selectUserButtonHint": "ユーザーを選択してください",
-      "selectItemsButtonHint": "製品を選択してください"
-    },
-    "feesTitle": "料金",
-    "transactionProfitTitle": "取引利益",
-    "otherProfitsTitle": "その他の利益",
-    "totalProfitTitle": "利益総額",
-    "dateButtonHint": "日付を選択してください",
-    "typesButtonHint": "タイプを選択してください",
-    "typesTitle": "タイプ",
-    "dateTitle": "日にち",
-    "emptyTip": "まだ情報はありません",
-    "discountTitle": "割引",
-    "salaryTitle": "給料",
-    "registrationTimeButton": "登録時間"
-  },
-  "agentUser": {
-    "filterPopup": {
-      "recommendedCode": "推奨コード",
-      "cancelButton": "キャンセル",
-      "cleanButton": "削除する",
-      "filterButton": "フィルター",
-      "selectDateButton": "日付を選択してください",
-      "registrationTime": "登録時間",
-      "title": "サブユーザーリストスクリーニング",
-      "selectRecommendedCode": "推奨コードを選択してください"
-    },
-    "registrationTimeButton": "登録時間",
-    "appBarTitle": "部下のリスト",
-    "emptyTip": "ユーザー情報はありません"
-  },
-  "agentReferralCode": {
-    "appBarTitle": "推奨コード",
-    "deleteSuccess": "削除されました",
-    "deleteFailed": "削除に失敗しました",
-    "emptyTip": "まだ情報はありません"
-  },
-  "referralCodeBind": {
-    "inputTitle": "推奨コード",
-    "addButton": "推奨コードを追加しました",
-    "appBarTitle": "推奨コードを入力します",
-    "inputHint": "推奨コードを入力してください",
-    "descriptionText": "推奨コードは、アカウントの報酬に影響します\n取引コストの関連する割引。\n入力後に変更されません。世代を確認してください\n理由または友人によって提供される推奨コードは\n正しく入力するかどうか。"
-  },
-  "agentReferralUserList": {
-    "recommendedCode": "推奨コード"
-  },
-  "agentTransactionSetting": {
-    "appBarTitle": "トランザクション設定",
-    "deleteSuccess": "削除されました",
-    "deleteFailed": "削除に失敗しました",
-    "editSuccess": "正常に変更されました",
-    "editFailed": "編集に失敗します",
-    "emptyTip": "準備ができていない情報",
-    "filterTitle": "フィルター",
-    "filterItemsButtonHint": "製品を選択してください",
-    "filterVarietyButtonHint": "バラエティを選択してください"
-  },
-  "common": {
-    "buyIn": "買う",
-    "sellOut": "売る",
-    "cancel": "キャンセル",
-    "loginFirst": "最初にログインしてください",
-    "appName": "セミナー",
-    "notInSimulated": "この機能は、シミュレーショントランザクションでは使用できません",
-    "confirm": "確認",
-    "futureClosed": "機能シャットダウン",
-    "priceUnit": "米ドル",
-    "lotsUnit": "手",
-    "leverUnit": "バツ",
-    "logout": "サインアウト",
-    "login": "ログインする",
-    "stopLoss": "停止損失",
-    "stopProfit": "利益を上げます",
-    "trailingStop": "追跡された停止損失"
-  },
   "agentTransactionSettingList": {
+    "spreadTitle": "ポイントの違い",
     "handlingFeeTitle": "手数料",
     "descriptionPopup": {
       "cancelButton": "キャンセル",
@@ -783,51 +739,14 @@
       "deleteButton": "ポイントの違いを削除します",
       "contentText": "この製品間の違いを削除すると、ユーザートランザクションのポイント差がプリセットポイントの差までの差が生じ、利益に影響を与える可能性があります。 \\ n \\ポイントの違いを削除するようにしましたか？"
     },
-    "emptyTip": "まだ情報はありません",
-    "spreadTitle": "ポイントの違い"
+    "emptyTip": "まだ情報はありません"
   },
   "agentConditionFuturesList": {
+    "spreadTitle": "ポイントの違い",
     "handlingFeeTitle": "手数料",
     "emptyTip": "準備ができていない情報",
-    "spreadTitle": "ポイントの違い",
     "ItemsTitle": "食品",
     "nameDescription": "演技条件取引ポイント不良および処理手数料リストリスト"
-  },
-  "agentFundingDetails": {
-    "filterPopup": {
-      "leverageSettingTitle": "設定を活用します",
-      "openingFilterGeneralProfit": "総利益と損失",
-      "closingTimeTitle": "ポジショニング時間",
-      "openingTimeTitle": "開始時間",
-      "tradingDirectionTitle": "トランザクションの方向",
-      "openingFilterNetProfit": "純利益と損失",
-      "cancelButton": "キャンセル",
-      "cleanButton": "削除する",
-      "filterButton": "フィルター",
-      "dateButtonHint": "日付を選択してください",
-      "tradingProductTitle": "トランザクションアイテム",
-      "tradingProductButtonHint": "トランザクションアイテムを選択してください",
-      "tradingDirectionButtonHint": "トランザクションの方向を選択してください",
-      "leverageSettingButtonHint": "レバレッジ設定を選択してください",
-      "positionPopupTitle": "脚本家を持っています",
-      "openingPopupTitle": "倉庫フィルターを開きます",
-      "closingPopupTitle": "倉庫スクリーニングデバイス"
-    },
-    "appBarTitle": "資金明細",
-    "closePositionButton": "液体",
-    "openPositionButton": "倉庫を開きます",
-    "currentPositionButton": "現在、ポジションを保持しています"
-  },
-  "orders": {
-    "openPriceTitle": "オープニング価格",
-    "occupyMargin": "デポジット",
-    "transactionSerialTitle": "注文番号",
-    "emptyTip": "ハンギングオーダーはありません",
-    "emptyButton": "取引を開始します",
-    "lastPriceTitle": "現在の価格",
-    "cancelButton": "取り消す",
-    "cancelConfirm": "撤退を決定しますか？",
-    "orderPrice": "ハンギングユニット価格"
   },
   "withdrawCategory": {
     "orderSerial": "単一番号",
@@ -870,6 +789,212 @@
       "content": "考えられる理由は次のとおりです。\n1.毎日の金額が限界に達したため、金の通路を再び発行することはできません\n2.システムのメンテナンス"
     }
   },
+  "agentProfitSharing": {
+    "filterPopup": {
+      "cleanButton": "削除する",
+      "filterButton": "フィルター",
+      "cancelButton": "キャンセル",
+      "itemsTitle": "商品",
+      "title": "フィルターの詳細を分割します",
+      "profitTitle": "分ける",
+      "userTitle": "ユーザー",
+      "selectUserButtonHint": "ユーザーを選択してください",
+      "selectItemsButtonHint": "製品を選択してください"
+    },
+    "dateButtonHint": "日付を選択してください",
+    "typesButtonHint": "タイプを選択してください",
+    "typesTitle": "タイプ",
+    "dateTitle": "日にち",
+    "appBarTitle": "義務の詳細",
+    "feesTitle": "料金",
+    "transactionProfitTitle": "取引利益",
+    "otherProfitsTitle": "その他の利益",
+    "totalProfitTitle": "利益総額",
+    "emptyTip": "まだ情報はありません",
+    "discountTitle": "割引",
+    "salaryTitle": "給料",
+    "registrationTimeButton": "登録時間"
+  },
+  "agentUser": {
+    "filterPopup": {
+      "cleanButton": "削除する",
+      "filterButton": "フィルター",
+      "selectDateButton": "日付を選択してください",
+      "recommendedCode": "推奨コード",
+      "cancelButton": "キャンセル",
+      "registrationTime": "登録時間",
+      "title": "サブユーザーリストスクリーニング",
+      "selectRecommendedCode": "推奨コードを選択してください"
+    },
+    "registrationTimeButton": "登録時間",
+    "appBarTitle": "部下のリスト",
+    "emptyTip": "ユーザー情報はありません"
+  },
+  "agentFundingDetails": {
+    "filterPopup": {
+      "cleanButton": "削除する",
+      "filterButton": "フィルター",
+      "dateButtonHint": "日付を選択してください",
+      "leverageSettingTitle": "設定を活用します",
+      "openingFilterGeneralProfit": "総利益と損失",
+      "closingTimeTitle": "ポジショニング時間",
+      "openingTimeTitle": "開始時間",
+      "tradingDirectionTitle": "トランザクションの方向",
+      "openingFilterNetProfit": "純利益と損失",
+      "cancelButton": "キャンセル",
+      "tradingProductTitle": "トランザクションアイテム",
+      "tradingProductButtonHint": "トランザクションアイテムを選択してください",
+      "tradingDirectionButtonHint": "トランザクションの方向を選択してください",
+      "leverageSettingButtonHint": "レバレッジ設定を選択してください",
+      "positionPopupTitle": "脚本家を持っています",
+      "openingPopupTitle": "倉庫フィルターを開きます",
+      "closingPopupTitle": "倉庫スクリーニングデバイス"
+    },
+    "appBarTitle": "資金明細",
+    "closePositionButton": "液体",
+    "openPositionButton": "倉庫を開きます",
+    "currentPositionButton": "現在、ポジションを保持しています"
+  },
+  "agentUserProfitSharingForm": {
+    "filterPopup": {
+      "cleanButton": "削除する",
+      "filterButton": "フィルター",
+      "cancelButton": "キャンセル",
+      "feesTitle": "料金",
+      "transactionProfitTitle": "取引利益",
+      "discountTitle": "割引",
+      "totalGruntTitle": "合計スコア",
+      "popupTitle": "ユーザー分割スクリーニング"
+    },
+    "dateHint": "日付を選択してください",
+    "dateTitle": "日にち",
+    "appBarTitle": "ユーザー部門レポート",
+    "emptyTip": "ユーザー情報はありません"
+  },
+  "agentTransactionSetting": {
+    "filterTitle": "フィルター",
+    "appBarTitle": "トランザクション設定",
+    "deleteSuccess": "削除されました",
+    "deleteFailed": "削除に失敗しました",
+    "editSuccess": "正常に変更されました",
+    "editFailed": "編集に失敗します",
+    "emptyTip": "準備ができていない情報",
+    "filterItemsButtonHint": "製品を選択してください",
+    "filterVarietyButtonHint": "バラエティを選択してください"
+  },
+  "agentOverview": {
+    "dateHint": "日付を選択してください",
+    "dateTitle": "日にち",
+    "appBarTitle": "全体的な見解",
+    "agentProfitTitle": "義務の詳細",
+    "feesTitle": "料金",
+    "transactionProfitTitle": "取引利益",
+    "otherProfitsTitle": "その他の利益",
+    "more": "もっと",
+    "discountTitle": "割引",
+    "salaryTitle": "給料",
+    "totalGruntTitle": "合計スコア",
+    "userPointsTitle": "ユーザー部門レポート",
+    "unableReceiveGumTitle": "ポイントを受信して​​いません",
+    "takeProfitButton": "テイクアウト",
+    "summaryOverviewTitle": "メーターの概要"
+  },
+  "agentReferralCodeUsers": {
+    "typesButtonHint": "タイプを選択してください",
+    "emptyTip": "準備ができていない情報",
+    "appBarTitle": "ユーザー専用の部下"
+  },
+  "futuresChartFullScreen": {
+    "highPrice": "最高",
+    "lowPrice": "最低",
+    "openPrice": "オープニング",
+    "addFavoriteSuccess": "個人的なカスタマイズされた品種が追加されました",
+    "removeFavoriteSuccess": "個人的なカスタマイズされた品種が削除されました"
+  },
+  "agentPaymentDetail": {
+    "depositWithdrawalDetailsTitle": "詳細",
+    "depositTotal": "合計金額",
+    "appBarTitle": "資金明細",
+    "emptyTip": "準備ができていない情報"
+  },
+  "withdrawBank": {
+    "datePrefix": "日にち",
+    "tipTitle": "関連するヒント：",
+    "appBarTitle": "送金",
+    "withdrawRequestSending": "申請書の提出",
+    "withdrawButton": "ゴールドアプリケーションを提出します",
+    "tipContent": "顧客の預金によって指定された口座は、口座開設時に指定された銀行口座の口座でなければなりません。\n電子取引システムのオンラインアプリケーション時間は8：00〜14:00です",
+    "completeTitle": "完了するためのお金の申請",
+    "completeContent": "このレビューには、3〜5営業日が必要になると予想されています。\n合格した後、資金移転通知を受け取ります。",
+    "completeButton": "応用",
+    "pricePrefix": "クォータ"
+  },
+  "accountPaymentManager": {
+    "statusAudit": "レビュー中",
+    "appBarTitle": "ゴールドアカウント設定",
+    "emptyTip": "現在、ゴールドアカウントはありません。以下または\n右上隅の「+」ボタンが追加された後\n診る。",
+    "addBankAccount": "ゴールドアカウントを追加しました",
+    "statusFail": "試用過剰ではありません",
+    "paymentCategoryEmptyPopup": {
+      "noPaymentTip": "現在、金の方法はありません。ゴールドアカウントを追加したい場合は、お願いします",
+      "contactCustomerService": "カスタマーサービススタッフに連絡してください"
+    }
+  },
+  "languageSetting": {
+    "complete": "終了",
+    "appBarTitle": "言語",
+    "localeDefault": "システム",
+    "localeZhTw": "繁體中文",
+    "localeZhCn": "簡體中文",
+    "localeZh": "中文",
+    "localeEn": "English",
+    "localeJp": "日本語",
+    "localeKr": "한국어",
+    "localeTh": "ไทย",
+    "localeVi": "Tiếng Việt"
+  },
+  "keyboardInputAction": {
+    "complete": "終了"
+  },
+  "upDownColorSetting": {
+    "complete": "終了",
+    "upGreenDownRed": "緑の上昇と赤",
+    "upRedDownGreen": "赤い上昇と緑",
+    "appBarTitle": "浮き沈み"
+  },
+  "serverLineSetting": {
+    "complete": "終了"
+  },
+  "agentReferralCode": {
+    "appBarTitle": "推奨コード",
+    "deleteSuccess": "削除されました",
+    "deleteFailed": "削除に失敗しました",
+    "emptyTip": "まだ情報はありません"
+  },
+  "referralCodeBind": {
+    "inputTitle": "推奨コード",
+    "addButton": "推奨コードを追加しました",
+    "appBarTitle": "推奨コードを入力します",
+    "inputHint": "推奨コードを入力してください",
+    "descriptionText": "推奨コードは、アカウントの報酬に影響します\n取引コストの関連する割引。\n入力後に変更されません。世代を確認してください\n理由または友人によって提供される推奨コードは\n正しく入力するかどうか。"
+  },
+  "agentReferralUserList": {
+    "recommendedCode": "推奨コード"
+  },
+  "orders": {
+    "openPriceTitle": "オープニング価格",
+    "occupyMargin": "デポジット",
+    "transactionSerialTitle": "注文番号",
+    "emptyButton": "取引を開始します",
+    "lastPriceTitle": "現在の価格",
+    "stopLoss": "停止損失",
+    "stopProfit": "利益を上げます",
+    "emptyTip": "ハンギングオーダーはありません",
+    "cancelButton": "取り消す",
+    "cancelConfirm": "撤退を決定しますか？",
+    "orderPrice": "ハンギングユニット価格",
+    "cancelOrderSuccess": "正常にキャンセルします"
+  },
   "agentReferralCodeList": {
     "copyButton": "コピー",
     "descriptionPopup": {
@@ -888,35 +1013,37 @@
     "title": "コピー",
     "copyToClipboardSuccess": "クリップボードにコピー"
   },
-  "agentPaymentDetail": {
-    "appBarTitle": "資金明細",
-    "emptyTip": "準備ができていない情報",
-    "depositWithdrawalDetailsTitle": "詳細",
-    "depositTotal": "合計金額"
-  },
   "orderDetail": {
     "openPositionChartTag": "電話を切る",
     "orderTag": "電話を切る",
     "orderChartTag": "電話を切る",
     "orderPriceTitle": "ハンギングオーダー価格",
     "openingPriceTitle": "オープニング価格",
+    "margin": "デポジット",
+    "transactionSerial": "注文番号",
     "lastPriceTitle": "現在の価格",
     "tradingDirection": "方向",
-    "margin": "デポジット",
     "modifyButton": "改訂",
-    "transactionSerial": "注文番号",
     "stopProfitLossEmpty": "設定されていません",
     "trailingStopEmpty": "設定されていません",
     "lotsTitle": "量",
     "currentValueTitle": "価値",
     "cancelButton": "取り消す",
-    "createDate": "取引日",
     "cancelOrderSuccess": "正常にキャンセルします",
+    "createDate": "取引日",
     "orderChanged": "さまざまな動きを委ねてください"
+  },
+  "cancelOrderConfirmPopup": {
+    "orderTag": "電話を切る",
+    "lastPrice": "現在の価格",
+    "tradingDirection": "方向",
+    "lots": "量",
+    "orderPrice": "ハンギングユニット価格"
   },
   "futuresContract": {
     "rollover": "一晩料金",
     "tableValueUnfold": "展開",
+    "transactionTimeTitle": "トランザクション期間",
     "title": "{name} {unit}の価格",
     "tradeTimeWeekend": "毎週の番号",
     "tradeTimeIntervalOutDay": "{start}  - 翌日{end}",
@@ -928,7 +1055,6 @@
     "contractSize": "契約サイズ",
     "maxPositionTitle": "位置の最大総保持",
     "rolloverTime": "充電時間",
-    "transactionTimeTitle": "トランザクション期間",
     "transactionTimeCurrent": "当期",
     "transactionTimeNext": "次の時間",
     "viewAllTransactionTime": "より多くの期間を表示します",
@@ -950,52 +1076,16 @@
     "appBarTitle": "ハンギングオーダーを変更します",
     "accountOrderInputHint": "ハンギングオーダー価格を入力してください"
   },
-  "futuresChartFullScreen": {
-    "highPrice": "最高",
-    "openPrice": "オープニング",
-    "lowPrice": "最低",
-    "addFavoriteSuccess": "個人的なカスタマイズされた品種が追加されました",
-    "removeFavoriteSuccess": "個人的なカスタマイズされた品種が削除されました"
-  },
-  "futuresChart": {
-    "highPrice": "最高",
-    "openPrice": "オープニング",
-    "lowPrice": "最低",
-    "chartHour1": "1時間",
-    "volume": "トランザクションボリューム",
-    "more": "もっと",
-    "indicatorBoll": "ボル",
-    "indicatorKdj": "KDJ",
-    "indicatorMacd": "Macd",
-    "indicatorMa": "と",
-    "indicatorRsi": "rsi",
-    "indicatorWr": "wr",
-    "closePrice": "近い",
-    "changeValue": "浮き沈み",
-    "changeRate": "引用の変更",
-    "loadFailTitle": "読み込みに失敗しました",
-    "loadFailContent": "情報を取得できません",
-    "chartMinute1": "1ポイント",
-    "chartMinute5": "5ポイント",
-    "chartMinute15": "15ポイント",
-    "chartMinute30": "30ポイント",
-    "chartWeek1": "毎週",
-    "chartMonth1": "月線",
-    "chartDay": "日線"
-  },
-  "numberInputField": {
-    "defaultHint": "設定されていません"
-  },
   "adjustmentMarginDescriptionPopup": {
     "content3": "推定強力なパリティ",
     "title": "セキュリティデポジットを調整します",
     "button": "そうですか",
     "content1": "この位置のマージンを増やすか、削減できます",
     "content2": "マージンの増加はより安全になります",
-    "content4": "削減預金はもっと得られます",
-    "content5": "利用可能なマージン",
-    "content6": "、しかし同時に、保持のリスクは大きくなります。",
     "tip": "思い出させる：\n預金を調整すると、ポジションのリスクのみが変化し、注文総取引と注文の損失に影響しません。"
+  },
+  "agentFundingPositions": {
+    "emptyTip": "ハンギングオーダーはありません"
   },
   "agentProfitSharingSearch": {
     "cancel": "キャンセル",
@@ -1005,8 +1095,8 @@
   },
   "agentUserSearch": {
     "cancel": "キャンセル",
-    "pleaseEnterSearchHint": "検索条件を入力してください",
     "emptyTip": "ユーザー情報はありません",
+    "pleaseEnterSearchHint": "検索条件を入力してください",
     "enterDetailSearchHint": "部下のユーザーリストの検索条件を入力します",
     "searchResultsTitle": "の検索結果"
   },
@@ -1072,22 +1162,6 @@
     "pleaseEnterSearchHint": "検索条件を入力してください",
     "enterDetailSearchHint": "入力トランザクション設定検索条件"
   },
-  "agentUserProfitSharingForm": {
-    "filterPopup": {
-      "cancelButton": "キャンセル",
-      "feesTitle": "料金",
-      "transactionProfitTitle": "取引利益",
-      "cleanButton": "削除する",
-      "filterButton": "フィルター",
-      "discountTitle": "割引",
-      "totalGruntTitle": "合計スコア",
-      "popupTitle": "ユーザー分割スクリーニング"
-    },
-    "dateHint": "日付を選択してください",
-    "dateTitle": "日にち",
-    "emptyTip": "ユーザー情報はありません",
-    "appBarTitle": "ユーザー部門レポート"
-  },
   "agentFundingDetailsSearch": {
     "cancel": "キャンセル",
     "emptyTip": "準備ができていない情報",
@@ -1098,16 +1172,16 @@
     "headerFees": "料金",
     "headerTransactionProfit": "取引利益",
     "emptyTip": "まだ情報はありません",
-    "headerUser": "ユーザー",
     "headerDiscount": "割引",
-    "headerTotalGrunt": "合計スコア"
+    "headerTotalGrunt": "合計スコア",
+    "headerUser": "ユーザー"
   },
   "agentProfitList": {
     "typesFees": "料金",
     "typesTransactionProfit": "取引利益",
     "typesOtherProfits": "その他の利益",
-    "typesAll": "全て",
     "typesMarketPrice": "市場価格",
+    "typesAll": "全て",
     "emptyTip": "まだ情報はありません",
     "typesDiscount": "割引",
     "typesSalary": "給料"
@@ -1131,17 +1205,18 @@
     "estimateLoss": "推定損失",
     "estimateProfit": "推定収益性",
     "trailingStopSubtitle": "追跡停止損失距離を設定します",
+    "estimateProfitLoss": "推定利益または損失",
     "trailingStopTitle": "追跡された停止損失",
-    "errorNotTradingTime": "現在の非取引期間",
-    "errorFuturesNotTradingTime": "このアイテムは当分の間取引することはできません",
     "cancelModify": "変更するためにあきらめたいですか？",
     "stopLossSubtitle": "停止損失価格を設定します",
     "stopProfitSubtitle": "利益価格を設定します",
+    "adjustMargin": "セキュリティデポジットを調整します",
+    "errorNotTradingTime": "現在の非取引期間",
+    "errorFuturesNotTradingTime": "このアイテムは当分の間取引することはできません",
     "appBarTitle": "倉庫を変更します",
     "closeMultiPositionPartialFailTitle": "いくつかの単一数の清算が失敗しました！",
     "errorClosePositionFindNoSerial": "注文番号はありません",
     "errorGeneralCode": "不明なエラー（{code}）",
-    "adjustMargin": "セキュリティデポジットを調整します",
     "adjustedLiquidationPrice": "調整後、それは強いパリティであると推定されます",
     "append": "追加",
     "mostAppend": "せいぜい、加算します",
@@ -1153,8 +1228,8 @@
     "modifySuccess": "正常に変更されました",
     "modifyFail": "編集に失敗します",
     "appBarTitle": "ボル",
-    "modifyButton": "お店",
     "cancelModify": "変更するためにあきらめたいですか？",
+    "modifyButton": "お店",
     "index": "索引",
     "defaultSetting": "初期設定",
     "indexUp": "上",
@@ -1167,8 +1242,8 @@
     "modifySuccess": "正常に変更されました",
     "modifyFail": "編集に失敗します",
     "appBarTitle": "KDJ",
-    "modifyButton": "お店",
     "cancelModify": "変更するためにあきらめたいですか？",
+    "modifyButton": "お店",
     "index": "索引",
     "defaultSetting": "初期設定",
     "indexK": "k",
@@ -1182,8 +1257,8 @@
     "modifySuccess": "正常に変更されました",
     "modifyFail": "編集に失敗します",
     "appBarTitle": "Macd",
-    "modifyButton": "お店",
     "cancelModify": "変更するためにあきらめたいですか？",
+    "modifyButton": "お店",
     "index": "索引",
     "defaultSetting": "初期設定",
     "timePeriod": "期間",
@@ -1197,8 +1272,8 @@
     "modifyFail": "編集に失敗します",
     "appBarTitle": "と",
     "indexMa": "と",
-    "modifyButton": "お店",
     "cancelModify": "変更するためにあきらめたいですか？",
+    "modifyButton": "お店",
     "defaultSetting": "初期設定"
   },
   "chartRsiSetting": {
@@ -1206,8 +1281,8 @@
     "modifyFail": "編集に失敗します",
     "appBarTitle": "rsi",
     "indexRsi": "rsi",
-    "modifyButton": "お店",
     "cancelModify": "変更するためにあきらめたいですか？",
+    "modifyButton": "お店",
     "defaultSetting": "初期設定",
     "period": "サイクル"
   },
@@ -1216,8 +1291,8 @@
     "modifyFail": "編集に失敗します",
     "appBarTitle": "wr",
     "indexWr": "wr",
-    "modifyButton": "お店",
     "cancelModify": "変更するためにあきらめたいですか？",
+    "modifyButton": "お店",
     "defaultSetting": "初期設定",
     "period": "サイクル"
   },
@@ -1228,39 +1303,28 @@
     "kLineChart": "キャンドルチャート",
     "lineIndexChart": "タイミングチャート"
   },
-  "agentReferralCodeUsers": {
+  "marginCallEditPopup": {
+    "modifySuccess": "正常に変更されました",
+    "modifyFail": "編集に失敗します"
+  },
+  "countryCode": {
     "emptyTip": "準備ができていない情報",
-    "typesButtonHint": "タイプを選択してください",
-    "appBarTitle": "ユーザー専用の部下"
+    "country": "国家",
+    "searchEnterHint": "名前または市外局番を入力してください"
   },
-  "withdrawBank": {
-    "datePrefix": "日にち",
-    "appBarTitle": "送金",
-    "withdrawRequestSending": "申請書の提出",
-    "withdrawButton": "ゴールドアプリケーションを提出します",
-    "tipTitle": "関連するヒント：",
-    "tipContent": "顧客の預金によって指定された口座は、口座開設時に指定された銀行口座の口座でなければなりません。\n電子取引システムのオンラインアプリケーション時間は8：00〜14:00です",
-    "completeTitle": "完了するためのお金の申請",
-    "completeContent": "このレビューには、3〜5営業日が必要になると予想されています。\n合格した後、資金移転通知を受け取ります。",
-    "completeButton": "応用",
-    "pricePrefix": "クォータ"
+  "userGuideCategory": {
+    "emptyTip": "準備ができていない情報"
   },
-  "accountPaymentManager": {
-    "statusAudit": "レビュー中",
-    "appBarTitle": "ゴールドアカウント設定",
-    "emptyTip": "現在、ゴールドアカウントはありません。以下または\n右上隅の「+」ボタンが追加された後\n診る。",
-    "addBankAccount": "ゴールドアカウントを追加しました",
-    "statusSuccess": "",
-    "statusFail": "試用過剰ではありません",
-    "paymentCategoryEmptyPopup": {
-      "noPaymentTip": "現在、金の方法はありません。ゴールドアカウントを追加したい場合は、お願いします",
-      "contactCustomerService": "カスタマーサービススタッフに連絡してください"
-    }
+  "userGuideSection": {
+    "emptyTip": "準備ができていない情報"
+  },
+  "userGuideArticle": {
+    "emptyTip": "準備ができていない情報"
   },
   "paymentBank": {
     "paymentPriceRangeTip": "交差範囲：{unit} {range}",
-    "paymentPriceTitle": "金額を入力してください",
     "appBarTitle": "送金",
+    "paymentPriceTitle": "金額を入力してください",
     "gettingTransferAccount": "トランザクションアカウントを取得します",
     "payTag": "支払い",
     "confirmPaymentButton": "すぐにトランザクションをお楽しみください",
@@ -1281,12 +1345,45 @@
     "paymentValueTip2": "オンラインサービス",
     "paymentValueTip3": "カスタマーサービススタッフは、すぐにゴールドを支援します。\nサービスの目的：「ユーザーの最初の「誠実さ」を順守する\nあなたの心を奉仕してください。」"
   },
+  "accountBlockPopup": {
+    "closeButton": "閉鎖"
+  },
+  "otherDevicesLoginPopup": {
+    "closeButton": "閉鎖"
+  },
+  "depositThirdParty": {
+    "feeTip": "支払い額が必要です：USD",
+    "description": "説明します",
+    "inputMinHint": "上記の金額を入力してください{min}",
+    "inputMaxHint": "以下の金額を入力してください{max}",
+    "payTag": "支払い",
+    "confirmPaymentButton": "すぐにトランザクションをお楽しみください",
+    "tip2": "オンラインサービス",
+    "tip1": "リマインダー：金の問題に遭遇した場合は、初めて連絡してください",
+    "tip3": "、カスタマーサービススタッフがすぐに金を支援します。",
+    "tip4": "カスタマーサービスQQ：{phone}",
+    "tip5": "サービスの目的：「ユーザー」を誠実に「あなたに仕える」ことを順守します。",
+    "payTagTitle": "入金量を入力してください：",
+    "rangeTip": "交差点範囲：USD {min}〜{max}"
+  },
+  "numberInputField": {
+    "defaultHint": "設定されていません"
+  },
   "emailBind": {
     "appBarTitle": "Eメールを確認します",
     "captchaHint": "認証コードを入力",
     "verifyImmediately": "今すぐ確認してください",
     "emailHint": "メールボックスを入力してください",
     "bindEmailSuccess": "検証メールボックスが成功しました"
+  },
+  "forgotPassword": {
+    "email": "Eメール",
+    "enterCaptchaHint": "認証コードを入力",
+    "enterEmailHint": "電子メールボックスを入力してください",
+    "enterPhoneNumberHint": "電話番号を入力してください",
+    "resetSuccess": "コード返済は成功しました",
+    "resetButton": "確認して送信します",
+    "newPasswordHint": "新しいパスワードを入力してください"
   },
   "accountIdentifyData": {
     "actualNameTitle": "実際の名前",
@@ -1393,26 +1490,6 @@
     "emptyTip": "毎日のタスクはありません",
     "missionTip": "毎日のタスク報酬収集は、「実際のアカウント」取引行動に限定されています"
   },
-  "languageSetting": {
-    "appBarTitle": "言語",
-    "localeDefault": "システム",
-    "localeZhTw": "繁體中文",
-    "localeZhCn": "簡體中文",
-    "localeZh": "中文",
-    "localeEn": "English",
-    "localeJp": "日本語",
-    "localeKr": "한국어",
-    "localeTh": "ไทย",
-    "localeVi": "Tiếng Việt"
-  },
-  "upDownColorSetting": {
-    "upGreenDownRed": "緑の上昇と赤",
-    "upRedDownGreen": "赤い上昇と緑",
-    "appBarTitle": "浮き沈み"
-  },
-  "agentFundingPositions": {
-    "emptyTip": "位置はありません"
-  },
   "requestError": {
     "noAuth": "最初にログインしてください",
     "notTradingTime": "現在の非取引期間",
@@ -1443,26 +1520,53 @@
   },
   "receiveAwardPopup": {
     "confirmButton": "確認",
+    "know": "そうですか",
     "receivedCount": "{n}報酬を受け取りました",
     "receivedTitle": "「{n}」を受け取りました",
-    "know": "そうですか",
     "historyButton": "歴史報酬に行きます",
     "noTipToday": "今日はリマインダーはありません"
   },
   "listScrollSheet": {
     "confirmButton": "確認"
   },
+  "chartSetting": {
+    "indicatorBoll": "ボル",
+    "indicatorKdj": "KDJ",
+    "indicatorMacd": "Macd",
+    "indicatorMa": "と",
+    "indicatorRsi": "rsi",
+    "indicatorWr": "wr",
+    "chartType": "チャートタイプ",
+    "appBarTitle": "チャート設定",
+    "indicatorIndex": "テクニカルインジケーター"
+  },
+  "paymentMethod": {
+    "bankTitle": "送金",
+    "creditTitle": "クレジットカードオンラインスワイプカード",
+    "bankDescription": "月に5〜10回の無料のクロスバンク転送を提供する",
+    "creditDescription": "毎日1.88％の現金フィードバックをお楽しみください",
+    "recommendedMethod": "推薦入金方式",
+    "otherMethod": "残りのゴールド法"
+  },
+  "depositCategory": {
+    "nextStep": "次のステップ",
+    "recommendedMethod": "推薦入金方式",
+    "appBarTitle": "ゴールドメソッドを選択してください",
+    "empty": "電流へのアクセスの方法は、当面の間は提供できません\n後でもう一度やり直してください",
+    "customerService": "カスタマーサービスに連絡してください",
+    "depositMethodHint": "金を入力する方法を選択してください"
+  },
   "signUp": {
     "registerButton": "登録",
-    "emailRegistrationTitle": "メールボックスを使用して登録します",
     "enterEmailHint": "電子メールボックスを入力してください",
+    "enterPhoneNumberHint": "電話番号を入力してください",
+    "emailRegistrationTitle": "メールボックスを使用して登録します",
     "signUpSuccess": "登録完了",
     "emailEnterCodeHint": "メールボックスで受信した検証コードを入力します",
     "agreeOurPrivacy": "登録とは、あなたが私たちに同意することを意味します",
     "agreeOurPrivacyValue": "プライバシーとポリシー。",
     "alreadyHaveAccountButton": "既存のアカウント？",
     "phoneNumberRegistrationTitle": "携帯電話番号を使用して登録してください",
-    "enterPhoneNumberHint": "電話番号を入力してください",
     "enterPasswordHint": "パスワードを入力する",
     "enterReferralInputHint": "招待状コードを入力する",
     "phoneNumberEnterCodeHint": "ニュースレターが受信した検証コードを入力します"
@@ -1477,40 +1581,6 @@
     "welcomeTitle": "ようこそ",
     "newUserTitle": "新しいユーザー登録",
     "registeredYet": "まだ登録していませんか？"
-  },
-  "chartSetting": {
-    "indicatorBoll": "ボル",
-    "indicatorKdj": "KDJ",
-    "indicatorMacd": "Macd",
-    "indicatorMa": "と",
-    "indicatorRsi": "rsi",
-    "indicatorWr": "wr",
-    "chartType": "チャートタイプ",
-    "appBarTitle": "チャート設定",
-    "indicatorIndex": "テクニカルインジケーター"
-  },
-  "depositThirdParty": {
-    "inputMinHint": "上記の金額を入力してください{min}",
-    "inputMaxHint": "以下の金額を入力してください{max}",
-    "payTag": "支払い",
-    "confirmPaymentButton": "すぐにトランザクションをお楽しみください",
-    "tip2": "オンラインサービス",
-    "feeTip": "支払い額が必要です：USD",
-    "description": "説明します",
-    "tip1": "リマインダー：金の問題に遭遇した場合は、初めて連絡してください",
-    "tip3": "、カスタマーサービススタッフがすぐに金を支援します。",
-    "tip4": "カスタマーサービスQQ：{phone}",
-    "tip5": "サービスの目的：「ユーザー」を誠実に「あなたに仕える」ことを順守します。",
-    "payTagTitle": "入金量を入力してください：",
-    "rangeTip": "交差点範囲：USD {min}〜{max}"
-  },
-  "paymentMethod": {
-    "bankTitle": "送金",
-    "creditTitle": "クレジットカードオンラインスワイプカード",
-    "bankDescription": "月に5〜10回の無料のクロスバンク転送を提供する",
-    "creditDescription": "毎日1.88％の現金フィードバックをお楽しみください",
-    "recommendedMethod": "推薦入金方式",
-    "otherMethod": "残りのゴールド法"
   },
   "bankAccountDetail": {
     "appBarTitle": "ゴールドアカウント設定",
@@ -1557,16 +1627,8 @@
   "depositCheck": {
     "title": "重要なリマインダー",
     "button": "転送情報を取得します",
-    "contentTip": "アカウントを使用して転送してください\nアカウントのアカウントの有効期間は、各銀行とは異なります\nゴールドアカウントのアカウントが正しいかどうかに注意してください\n転送量は一貫している必要があります\n転送を繰り返さないでください",
-    "checkTip": "上記の情報を理解しました"
-  },
-  "forgotPassword": {
-    "enterCaptchaHint": "認証コードを入力",
-    "enterEmailHint": "電子メールボックスを入力してください",
-    "enterPhoneNumberHint": "電話番号を入力してください",
-    "resetSuccess": "コード返済は成功しました",
-    "resetButton": "確認して送信します",
-    "newPasswordHint": "新しいパスワードを入力してください"
+    "checkTip": "上記の情報を理解しました",
+    "contentTip": "アカウントを使用して転送してください\nアカウントのアカウントの有効期間は、各銀行とは異なります\nゴールドアカウントのアカウントが正しいかどうかに注意してください\n転送量は一貫している必要があります\n転送を繰り返さないでください"
   },
   "changePassword": {
     "captchaHint": "認証コードを入力",
@@ -1581,9 +1643,6 @@
     "appBarTitle": "確認電話",
     "bindSuccess": "電話を正常にバインドします"
   },
-  "emptyPlace": {
-    "tip": "データは空です"
-  },
   "login": {
     "enterEmailHint": "電子メールボックスを入力してください",
     "enterPhoneNumberHint": "電話番号を入力してください",
@@ -1592,20 +1651,18 @@
     "registerNowButton": "すぐに登録してください",
     "forgetPasswordButton": "パスワードを忘れますか？"
   },
-  "depositCategory": {
-    "recommendedMethod": "推薦入金方式",
-    "nextStep": "次のステップ",
-    "appBarTitle": "ゴールドメソッドを選択してください",
-    "empty": "電流へのアクセスの方法は、当面の間は提供できません\n後でもう一度やり直してください",
-    "customerService": "カスタマーサービスに連絡してください",
-    "depositMethodHint": "金を入力する方法を選択してください"
+  "emptyPlace": {
+    "tip": "データは空です"
+  },
+  "serverApiError": {
+    "system": "悪いエラーが現れました"
+  },
+  "identifyVerificationResult": {
+    "content": "1〜5営業日が必要になります。検証を確認した後、ゴールドに入って取引を楽しむことができます",
+    "backToHome": "ホームページに戻ります"
   },
   "marginLevelWarningBar": {
     "tip": "マージンが低すぎるためのヒント！（{percent}％）"
-  },
-  "countryCode": {
-    "country": "国家",
-    "searchEnterHint": "名前または市外局番を入力してください"
   },
   "fileVerify": {
     "idCardTitle": "身分証明書",
@@ -1666,10 +1723,6 @@
   "identifyVerification": {
     "appBarTitle": "認証",
     "uploadSuccess": "成功"
-  },
-  "identifyVerificationResult": {
-    "content": "1〜5営業日が必要になります。検証を確認した後、ゴールドに入って取引を楽しむことができます",
-    "backToHome": "ホームページに戻ります"
   },
   "messageNotify": {
     "haveRead": "（読んだ）"
@@ -1770,6 +1823,12 @@
     "arbitrage5": "アービトラージインデックス5分",
     "realTimeAverage": "リアルタイム平均戦略",
     "track": "単一のトランザクション",
+    "contract": "契約Qiangping"
+  },
+  "positionOpenReason": {
+    "market": "市場価格取引"
+  },
+  "positionCloseReason": {
     "contract": "契約Qiangping"
   },
   "captchaBloc": {

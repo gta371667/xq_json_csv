@@ -1,5 +1,5 @@
 {
-  "jsonKey": "zh_CN",
+  "jsonKey": "zh-CN",
   "app": {
     "changeAccountType": "已切换为{state}",
     "accountSimulation": "模拟",
@@ -192,28 +192,28 @@
   },
   "agentFundingPositionsList": {
     "profitLossTitle": "盈亏",
+    "handlingFeeTitle": "手续费",
+    "singleNumberTitle": "单号",
     "buyingTitle": "买入",
     "sellTitle": "卖出",
-    "handlingFeeTitle": "手续费",
     "leverageSettingTitle": "杠杆设定",
     "generalProfit": "总盈亏",
     "openingPriceTitle": "开仓价",
     "stopProfitPrice": "止盈价格",
     "stopLossPrice": "止损价格",
-    "singleNumberTitle": "单号",
     "repairImmediatelyHint": "立即成交",
     "openMarginTitle": "开仓保证金"
   },
   "agentFundingPositionsDetail": {
     "profitLossTitle": "盈亏",
+    "handlingFeeTitle": "手续费",
+    "singleNumberTitle": "单号",
     "buyingTitle": "买入",
     "sellTitle": "卖出",
-    "handlingFeeTitle": "手续费",
     "leverageSettingTitle": "杠杆设定",
     "generalProfit": "总盈亏",
     "stopProfitPrice": "止盈价格",
     "stopLossPrice": "止损价格",
-    "singleNumberTitle": "单号",
     "repairImmediatelyHint": "立即成交",
     "openMarginTitle": "开仓保证金",
     "copyButton": "复制",
@@ -253,7 +253,9 @@
     "closePositionLotsOutRange": "交易手数超过持有手数",
     "isConfirmClosePosition": "确定平仓",
     "limitedTimePrice": "限时价",
-    "lastPriceTitle": "当前价"
+    "lastPriceTitle": "当前价",
+    "stopLoss": "止损",
+    "stopProfit": "止盈"
   },
   "transactionHistory": {
     "profitLoss": "盈亏",
@@ -295,24 +297,24 @@
   "agentUserPaymentHistory": {
     "appBarTitle": "出入金纪录",
     "filterPopup": {
-      "cancelButton": "取消",
       "cleanButton": "清除",
       "filterButton": "筛选",
       "dateButtonHint": "请选择日期",
       "typesButtonHint": "请选择类型",
       "popupTitle": "出入金纪录筛选",
-      "dateTitle": "申请日期",
       "typesTitle": "出入金类型",
       "methodTitle": "出入金方式",
       "methodButtonHint": "请选择出入金方式",
       "statusTitle": "状态",
       "statusButtonHint": "请选择状态",
-      "amountTitle": "金额"
+      "amountTitle": "金额",
+      "cancelButton": "取消",
+      "dateTitle": "申请日期"
     },
-    "emptyTip": "查无资料",
     "depositWithdrawalDetailsTitle": "出入金详情",
     "totalDeposit": "入金总额",
-    "totalWithdrawal": "出金总额"
+    "totalWithdrawal": "出金总额",
+    "emptyTip": "查无资料"
   },
   "withdraw": {
     "appBarTitle": "出金",
@@ -373,6 +375,8 @@
   "positionDetail": {
     "dynamicProfitLoss": "浮动盈亏",
     "profitLoss": "浮动盈亏",
+    "highPrice": "最高",
+    "lowPrice": "最低",
     "rollover": "隔夜费",
     "tableOpenPriceTitle": "开仓价格",
     "openPriceTitle": "开仓价格",
@@ -381,8 +385,6 @@
     "transactionSerial": "订单号",
     "closePositionSuccess": "平仓成功",
     "estimatedForcedParity": "预估强平价",
-    "highPrice": "最高",
-    "lowPrice": "最低",
     "positionTag": "持仓",
     "maintenanceMargin": "维持保证金",
     "openPositionChartTag": "开仓",
@@ -418,6 +420,7 @@
     "dynamicProfitLoss": "平仓盈亏",
     "openPositionPriceTitle": "开仓价",
     "createDate": "平仓时间",
+    "openPositionDate": "开仓时间",
     "rollover": "隔夜费",
     "closePositionReason": "平仓原因",
     "contractMargin": "保证金",
@@ -445,9 +448,9 @@
       "totalValue": "总计（元）"
     },
     "marketOrderPopup": {
+      "type": "类型",
       "openPrice": "开仓价格",
       "occupyMargin": "保证金",
-      "type": "类型",
       "lots": "数量",
       "createDate": "建立日期",
       "futuresNameTitle": "商品",
@@ -455,8 +458,8 @@
       "transactionMode": "交易模式"
     },
     "limitOrderPopup": {
-      "occupyMargin": "保证金",
       "type": "类型",
+      "occupyMargin": "保证金",
       "lots": "数量",
       "createDate": "建立日期",
       "futuresNameTitle": "商品",
@@ -634,6 +637,8 @@
     "login": "登入",
     "buyIn": "买入",
     "sellOut": "卖出",
+    "stopLoss": "止损",
+    "stopProfit": "止盈",
     "cancel": "取消",
     "loginFirst": "请先登入",
     "appName": "联汇",
@@ -644,8 +649,6 @@
     "lotsUnit": "手",
     "leverUnit": "X",
     "logout": "登出",
-    "stopLoss": "止损",
-    "stopProfit": "止盈",
     "trailingStop": "追踪止损",
     "bindPhoneFirst": "请先绑定手机"
   },
@@ -705,7 +708,8 @@
     "inTradingTime": "交易中",
     "onlyLimitOrder": "仅接受挂单",
     "fullWarehouseTipContent": "此交易为全仓交易，亏损金额会超过保证金金额。\n\n当持续亏损导致账户达到强平线时，其他订单将会被陆续强平，账户资金将全部亏损！\n\n建议您设定止盈和止损价格，能够更有效率的控制资金情况！",
-    "fullWarehouseTipTitle": "全仓模式说明"
+    "fullWarehouseTipTitle": "全仓模式说明",
+    "transactionTimeTitle": "交易时段"
   },
   "futuresSearch": {
     "searchInputHint": "输入交易品种 / 英文名称",
@@ -747,6 +751,9 @@
   "customerService": {
     "appBarTitle": "专属客服"
   },
+  "campaign": {
+    "title": "活动"
+  },
   "qa": {
     "appBarTitle": "教学",
     "emptyTip": "暂无资料",
@@ -770,128 +777,6 @@
     "emptyTip": "查无资料",
     "ItemsTitle": "品项",
     "nameDescription": "代理条件-交易点差及手续费范围列表"
-  },
-  "agentOverview": {
-    "appBarTitle": "总览",
-    "agentProfitTitle": "分润细节",
-    "feesTitle": "规费",
-    "transactionProfitTitle": "交易利润",
-    "otherProfitsTitle": "其他利润",
-    "dateHint": "请选择日期",
-    "dateTitle": "日期",
-    "more": "更多",
-    "discountTitle": "优惠",
-    "salaryTitle": "工资",
-    "totalGruntTitle": "总分润",
-    "userPointsTitle": "用户分润报表",
-    "unableReceiveGumTitle": "未领取分润",
-    "takeProfitButton": "取出分润",
-    "summaryOverviewTitle": "分润概况"
-  },
-  "agentProfitSharing": {
-    "appBarTitle": "分润细节",
-    "filterPopup": {
-      "cancelButton": "取消",
-      "cleanButton": "清除",
-      "filterButton": "筛选",
-      "itemsTitle": "商品",
-      "title": "分润细节筛选器",
-      "profitTitle": "分润",
-      "userTitle": "用户",
-      "selectUserButtonHint": "请选择用户",
-      "selectItemsButtonHint": "请选择商品"
-    },
-    "feesTitle": "规费",
-    "transactionProfitTitle": "交易利润",
-    "otherProfitsTitle": "其他利润",
-    "totalProfitTitle": "总利润",
-    "dateButtonHint": "请选择日期",
-    "typesButtonHint": "请选择类型",
-    "typesTitle": "类型",
-    "dateTitle": "日期",
-    "emptyTip": "暂无资料",
-    "discountTitle": "优惠",
-    "salaryTitle": "工资",
-    "registrationTimeButton": "注册时间"
-  },
-  "agentUser": {
-    "filterPopup": {
-      "recommendedCode": "推荐码",
-      "cancelButton": "取消",
-      "cleanButton": "清除",
-      "filterButton": "筛选",
-      "selectDateButton": "请选择日期",
-      "registrationTime": "注册时间",
-      "title": "下级用户清单筛选",
-      "selectRecommendedCode": "请选择推荐码"
-    },
-    "registrationTimeButton": "注册时间",
-    "appBarTitle": "下级用户清单",
-    "emptyTip": "暂无用户资料"
-  },
-  "agentReferralCode": {
-    "appBarTitle": "推荐码",
-    "deleteSuccess": "删除成功",
-    "deleteFailed": "删除失败",
-    "emptyTip": "暂无资料"
-  },
-  "referralCodeBind": {
-    "inputTitle": "推荐码",
-    "addButton": "新增推荐码",
-    "appBarTitle": "输入推荐码",
-    "inputHint": "请输入推荐码",
-    "descriptionText": "推荐码将会影响您的帐号奖励\n以及交易费用的相关折扣。\n输入后将无法更改，请确认代\n理或朋友提供给您的推荐码是\n否正确再输入。"
-  },
-  "agentReferralUserList": {
-    "recommendedCode": "推荐码"
-  },
-  "agentTransactionSetting": {
-    "appBarTitle": "交易设定",
-    "deleteSuccess": "删除成功",
-    "deleteFailed": "删除失败",
-    "editSuccess": "修改成功",
-    "editFailed": "修改失败",
-    "emptyTip": "查无资料",
-    "filterTitle": "筛选",
-    "filterItemsButtonHint": "请选择商品",
-    "filterVarietyButtonHint": "请选择品种"
-  },
-  "agentFundingDetails": {
-    "filterPopup": {
-      "leverageSettingTitle": "杠杆设定",
-      "openingFilterGeneralProfit": "总盈亏",
-      "closingTimeTitle": "平仓时间",
-      "openingTimeTitle": "开仓时间",
-      "tradingDirectionTitle": "交易方向",
-      "openingFilterNetProfit": "净盈亏",
-      "cancelButton": "取消",
-      "cleanButton": "清除",
-      "filterButton": "筛选",
-      "dateButtonHint": "请选择日期",
-      "tradingProductTitle": "交易品项",
-      "tradingProductButtonHint": "请选择交易品项",
-      "tradingDirectionButtonHint": "请选择交易方向",
-      "leverageSettingButtonHint": "请选择杠杆设定",
-      "positionPopupTitle": "持仓筛选器",
-      "openingPopupTitle": "开仓筛选器",
-      "closingPopupTitle": "平仓筛选器"
-    },
-    "appBarTitle": "资金明细",
-    "closePositionButton": "平仓",
-    "openPositionButton": "开仓",
-    "currentPositionButton": "目前持仓"
-  },
-  "orders": {
-    "openPriceTitle": "开仓价",
-    "occupyMargin": "保证金",
-    "transactionSerialTitle": "订单号",
-    "emptyButton": "开始交易",
-    "lastPriceTitle": "当前价",
-    "emptyTip": "尚无挂单",
-    "cancelButton": "撤销",
-    "cancelConfirm": "确定撤单?",
-    "orderPrice": "挂单价",
-    "cancelOrderSuccess": "取消挂单成功"
   },
   "withdrawCategory": {
     "orderSerial": "单号",
@@ -934,6 +819,213 @@
       "content": "可能原因如下:\n1.出金通道因每日出金到达上限无法再次出金\n2.系统维护中"
     }
   },
+  "agentProfitSharing": {
+    "filterPopup": {
+      "cleanButton": "清除",
+      "filterButton": "筛选",
+      "cancelButton": "取消",
+      "itemsTitle": "商品",
+      "title": "分润细节筛选器",
+      "profitTitle": "分润",
+      "userTitle": "用户",
+      "selectUserButtonHint": "请选择用户",
+      "selectItemsButtonHint": "请选择商品"
+    },
+    "dateButtonHint": "请选择日期",
+    "typesButtonHint": "请选择类型",
+    "typesTitle": "类型",
+    "dateTitle": "日期",
+    "appBarTitle": "分润细节",
+    "feesTitle": "规费",
+    "transactionProfitTitle": "交易利润",
+    "otherProfitsTitle": "其他利润",
+    "totalProfitTitle": "总利润",
+    "emptyTip": "暂无资料",
+    "discountTitle": "优惠",
+    "salaryTitle": "工资",
+    "registrationTimeButton": "注册时间"
+  },
+  "agentUser": {
+    "filterPopup": {
+      "cleanButton": "清除",
+      "filterButton": "筛选",
+      "selectDateButton": "请选择日期",
+      "recommendedCode": "推荐码",
+      "cancelButton": "取消",
+      "registrationTime": "注册时间",
+      "title": "下级用户清单筛选",
+      "selectRecommendedCode": "请选择推荐码"
+    },
+    "registrationTimeButton": "注册时间",
+    "appBarTitle": "下级用户清单",
+    "emptyTip": "暂无用户资料"
+  },
+  "agentFundingDetails": {
+    "filterPopup": {
+      "cleanButton": "清除",
+      "filterButton": "筛选",
+      "dateButtonHint": "请选择日期",
+      "leverageSettingTitle": "杠杆设定",
+      "openingFilterGeneralProfit": "总盈亏",
+      "closingTimeTitle": "平仓时间",
+      "openingTimeTitle": "开仓时间",
+      "tradingDirectionTitle": "交易方向",
+      "openingFilterNetProfit": "净盈亏",
+      "cancelButton": "取消",
+      "tradingProductTitle": "交易品项",
+      "tradingProductButtonHint": "请选择交易品项",
+      "tradingDirectionButtonHint": "请选择交易方向",
+      "leverageSettingButtonHint": "请选择杠杆设定",
+      "positionPopupTitle": "持仓筛选器",
+      "openingPopupTitle": "开仓筛选器",
+      "closingPopupTitle": "平仓筛选器"
+    },
+    "appBarTitle": "资金明细",
+    "closePositionButton": "平仓",
+    "openPositionButton": "开仓",
+    "currentPositionButton": "目前持仓"
+  },
+  "agentUserProfitSharingForm": {
+    "filterPopup": {
+      "cleanButton": "清除",
+      "filterButton": "筛选",
+      "cancelButton": "取消",
+      "feesTitle": "规费",
+      "transactionProfitTitle": "交易利润",
+      "discountTitle": "优惠",
+      "totalGruntTitle": "总分润",
+      "popupTitle": "用户分润筛选器"
+    },
+    "dateHint": "请选择日期",
+    "dateTitle": "日期",
+    "appBarTitle": "用户分润报表",
+    "emptyTip": "暂无用户资料"
+  },
+  "agentTransactionSetting": {
+    "filterTitle": "筛选",
+    "appBarTitle": "交易设定",
+    "deleteSuccess": "删除成功",
+    "deleteFailed": "删除失败",
+    "editSuccess": "修改成功",
+    "editFailed": "修改失败",
+    "emptyTip": "查无资料",
+    "filterItemsButtonHint": "请选择商品",
+    "filterVarietyButtonHint": "请选择品种"
+  },
+  "agentOverview": {
+    "dateHint": "请选择日期",
+    "dateTitle": "日期",
+    "appBarTitle": "总览",
+    "agentProfitTitle": "分润细节",
+    "feesTitle": "规费",
+    "transactionProfitTitle": "交易利润",
+    "otherProfitsTitle": "其他利润",
+    "more": "更多",
+    "discountTitle": "优惠",
+    "salaryTitle": "工资",
+    "totalGruntTitle": "总分润",
+    "userPointsTitle": "用户分润报表",
+    "unableReceiveGumTitle": "未领取分润",
+    "takeProfitButton": "取出分润",
+    "summaryOverviewTitle": "分润概况"
+  },
+  "agentReferralCodeUsers": {
+    "typesButtonHint": "请选择类型",
+    "emptyTip": "查无资料",
+    "appBarTitle": "下级用户专用"
+  },
+  "futuresChartFullScreen": {
+    "highPrice": "最高",
+    "lowPrice": "最低",
+    "openPrice": "开盘",
+    "addFavoriteSuccess": "已加入个人自订品种",
+    "removeFavoriteSuccess": "已移除个人自订品种"
+  },
+  "agentPaymentDetail": {
+    "depositWithdrawalDetailsTitle": "出入金详情",
+    "depositTotal": "入金总额",
+    "appBarTitle": "资金明细",
+    "emptyTip": "查无资料"
+  },
+  "withdrawBank": {
+    "datePrefix": "日期",
+    "tipTitle": "相关提示:",
+    "appBarTitle": "银行转帐",
+    "withdrawRequestSending": "提交申请中",
+    "withdrawButton": "提交出金申请",
+    "tipContent": "客户出金所指定之帐号，必需是开户时所指定之出金银行帐号。\n电子交易系统之线上出金申请时间为每个营业日上午8：00~14：00",
+    "completeTitle": "出金申请完成",
+    "completeContent": "审核预计会需要 3-5 个工作天。\n通过后，您将会收到资金转帐通知。",
+    "completeButton": "已完成申请",
+    "pricePrefix": "额度"
+  },
+  "accountPaymentManager": {
+    "statusAudit": "审核中",
+    "appBarTitle": "出金帐户设定",
+    "emptyTip": "您目前没有任何出金帐户，请按下方或\n右上角“+”按钮新增后\n进行审核。",
+    "addBankAccount": "新增出金帐户",
+    "statusSuccess": "可使用",
+    "statusFail": "未过审",
+    "paymentCategoryEmptyPopup": {
+      "noPaymentTip": "目前无出金方式，如要新增出金帐户，请",
+      "contactCustomerService": "联系客服人员"
+    }
+  },
+  "languageSetting": {
+    "complete": "完成",
+    "appBarTitle": "语言",
+    "localeDefault": "系统",
+    "localeZhTw": "繁体中文",
+    "localeZhCn": "简体中文",
+    "localeZh": "中文",
+    "localeEn": "English",
+    "localeJp": "日本语",
+    "localeKr": "한국어",
+    "localeTh": "ไทย",
+    "localeVi": "Tiếng Việt"
+  },
+  "keyboardInputAction": {
+    "complete": "完成"
+  },
+  "upDownColorSetting": {
+    "complete": "完成",
+    "upGreenDownRed": "绿涨红跌",
+    "upRedDownGreen": "红涨绿跌",
+    "appBarTitle": "升跌颜色"
+  },
+  "serverLineSetting": {
+    "complete": "完成"
+  },
+  "agentReferralCode": {
+    "appBarTitle": "推荐码",
+    "deleteSuccess": "删除成功",
+    "deleteFailed": "删除失败",
+    "emptyTip": "暂无资料"
+  },
+  "referralCodeBind": {
+    "inputTitle": "推荐码",
+    "addButton": "新增推荐码",
+    "appBarTitle": "输入推荐码",
+    "inputHint": "请输入推荐码",
+    "descriptionText": "推荐码将会影响您的帐号奖励\n以及交易费用的相关折扣。\n输入后将无法更改，请确认代\n理或朋友提供给您的推荐码是\n否正确再输入。"
+  },
+  "agentReferralUserList": {
+    "recommendedCode": "推荐码"
+  },
+  "orders": {
+    "openPriceTitle": "开仓价",
+    "occupyMargin": "保证金",
+    "transactionSerialTitle": "订单号",
+    "emptyButton": "开始交易",
+    "lastPriceTitle": "当前价",
+    "stopLoss": "止损",
+    "stopProfit": "止盈",
+    "emptyTip": "尚无挂单",
+    "cancelButton": "撤销",
+    "cancelConfirm": "确定撤单?",
+    "orderPrice": "挂单价",
+    "cancelOrderSuccess": "取消挂单成功"
+  },
   "agentReferralCodeList": {
     "copyButton": "复制",
     "descriptionPopup": {
@@ -952,12 +1044,6 @@
     "title": "复制",
     "copyToClipboardSuccess": "已复制至剪贴板"
   },
-  "agentPaymentDetail": {
-    "appBarTitle": "资金明细",
-    "emptyTip": "查无资料",
-    "depositWithdrawalDetailsTitle": "出入金详情",
-    "depositTotal": "入金总额"
-  },
   "orderDetail": {
     "openPositionChartTag": "挂单",
     "orderTag": "挂单",
@@ -974,8 +1060,8 @@
     "lotsTitle": "数量",
     "currentValueTitle": "价值",
     "cancelButton": "撤销",
-    "createDate": "交易日期",
     "cancelOrderSuccess": "取消挂单成功",
+    "createDate": "交易日期",
     "orderChanged": "委托异动, 请重新进入"
   },
   "cancelOrderConfirmPopup": {
@@ -991,6 +1077,7 @@
   "futuresContract": {
     "rollover": "隔夜费",
     "tableValueUnfold": "展开",
+    "transactionTimeTitle": "交易时段",
     "title": "{unit}的{name}价格",
     "tradeTimeWeekend": "周数",
     "tradeTimeIntervalOutDay": "{start} - 隔日{end}",
@@ -1002,7 +1089,6 @@
     "contractSize": "契约规模",
     "maxPositionTitle": "最大总持仓数量",
     "rolloverTime": "收取时间",
-    "transactionTimeTitle": "交易时段",
     "transactionTimeCurrent": "当前时段",
     "transactionTimeNext": "下个时段",
     "viewAllTransactionTime": "查看更多时段",
@@ -1116,22 +1202,6 @@
     "pleaseEnterSearchHint": "请输入搜寻条件",
     "enterDetailSearchHint": "输入交易设定搜寻条件"
   },
-  "agentUserProfitSharingForm": {
-    "filterPopup": {
-      "cancelButton": "取消",
-      "feesTitle": "规费",
-      "transactionProfitTitle": "交易利润",
-      "cleanButton": "清除",
-      "filterButton": "筛选",
-      "discountTitle": "优惠",
-      "totalGruntTitle": "总分润",
-      "popupTitle": "用户分润筛选器"
-    },
-    "dateHint": "请选择日期",
-    "dateTitle": "日期",
-    "appBarTitle": "用户分润报表",
-    "emptyTip": "暂无用户资料"
-  },
   "agentFundingDetailsSearch": {
     "cancel": "取消",
     "emptyTip": "查无资料",
@@ -1202,8 +1272,8 @@
   "chartBollSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失败",
-    "cancelModify": "您确定要放弃修改吗？",
     "appBarTitle": "BOLL",
+    "cancelModify": "您确定要放弃修改吗？",
     "modifyButton": "储存",
     "index": "指标",
     "defaultSetting": "默认设置",
@@ -1216,8 +1286,8 @@
   "chartKdjSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失败",
-    "cancelModify": "您确定要放弃修改吗？",
     "appBarTitle": "KDJ",
+    "cancelModify": "您确定要放弃修改吗？",
     "modifyButton": "储存",
     "index": "指标",
     "defaultSetting": "默认设置",
@@ -1231,8 +1301,8 @@
   "chartMacdSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失败",
-    "cancelModify": "您确定要放弃修改吗？",
     "appBarTitle": "MACD",
+    "cancelModify": "您确定要放弃修改吗？",
     "modifyButton": "储存",
     "index": "指标",
     "defaultSetting": "默认设置",
@@ -1245,18 +1315,18 @@
   "chartMaSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失败",
-    "cancelModify": "您确定要放弃修改吗？",
     "appBarTitle": "MA",
     "indexMa": "MA",
+    "cancelModify": "您确定要放弃修改吗？",
     "modifyButton": "储存",
     "defaultSetting": "默认设置"
   },
   "chartRsiSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失败",
-    "cancelModify": "您确定要放弃修改吗？",
     "appBarTitle": "RSI",
     "indexRsi": "RSI",
+    "cancelModify": "您确定要放弃修改吗？",
     "modifyButton": "储存",
     "defaultSetting": "默认设置",
     "period": "周期"
@@ -1264,9 +1334,9 @@
   "chartWrSetting": {
     "modifySuccess": "修改成功",
     "modifyFail": "修改失败",
-    "cancelModify": "您确定要放弃修改吗？",
     "appBarTitle": "WR",
     "indexWr": "WR",
+    "cancelModify": "您确定要放弃修改吗？",
     "modifyButton": "储存",
     "defaultSetting": "默认设置",
     "period": "周期"
@@ -1283,68 +1353,19 @@
     "modifyFail": "修改失败",
     "errorMarginCallOutRange": "调整保证金须在限制范围内"
   },
-  "agentReferralCodeUsers": {
-    "emptyTip": "查无资料",
-    "typesButtonHint": "请选择类型",
-    "appBarTitle": "下级用户专用"
-  },
   "countryCode": {
     "emptyTip": "查无资料",
     "country": "国家",
     "searchEnterHint": "请输入名称或区码"
   },
-  "futuresChartFullScreen": {
-    "highPrice": "最高",
-    "lowPrice": "最低",
-    "openPrice": "开盘",
-    "addFavoriteSuccess": "已加入个人自订品种",
-    "removeFavoriteSuccess": "已移除个人自订品种"
+  "userGuideCategory": {
+    "emptyTip": "查无资料"
   },
-  "withdrawBank": {
-    "datePrefix": "日期",
-    "tipTitle": "相关提示:",
-    "appBarTitle": "银行转帐",
-    "withdrawRequestSending": "提交申请中",
-    "withdrawButton": "提交出金申请",
-    "tipContent": "客户出金所指定之帐号，必需是开户时所指定之出金银行帐号。\n电子交易系统之线上出金申请时间为每个营业日上午8：00~14：00",
-    "completeTitle": "出金申请完成",
-    "completeContent": "审核预计会需要 3-5 个工作天。\n通过后，您将会收到资金转帐通知。",
-    "completeButton": "已完成申请",
-    "pricePrefix": "额度"
+  "userGuideSection": {
+    "emptyTip": "查无资料"
   },
-  "accountPaymentManager": {
-    "statusAudit": "审核中",
-    "appBarTitle": "出金帐户设定",
-    "emptyTip": "您目前没有任何出金帐户，请按下方或\n右上角“+”按钮新增后\n进行审核。",
-    "addBankAccount": "新增出金帐户",
-    "statusSuccess": "可使用",
-    "statusFail": "未过审",
-    "paymentCategoryEmptyPopup": {
-      "noPaymentTip": "目前无出金方式，如要新增出金帐户，请",
-      "contactCustomerService": "联系客服人员"
-    }
-  },
-  "languageSetting": {
-    "complete": "完成",
-    "appBarTitle": "语言",
-    "localeDefault": "系统",
-    "localeZhTw": "繁体中文",
-    "localeZhCn": "简体中文",
-    "localeZh": "中文",
-    "localeEn": "English",
-    "localeJp": "日本语",
-    "localeKr": "한국어",
-    "localeTh": "ไทย",
-    "localeVi": "Tiếng Việt"
-  },
-  "keyboardInputAction": {
-    "complete": "完成"
-  },
-  "upDownColorSetting": {
-    "complete": "完成",
-    "upGreenDownRed": "绿涨红跌",
-    "upRedDownGreen": "红涨绿跌",
-    "appBarTitle": "升跌颜色"
+  "userGuideArticle": {
+    "emptyTip": "查无资料"
   },
   "paymentBank": {
     "paymentPriceRangeTip": "入金金额区间：{unit} {range}",
@@ -1573,6 +1594,17 @@
   "listScrollSheet": {
     "confirmButton": "确认"
   },
+  "chartSetting": {
+    "indicatorBoll": "BOLL",
+    "indicatorKdj": "KDJ",
+    "indicatorMacd": "MACD",
+    "indicatorMa": "MA",
+    "indicatorRsi": "RSI",
+    "indicatorWr": "WR",
+    "chartType": "图表类型",
+    "appBarTitle": "图表设置",
+    "indicatorIndex": "技术指标"
+  },
   "paymentMethod": {
     "bankTitle": "银行转帐",
     "creditTitle": "信用卡线上刷卡",
@@ -1591,15 +1623,15 @@
   },
   "signUp": {
     "registerButton": "注册",
-    "emailRegistrationTitle": "使用信箱注册",
     "enterEmailHint": "请填写您的电子信箱",
+    "enterPhoneNumberHint": "请输入您的手机号码",
+    "emailRegistrationTitle": "使用信箱注册",
     "signUpSuccess": "注册成功",
     "emailEnterCodeHint": "输入信箱收到的验证码",
     "agreeOurPrivacy": "注册即代表您同意我们的",
     "agreeOurPrivacyValue": "隐私政策.",
     "alreadyHaveAccountButton": "已有帐号？",
     "phoneNumberRegistrationTitle": "使用手机号码注册",
-    "enterPhoneNumberHint": "请输入您的手机号码",
     "enterPasswordHint": "输入密码",
     "enterReferralInputHint": "输入邀请码(非必填)",
     "phoneNumberEnterCodeHint": "输入简讯收到的验证码",
@@ -1616,17 +1648,6 @@
     "welcomeTitle": "欢迎",
     "newUserTitle": "新使用者注册",
     "registeredYet": "您还没注册吗?"
-  },
-  "chartSetting": {
-    "indicatorBoll": "BOLL",
-    "indicatorKdj": "KDJ",
-    "indicatorMacd": "MACD",
-    "indicatorMa": "MA",
-    "indicatorRsi": "RSI",
-    "indicatorWr": "WR",
-    "chartType": "图表类型",
-    "appBarTitle": "图表设置",
-    "indicatorIndex": "技术指标"
   },
   "bankAccountDetail": {
     "appBarTitle": "出金帐户设定",
@@ -1678,8 +1699,8 @@
   },
   "changePassword": {
     "captchaHint": "输入验证码",
-    "appBarTitle": "修改密码",
     "newPasswordHint": "请输入新密码",
+    "appBarTitle": "修改密码",
     "modifyButton": "确认变更",
     "changeSuccessToast": "密码变更成功, 请重新登入"
   },
@@ -1689,32 +1710,6 @@
     "phoneNumberEnterCodeHint": "输入简讯收到的验证码",
     "appBarTitle": "验证电话",
     "bindSuccess": "已成功绑定电话"
-  },
-  "identifyVerificationResult": {
-    "title": "证明身份流程完成",
-    "content": "将会需要 1-5 个工作天，确认验证完毕，您就可以入金，享受交易了",
-    "backToHome": "回首页"
-  },
-  "emptyPlace": {
-    "tip": "资料为空"
-  },
-  "serverApiError": {
-    "system": "糟糕 出现了一个错误",
-    "payment1": "馀额不足",
-    "order2": "馀额不足",
-    "payment2": "金额超出限制",
-    "payment3": "每日出金次数已达上限",
-    "payment4": "当前已有出金订单审核中, 请勿重复出金",
-    "payment5": "当前非出金时段",
-    "account1": "验证码错误",
-    "account2": "资料已绑定, 请勿重复绑定",
-    "account3": "实名认证资料已绑定, 请勿重复绑定",
-    "account4": "无法注册, 请联系客服",
-    "account5": "请先绑定手机号",
-    "order1": "查无此产品",
-    "order3": "查无持仓",
-    "account6": "绑定失败, 已绑定过的资料",
-    "http400": "帐密错误"
   },
   "login": {
     "enterEmailHint": "请填写您的电子信箱",
@@ -1726,10 +1721,13 @@
     "phoneLogin": "手机登入",
     "emailLogin": "信箱登入"
   },
-  "marginLevelWarningBar": {
-    "tip": "保证金比例过低提示! ({percent}%)"
+  "identifyVerificationResult": {
+    "title": "证明身份流程完成",
+    "content": "将会需要 1-5 个工作天，确认验证完毕，您就可以入金，享受交易了",
+    "backToHome": "回首页"
   },
   "fileVerify": {
+    "idNumberTitle": "证件号码",
     "idCardTitle": "身份证明文件",
     "errorIdForwardEmpty": "缺少身分证正面",
     "errorIdBackwardEmpty": "缺少身分证反面",
@@ -1755,9 +1753,32 @@
     "passport": "护照",
     "drivingLicense": "驾照",
     "accountBookOrResidentPermit": "户口名簿 / 居留证",
-    "idNumberTitle": "证件号码",
     "errorIdNumberEmpty": "请输入证件号码",
     "idNumberHint": "请输入您的证件号码"
+  },
+  "emptyPlace": {
+    "tip": "资料为空"
+  },
+  "serverApiError": {
+    "system": "糟糕 出现了一个错误",
+    "payment1": "馀额不足",
+    "order2": "馀额不足",
+    "payment2": "金额超出限制",
+    "payment3": "每日出金次数已达上限",
+    "payment4": "当前已有出金订单审核中, 请勿重复出金",
+    "payment5": "当前非出金时段",
+    "account1": "验证码错误",
+    "account2": "资料已绑定, 请勿重复绑定",
+    "account3": "实名认证资料已绑定, 请勿重复绑定",
+    "account4": "无法注册, 请联系客服",
+    "account5": "请先绑定手机号",
+    "order1": "查无此产品",
+    "order3": "查无持仓",
+    "account6": "绑定失败, 已绑定过的资料",
+    "http400": "帐密错误"
+  },
+  "marginLevelWarningBar": {
+    "tip": "保证金比例过低提示! ({percent}%)"
   },
   "handIdCardVerify": {
     "stepHeaderSubtitle": "共1题",

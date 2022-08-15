@@ -424,6 +424,7 @@
     "dynamicProfitLoss": "平倉盈虧",
     "openPositionPriceTitle": "開倉價",
     "createDate": "平倉時間",
+    "openPositionDate": "開倉時間",
     "rollover": "隔夜費",
     "closePositionReason": "平倉原因",
     "contractMargin": "保證金",

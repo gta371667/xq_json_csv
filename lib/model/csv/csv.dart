@@ -319,7 +319,7 @@ class CsvData {
   Map<String, dynamic> _parentList(List<String> spKeys, String value) {
     Map<String, dynamic> map = {};
 
-    if(value.isEmpty){
+    if (value.isEmpty) {
       return map;
     }
 
@@ -353,21 +353,21 @@ class CsvData {
   factory CsvData.mergeCsv(CsvData base, CsvData from) {
     return CsvData(
       zhTW: base.zhTW,
-      zhCN: base.zhCN,
-      enEN: base.enEN,
+      zhCN: from.zhCN.isNotEmpty ? from.zhCN : base.zhCN,
+      enEN: from.enEN.isNotEmpty ? from.enEN : base.enEN,
       enEnAdjust: base.enEnAdjust,
       enEnSugCount: base.enEnSugCount,
       enEnCount: base.enEnCount,
-      thTH: base.thTH,
+      thTH: from.thTH.isNotEmpty ? from.thTH : base.thTH,
       thThCount: base.thThCount,
       thThSugCount: base.thThSugCount,
-      jpJP: base.jpJP,
+      jpJP: from.jpJP.isNotEmpty ? from.jpJP : base.jpJP,
       jpJPCount: base.jpJPCount,
       jpJPSubCount: base.jpJPSubCount,
-      krKR: base.krKR,
+      krKR: from.krKR.isNotEmpty ? from.krKR : base.krKR,
       krKRCount: base.krKRCount,
       krKRSugCount: base.krKRSugCount,
-      vnVN: base.vnVN,
+      vnVN: from.vnVN.isNotEmpty ? from.vnVN : base.vnVN,
       vnVNCount: base.vnVNCount,
       vnVNSugCount: base.vnVNSugCount,
       jsonKey: from.jsonKey,

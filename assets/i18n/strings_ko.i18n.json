@@ -61,6 +61,7 @@
     "waitVerificationRealAccount": "실제 계정 검토를 기다리고 있습니다",
     "levelDiamond": "다이아몬드 클래스",
     "member": "회원",
+    "login": "로그인",
     "logoutSuccess": "성공적으로 로그인하십시오"
   },
   "futuresMarketContent": {
@@ -73,7 +74,9 @@
     "buyPrice": "구매 가격",
     "customTab": "선택",
     "searchHint": "트랜잭션 품종 / 영어 이름을 입력하십시오",
-    "availableBalance": "사용 가능한 잔액"
+    "availableBalance": "사용 가능한 잔액",
+    "lastPrice": "최신 가격",
+    "changeRate": "견적 변경"
   },
   "home": {
     "depositButton": "저장 가치",
@@ -84,6 +87,8 @@
     "buyingPriceTitle": "구매 가격",
     "futuresTabFavorite": "선택",
     "searchHint": "트랜잭션 품종 / 영어 이름을 입력하십시오",
+    "lastPrice": "최신 가격",
+    "changeRate": "견적 변경",
     "defaultBannerTitle": "더 많은 거래 제품이 안전합니다",
     "defaultBannerSubtitle": "직관적 인 다양한 주문 도구를 신속하게 주문하십시오",
     "moreTransaction": "더 많은 거래",
@@ -96,7 +101,66 @@
     "tradeListButton": "주문 목록",
     "eventButton": "활동",
     "tutorialButton": "가르치는",
-    "futuresTabTop": "인기있는 거래"
+    "futuresTabTop": "인기있는 거래",
+    "spreadPrefix": "포인트 차이"
+  },
+  "paymentHistory": {
+    "typeDeposit": "저장 가치",
+    "appBarTitle": "금 기록에 들어오고 나갑니다",
+    "typeWithdraw": "철수",
+    "fee": "수수료",
+    "orderSerial": "단일 번호",
+    "filterPopup": {
+      "clearButton": "제거하다",
+      "filterButton": "필터",
+      "applyTimeHint": "날짜를 선택하십시오",
+      "directionHint": "유형을 선택하십시오",
+      "popupTitle": "징계 금 기록 심사",
+      "directionTitle": "금색",
+      "categoryTitle": "들어오고 나가는 방법",
+      "categoryHint": "들어오고 나가는 방법을 선택하십시오",
+      "statusTitle": "상태",
+      "statusHint": "상태를 선택하십시오",
+      "amountTitle": "금액",
+      "amountMaxHint": "제일 높은",
+      "amountMinHint": "가장 낮습니다",
+      "applyTimeTitle": "검토 시간"
+    },
+    "paymentDetail": "세부",
+    "paymentTotal": "총 금액",
+    "withdrawTotal": "총 금액",
+    "method": "방법",
+    "type": "유형",
+    "dateTitle": "데이트",
+    "statusAudit": "검토 중",
+    "orderStatusWithdrawAudit": "검토 중",
+    "statusFail": "검토 중",
+    "orderStatusDepositAudit": "검토 중",
+    "orderStatusWithdrawHandle": "검토 중",
+    "statusWait": "기다리다",
+    "statusSuccess": "마치다",
+    "historyEmptyTip": "입장 및 종료 금 기록이 없습니다",
+    "historyErrorTip": "정보를 얻을 때 오류가 발생합니다",
+    "orderStatusDepositSuccess": "성공적인 지불",
+    "orderStatusWithdrawSuccess": "금으로 성공하십시오",
+    "orderStatusDepositWaitPay": "무급",
+    "orderStatusWithdrawReject": "감사 실패"
+  },
+  "agentUserPaymentHistoryList": {
+    "deposit": "저장 가치",
+    "withdraw": "철수",
+    "methodTitle": "방법",
+    "typesTitle": "유형",
+    "dateTitle": "데이트",
+    "orderStatusWithdrawAudit": "검토 중",
+    "orderStatusFail": "검토 중",
+    "orderStatusDepositAudit": "검토 중",
+    "orderStatusWithdrawHandle": "검토 중",
+    "orderStatusDepositSuccess": "성공적인 지불",
+    "orderStatusWithdrawSuccess": "금으로 성공하십시오",
+    "orderStatusDepositWaitPay": "무급",
+    "orderStatusWithdrawReject": "감사 실패",
+    "nameDescription": "에이전트 세부 사항 목록"
   },
   "menu": {
     "positions": "위치",
@@ -112,28 +176,28 @@
   },
   "agentFundingPositionsList": {
     "profitLossTitle": "이익과 손실",
+    "handlingFeeTitle": "수수료",
+    "singleNumberTitle": "단일 번호",
     "buyingTitle": "구입하다",
     "sellTitle": "팔다",
-    "handlingFeeTitle": "수수료",
     "leverageSettingTitle": "설정을 활용하십시오",
     "generalProfit": "총 이익과 손실",
     "openingPriceTitle": "오프닝 가격",
     "stopProfitPrice": "이익 가격",
     "stopLossPrice": "손실 가격을 중지하십시오",
-    "singleNumberTitle": "단일 번호",
     "repairImmediatelyHint": "즉시",
     "openMarginTitle": "노예"
   },
   "agentFundingPositionsDetail": {
     "profitLossTitle": "이익과 손실",
+    "handlingFeeTitle": "수수료",
+    "singleNumberTitle": "단일 번호",
     "buyingTitle": "구입하다",
     "sellTitle": "팔다",
-    "handlingFeeTitle": "수수료",
     "leverageSettingTitle": "설정을 활용하십시오",
     "generalProfit": "총 이익과 손실",
     "stopProfitPrice": "이익 가격",
     "stopLossPrice": "손실 가격을 중지하십시오",
-    "singleNumberTitle": "단일 번호",
     "repairImmediatelyHint": "즉시",
     "openMarginTitle": "노예",
     "copyButton": "복사",
@@ -158,6 +222,7 @@
   },
   "positions": {
     "profitLoss": "이익과 손실",
+    "lastPrice": "최신 가격",
     "openPositionPrice": "오프닝 가격",
     "closePosition": "액체",
     "occupyMargin": "보증금",
@@ -167,12 +232,14 @@
     "selectAll": "모두를 선택하십시오",
     "emptyTip": "교수형 주문이 없습니다",
     "emptyButton": "거래를 시작하십시오",
-    "lastPrice": "최신 가격",
     "resetSelect": "repossess",
     "closeMultiPosition": "배치 폐쇄",
     "closePositionLotsOutRange": "거래 수는 보유자 수를 초과합니다",
     "isConfirmClosePosition": "위치를 결정하십시오",
-    "limitedTimePrice": "제한된 시간 가격"
+    "limitedTimePrice": "제한된 시간 가격",
+    "lastPriceTitle": "현재 가격",
+    "stopLoss": "손실을 중지하십시오",
+    "stopProfit": "이윤을 내다"
   },
   "transactionHistory": {
     "profitLoss": "이익과 손실",
@@ -214,88 +281,30 @@
   "agentUserPaymentHistory": {
     "appBarTitle": "금 기록에 들어오고 나갑니다",
     "filterPopup": {
-      "cancelButton": "취소",
       "cleanButton": "제거하다",
       "filterButton": "필터",
       "dateButtonHint": "날짜를 선택하십시오",
       "typesButtonHint": "유형을 선택하십시오",
       "popupTitle": "징계 금 기록 심사",
-      "dateTitle": "신청일",
       "typesTitle": "금색",
       "methodTitle": "들어오고 나가는 방법",
       "methodButtonHint": "들어오고 나가는 방법을 선택하십시오",
       "statusTitle": "상태",
       "statusButtonHint": "상태를 선택하십시오",
-      "amountTitle": "금액"
+      "amountTitle": "금액",
+      "cancelButton": "취소",
+      "dateTitle": "신청일"
     },
-    "emptyTip": "준비되지 않은 정보",
     "depositWithdrawalDetailsTitle": "세부",
     "totalDeposit": "총 금액",
-    "totalWithdrawal": "총 금액"
-  },
-  "paymentHistory": {
-    "appBarTitle": "금 기록에 들어오고 나갑니다",
-    "typeWithdraw": "철수",
-    "fee": "수수료",
-    "orderSerial": "단일 번호",
-    "filterPopup": {
-      "amountMaxHint": "제일 높은",
-      "amountMinHint": "가장 낮습니다",
-      "clearButton": "제거하다",
-      "filterButton": "필터",
-      "applyTimeHint": "날짜를 선택하십시오",
-      "directionHint": "유형을 선택하십시오",
-      "popupTitle": "징계 금 기록 심사",
-      "directionTitle": "금색",
-      "categoryTitle": "들어오고 나가는 방법",
-      "categoryHint": "들어오고 나가는 방법을 선택하십시오",
-      "statusTitle": "상태",
-      "statusHint": "상태를 선택하십시오",
-      "amountTitle": "금액",
-      "applyTimeTitle": "검토 시간"
-    },
-    "paymentDetail": "세부",
-    "paymentTotal": "총 금액",
-    "withdrawTotal": "총 금액",
-    "method": "방법",
-    "type": "유형",
-    "dateTitle": "데이트",
-    "statusAudit": "검토 중",
-    "orderStatusWithdrawAudit": "검토 중",
-    "statusWait": "기다리다",
-    "statusSuccess": "마치다",
-    "statusFail": "처리",
-    "typeDeposit": "지불",
-    "historyEmptyTip": "입장 및 종료 금 기록이 없습니다",
-    "historyErrorTip": "정보를 얻을 때 오류가 발생합니다",
-    "orderStatusDepositAudit": "처리",
-    "orderStatusWithdrawHandle": "처리",
-    "orderStatusDepositSuccess": "성공적인 지불",
-    "orderStatusWithdrawSuccess": "금으로 성공하십시오",
-    "orderStatusDepositWaitPay": "무급",
-    "orderStatusWithdrawReject": "감사 실패"
+    "totalWithdrawal": "총 금액",
+    "emptyTip": "준비되지 않은 정보"
   },
   "withdraw": {
     "appBarTitle": "철수",
     "withdrawPriceRangeTip": "교차 범위 : {unit} {range}",
     "balanceTitle": "균형",
     "withdrawAll": "모든 것을 꺼내십시오"
-  },
-  "agentUserPaymentHistoryList": {
-    "withdraw": "철수",
-    "methodTitle": "방법",
-    "typesTitle": "유형",
-    "dateTitle": "데이트",
-    "orderStatusWithdrawAudit": "검토 중",
-    "deposit": "지불",
-    "orderStatusFail": "처리",
-    "orderStatusDepositAudit": "처리",
-    "orderStatusWithdrawHandle": "처리",
-    "orderStatusDepositSuccess": "성공적인 지불",
-    "orderStatusWithdrawSuccess": "금으로 성공하십시오",
-    "orderStatusDepositWaitPay": "무급",
-    "orderStatusWithdrawReject": "감사 실패",
-    "nameDescription": "에이전트 세부 사항 목록"
   },
   "withdrawThirdParty": {
     "withdrawButton": "철수",
@@ -321,9 +330,9 @@
     "netAssetValue": "순자산",
     "availableBalance": "사용 가능한 잔액",
     "tabOrder": "끊다",
+    "occupyMargin": "보증금",
     "tabPosition": "위치를 잡으십시오",
     "maintenanceMargin": "예금을 유지하십시오",
-    "occupyMargin": "보증금",
     "dynamicProfitLoss": "실시간 이익 및 손실",
     "tabHistory": "청산이 있습니다",
     "positionSortUp2Down": "오프닝 가격은 높거나 낮습니다",
@@ -343,36 +352,37 @@
     "netAssetValue": "순자산",
     "dynamicProfitLoss": "떠 다니는 이익과 손실",
     "availableBalance": "사용 가능한 잔액",
-    "maintenanceMargin": "예금을 유지하십시오",
     "margin": "보증금",
+    "maintenanceMargin": "예금을 유지하십시오",
     "marginLevel": "여백 레벨"
   },
   "positionDetail": {
     "dynamicProfitLoss": "떠 다니는 이익과 손실",
+    "profitLoss": "떠 다니는 이익과 손실",
+    "highPrice": "제일 높은",
+    "lowPrice": "가장 낮습니다",
     "rollover": "밤새 요금",
     "tableOpenPriceTitle": "오프닝 가격",
     "openPriceTitle": "오프닝 가격",
-    "profitLoss": "떠 다니는 순이익 및 손실",
     "closePosition": "액체",
-    "openPositionChartTag": "오픈 창고",
+    "contractMargin": "보증금",
+    "transactionSerial": "주문 번호",
+    "closePositionSuccess": "성공적인 청산",
+    "estimatedForcedParity": "강한 패리티 추정",
     "positionTag": "위치를 잡으십시오",
-    "lastPriceTitle": "현재 가격",
     "maintenanceMargin": "예금을 유지하십시오",
-    "highPrice": "제일 높은",
+    "openPositionChartTag": "오픈 창고",
+    "lastPriceTitle": "현재 가격",
     "openPrice": "열리는",
-    "lowPrice": "가장 낮습니다",
     "tradingDirection": "방향",
     "lots": "숫자",
     "createDate": "거래 시간",
-    "contractMargin": "보증금",
     "fee": "포괄적 인 거래 수수료",
     "modifyButton": "개정하다",
-    "transactionSerial": "주문 번호",
     "stopProfitLossEmpty": "설정되지 않았습니다",
     "trailingStopEmpty": "설정되지 않았습니다",
     "tableLotsTitle": "수량",
     "currentPositionValue": "현재 가치",
-    "closePositionSuccess": "성공적인 청산",
     "closePositionLotsOutRange": "수제 수는 홀더 수를 초과합니다",
     "confirmClosePosition": "청산을 확인하십시오",
     "openPositionLots": "열린 창고 수",
@@ -385,25 +395,25 @@
     "feeLoading": "로딩",
     "rolloverEmpty": "-",
     "openPositionValue": "열린 위치 값",
-    "estimatedForcedParity": "강한 패리티 추정",
     "quantity24h": "24 시간 수량"
   },
   "transactionHistoryDetail": {
     "dynamicProfitLoss": "쓰레기와 손실",
-    "createDate": "포지셔닝 시간",
-    "rollover": "밤새 요금",
     "openPositionPriceTitle": "오프닝 가격",
-    "closePositionPriceTitle": "포지셔닝 가격",
+    "createDate": "포지셔닝 시간",
+    "openPositionDate": "개봉 시간",
+    "rollover": "밤새 요금",
     "closePositionReason": "합리적인 위치",
     "contractMargin": "보증금",
-    "fee": "포괄적 인 거래 수수료",
     "transactionSerial": "주문 번호",
+    "orderTag": "청산이 있습니다",
+    "fee": "포괄적 인 거래 수수료",
     "stopProfitLossEmpty": "설정되지 않았습니다",
     "trailingStopEmpty": "설정되지 않았습니다",
     "openPositionValue": "열린 위치 값",
-    "orderTag": "청산이 있습니다",
     "netProfitLoss": "창고 순이익 및 손실",
-    "closePositionValue": "포지셔닝 값"
+    "closePositionValue": "포지셔닝 값",
+    "closePositionPriceTitle": "포지셔닝 가격"
   },
   "futuresTransaction": {
     "crossMargin": "모든 창고",
@@ -411,34 +421,34 @@
     "availableBalance": "사용 가능한 잔액",
     "totalCostPopup": {
       "handlingFee": "수수료",
+      "needMargin": "보증금을 지불해야합니다",
       "transactionAllFee": "포괄적 인 거래 수수료",
       "transactionMargin": "거래 예금",
       "transactionTotalTitle": "총 지불",
-      "needMargin": "보증금을 지불해야합니다",
       "totalValue": "총 (위안)"
     },
     "marketOrderPopup": {
+      "type": "유형",
       "openPrice": "오프닝 가격",
       "occupyMargin": "보증금",
       "lots": "수량",
-      "type": "유형",
       "createDate": "설립 날짜",
       "futuresNameTitle": "제품",
       "marketPrice": "시장 가격",
       "transactionMode": "트랜잭션 모드"
     },
-    "tradingDirection": "방향",
-    "lots": "숫자",
     "limitOrderPopup": {
+      "type": "유형",
       "occupyMargin": "보증금",
       "lots": "수량",
-      "type": "유형",
       "createDate": "설립 날짜",
       "futuresNameTitle": "제품",
       "limitPrice": "제한 가격"
     },
-    "marketClose": "시장 셧다운 -주문 거래 수락 전용",
     "needMargin": "보증금을 지불해야합니다",
+    "tradingDirection": "방향",
+    "lots": "숫자",
+    "marketClose": "시장 셧다운 -주문 거래 수락 전용",
     "errorStopLossOutRange": "중지 손실은 제한 범위 내에 있어야합니다",
     "errorStopProfitOutRange": "중단은 제한 범위 내에 있어야합니다",
     "errorLotsOutRange": "손의 수는 한계 범위 내에 있어야합니다.",
@@ -595,6 +605,24 @@
     "clearCacheToast": "청소 {size} mb",
     "noCacheNeedClean": "캐시를 정리할 필요가 없습니다"
   },
+  "common": {
+    "login": "로그인",
+    "buyIn": "구입하다",
+    "sellOut": "팔다",
+    "stopLoss": "손실을 중지하십시오",
+    "stopProfit": "이윤을 내다",
+    "cancel": "취소",
+    "loginFirst": "먼저 로그인하시기 바랍니다",
+    "appName": "세미나",
+    "notInSimulated": "이 기능은 시뮬레이션 트랜잭션에서 사용할 수 없습니다",
+    "confirm": "확인",
+    "futureClosed": "기능 종료",
+    "priceUnit": "USD",
+    "lotsUnit": "손",
+    "leverUnit": "엑스",
+    "logout": "로그 아웃하십시오",
+    "trailingStop": "추적 스톱 손실"
+  },
   "futuresCustomEdit": {
     "emptyTip": "선택하도록 선택하십시오",
     "futuresName": "거래 품종",
@@ -620,10 +648,10 @@
     "buyInPrice": "구매 가격",
     "bottomSheet": {
       "accountOrder": "끊다",
+      "positionEmptyTip": "교수형 주문이 없습니다",
       "accountPosition": "위치를 잡으십시오",
       "header": "내 커미션",
-      "positionEmptyTip": "위치가 없습니다",
-      "orderEmptyTip": "위치가 없습니다"
+      "orderEmptyTip": "교수형 주문이 없습니다"
     },
     "dataTab": {
       "nowPrice": "현재 가격",
@@ -636,21 +664,22 @@
       "highPrice": "최고 가격",
       "volume": "거래량"
     },
+    "marketClose": "시장 셧다운 -주문 거래 수락 전용",
+    "fullWarehouse": "전체 창고 모드",
     "recentTransactionUnfoldLabel": "개발",
     "addFavoriteSuccess": "개인 맞춤형 품종이 추가되었습니다",
     "removeFavoriteSuccess": "개인 맞춤형 품종이 제거되었습니다",
     "buyInVolume": "용량",
     "sellOutVolume": "판매량",
     "recentTransactionFoldLabel": "수축",
-    "marketClose": "시장 셧다운 -주문 거래 수락 전용",
     "tabChart": "시장",
     "tabData": "데이터",
     "tabContract": "세부 사항",
     "inTradingTime": "거래에서",
     "onlyLimitOrder": "목록 만 수락하십시오",
-    "fullWarehouse": "전체 창고 모드",
     "fullWarehouseTipContent": "이 거래는 전체 위치 거래이며 손실 금액은 예금 금액을 초과합니다.\n\n지속적인 손실로 인해 계정이 강한 플랫 라인에 도달하게하면 다른 주문이 크게 평평 해지고 모든 계정 자금이 손실됩니다!\n\n자본 상황을보다 효율적으로 통제하기 위해 이익 제작 및 손실 가격을 중단하는 것이 좋습니다!",
-    "fullWarehouseTipTitle": "전체 창고 모드 설명"
+    "fullWarehouseTipTitle": "전체 창고 모드 설명",
+    "transactionTimeTitle": "거래 기간"
   },
   "futuresSearch": {
     "searchInputHint": "트랜잭션 품종 / 영어 이름을 입력하십시오",
@@ -659,6 +688,32 @@
     "add": "추가",
     "searchEmptyTip": "관련이없는 다양성"
   },
+  "futuresChart": {
+    "changeRate": "견적 변경",
+    "highPrice": "제일 높은",
+    "lowPrice": "가장 낮습니다",
+    "openPrice": "열리는",
+    "chartHour1": "1 시간",
+    "volume": "거래량",
+    "more": "더",
+    "indicatorBoll": "볼",
+    "indicatorKdj": "KDJ",
+    "indicatorMacd": "MACD",
+    "indicatorMa": "그리고",
+    "indicatorRsi": "RSI",
+    "indicatorWr": "WR",
+    "closePrice": "닫다",
+    "changeValue": "기복",
+    "loadFailTitle": "불러 오지 못했습니다",
+    "loadFailContent": "정보를 얻을 수 없습니다",
+    "chartMinute1": "1 포인트",
+    "chartMinute5": "5 포인트",
+    "chartMinute15": "15 포인트",
+    "chartMinute30": "30 포인트",
+    "chartWeek1": "주간",
+    "chartMonth1": "달 노선",
+    "chartDay": "일본 라인"
+  },
   "announcement": {
     "appBarTitle": "발표",
     "emptyDataTip": "발표가 없습니다"
@@ -666,116 +721,17 @@
   "customerService": {
     "appBarTitle": "독점 고객 서비스"
   },
+  "campaign": {
+    "title": "활동"
+  },
   "qa": {
     "appBarTitle": "가르치는",
     "emptyTip": "아직 정보가 없습니다",
     "noFindQaTip1": "원하는 대답을 찾을 수 없습니까?",
     "noFindQaTip2": "연락주세요"
   },
-  "agentOverview": {
-    "appBarTitle": "전체보기",
-    "agentProfitTitle": "의무 세부 사항",
-    "feesTitle": "수수료",
-    "transactionProfitTitle": "거래 이익",
-    "otherProfitsTitle": "다른 이익",
-    "dateHint": "날짜를 선택하십시오",
-    "dateTitle": "데이트",
-    "more": "더",
-    "discountTitle": "할인",
-    "salaryTitle": "샐러리",
-    "totalGruntTitle": "총 점수",
-    "userPointsTitle": "사용자 부문 보고서",
-    "unableReceiveGumTitle": "수신 포인트가 없습니다",
-    "takeProfitButton": "테이크아웃",
-    "summaryOverviewTitle": "계량 개요"
-  },
-  "agentProfitSharing": {
-    "appBarTitle": "의무 세부 사항",
-    "filterPopup": {
-      "cancelButton": "취소",
-      "cleanButton": "제거하다",
-      "filterButton": "필터",
-      "itemsTitle": "제품",
-      "title": "필터의 세부 사항을 나눕니다",
-      "profitTitle": "나누다",
-      "userTitle": "사용자",
-      "selectUserButtonHint": "사용자를 선택하십시오",
-      "selectItemsButtonHint": "제품을 선택하십시오"
-    },
-    "feesTitle": "수수료",
-    "transactionProfitTitle": "거래 이익",
-    "otherProfitsTitle": "다른 이익",
-    "totalProfitTitle": "총 이윤",
-    "dateButtonHint": "날짜를 선택하십시오",
-    "typesButtonHint": "유형을 선택하십시오",
-    "typesTitle": "유형",
-    "dateTitle": "데이트",
-    "emptyTip": "아직 정보가 없습니다",
-    "discountTitle": "할인",
-    "salaryTitle": "샐러리",
-    "registrationTimeButton": "등록 시간"
-  },
-  "agentUser": {
-    "filterPopup": {
-      "recommendedCode": "추천 코드",
-      "cancelButton": "취소",
-      "cleanButton": "제거하다",
-      "filterButton": "필터",
-      "selectDateButton": "날짜를 선택하십시오",
-      "registrationTime": "등록 시간",
-      "title": "서브 사용자 목록 심사",
-      "selectRecommendedCode": "권장 코드를 선택하십시오"
-    },
-    "registrationTimeButton": "등록 시간",
-    "appBarTitle": "부하 직원 목록",
-    "emptyTip": "사용자 정보가 없습니다"
-  },
-  "agentReferralCode": {
-    "appBarTitle": "추천 코드",
-    "deleteSuccess": "성공적으로 삭제되었습니다",
-    "deleteFailed": "삭제하지 못했습니다",
-    "emptyTip": "아직 정보가 없습니다"
-  },
-  "referralCodeBind": {
-    "inputTitle": "추천 코드",
-    "addButton": "추천 코드가 추가되었습니다",
-    "appBarTitle": "추천 코드를 입력하십시오",
-    "inputHint": "추천 코드를 입력하십시오",
-    "descriptionText": "추천 코드는 귀하의 계정 보상에 영향을 미칩니다\n거래 비용의 관련 할인.\n입력 후에 변경되지 않습니다. 생성을 확인하십시오.\n이유 또는 친구가 제공하는 추천 코드는\n올바르게 입력할지 여부."
-  },
-  "agentReferralUserList": {
-    "recommendedCode": "추천 코드"
-  },
-  "agentTransactionSetting": {
-    "appBarTitle": "거래 설정",
-    "deleteSuccess": "성공적으로 삭제되었습니다",
-    "deleteFailed": "삭제하지 못했습니다",
-    "editSuccess": "성공적으로 수정되었습니다",
-    "editFailed": "편집 실패",
-    "emptyTip": "준비되지 않은 정보",
-    "filterTitle": "필터",
-    "filterItemsButtonHint": "제품을 선택하십시오",
-    "filterVarietyButtonHint": "다양성을 선택하십시오"
-  },
-  "common": {
-    "buyIn": "구입하다",
-    "sellOut": "팔다",
-    "cancel": "취소",
-    "loginFirst": "먼저 로그인하시기 바랍니다",
-    "appName": "세미나",
-    "notInSimulated": "이 기능은 시뮬레이션 트랜잭션에서 사용할 수 없습니다",
-    "confirm": "확인",
-    "futureClosed": "기능 종료",
-    "priceUnit": "USD",
-    "lotsUnit": "손",
-    "leverUnit": "엑스",
-    "logout": "로그 아웃하십시오",
-    "login": "로그인",
-    "stopLoss": "손실을 중지하십시오",
-    "stopProfit": "이윤을 내다",
-    "trailingStop": "추적 스톱 손실"
-  },
   "agentTransactionSettingList": {
+    "spreadTitle": "포인트 차이",
     "handlingFeeTitle": "수수료",
     "descriptionPopup": {
       "cancelButton": "취소",
@@ -783,51 +739,14 @@
       "deleteButton": "포인트 차이를 삭제합니다",
       "contentText": "이 제품 간의 차이를 삭제하면 사용자 트랜잭션의 사전 설정 지점 차이의 포인트 차이가 발생하여 이익에 영향을 줄 수 있습니다. \\ n \\ NIDE가 포인트 차이를 삭제해야합니까?"
     },
-    "emptyTip": "아직 정보가 없습니다",
-    "spreadTitle": "포인트 차이"
+    "emptyTip": "아직 정보가 없습니다"
   },
   "agentConditionFuturesList": {
+    "spreadTitle": "포인트 차이",
     "handlingFeeTitle": "수수료",
     "emptyTip": "준비되지 않은 정보",
-    "spreadTitle": "포인트 차이",
     "ItemsTitle": "식품",
     "nameDescription": "조건 거래 지점이 열악하고 처리 수수료 목록 목록"
-  },
-  "agentFundingDetails": {
-    "filterPopup": {
-      "leverageSettingTitle": "설정을 활용하십시오",
-      "openingFilterGeneralProfit": "총 이익과 손실",
-      "closingTimeTitle": "포지셔닝 시간",
-      "openingTimeTitle": "개봉 시간",
-      "tradingDirectionTitle": "거래 방향",
-      "openingFilterNetProfit": "순이익과 손실",
-      "cancelButton": "취소",
-      "cleanButton": "제거하다",
-      "filterButton": "필터",
-      "dateButtonHint": "날짜를 선택하십시오",
-      "tradingProductTitle": "거래 항목",
-      "tradingProductButtonHint": "거래 항목을 선택하십시오",
-      "tradingDirectionButtonHint": "거래 방향을 선택하십시오",
-      "leverageSettingButtonHint": "레버리지 설정을 선택하십시오",
-      "positionPopupTitle": "시나리오 작가 개최",
-      "openingPopupTitle": "오픈 창고 필터",
-      "closingPopupTitle": "창고 선별 장치"
-    },
-    "appBarTitle": "자금을위한 자금",
-    "closePositionButton": "액체",
-    "openPositionButton": "오픈 창고",
-    "currentPositionButton": "현재 위치를 보유하고 있습니다"
-  },
-  "orders": {
-    "openPriceTitle": "오프닝 가격",
-    "occupyMargin": "보증금",
-    "transactionSerialTitle": "주문 번호",
-    "emptyTip": "교수형 주문이 없습니다",
-    "emptyButton": "거래를 시작하십시오",
-    "lastPriceTitle": "현재 가격",
-    "cancelButton": "취소",
-    "cancelConfirm": "철수를 결정 하시겠습니까?",
-    "orderPrice": "교수형 단가"
   },
   "withdrawCategory": {
     "orderSerial": "단일 번호",
@@ -870,6 +789,212 @@
       "content": "가능한 이유는 다음과 같습니다.\n1. 금 통로는 일일 금액이 한도에 도달하여 다시 발행 될 수 없습니다.\n2. 시스템 유지 보수"
     }
   },
+  "agentProfitSharing": {
+    "filterPopup": {
+      "cleanButton": "제거하다",
+      "filterButton": "필터",
+      "cancelButton": "취소",
+      "itemsTitle": "제품",
+      "title": "필터의 세부 사항을 나눕니다",
+      "profitTitle": "나누다",
+      "userTitle": "사용자",
+      "selectUserButtonHint": "사용자를 선택하십시오",
+      "selectItemsButtonHint": "제품을 선택하십시오"
+    },
+    "dateButtonHint": "날짜를 선택하십시오",
+    "typesButtonHint": "유형을 선택하십시오",
+    "typesTitle": "유형",
+    "dateTitle": "데이트",
+    "appBarTitle": "의무 세부 사항",
+    "feesTitle": "수수료",
+    "transactionProfitTitle": "거래 이익",
+    "otherProfitsTitle": "다른 이익",
+    "totalProfitTitle": "총 이윤",
+    "emptyTip": "아직 정보가 없습니다",
+    "discountTitle": "할인",
+    "salaryTitle": "샐러리",
+    "registrationTimeButton": "등록 시간"
+  },
+  "agentUser": {
+    "filterPopup": {
+      "cleanButton": "제거하다",
+      "filterButton": "필터",
+      "selectDateButton": "날짜를 선택하십시오",
+      "recommendedCode": "추천 코드",
+      "cancelButton": "취소",
+      "registrationTime": "등록 시간",
+      "title": "서브 사용자 목록 심사",
+      "selectRecommendedCode": "권장 코드를 선택하십시오"
+    },
+    "registrationTimeButton": "등록 시간",
+    "appBarTitle": "부하 직원 목록",
+    "emptyTip": "사용자 정보가 없습니다"
+  },
+  "agentFundingDetails": {
+    "filterPopup": {
+      "cleanButton": "제거하다",
+      "filterButton": "필터",
+      "dateButtonHint": "날짜를 선택하십시오",
+      "leverageSettingTitle": "설정을 활용하십시오",
+      "openingFilterGeneralProfit": "총 이익과 손실",
+      "closingTimeTitle": "포지셔닝 시간",
+      "openingTimeTitle": "개봉 시간",
+      "tradingDirectionTitle": "거래 방향",
+      "openingFilterNetProfit": "순이익과 손실",
+      "cancelButton": "취소",
+      "tradingProductTitle": "거래 항목",
+      "tradingProductButtonHint": "거래 항목을 선택하십시오",
+      "tradingDirectionButtonHint": "거래 방향을 선택하십시오",
+      "leverageSettingButtonHint": "레버리지 설정을 선택하십시오",
+      "positionPopupTitle": "시나리오 작가 개최",
+      "openingPopupTitle": "오픈 창고 필터",
+      "closingPopupTitle": "창고 선별 장치"
+    },
+    "appBarTitle": "자금을위한 자금",
+    "closePositionButton": "액체",
+    "openPositionButton": "오픈 창고",
+    "currentPositionButton": "현재 위치를 보유하고 있습니다"
+  },
+  "agentUserProfitSharingForm": {
+    "filterPopup": {
+      "cleanButton": "제거하다",
+      "filterButton": "필터",
+      "cancelButton": "취소",
+      "feesTitle": "수수료",
+      "transactionProfitTitle": "거래 이익",
+      "discountTitle": "할인",
+      "totalGruntTitle": "총 점수",
+      "popupTitle": "사용자는 선별 선별를 분할합니다"
+    },
+    "dateHint": "날짜를 선택하십시오",
+    "dateTitle": "데이트",
+    "appBarTitle": "사용자 부문 보고서",
+    "emptyTip": "사용자 정보가 없습니다"
+  },
+  "agentTransactionSetting": {
+    "filterTitle": "필터",
+    "appBarTitle": "거래 설정",
+    "deleteSuccess": "성공적으로 삭제되었습니다",
+    "deleteFailed": "삭제하지 못했습니다",
+    "editSuccess": "성공적으로 수정되었습니다",
+    "editFailed": "편집 실패",
+    "emptyTip": "준비되지 않은 정보",
+    "filterItemsButtonHint": "제품을 선택하십시오",
+    "filterVarietyButtonHint": "다양성을 선택하십시오"
+  },
+  "agentOverview": {
+    "dateHint": "날짜를 선택하십시오",
+    "dateTitle": "데이트",
+    "appBarTitle": "전체보기",
+    "agentProfitTitle": "의무 세부 사항",
+    "feesTitle": "수수료",
+    "transactionProfitTitle": "거래 이익",
+    "otherProfitsTitle": "다른 이익",
+    "more": "더",
+    "discountTitle": "할인",
+    "salaryTitle": "샐러리",
+    "totalGruntTitle": "총 점수",
+    "userPointsTitle": "사용자 부문 보고서",
+    "unableReceiveGumTitle": "수신 포인트가 없습니다",
+    "takeProfitButton": "테이크아웃",
+    "summaryOverviewTitle": "계량 개요"
+  },
+  "agentReferralCodeUsers": {
+    "typesButtonHint": "유형을 선택하십시오",
+    "emptyTip": "준비되지 않은 정보",
+    "appBarTitle": "사용자에게 전념하는 부하 직원"
+  },
+  "futuresChartFullScreen": {
+    "highPrice": "제일 높은",
+    "lowPrice": "가장 낮습니다",
+    "openPrice": "열리는",
+    "addFavoriteSuccess": "개인 맞춤형 품종이 추가되었습니다",
+    "removeFavoriteSuccess": "개인 맞춤형 품종이 제거되었습니다"
+  },
+  "agentPaymentDetail": {
+    "depositWithdrawalDetailsTitle": "세부",
+    "depositTotal": "총 금액",
+    "appBarTitle": "자금을위한 자금",
+    "emptyTip": "준비되지 않은 정보"
+  },
+  "withdrawBank": {
+    "datePrefix": "데이트",
+    "tipTitle": "관련 팁 :",
+    "appBarTitle": "돈 이체",
+    "withdrawRequestSending": "신청서 제출",
+    "withdrawButton": "금 신청서를 제출하십시오",
+    "tipContent": "고객의 예금으로 지정된 계정은 계정 개설 시점에 지정된 은행 계좌의 계정이어야합니다.\n전자 거래 시스템의 온라인 신청 시간은 영업일 당 8 : 00 ~ 14:00입니다.",
+    "completeTitle": "완료 할 돈 신청",
+    "completeContent": "이 검토는 3-5 일의 근무일이 필요할 것으로 예상됩니다.\n통과 후, 당신은 자금 이체 통지를 받게됩니다.",
+    "completeButton": "신청",
+    "pricePrefix": "몫"
+  },
+  "accountPaymentManager": {
+    "statusAudit": "검토 중",
+    "appBarTitle": "금 계정 설정",
+    "emptyTip": "현재 금 계정이 없으며 아래 또는\n오른쪽 상단의 \"+\"버튼이 추가 된 후\n조사하다.",
+    "addBankAccount": "골드 계정이 추가되었습니다",
+    "statusFail": "과도한 재판이 아닙니다",
+    "paymentCategoryEmptyPopup": {
+      "noPaymentTip": "현재 금 방법이 없습니다. 금 계정을 추가하고 싶다면 제발주세요.",
+      "contactCustomerService": "고객 서비스 직원에게 문의하십시오"
+    }
+  },
+  "languageSetting": {
+    "complete": "마치다",
+    "appBarTitle": "언어",
+    "localeDefault": "체계",
+    "localeZhTw": "繁體中文",
+    "localeZhCn": "簡體中文",
+    "localeZh": "中文",
+    "localeEn": "English",
+    "localeJp": "日本語",
+    "localeKr": "한국어",
+    "localeTh": "ไทย",
+    "localeVi": "Tiếng Việt"
+  },
+  "keyboardInputAction": {
+    "complete": "마치다"
+  },
+  "upDownColorSetting": {
+    "complete": "마치다",
+    "upGreenDownRed": "녹색 상승과 빨간색",
+    "upRedDownGreen": "빨간 상승과 녹색",
+    "appBarTitle": "기복"
+  },
+  "serverLineSetting": {
+    "complete": "마치다"
+  },
+  "agentReferralCode": {
+    "appBarTitle": "추천 코드",
+    "deleteSuccess": "성공적으로 삭제되었습니다",
+    "deleteFailed": "삭제하지 못했습니다",
+    "emptyTip": "아직 정보가 없습니다"
+  },
+  "referralCodeBind": {
+    "inputTitle": "추천 코드",
+    "addButton": "추천 코드가 추가되었습니다",
+    "appBarTitle": "추천 코드를 입력하십시오",
+    "inputHint": "추천 코드를 입력하십시오",
+    "descriptionText": "추천 코드는 귀하의 계정 보상에 영향을 미칩니다\n거래 비용의 관련 할인.\n입력 후에 변경되지 않습니다. 생성을 확인하십시오.\n이유 또는 친구가 제공하는 추천 코드는\n올바르게 입력할지 여부."
+  },
+  "agentReferralUserList": {
+    "recommendedCode": "추천 코드"
+  },
+  "orders": {
+    "openPriceTitle": "오프닝 가격",
+    "occupyMargin": "보증금",
+    "transactionSerialTitle": "주문 번호",
+    "emptyButton": "거래를 시작하십시오",
+    "lastPriceTitle": "현재 가격",
+    "stopLoss": "손실을 중지하십시오",
+    "stopProfit": "이윤을 내다",
+    "emptyTip": "교수형 주문이 없습니다",
+    "cancelButton": "취소",
+    "cancelConfirm": "철수를 결정 하시겠습니까?",
+    "orderPrice": "교수형 단가",
+    "cancelOrderSuccess": "성공적으로 취소하십시오"
+  },
   "agentReferralCodeList": {
     "copyButton": "복사",
     "descriptionPopup": {
@@ -888,35 +1013,37 @@
     "title": "복사",
     "copyToClipboardSuccess": "클립 보드에 복사"
   },
-  "agentPaymentDetail": {
-    "appBarTitle": "자금을위한 자금",
-    "emptyTip": "준비되지 않은 정보",
-    "depositWithdrawalDetailsTitle": "세부",
-    "depositTotal": "총 금액"
-  },
   "orderDetail": {
     "openPositionChartTag": "끊다",
     "orderTag": "끊다",
     "orderChartTag": "끊다",
     "orderPriceTitle": "교수형 주문 가격",
     "openingPriceTitle": "오프닝 가격",
+    "margin": "보증금",
+    "transactionSerial": "주문 번호",
     "lastPriceTitle": "현재 가격",
     "tradingDirection": "방향",
-    "margin": "보증금",
     "modifyButton": "개정하다",
-    "transactionSerial": "주문 번호",
     "stopProfitLossEmpty": "설정되지 않았습니다",
     "trailingStopEmpty": "설정되지 않았습니다",
     "lotsTitle": "수량",
     "currentValueTitle": "값",
     "cancelButton": "취소",
-    "createDate": "거래 날짜",
     "cancelOrderSuccess": "성공적으로 취소하십시오",
+    "createDate": "거래 날짜",
     "orderChanged": "다른 움직임을 맡기십시오. 다시 참가하십시오"
+  },
+  "cancelOrderConfirmPopup": {
+    "orderTag": "끊다",
+    "lastPrice": "현재 가격",
+    "tradingDirection": "방향",
+    "lots": "수량",
+    "orderPrice": "교수형 단가"
   },
   "futuresContract": {
     "rollover": "밤새 요금",
     "tableValueUnfold": "개발",
+    "transactionTimeTitle": "거래 기간",
     "title": "{name} {unit}의 가격",
     "tradeTimeWeekend": "주간 번호",
     "tradeTimeIntervalOutDay": "{start} -다음 날 {end}",
@@ -928,7 +1055,6 @@
     "contractSize": "계약 규모",
     "maxPositionTitle": "최대 총 포지션 보유",
     "rolloverTime": "충전 시간",
-    "transactionTimeTitle": "거래 기간",
     "transactionTimeCurrent": "현재 기간",
     "transactionTimeNext": "다음번",
     "viewAllTransactionTime": "더 많은 시간을보십시오",
@@ -950,52 +1076,16 @@
     "appBarTitle": "교수형 순서를 수정하십시오",
     "accountOrderInputHint": "매달린 주문 가격을 입력하십시오"
   },
-  "futuresChartFullScreen": {
-    "highPrice": "제일 높은",
-    "openPrice": "열리는",
-    "lowPrice": "가장 낮습니다",
-    "addFavoriteSuccess": "개인 맞춤형 품종이 추가되었습니다",
-    "removeFavoriteSuccess": "개인 맞춤형 품종이 제거되었습니다"
-  },
-  "futuresChart": {
-    "highPrice": "제일 높은",
-    "openPrice": "열리는",
-    "lowPrice": "가장 낮습니다",
-    "chartHour1": "1 시간",
-    "volume": "거래량",
-    "more": "더",
-    "indicatorBoll": "볼",
-    "indicatorKdj": "KDJ",
-    "indicatorMacd": "MACD",
-    "indicatorMa": "그리고",
-    "indicatorRsi": "RSI",
-    "indicatorWr": "WR",
-    "closePrice": "닫다",
-    "changeValue": "기복",
-    "changeRate": "견적 변경",
-    "loadFailTitle": "불러 오지 못했습니다",
-    "loadFailContent": "정보를 얻을 수 없습니다",
-    "chartMinute1": "1 포인트",
-    "chartMinute5": "5 포인트",
-    "chartMinute15": "15 포인트",
-    "chartMinute30": "30 포인트",
-    "chartWeek1": "주간",
-    "chartMonth1": "달 노선",
-    "chartDay": "일본 라인"
-  },
-  "numberInputField": {
-    "defaultHint": "설정되지 않았습니다"
-  },
   "adjustmentMarginDescriptionPopup": {
     "content3": "강한 패리티 추정",
     "title": "보증금을 조정하십시오",
     "button": "내가 참조",
     "content1": "이 위치의 마진을 늘리거나 줄일 수 있습니다",
     "content2": "마진이 증가하면 더욱 안전해질 것입니다",
-    "content4": "감소 예금은 더 많은 것을 얻을 것입니다",
-    "content5": "사용 가능한 여백",
-    "content6": "그러나 동시에 보유의 위험이 더 큽니다.",
     "tip": "상기시키다:\n예금 조정은 직책의 위험 만 변경되며 총 주문 거래 및 주문의 손실에 영향을 미치지 않습니다."
+  },
+  "agentFundingPositions": {
+    "emptyTip": "교수형 주문이 없습니다"
   },
   "agentProfitSharingSearch": {
     "cancel": "취소",
@@ -1005,8 +1095,8 @@
   },
   "agentUserSearch": {
     "cancel": "취소",
-    "pleaseEnterSearchHint": "검색 조건을 입력하십시오",
     "emptyTip": "사용자 정보가 없습니다",
+    "pleaseEnterSearchHint": "검색 조건을 입력하십시오",
     "enterDetailSearchHint": "부하 직원 사용자 목록의 검색 조건을 입력하십시오",
     "searchResultsTitle": "검색 결과"
   },
@@ -1072,22 +1162,6 @@
     "pleaseEnterSearchHint": "검색 조건을 입력하십시오",
     "enterDetailSearchHint": "입력 트랜잭션 설정 검색 조건"
   },
-  "agentUserProfitSharingForm": {
-    "filterPopup": {
-      "cancelButton": "취소",
-      "feesTitle": "수수료",
-      "transactionProfitTitle": "거래 이익",
-      "cleanButton": "제거하다",
-      "filterButton": "필터",
-      "discountTitle": "할인",
-      "totalGruntTitle": "총 점수",
-      "popupTitle": "사용자는 선별 선별를 분할합니다"
-    },
-    "dateHint": "날짜를 선택하십시오",
-    "dateTitle": "데이트",
-    "emptyTip": "사용자 정보가 없습니다",
-    "appBarTitle": "사용자 부문 보고서"
-  },
   "agentFundingDetailsSearch": {
     "cancel": "취소",
     "emptyTip": "준비되지 않은 정보",
@@ -1098,16 +1172,16 @@
     "headerFees": "수수료",
     "headerTransactionProfit": "거래 이익",
     "emptyTip": "아직 정보가 없습니다",
-    "headerUser": "사용자",
     "headerDiscount": "할인",
-    "headerTotalGrunt": "총 점수"
+    "headerTotalGrunt": "총 점수",
+    "headerUser": "사용자"
   },
   "agentProfitList": {
     "typesFees": "수수료",
     "typesTransactionProfit": "거래 이익",
     "typesOtherProfits": "다른 이익",
-    "typesAll": "모두",
     "typesMarketPrice": "시장 가격",
+    "typesAll": "모두",
     "emptyTip": "아직 정보가 없습니다",
     "typesDiscount": "할인",
     "typesSalary": "샐러리"
@@ -1131,17 +1205,18 @@
     "estimateLoss": "예상 손실",
     "estimateProfit": "예상 수익성",
     "trailingStopSubtitle": "추적 중지 손실 거리를 설정합니다",
+    "estimateProfitLoss": "예상 이익 또는 손실",
     "trailingStopTitle": "추적 스톱 손실",
-    "errorNotTradingTime": "현재 비 트레이딩 기간",
-    "errorFuturesNotTradingTime": "이 항목은 당분간 거래 될 수 없습니다",
     "cancelModify": "수정하기 위해 포기하고 싶습니까?",
     "stopLossSubtitle": "정지 손실 가격을 설정하십시오",
     "stopProfitSubtitle": "이익 가격을 설정하십시오",
+    "adjustMargin": "보증금을 조정하십시오",
+    "errorNotTradingTime": "현재 비 트레이딩 기간",
+    "errorFuturesNotTradingTime": "이 항목은 당분간 거래 될 수 없습니다",
     "appBarTitle": "창고를 수정하십시오",
     "closeMultiPositionPartialFailTitle": "일부 단일 번호 청산이 실패했습니다!",
     "errorClosePositionFindNoSerial": "주문 번호가 없습니다",
     "errorGeneralCode": "알 수없는 오류 ({code})",
-    "adjustMargin": "보증금을 조정하십시오",
     "adjustedLiquidationPrice": "조정 후 강한 패리티로 추정됩니다.",
     "append": "덧셈",
     "mostAppend": "기껏해야 추가하십시오",
@@ -1153,8 +1228,8 @@
     "modifySuccess": "성공적으로 수정되었습니다",
     "modifyFail": "편집 실패",
     "appBarTitle": "볼",
-    "modifyButton": "가게",
     "cancelModify": "수정하기 위해 포기하고 싶습니까?",
+    "modifyButton": "가게",
     "index": "인덱스",
     "defaultSetting": "기본 설정",
     "indexUp": "위로",
@@ -1167,8 +1242,8 @@
     "modifySuccess": "성공적으로 수정되었습니다",
     "modifyFail": "편집 실패",
     "appBarTitle": "KDJ",
-    "modifyButton": "가게",
     "cancelModify": "수정하기 위해 포기하고 싶습니까?",
+    "modifyButton": "가게",
     "index": "인덱스",
     "defaultSetting": "기본 설정",
     "indexK": "케이",
@@ -1182,8 +1257,8 @@
     "modifySuccess": "성공적으로 수정되었습니다",
     "modifyFail": "편집 실패",
     "appBarTitle": "MACD",
-    "modifyButton": "가게",
     "cancelModify": "수정하기 위해 포기하고 싶습니까?",
+    "modifyButton": "가게",
     "index": "인덱스",
     "defaultSetting": "기본 설정",
     "timePeriod": "기간",
@@ -1197,8 +1272,8 @@
     "modifyFail": "편집 실패",
     "appBarTitle": "그리고",
     "indexMa": "그리고",
-    "modifyButton": "가게",
     "cancelModify": "수정하기 위해 포기하고 싶습니까?",
+    "modifyButton": "가게",
     "defaultSetting": "기본 설정"
   },
   "chartRsiSetting": {
@@ -1206,8 +1281,8 @@
     "modifyFail": "편집 실패",
     "appBarTitle": "RSI",
     "indexRsi": "RSI",
-    "modifyButton": "가게",
     "cancelModify": "수정하기 위해 포기하고 싶습니까?",
+    "modifyButton": "가게",
     "defaultSetting": "기본 설정",
     "period": "주기"
   },
@@ -1216,8 +1291,8 @@
     "modifyFail": "편집 실패",
     "appBarTitle": "WR",
     "indexWr": "WR",
-    "modifyButton": "가게",
     "cancelModify": "수정하기 위해 포기하고 싶습니까?",
+    "modifyButton": "가게",
     "defaultSetting": "기본 설정",
     "period": "주기"
   },
@@ -1228,39 +1303,28 @@
     "kLineChart": "양초 차트",
     "lineIndexChart": "타이밍 차트"
   },
-  "agentReferralCodeUsers": {
+  "marginCallEditPopup": {
+    "modifySuccess": "성공적으로 수정되었습니다",
+    "modifyFail": "편집 실패"
+  },
+  "countryCode": {
     "emptyTip": "준비되지 않은 정보",
-    "typesButtonHint": "유형을 선택하십시오",
-    "appBarTitle": "사용자에게 전념하는 부하 직원"
+    "country": "국가",
+    "searchEnterHint": "이름 또는 영역 코드를 입력하십시오"
   },
-  "withdrawBank": {
-    "datePrefix": "데이트",
-    "appBarTitle": "돈 이체",
-    "withdrawRequestSending": "신청서 제출",
-    "withdrawButton": "금 신청서를 제출하십시오",
-    "tipTitle": "관련 팁 :",
-    "tipContent": "고객의 예금으로 지정된 계정은 계정 개설 시점에 지정된 은행 계좌의 계정이어야합니다.\n전자 거래 시스템의 온라인 신청 시간은 영업일 당 8 : 00 ~ 14:00입니다.",
-    "completeTitle": "완료 할 돈 신청",
-    "completeContent": "이 검토는 3-5 일의 근무일이 필요할 것으로 예상됩니다.\n통과 후, 당신은 자금 이체 통지를 받게됩니다.",
-    "completeButton": "신청",
-    "pricePrefix": "몫"
+  "userGuideCategory": {
+    "emptyTip": "준비되지 않은 정보"
   },
-  "accountPaymentManager": {
-    "statusAudit": "검토 중",
-    "appBarTitle": "금 계정 설정",
-    "emptyTip": "현재 금 계정이 없으며 아래 또는\n오른쪽 상단의 \"+\"버튼이 추가 된 후\n조사하다.",
-    "addBankAccount": "골드 계정이 추가되었습니다",
-    "statusSuccess": "",
-    "statusFail": "과도한 재판이 아닙니다",
-    "paymentCategoryEmptyPopup": {
-      "noPaymentTip": "현재 금 방법이 없습니다. 금 계정을 추가하고 싶다면 제발주세요.",
-      "contactCustomerService": "고객 서비스 직원에게 문의하십시오"
-    }
+  "userGuideSection": {
+    "emptyTip": "준비되지 않은 정보"
+  },
+  "userGuideArticle": {
+    "emptyTip": "준비되지 않은 정보"
   },
   "paymentBank": {
     "paymentPriceRangeTip": "교차 범위 : {unit} {range}",
-    "paymentPriceTitle": "금액을 입력하십시오",
     "appBarTitle": "돈 이체",
+    "paymentPriceTitle": "금액을 입력하십시오",
     "gettingTransferAccount": "거래 계정을 받으십시오",
     "payTag": "지불",
     "confirmPaymentButton": "즉시 거래를 즐기십시오",
@@ -1281,12 +1345,45 @@
     "paymentValueTip2": "온라인 서비스",
     "paymentValueTip3": "고객 서비스 직원이 금을 빨리 도와 드리겠습니다.\n서비스 목적 : \"사용자 우선\"성실함 \"을 준수합니다.\n당신의 마음으로 당신을 섬기십시오. \""
   },
+  "accountBlockPopup": {
+    "closeButton": "폐쇄"
+  },
+  "otherDevicesLoginPopup": {
+    "closeButton": "폐쇄"
+  },
+  "depositThirdParty": {
+    "feeTip": "지불 금액이 필요합니다 : USD",
+    "description": "설명",
+    "inputMinHint": "위의 금액을 입력하십시오 {min}",
+    "inputMaxHint": "{max} 아래에 금액을 입력하십시오.",
+    "payTag": "지불",
+    "confirmPaymentButton": "즉시 거래를 즐기십시오",
+    "tip2": "온라인 서비스",
+    "tip1": "알림 : 금 문제가 발생하면 처음으로 문의하십시오.",
+    "tip3": "고객 서비스 직원이 금을 빨리 도와 드리겠습니다.",
+    "tip4": "고객 서비스 QQ : {phone}",
+    "tip5": "서비스 목적 : \"사용자 우선\"진심으로 \"당신을 섬기는 것\"을 고수합니다.",
+    "payTagTitle": "예금 금액을 입력하십시오 :",
+    "rangeTip": "교차 범위 : USD {min} ~ {max}"
+  },
+  "numberInputField": {
+    "defaultHint": "설정되지 않았습니다"
+  },
   "emailBind": {
     "appBarTitle": "이메일을 확인하십시오",
     "captchaHint": "확인 코드를 입력하십시오",
     "verifyImmediately": "지금 확인하십시오",
     "emailHint": "사서함을 입력하십시오",
     "bindEmailSuccess": "성공적인 확인 사서함"
+  },
+  "forgotPassword": {
+    "email": "이메일",
+    "enterCaptchaHint": "확인 코드를 입력하십시오",
+    "enterEmailHint": "전자 사서함을 작성하십시오",
+    "enterPhoneNumberHint": "전화 번호를 입력하십시오",
+    "resetSuccess": "코드 상환이 성공적입니다",
+    "resetButton": "확인 및 제출",
+    "newPasswordHint": "새 비밀번호를 입력하십시오"
   },
   "accountIdentifyData": {
     "actualNameTitle": "실제 이름",
@@ -1393,26 +1490,6 @@
     "emptyTip": "일상적인 작업이 없습니다",
     "missionTip": "일일 작업 보상 수집은 \"실제 계정\"거래 행동으로 제한됩니다."
   },
-  "languageSetting": {
-    "appBarTitle": "언어",
-    "localeDefault": "체계",
-    "localeZhTw": "繁體中文",
-    "localeZhCn": "簡體中文",
-    "localeZh": "中文",
-    "localeEn": "English",
-    "localeJp": "日本語",
-    "localeKr": "한국어",
-    "localeTh": "ไทย",
-    "localeVi": "Tiếng Việt"
-  },
-  "upDownColorSetting": {
-    "upGreenDownRed": "녹색 상승과 빨간색",
-    "upRedDownGreen": "빨간 상승과 녹색",
-    "appBarTitle": "기복"
-  },
-  "agentFundingPositions": {
-    "emptyTip": "위치가 없습니다"
-  },
   "requestError": {
     "noAuth": "먼저 로그인하시기 바랍니다",
     "notTradingTime": "현재 비 트레이딩 기간",
@@ -1443,26 +1520,53 @@
   },
   "receiveAwardPopup": {
     "confirmButton": "확인",
+    "know": "내가 참조",
     "receivedCount": "{n} 보상을 받았습니다",
     "receivedTitle": "\"{n}\"을 받았습니다.",
-    "know": "내가 참조",
     "historyButton": "역사 보상으로 이동하십시오",
     "noTipToday": "오늘 알림이 없습니다"
   },
   "listScrollSheet": {
     "confirmButton": "확인"
   },
+  "chartSetting": {
+    "indicatorBoll": "볼",
+    "indicatorKdj": "KDJ",
+    "indicatorMacd": "MACD",
+    "indicatorMa": "그리고",
+    "indicatorRsi": "RSI",
+    "indicatorWr": "WR",
+    "chartType": "차트 유형",
+    "appBarTitle": "차트 설정",
+    "indicatorIndex": "기술 지표"
+  },
+  "paymentMethod": {
+    "bankTitle": "돈 이체",
+    "creditTitle": "신용 카드 온라인 스 와이프 카드",
+    "bankDescription": "한 달에 5 ~ 10 회 무료 크로스 뱅크 전송 제공",
+    "creditDescription": "매일 매일 1.88%의 현금 피드백을 즐기십시오",
+    "recommendedMethod": "권장 예금 방법",
+    "otherMethod": "나머지 금 방법"
+  },
+  "depositCategory": {
+    "nextStep": "다음 단계",
+    "recommendedMethod": "권장 예금 방법",
+    "appBarTitle": "금 방법을 선택하십시오",
+    "empty": "전류에 대한 액세스 방법은 당분간 제공 될 수 없습니다.\n나중에 다시 시도 해주십시오",
+    "customerService": "고객 서비스에 문의하십시오",
+    "depositMethodHint": "금에 들어가는 방법을 선택하십시오"
+  },
   "signUp": {
     "registerButton": "등록하다",
-    "emailRegistrationTitle": "사서함을 사용하여 등록하십시오",
     "enterEmailHint": "전자 사서함을 작성하십시오",
+    "enterPhoneNumberHint": "전화 번호를 입력하십시오",
+    "emailRegistrationTitle": "사서함을 사용하여 등록하십시오",
     "signUpSuccess": "등록 성공",
     "emailEnterCodeHint": "사서함에서받은 확인 코드를 입력하십시오",
     "agreeOurPrivacy": "등록은 귀하가 당사에 동의 함을 의미합니다",
     "agreeOurPrivacyValue": "개인 정보 및 정책.",
     "alreadyHaveAccountButton": "기존 계정?",
     "phoneNumberRegistrationTitle": "휴대 전화 번호를 사용하여 등록하십시오",
-    "enterPhoneNumberHint": "전화 번호를 입력하십시오",
     "enterPasswordHint": "암호를 입력",
     "enterReferralInputHint": "초대장 코드를 입력하십시오 (비자사)",
     "phoneNumberEnterCodeHint": "뉴스 레터에서받은 검증 코드를 입력하십시오"
@@ -1477,40 +1581,6 @@
     "welcomeTitle": "환영하다",
     "newUserTitle": "새로운 사용자 등록",
     "registeredYet": "아직 등록하지 않았습니까?"
-  },
-  "chartSetting": {
-    "indicatorBoll": "볼",
-    "indicatorKdj": "KDJ",
-    "indicatorMacd": "MACD",
-    "indicatorMa": "그리고",
-    "indicatorRsi": "RSI",
-    "indicatorWr": "WR",
-    "chartType": "차트 유형",
-    "appBarTitle": "차트 설정",
-    "indicatorIndex": "기술 지표"
-  },
-  "depositThirdParty": {
-    "inputMinHint": "위의 금액을 입력하십시오 {min}",
-    "inputMaxHint": "{max} 아래에 금액을 입력하십시오.",
-    "payTag": "지불",
-    "confirmPaymentButton": "즉시 거래를 즐기십시오",
-    "tip2": "온라인 서비스",
-    "feeTip": "지불 금액이 필요합니다 : USD",
-    "description": "설명",
-    "tip1": "알림 : 금 문제가 발생하면 처음으로 문의하십시오.",
-    "tip3": "고객 서비스 직원이 금을 빨리 도와 드리겠습니다.",
-    "tip4": "고객 서비스 QQ : {phone}",
-    "tip5": "서비스 목적 : \"사용자 우선\"진심으로 \"당신을 섬기는 것\"을 고수합니다.",
-    "payTagTitle": "예금 금액을 입력하십시오 :",
-    "rangeTip": "교차 범위 : USD {min} ~ {max}"
-  },
-  "paymentMethod": {
-    "bankTitle": "돈 이체",
-    "creditTitle": "신용 카드 온라인 스 와이프 카드",
-    "bankDescription": "한 달에 5 ~ 10 회 무료 크로스 뱅크 전송 제공",
-    "creditDescription": "매일 매일 1.88%의 현금 피드백을 즐기십시오",
-    "recommendedMethod": "권장 예금 방법",
-    "otherMethod": "나머지 금 방법"
   },
   "bankAccountDetail": {
     "appBarTitle": "금 계정 설정",
@@ -1557,16 +1627,8 @@
   "depositCheck": {
     "title": "중요한 알림",
     "button": "전송 정보를 전송할 수 있습니다",
-    "contentTip": "내 계정을 사용하여 전송하십시오\n계정의 계정 유효 기간은 각 은행과 다릅니다.\n금 계정의 계정이 올바른지 여부에주의하십시오.\n전송 금액은 일관성이 있어야합니다\n전송을 반복하지 마십시오",
-    "checkTip": "위의 정보를 이해했습니다"
-  },
-  "forgotPassword": {
-    "enterCaptchaHint": "확인 코드를 입력하십시오",
-    "enterEmailHint": "전자 사서함을 작성하십시오",
-    "enterPhoneNumberHint": "전화 번호를 입력하십시오",
-    "resetSuccess": "코드 상환이 성공적입니다",
-    "resetButton": "확인 및 제출",
-    "newPasswordHint": "새 비밀번호를 입력하십시오"
+    "checkTip": "위의 정보를 이해했습니다",
+    "contentTip": "내 계정을 사용하여 전송하십시오\n계정의 계정 유효 기간은 각 은행과 다릅니다.\n금 계정의 계정이 올바른지 여부에주의하십시오.\n전송 금액은 일관성이 있어야합니다\n전송을 반복하지 마십시오"
   },
   "changePassword": {
     "captchaHint": "확인 코드를 입력하십시오",
@@ -1581,9 +1643,6 @@
     "appBarTitle": "확인 전화",
     "bindSuccess": "전화를 성공적으로 바인딩합니다"
   },
-  "emptyPlace": {
-    "tip": "데이터가 비어 있습니다"
-  },
   "login": {
     "enterEmailHint": "전자 사서함을 작성하십시오",
     "enterPhoneNumberHint": "전화 번호를 입력하십시오",
@@ -1592,20 +1651,18 @@
     "registerNowButton": "즉시 등록하십시오",
     "forgetPasswordButton": "비밀번호 분실?"
   },
-  "depositCategory": {
-    "recommendedMethod": "권장 예금 방법",
-    "nextStep": "다음 단계",
-    "appBarTitle": "금 방법을 선택하십시오",
-    "empty": "전류에 대한 액세스 방법은 당분간 제공 될 수 없습니다.\n나중에 다시 시도 해주십시오",
-    "customerService": "고객 서비스에 문의하십시오",
-    "depositMethodHint": "금에 들어가는 방법을 선택하십시오"
+  "emptyPlace": {
+    "tip": "데이터가 비어 있습니다"
+  },
+  "serverApiError": {
+    "system": "나쁜 오류가 나타났습니다"
+  },
+  "identifyVerificationResult": {
+    "content": "1-5 일이 필요합니다. 검증 확인 후 금에 들어가서 거래를 즐길 수 있습니다.",
+    "backToHome": "홈페이지로 돌아갑니다"
   },
   "marginLevelWarningBar": {
     "tip": "너무 낮은 마진에 대한 팁! ({percent}%)"
-  },
-  "countryCode": {
-    "country": "국가",
-    "searchEnterHint": "이름 또는 영역 코드를 입력하십시오"
   },
   "fileVerify": {
     "idCardTitle": "신원 문서",
@@ -1666,10 +1723,6 @@
   "identifyVerification": {
     "appBarTitle": "입증",
     "uploadSuccess": "성공"
-  },
-  "identifyVerificationResult": {
-    "content": "1-5 일이 필요합니다. 검증 확인 후 금에 들어가서 거래를 즐길 수 있습니다.",
-    "backToHome": "홈페이지로 돌아갑니다"
   },
   "messageNotify": {
     "haveRead": "(읽었다)"
@@ -1770,6 +1823,12 @@
     "arbitrage5": "중재 지수 5 분",
     "realTimeAverage": "실시간 평균 전략",
     "track": "단일 거래",
+    "contract": "계약 Qiangping"
+  },
+  "positionOpenReason": {
+    "market": "시장 가격 거래"
+  },
+  "positionCloseReason": {
     "contract": "계약 Qiangping"
   },
   "captchaBloc": {

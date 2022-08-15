@@ -421,6 +421,7 @@
     "dynamicProfitLoss": "Realised P/L",
     "openPositionPriceTitle": "Open Price",
     "createDate": "Closing Time",
+    "openPositionDate": "Opening Time",
     "rollover": "Overnight Funding",
     "closePositionReason": "Closing Reason",
     "contractMargin": "Margin",
@@ -502,7 +503,7 @@
       "content": "Switching is allowed when there is no open or current positions.  Please close all the positions immediately.",
       "confirmText": "Go to Position"
     },
-    "currentPositionQty": "Current Open Position",
+    "currentPositionQty": "Current Open Position ",
     "trailingStopSubtitle": "Set trailing stop-loss distance",
     "estimateProfitLoss": "Estimated P/L",
     "createOrderResultPopup": {
@@ -517,8 +518,7 @@
     "stopProfitError": "Invalid entry for take profit price",
     "stopLossError": "Invalid entry for stop loss price",
     "trailingStopRangeHint": "The valid trailing stop distance is: {min}-{max} points.",
-    "errorTrailingStopOutRange": "Trailing stop must be within the limit.",
-    "errorLimitPriceOutTip": "Invalid entry for take pending order price"
+    "errorTrailingStopOutRange": "Trailing stop must be within the limit."
   },
   "tradeModePopup": {
     "crossMargin": "Cross Margin",
@@ -715,8 +715,7 @@
     "onlyLimitOrder": "Only orders are accepted.",
     "fullWarehouseTipContent": "This is a cross leverage transaction, and the loss amount can exceed the margin amount. \n\nWhen continuous losses cause the account to reach the liquidation line, other orders will be liquidated one after another, and all the account funds will be lost! \n\nIt is recommended that you set take profit and stop loss prices to control the funds more efficiently!",
     "fullWarehouseTipTitle": "Cross Leverage Description",
-    "transactionTimeTitle": "Trading Session",
-    "whenOpenMarket": "Market opens at {time}"
+    "transactionTimeTitle": "Trading Session"
   },
   "futuresSearch": {
     "searchInputHint": "Enter variety / English name",
@@ -1935,7 +1934,7 @@
     "margin": "Margin Forced Liquidation",
     "stopProfit": "Take Profit Close Position",
     "stopLoss": "Stop Loss Close Position",
-    "user": "Market Price Close Position"
+    "user": "Market Price Close Position "
   },
   "captchaBloc": {
     "statusWait": "You still need to wait {seconds} seconds.",
