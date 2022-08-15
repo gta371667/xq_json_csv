@@ -70,6 +70,18 @@ class CommandAction {
     ''',
   );
 
+  static const read = ArgGroup(
+    title: '讀取doc檔案',
+    name: 'read',
+    args: [
+      ActionArg.option(name: 'base', abbr: 'b', help: '原始文件'),
+      ActionArg.option(name: 'out', abbr: 'o', help: '輸出路徑'),
+    ],
+    example: '''
+    read -b ./assets/test/base.csv -f ./assets/test/to.csv -o ./assets/merge.csv
+    ''',
+  );
+
   ArgResults parseArg(List<String> args) {
     return action.toParser().parse(args);
   }
