@@ -73,6 +73,9 @@ class TranslateCommand {
       var th = thParser?.parseToCsvData() ?? [];
       var vi = viParser?.parseToCsvData() ?? [];
 
+      var a = tw.indexWhere((element) => element.zhTW == '手機號格式錯誤');
+      var b = en.indexWhere((element) => element.enEN == 'Value');
+
       List<CsvData> csvList = tw.map((e) {
         var enCsv = findWhere(en, e);
         var cnCsv = findWhere(cn, e);
@@ -149,7 +152,12 @@ class TranslateCommand {
   }
 
   CsvData? findWhere(List<CsvData> list, CsvData data) {
-    int idx = list.indexWhere((element) => element.jsonKey.join(",") == data.jsonKey.join(","));
+    int idx = list.indexWhere((element) {
+      // TODO 發現en有value重複，造成en key會有多把
+      var firstList = element.jsonKey.toSet();
+      var secondList = data.jsonKey.toSet();
+      return firstList.intersection(secondList).isNotEmpty;
+    });
     if (idx != -1) {
       return list[idx];
     }
