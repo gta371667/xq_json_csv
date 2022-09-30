@@ -57,13 +57,21 @@ class TranslateCommand {
     } else {
       print('使用檔案路徑，將產生csv，以tw為主');
 
-      final enParser = _jsonValueParser('$inFile/strings_en.i18n.json', LangEnum.en);
-      final twParser = _jsonValueParser('$inFile/strings.i18n.json', LangEnum.tw);
-      final cnParser = _jsonValueParser('$inFile/strings_zh_Hans.i18n.json', LangEnum.cn);
-      final jpParser = _jsonValueParser('$inFile/strings_ja.i18n.json', LangEnum.jp);
-      final krParser = _jsonValueParser('$inFile/strings_ko.i18n.json', LangEnum.kr);
-      final thParser = _jsonValueParser('$inFile/strings_th.i18n.json', LangEnum.th);
-      final viParser = _jsonValueParser('$inFile/strings_vi.i18n.json', LangEnum.vi);
+      // final enParser = _jsonValueParser('$inFile/strings_en.i18n.json', LangEnum.en);
+      // final twParser = _jsonValueParser('$inFile/strings.i18n.json', LangEnum.tw);
+      // final cnParser = _jsonValueParser('$inFile/strings_zh_Hans.i18n.json', LangEnum.cn);
+      // final jpParser = _jsonValueParser('$inFile/strings_ja.i18n.json', LangEnum.jp);
+      // final krParser = _jsonValueParser('$inFile/strings_ko.i18n.json', LangEnum.kr);
+      // final thParser = _jsonValueParser('$inFile/strings_th.i18n.json', LangEnum.th);
+      // final viParser = _jsonValueParser('$inFile/strings_vi.i18n.json', LangEnum.vi);
+
+      final enParser = _jsonValueParser('$inFile/en.json', LangEnum.en);
+      final twParser = _jsonValueParser('$inFile/zh_Hant.json', LangEnum.tw);
+      final cnParser = _jsonValueParser('$inFile/zh_Hans.json', LangEnum.cn);
+      final jpParser = _jsonValueParser('$inFile/ja.json', LangEnum.jp);
+      final krParser = _jsonValueParser('$inFile/ko.json', LangEnum.kr);
+      final thParser = _jsonValueParser('$inFile/th.json', LangEnum.th);
+      final viParser = _jsonValueParser('$inFile/vi.json', LangEnum.vi);
 
       var en = enParser?.parseToCsvData() ?? [];
       var tw = twParser?.parseToCsvData() ?? [];

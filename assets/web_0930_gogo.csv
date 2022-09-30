@@ -1,5 +1,4 @@
 zh_TW,zh-CN,en-En,en手動調整,th-TH,泰文字數,建議字數,jp-JP,日文字數,建議字數,kr-KR,韓文字數,建議字數,vn-VN,越文字數,建議字數,jsonKey
-zh_TW,zh-CN,en-En,en手動調整,th-TH,泰文字數,建議字數,jp-JP,日文字數,建議字數,kr-KR,韓文字數,建議字數,vn-VN,越文字數,建議字數,jsonKey
 搜尋,,Search,,,,,,,,,,,,,,search.a1
 清除,清除,Clear,,ชัดเจน,,,,,,,,,Thanh trừ,Thanh trừ,,search.a2
 其他篩選條件,,Other filters,,,,,,,,,,,,,,search.a3
@@ -94,7 +93,7 @@ zh_TW,zh-CN,en-En,en手動調整,th-TH,泰文字數,建議字數,jp-JP,日文字
 強制平倉,,Forced liquidation,,,,,,,,,,,,,,overallOverview.a52
 "強制平倉後，該使用者會依照當前的價格進行結算，可能會影響到使用者
 的交易內容，且該行為無法復原。\n\n
-確定要強制平倉該使用者的持倉嗎？",,,,,,,,,,,,,,,,overallOverview.a53
+確定要強制平倉該使用者的持倉嗎？",,"After forced liquidation, positions of the user will be settled at current price, which may affect the user’s trading. In addition, this action cannot be undone. \n\n Are you sure you want to force liquidate the user's open positions?",,,,,,,,,,,,,,overallOverview.a53
 開倉時間,开仓时间,Opening Time,,เวลาเปิด,,,,,,,,,Thời gian mất một vị trí,Thời gian mất một vị trí,,"overallOverview.a54,riskWarning.openingTime"
 更新時間,更新时间,Update Time,,อัพเดทเวลา,,,,,,,,,Thời gian cập nhật,Thời gian cập nhật,,overallOverview.a55
 更新細節,,Update details,,,,,,,,,,,,,,overallOverview.a57
@@ -151,16 +150,16 @@ zh_TW,zh-CN,en-En,en手動調整,th-TH,泰文字數,建議字數,jp-JP,日文字
 起始時間,,Start date,,,,,,,,,,,,,,transactionItemList.a37
 結束時間,结束时间,End Time,,เวลาสิ้นสุด,,,,,,,,,Thời gian kết thúc,Thời gian kết thúc,,transactionItemList.a38
 "停止交易將會使新的交易只能使用掛單方式下單，目前已經持倉的交易部會受到影響。\n\n
-確定要停止交易嗎?",,,,,,,,,,,,,,,,transactionItemList.a39
+確定要停止交易嗎?",,"Upon trading halt, any new trade can only be placed with pending orders. The existing open positions will not be affected. Are you sure you want to halt the trade?",,,,,,,,,,,,,,transactionItemList.a39
 "關閉交易會使該商品從前台下架，無法被使用者下單。\n\n
 目前已經持倉的交易將會全數被強平。\n\n
-確定要關閉交易嗎?",,,,,,,,,,,,,,,,transactionItemList.a40
+確定要關閉交易嗎?",,"Closing trade will cause the product to be removed from the front end, so users cannot place orders on the product. All open positions will be forced to liquidate. Are you sure you want to close this trade?",,,,,,,,,,,,,,transactionItemList.a40
 "重啟交易後，該商品將可以再次被使用者下單。\n\n
 請檢查品項設定無誤後再重啟交易。\n\n
-確定要重啟交易嗎?",,,,,,,,,,,,,,,,transactionItemList.a41
+確定要重啟交易嗎?",,"After resuming the trade, users will be able to place an order on the product again. \n\n Please make sure that all settings are correct before resuming the trade. Are you sure you want to resume the trade?",,,,,,,,,,,,,,transactionItemList.a41
 "因更換合約，要把全部持倉都清空\n\n
 可能會導致用戶的交易受到影響。\n\n
-確定要合約強平嗎?",,,,,,,,,,,,,,,,transactionItemList.a42
+確定要合約強平嗎?",,"Due to changes in futures contracts, all open positions need to be liquidated. The user's trades may be affected. Are you sure you want to force liquidate?",,,,,,,,,,,,,,transactionItemList.a42
 確定要刪除產品嗎?,,Are you sure you want to delete this product?,,,,,,,,,,,,,,transactionItemList.a43
 24小時可出金次數,24小时可出金次数,Withdrawal times within 24 Hours,,จำนวนครั้งที่สามารถถอนเงินภายใน 24 ชั่วโมง,,,,,,,,,Số lần có thể xuất tiền 24 giờ,Số lần có thể xuất tiền 24 giờ,,"userManagement.a95,depositWithdrawalManagement.a89"
 24小時免費出金次數,24小时免费出金次数,Free Withdrawal times within 24 Hours,,จำนวนครั้งที่สามารถถอนเงินฟรีภายใน 24 ชั่วโมง,,,,,,,,,Số lần xuất tiền miễn phí 24 giờ,Số lần xuất tiền miễn phí 24 giờ,,"userManagement.a94,depositWithdrawalManagement.a90"
@@ -210,23 +209,23 @@ zh_TW,zh-CN,en-En,en手動調整,th-TH,泰文字數,建議字數,jp-JP,日文字
 確定要將這用戶通過審核?,,Are you sure you want to approve the review of this user?,,,,,,,,,,,,,,userManagement.a54
 解除封鎖,,Unblock,,,,,,,,,,,,,,"userManagement.a56,setting.unblock"
 "確定要解除封鎖該用戶嗎？\n\n
-解除封鎖用戶後，該用戶將可以重新登入並進行交易",,,,,,,,,,,,,,,,userManagement.a57
+解除封鎖用戶後，該用戶將可以重新登入並進行交易",,Are you sure you want to unblock this user? \n\n Unblocking the user will allow them to log in and trade.,,,,,,,,,,,,,,userManagement.a57
 "重置該用戶的密碼，系統將會主動發送一封重置密碼確認信件，引導用戶重新設定新密碼。\n\n
-重設密碼後，原本的密碼將無法使用，確定要重設密碼嗎？",,,,,,,,,,,,,,,,userManagement.a58
+重設密碼後，原本的密碼將無法使用，確定要重設密碼嗎？",,"The system will send a confirmation email to reset the password and guide the user to set a new password. \n\n After resetting the password, the original password will no longer work. Are you sure you want to reset the password?",,,,,,,,,,,,,,userManagement.a58
 "確定要封鎖該用戶嗎？
-封鎖用戶後，該用戶將無法登入、並進行交易，直到您再次解除封鎖。",,,,,,,,,,,,,,,,userManagement.a59
+封鎖用戶後，該用戶將無法登入、並進行交易，直到您再次解除封鎖。",,"Are you sure you want to block this user? After blocking the user, they will no longer be able to log in or trade until you unblock them.",,,,,,,,,,,,,,userManagement.a59
 封鎖,,Block,,,,,,,,,,,,,,"userManagement.a60,setting.blockade,riskWarning.block"
 確認審核,,Confirm review,,,,,,,,,,,,,,userManagement.a61
 通過出金帳戶,,Approve withdrawal account,,,,,,,,,,,,,,userManagement.a62
 確定要通過這用戶出金帳戶審核？,,Are you sure you want to approve the review of the user's withdrawal account?,,,,,,,,,,,,,,userManagement.a63
 拒絕出金帳戶,,Deny withdrawal account,,,,,,,,,,,,,,userManagement.a64
 "拒絕該帳戶的審核，將會導致用戶無法使用該帳戶出金。如用戶需要使用該帳戶出金，則需再次申請。\n\n
-請填寫拒絕的原因:",,,,,,,,,,,,,,,,userManagement.a65
+請填寫拒絕的原因:",,"Once the review of the account is denied, the user will not be able to transfer funds into the withdrawal account. If the user wishes to make withdrawals, they will need to submit an application again. \n\n Please fill out the reason for rejection:",,,,,,,,,,,,,,userManagement.a65
 請輸入拒絕原因,,Please fill out the reason for rejection.,,,,,,,,,,,,,,userManagement.a66
 拒絕審核,,Deny review,,,,,,,,,,,,,,userManagement.a67
 刪除出金帳戶,,Delete withdrawal account,,,,,,,,,,,,,,"userManagement.a68,setting.deleteWithdrawalAccount"
 "刪除該帳戶，將會導致用戶無法使用該帳戶出金。如用戶需要使用該帳戶出金，則需再次申請。\n\n
-確定要刪除出金帳戶嗎？",,,,,,,,,,,,,,,,userManagement.a69
+確定要刪除出金帳戶嗎？",,"Deleting the account will prevent the user from using the account to withdraw funds from the trading account. If the user wishes to use the account to withdraw funds, they will need to submit an application again. \n\n Are you sure you want to delete the withdrawal account?",,,,,,,,,,,,,,userManagement.a69
 出金帳戶附加檔案,,Withdrawal account attachment files,,,,,,,,,,,,,,userManagement.a71
 交易細節,,Trade details,,,,,,,,,,,,,,userManagement.a73
 浮動盈虧,浮动盈亏,Unrealised P/L,,กำไร/ขาดทุนลอยตัว,,,,,,,,,Lãi lỗ biến đổi,Lãi lỗ biến đổi,,userManagement.a74
@@ -290,11 +289,11 @@ Email,Email,Email,,อีเมล,,,,,,,,,Email,Email,,"setting.email,userManag
 已禁止該成員登入,,This member has been banned from logging in.,,,,,,,,,,,,,,setting.disabledMemberLogin
 "禁止登入後，成員將無法使用原帳號密碼登入，但其擁有的權限不會消失，將於恢復登入後還原。
 
-確定要禁止該成員登入嗎?",,,,,,,,,,,,,,,,setting.disabledMemberLoginTip
+確定要禁止該成員登入嗎?",,"After disabling login, the member will not be able to log in with their original account and password, but rights to the account will not be lost and will be restored once the login is re-enabled. Are you sure you want to disable the member from logging in?",,,,,,,,,,,,,,setting.disabledMemberLoginTip
 已恢復該成員的登入權限,,Member's login permission has been re-stored.,,,,,,,,,,,,,,setting.enableMemberLogin
 "恢復登入後，成員將可以使用原帳號密碼登入，其擁有的權限將會一併還原。
 
-確定要恢復該成員的登入權限嗎?",,,,,,,,,,,,,,,,setting.enableMemberLoginTip
+確定要恢復該成員的登入權限嗎?",,"After login is re-enabled, the member will be able to use their original account and password to log in. All rights previously granted will be restored. Are you sure you want to re-enable the member to log in?",,,,,,,,,,,,,,setting.enableMemberLoginTip
 群組名稱,,Group name,,,,,,,,,,,,,,setting.groupName
 新增權限群組,,Create administrator group,,,,,,,,,,,,,,setting.addPermissionGroup
 帳號管理,,Manage account,,,,,,,,,,,,,,setting.accountManagement
@@ -370,7 +369,7 @@ Email,Email,Email,,อีเมล,,,,,,,,,Email,Email,,"setting.email,userManag
 人工補入金額,,Manually deposited amount,,,,,,,,,,,,,,depositWithdrawalManagement.a28
 "選擇人工補入之後，系統將會重新確認該使用者的匯款資訊，並重新更新匯款狀態。\n\n
 若使用者有確實匯款，也會一併更新帳戶餘額的顯示內容。\n\n
-確定要人工補入嗎?",,,,,,,,,,,,,,,,depositWithdrawalManagement.a29
+確定要人工補入嗎?",,"After selecting manual deposits, the system will reconfirm the user's deposit information and update the remittance status. \n\n If the user has made an actual deposit, the account balance will be updated as well. \n\n Are you sure you want to make a manual deposit?",,,,,,,,,,,,,,depositWithdrawalManagement.a29
 請輸入使用者的匯款金額，並再次確認使用者確實有匯入該筆款項。,,Please enter the deposit amount and double check to make sure that the user has remitted this fund.,,,,,,,,,,,,,,depositWithdrawalManagement.a30
 確定要調整金額嗎?,,Are you sure you want to modify the amount?,,,,,,,,,,,,,,depositWithdrawalManagement.a32
 入金審核確認,,Deposit review confirmed,,,,,,,,,,,,,,depositWithdrawalManagement.a33
@@ -387,15 +386,15 @@ Email,Email,Email,,อีเมล,,,,,,,,,Email,Email,,"setting.email,userManag
 拒絕,,Denied,,,,,,,,,,,,,,depositWithdrawalManagement.a49
 出金審核確認,,Confirm withdrawal review,,,,,,,,,,,,,,depositWithdrawalManagement.a50
 "確定要審核該使用者的出金嗎?\n\n
-出金後無法取消或反悔，請再次確認金額無誤。",,,,,,,,,,,,,,,,depositWithdrawalManagement.a51
+出金後無法取消或反悔，請再次確認金額無誤。",,"Are you sure you want to approve the withdrawals of the user? \n\n Once the withdrawal is confirmed, you cannot cancel or undo it. Please make sure the amount is correct.",,,,,,,,,,,,,,depositWithdrawalManagement.a51
 出金金額,,Withdrawal amount,,,,,,,,,,,,,,depositWithdrawalManagement.a52
 請選擇出金通道,,Please select the channel for withdrawal,,,,,,,,,,,,,,"depositWithdrawalManagement.a53,depositWithdrawalManagement.a75"
-審核出金,,Review withdrawal,"還請協助確認此處的「審核」是否是「通過審核」之意。目前直譯為""review""，如果實際意思是「通過審核」，review改成approve較好。",,,,,,,,,,,,,depositWithdrawalManagement.a54
+審核出金,,Approve withdrawal,,,,,,,,,,,,,,depositWithdrawalManagement.a54
 拒絕出金,,Deny withdrawal,,,,,,,,,,,,,,depositWithdrawalManagement.a55
 "確定要拒絕該用戶得出金嗎?\n\n
-請填寫拒絕出金的原因，以便用戶後續再次申請。",,,,,,,,,,,,,,,,depositWithdrawalManagement.a56
+請填寫拒絕出金的原因，以便用戶後續再次申請。",,Are you sure you want to deny the withdrawal of this user? \n\n Please state the reason for rejection in case the user wants to reapply in the future.,,,,,,,,,,,,,,depositWithdrawalManagement.a56
 入金設定,,Deposit settings,,,,,,,,,,,,,,depositWithdrawalManagement.a57
-額度手續費設定,,Deposit limit handling fee settings,根據上下文將「額度」解釋為入金額度，這部分再請您確認，感謝,,,,,,,,,,,,,depositWithdrawalManagement.a58
+額度手續費設定,,Deposit limit handling fee settings,,,,,,,,,,,,,,depositWithdrawalManagement.a58
 入金通道設定,,Settings for deposit channels,,,,,,,,,,,,,,depositWithdrawalManagement.a60
 幣值,,Value of currency,,,,,,,,,,,,,,depositWithdrawalManagement.a62
 手續費設定,,Handling fee settings,,,,,,,,,,,,,,depositWithdrawalManagement.a66
@@ -439,7 +438,7 @@ Email,Email,Email,,อีเมล,,,,,,,,,Email,Email,,"setting.email,userManag
 已成功封鎖該用戶,,Successfully blocked user,,,,,,,,,,,,,,riskWarning.blockUserSuccess
 "確定要封鎖該用戶嗎？
 
-封鎖用戶後，該用戶將無法登入、並進行交易，直到您再次解除封鎖。",,,,,,,,,,,,,,,,riskWarning.blockUserTip
+封鎖用戶後，該用戶將無法登入、並進行交易，直到您再次解除封鎖。",,"Are you sure you want to block this user? After blocking this user, they will no longer be able to log in or trade until you unblock them.",,,,,,,,,,,,,,riskWarning.blockUserTip
 總盈利金額,,Total profit amount,,,,,,,,,,,,,,riskWarning.totalProfit
 總交易筆數,,Total number of transactions,,,,,,,,,,,,,,riskWarning.totalTradeCount
 盈利交易佔比,,Percentage of profitable trades,,,,,,,,,,,,,,riskWarning.profitTradePercent
@@ -463,7 +462,10 @@ Email,Email,Email,,อีเมล,,,,,,,,,Email,Email,,"setting.email,userManag
 "備註：
 1.當帳戶餘額低於保證金，將會強制平倉。強制平倉通知相關設定，請前往通知設定查看。
 
-2.如欲設定不同層級用戶的保證金額度比例，請前往用戶層級調整。",,,,,,,,,,,,,,,,paramManagement.forcedLiquidationSettingsRemark
+2.如欲設定不同層級用戶的保證金額度比例，請前往用戶層級調整。",,"Notes: 
+1. When the account balance falls below the margin, the position will be forced to liquidate. Please go to notification settings to view the notification settings related to forced liquidation.
+
+2. If you want to set different margins for different levels of users, please go to user level for modifications.",,,,,,,,,,,,,,paramManagement.forcedLiquidationSettingsRemark
 匯率設定,,Exchange rate settings,,,,,,,,,,,,,,paramManagement.exchangeRateSetting
 貨幣名稱,,Currency name,,,,,,,,,,,,,,paramManagement.currencyName
 貨幣兌,,Currency pair,,,,,,,,,,,,,,paramManagement.currencyPair

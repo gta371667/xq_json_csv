@@ -18,14 +18,24 @@ class CsvCommand {
 
     final csvParser = CsvValueParser.fromFile(File(inFilePath));
 
+    // Map<String, String> names = {
+    //   '$outFilePath/strings_en.i18n.json': csvParser.toJsonString(LangEnum.en),
+    //   '$outFilePath/strings_zh_Hans.i18n.json': csvParser.toJsonString(LangEnum.cn),
+    //   '$outFilePath/strings.i18n.json': csvParser.toJsonString(LangEnum.tw),
+    //   '$outFilePath/strings_ko.i18n.json': csvParser.toJsonString(LangEnum.kr),
+    //   '$outFilePath/strings_ja.i18n.json': csvParser.toJsonString(LangEnum.jp),
+    //   '$outFilePath/strings_vi.i18n.json': csvParser.toJsonString(LangEnum.vi),
+    //   '$outFilePath/strings_th.i18n.json': csvParser.toJsonString(LangEnum.th),
+    // };
+
     Map<String, String> names = {
-      '$outFilePath/strings_en.i18n.json': csvParser.toJsonString(LangEnum.en),
-      '$outFilePath/strings_zh_Hans.i18n.json': csvParser.toJsonString(LangEnum.cn),
-      '$outFilePath/strings.i18n.json': csvParser.toJsonString(LangEnum.tw),
-      '$outFilePath/strings_ko.i18n.json': csvParser.toJsonString(LangEnum.kr),
-      '$outFilePath/strings_ja.i18n.json': csvParser.toJsonString(LangEnum.jp),
-      '$outFilePath/strings_vi.i18n.json': csvParser.toJsonString(LangEnum.vi),
-      '$outFilePath/strings_th.i18n.json': csvParser.toJsonString(LangEnum.th),
+      '$outFilePath/en.json': csvParser.toJsonString(LangEnum.en),
+      '$outFilePath/zh_Hans.json': csvParser.toJsonString(LangEnum.cn),
+      '$outFilePath/zh_Hant.json': csvParser.toJsonString(LangEnum.tw),
+      '$outFilePath/ko.json': csvParser.toJsonString(LangEnum.kr),
+      '$outFilePath/ja.json': csvParser.toJsonString(LangEnum.jp),
+      '$outFilePath/vi.json': csvParser.toJsonString(LangEnum.vi),
+      '$outFilePath/th.json': csvParser.toJsonString(LangEnum.th),
     };
 
     names.forEach((key, value) {
