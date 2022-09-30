@@ -21,7 +21,7 @@ class MergeCommand {
     final fromParser = CsvValueParser.fromFile(File(from));
 
     var mergeList = fromParser.csvRow.map((e) {
-      int idx = baseParser.csvRow.indexWhere((element) => element.zhTW == e.zhTW);
+      int idx = baseParser.csvRow.indexWhere((element) => element.containsTwKey == e.containsTwKey);
       if (idx != -1) {
         return CsvData.mergeCsv(baseParser.csvRow[idx], e);
       }

@@ -33,6 +33,9 @@ class CsvData {
   /// csv標準格式，逗號分隔值
   static const String csvStandard = ',';
 
+  // TODO 測試key，有錯直街用zhTw
+  String get containsTwKey => zhTW.trim().replaceAll('\n','').replaceAll('\r', '').replaceAll(' ', '');
+
   /// 繁中
   final String zhTW;
 
