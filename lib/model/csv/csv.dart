@@ -1,13 +1,5 @@
 /// 語系區分
-enum LangEnum {
-  en,
-  tw,
-  cn,
-  jp,
-  kr,
-  th,
-  vi,
-}
+enum LangEnum { en, tw, cn, jp, kr, th, vi, hi_IN }
 
 const List<dynamic> titleRow = [
   'zh_TW',
@@ -26,6 +18,9 @@ const List<dynamic> titleRow = [
   'vn-VN',
   '越文字數',
   '建議字數',
+  'hi_IN',
+  '印度字數',
+  '建議字數',
   'jsonKey'
 ];
 
@@ -34,7 +29,7 @@ class CsvData {
   static const String csvStandard = ',';
 
   // TODO 測試key，有錯直街用zhTw
-  String get containsTwKey => zhTW.trim().replaceAll('\n','').replaceAll('\r', '').replaceAll(' ', '');
+  String get containsTwKey => zhTW.trim().replaceAll('\n', '').replaceAll('\r', '').replaceAll(' ', '');
 
   /// 繁中
   final String zhTW;
@@ -90,6 +85,15 @@ class CsvData {
   /// 越南文建議字數
   final String vnVNSugCount;
 
+  /// 越南文
+  final String hi_IN;
+
+  /// 越南文字數
+  final String indCount;
+
+  /// 越南文建議字數
+  final String indSugCount;
+
   /// 對應Key
   final List<String> jsonKey;
 
@@ -113,6 +117,9 @@ class CsvData {
     required this.enEnCount,
     required this.enEnSugCount,
     required this.enEnAdjust,
+    required this.hi_IN,
+    required this.indCount,
+    required this.indSugCount,
   });
 
   factory CsvData.fromRow(List<String> row) {
@@ -135,7 +142,10 @@ class CsvData {
       vnVN: row[13],
       vnVNCount: row[14],
       vnVNSugCount: row[15],
-      jsonKey: row[16].split(csvStandard),
+      hi_IN: row[16],
+      indCount: row[17],
+      indSugCount: row[18],
+      jsonKey: row[19].split(csvStandard),
     );
   }
 
@@ -147,6 +157,7 @@ class CsvData {
     String jpJP = '';
     String krKR = '';
     String vnVN = '';
+    String hi_IN = '';
 
     switch (langEnum) {
       case LangEnum.en:
@@ -170,6 +181,9 @@ class CsvData {
       case LangEnum.vi:
         vnVN = value;
         break;
+      case LangEnum.hi_IN:
+        hi_IN = value;
+        break;
     }
 
     return CsvData(
@@ -191,6 +205,9 @@ class CsvData {
       vnVN: vnVN,
       vnVNCount: '',
       vnVNSugCount: '',
+      hi_IN: hi_IN,
+      indCount: '',
+      indSugCount: '',
       jsonKey: key,
     );
   }
@@ -203,6 +220,7 @@ class CsvData {
     CsvData? kr,
     CsvData? th,
     CsvData? vi,
+    CsvData? hi_IN,
   }) {
     return CsvData(
       zhTW: tw.zhTW,
@@ -210,19 +228,23 @@ class CsvData {
       enEN: en?.enEN ?? '',
       enEnAdjust: en?.enEnAdjust ?? en?.enEN ?? '',
       enEnCount: '',
-      enEnSugCount: getSuggestCount(tw.zhTW, LangEnum.en),
+      enEnSugCount: '',
       thTH: th?.thTH ?? '',
       thThCount: '',
-      thThSugCount: getSuggestCount(tw.zhTW, LangEnum.th),
+      thThSugCount: '',
       jpJP: jp?.jpJP ?? '',
       jpJPCount: '',
-      jpJPSubCount: getSuggestCount(tw.zhTW, LangEnum.jp),
+      jpJPSubCount: '',
       krKR: kr?.krKR ?? '',
       krKRCount: '',
-      krKRSugCount: getSuggestCount(tw.zhTW, LangEnum.kr),
+      krKRSugCount: '',
       vnVN: vi?.vnVN ?? '',
       vnVNCount: '',
-      vnVNSugCount: getSuggestCount(tw.zhTW, LangEnum.vi),
+      vnVNSugCount: '',
+      // vnVNSugCount: getSuggestCount(tw.zhTW, LangEnum.vi),
+      hi_IN: hi_IN?.hi_IN ?? '',
+      indCount: '',
+      indSugCount: '',
       jsonKey: tw.jsonKey,
     );
   }
@@ -255,6 +277,8 @@ class CsvData {
           return (text.length * 1.1818).toInt();
         case LangEnum.vi:
           return (text.length * 2.25).toInt();
+        case LangEnum.hi_IN:
+          return text.length;
       }
     }
 
@@ -287,6 +311,9 @@ class CsvData {
       vnVN,
       vnVNCount,
       vnVNSugCount,
+      hi_IN,
+      indCount,
+      indSugCount,
       jsonKey.join(csvStandard),
     ];
   }
@@ -316,6 +343,8 @@ class CsvData {
         return thTH;
       case LangEnum.vi:
         return vnVN;
+      case LangEnum.hi_IN:
+        return hi_IN;
     }
   }
 
@@ -373,6 +402,9 @@ class CsvData {
       vnVN: from.vnVN.isNotEmpty ? from.vnVN : base.vnVN,
       vnVNCount: base.vnVNCount,
       vnVNSugCount: base.vnVNSugCount,
+      hi_IN: from.hi_IN.isNotEmpty ? from.hi_IN : base.hi_IN,
+      indCount: base.indCount,
+      indSugCount: base.indSugCount,
       jsonKey: from.jsonKey,
     );
   }

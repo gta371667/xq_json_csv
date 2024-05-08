@@ -36,6 +36,7 @@ class CsvCommand {
       '$outFilePath/ja.json': csvParser.toJsonString(LangEnum.jp),
       '$outFilePath/vi.json': csvParser.toJsonString(LangEnum.vi),
       '$outFilePath/th.json': csvParser.toJsonString(LangEnum.th),
+      '$outFilePath/hi_IN.json': csvParser.toJsonString(LangEnum.hi_IN),
     };
 
     names.forEach((key, value) {

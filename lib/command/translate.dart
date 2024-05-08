@@ -72,6 +72,7 @@ class TranslateCommand {
       final krParser = _jsonValueParser('$inFile/ko.json', LangEnum.kr);
       final thParser = _jsonValueParser('$inFile/th.json', LangEnum.th);
       final viParser = _jsonValueParser('$inFile/vi.json', LangEnum.vi);
+      final hi_INParser = _jsonValueParser('$inFile/hi_IN.json', LangEnum.hi_IN);
 
       var en = enParser?.parseToCsvData() ?? [];
       var tw = twParser?.parseToCsvData() ?? [];
@@ -80,9 +81,7 @@ class TranslateCommand {
       var kr = krParser?.parseToCsvData() ?? [];
       var th = thParser?.parseToCsvData() ?? [];
       var vi = viParser?.parseToCsvData() ?? [];
-
-      var a = tw.indexWhere((element) => element.zhTW == '手機號格式錯誤');
-      var b = en.indexWhere((element) => element.enEN == 'Value');
+      var hi_IN = hi_INParser?.parseToCsvData() ?? [];
 
       List<CsvData> csvList = tw.map((e) {
         var enCsv = findWhere(en, e);
@@ -91,7 +90,17 @@ class TranslateCommand {
         var krCsv = findWhere(kr, e);
         var thCsv = findWhere(th, e);
         var viCsv = findWhere(vi, e);
-        return CsvData.fromCsvList(cn: cnCsv, en: enCsv, jp: jpCsv, kr: krCsv, th: thCsv, tw: e, vi: viCsv);
+        var hi_INCsv = findWhere(hi_IN, e);
+        return CsvData.fromCsvList(
+          cn: cnCsv,
+          en: enCsv,
+          jp: jpCsv,
+          kr: krCsv,
+          th: thCsv,
+          tw: e,
+          vi: viCsv,
+          hi_IN: hi_INCsv,
+        );
       }).toList();
 
       // for (var pair in zip([en, tw, cn, jp, kr, th, vi])) {
